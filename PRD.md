@@ -140,10 +140,15 @@ Catatan navigasi:
 ## 6. Spesifikasi Fitur per Halaman
 
 ### 6.1 Global — Header / Navigasi
-- Logo "Medan Simpang" + tagline kecil "Seen at eye level" (klik logo → homepage).
-- Mega-menu dengan 4 menu utama: **Jelajah Kota** (dropdown daftar kawasan: Kesawan, Kampung Madras, Polonia, dst — bukan dropdown negara seperti referensi, karena scope-nya satu kota), **Cerita** (dropdown "Semua Cerita" + 7 kategori), **Akademi** (link langsung, opsional jika ada program edukasi/komunitas), **Tentang** (dropdown 5 sub-halaman).
+- Logo "Medan Simpang" + tagline kecil "Seen at eye level" (klik logo → homepage) merapat ke ujung kiri.
+- Menu navigasi utama diletakkan di sebelah kanan, berdampingan langsung dengan tombol ganti bahasa.
+- **Interaksi Navigasi & Animasi**:
+  - Tautan navigasi utama memiliki animasi *underline hover* yang melebar dari tengah secara visual.
+  - Dropdown navigasi desktop diaktifkan dengan interaksi **klik** (bukan *hover*).
+  - Dilengkapi animasi keyframe CSS *fade & swipe-down* saat terbuka (`.animate-dropdown-enter`), dan *fade & swipe-up* saat ditutup (`.animate-dropdown-exit`).
+  - Dilengkapi *click-outside listener* yang menutup dropdown terbuka secara otomatis ketika pengguna mengklik di luar area header.
 - Versi mobile: menu hamburger full-screen overlay dengan accordion per section.
-- Sticky/fixed header saat scroll (opsional, sesuai preferensi desain).
+- Fixed header saat scroll.
 
 ### 6.2 Global — Footer
 - Sitemap ulang (3 kolom: Jelajah Kota, Cerita, Tentang) — replikasi menu utama.
@@ -154,19 +159,25 @@ Catatan navigasi:
 - Copyright text + tahun otomatis ("© 2026 Medan Simpang").
 - Tagline misi singkat 2 kalimat (cth: misi melestarikan dan menampilkan kawasan bersejarah Medan dari sudut pandang warganya sendiri).
 
-### 6.3 Homepage (`/`) — **Layout split-screen: peta + list**
+### 6.3 Homepage (`/`) — **Layout split-screen: peta + list (Full Width & Sticky Map Window)**
 
 > **Revisi penting**: berdasarkan pengecekan visual ulang terhadap referensi (lihat catatan di §1), halaman beranda referensi BUKAN sekadar hero + grid kartu, melainkan **layout dua panel**: panel kiri berisi hero text + grid kartu, panel kanan adalah **peta interaktif persisten** yang menampilkan pin untuk tiap entitas level teratas. Untuk Medan Simpang (skala 1 kawasan), pin level teratas adalah **per Walk**, bukan per kawasan/negara seperti referensi (karena hanya ada 1 kawasan).
 
-- **Panel kiri** (scroll independen dari panel kanan di desktop; di mobile, peta dan list bisa di-stack vertikal atau peta jadi toggle "Lihat Peta"):
-  - Hero section: judul besar "Medan Simpang", tagline **"Seen at eye level"**, kalimat ajakan pendukung.
-  - Grid kartu Walk (bukan kartu Kawasan, karena hanya ada 1 kawasan — lihat §9 poin 6 untuk penjelasan penyesuaian level): cover image + nama walk + tagline 1 kalimat. Klik kartu → `/walks/[walk-slug]/`.
-- **Panel kanan — Peta interaktif persisten**:
-  - Menampilkan semua Walk sebagai pin di peta, posisi pin sesuai koordinat representatif tiap walk (cth: titik tengah/titik mulai walk).
-  - **Klik pin** → muncul **popup overlay di atas peta** (tidak pindah halaman): berisi foto walk, nama walk, dan tombol "Jelajahi Walk" yang mengarah ke `/walks/[walk-slug]/`.
-  - Peta dan grid kartu di panel kiri **saling sinkron**: hover/klik kartu di kiri bisa highlight pin terkait di peta (opsional, nice-to-have); klik pin di peta menunjukkan popup info walk yang sama dengan kartu.
-  - Kontrol zoom +/- standar di peta.
-  - Map provider: lihat §8 (Leaflet+OSM sebagai default).
+- **Ukuran Full-Width & Pembagian Grid**:
+  - Desain layout di desktop menggunakan ukuran penuh vertikal dan horizontal (edge-to-edge) tanpa batasan kontainer yang sempit, dengan pembagian kolom **5/12** untuk panel kiri dan **7/12** untuk panel kanan (peta).
+- **Panel kiri** (scroll independen dari panel kanan di desktop):
+  - **Hero Section**: Judul utama `MEDAN SIMPANG` dengan subtagline tagline `'Seen at eye level'` (badge tagline ganda di atas Hero telah dihapus).
+  - **Deskripsi Hero**: Paragraf penjelasan rute memiliki gaya teks yang diperbesar dan tebal (`text-sm sm:text-base font-semibold text-accent/90`) agar lebih menonjol dan kontras.
+  - **Daftar Rute (Walks List)**: Teks info jumlah rute ("2 Rute Jalan Kaki Tersedia") dihapus. Daftar rute disajikan dalam grid kartu **2 kolom** (`grid-cols-1 sm:grid-cols-2`) di desktop.
+  - **Minimalis WalkCard**: Detail info strip seperti durasi, jarak, langkah, dan POI pada kartu rute (`WalkCard`) dihapus sepenuhnya untuk tampilan kartu yang bersih dan premium. Klik kartu → `/walks/[walk-slug]/`.
+- **Panel kanan — Peta interaktif persisten (Sticky Map Window)**:
+  - Berbentuk jendela peta (*windowed map*) dengan tinggi vertikal penuh menyisakan ruang layar (`lg:h-[calc(100vh-140px)]`) dan diposisikan secara melayang/lekat (`lg:sticky lg:top-[100px]`).
+  - Menampilkan semua Walk sebagai pin di peta.
+  - **Klik pin** → muncul **popup overlay di atas peta** (tidak pindah halaman) yang berisi foto walk, nama walk, ringkasan, dan tombol "Jelajahi Rute" (menggunakan Router Link Next.js SPA agar berpindah halaman secara instan tanpa reload browser).
+  - Peta dan grid kartu di panel kiri saling sinkron (hover kartu menyorot pin terkait).
+- **Responsivitas Layar Seluler (Mobile)**:
+  - Tombol toggle floating seluler ("Lihat Peta" / "Lihat Daftar") dihapus.
+  - Layout otomatis bertumpuk secara vertikal (Stacked Layout): Hero dan kartu rute di atas, peta (`MedanMap`) mengalir tepat di bawah kartu rute, diikuti oleh `<Footer />` di bagian paling bawah.
 
 ### 6.4 Kawasan Page (`/kawasan/[neighbourhood]/`) — **Layout split-screen: peta + list (level lebih detail)**
 - Breadcrumb: Jelajah Kota > [Kawasan].
@@ -232,7 +243,7 @@ Catatan navigasi:
 ## 7. Desain & UI/UX
 
 - **Mobile-first**: target pengguna jalan kaki menyusuri kawasan sambil membawa HP.
-- **Identitas warna & tipografi**: belum ditentukan — ini keputusan brand Medan Simpang sendiri, JANGAN pakai warna ungu/magenta (`#a75293`) milik referensi iDiscover. Sarankan agent untuk mengusulkan palet yang merefleksikan tagline "Seen at eye level" (cth: warna earthy/heritage seperti terracotta, hijau tropis, atau warna yang terinspirasi dari arsitektur kolonial/Melayu Deli) — tunggu konfirmasi user sebelum finalisasi.
+- **Identitas warna & tipografi**: Menggunakan warna krem warisan budaya (*heritage cream* / `#FDFBF7`) sebagai latar belakang (`background`), charcoal/dark grey (`#1F2937`) sebagai warna teks utama (`foreground`), serta Royal Malay Yellow (`#DDA15E`) sebagai warna primary, Sage Green (`#2A9D8F`) sebagai warna secondary, dan Iron/Charcoal (`#264653`) sebagai warna aksen.
 - **Tipografi**: heading bold besar (style "editorial travel magazine"), body text santai/conversational, dalam Bahasa Indonesia sebagai bahasa utama.
 - **Imagery-heavy**: foto besar mendominasi tiap card dan hero — foto asli kawasan Medan, bukan stok foto Asia umum.
 - **Komponen reusable**:
@@ -246,7 +257,7 @@ Catatan navigasi:
 
 > Ini rekomendasi, bukan keharusan — sesuaikan dengan stack yang biasa dipakai agent/developer.
 
-- **Framework**: Next.js 15 (App Router) — SSR/SSG bagus untuk SEO konten travel-blog seperti ini.
+- **Framework**: Next.js 16 (App Router) — SSR/SSG bagus untuk SEO konten travel-blog seperti ini.
 - **Styling**: Tailwind CSS.
 - **CMS/Database**: 
   - Opsi A (mendekati struktur asli — **direkomendasikan**): Sanity.io headless CMS.
