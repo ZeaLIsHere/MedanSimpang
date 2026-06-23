@@ -332,50 +332,6 @@ export default function WalkDetail() {
                 </a>
               </div>
 
-              {/* Contributor Section */}
-              <div className="bg-bone/25 rounded-2xl border border-bone/50 p-6 space-y-6">
-                <h3 className="font-serif text-lg font-bold text-accent">
-                  {language === 'id' ? 'Kredit & Kontributor' : 'Credits & Contributors'}
-                </h3>
-                
-                <div className="space-y-4">
-                  {walk.contributors.map((contrib, idx) => {
-                    const bio = language === 'id' ? contrib.bio_id : contrib.bio_en;
-                    return (
-                      <div key={idx} className="space-y-3 pb-4 border-b border-bone/40 last:border-b-0 last:pb-0">
-                        <div className="flex items-center gap-3">
-                          <div className="relative w-10 h-10 rounded-full overflow-hidden bg-bone shadow-sm flex-shrink-0">
-                            <Image
-                              src={contrib.logoOrPhoto}
-                              alt={contrib.name}
-                              fill
-                              className="object-cover"
-                              sizes="40px"
-                            />
-                          </div>
-                          <div>
-                            <h4 className="font-bold text-sm text-accent leading-tight">{contrib.name}</h4>
-                            <span className="text-[10px] text-secondary font-bold uppercase tracking-wider">{contrib.type}</span>
-                          </div>
-                        </div>
-                        <p className="text-xs text-text-muted font-light leading-relaxed">
-                          {bio}
-                        </p>
-                        {contrib.linkUrl && (
-                          <a
-                            href={contrib.linkUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block text-xs font-bold text-secondary hover:underline"
-                          >
-                            Kunjungi Tautan &rarr;
-                          </a>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
 
               {/* Nearby Walks (Cross-linking within same kawasan) */}
               {nearbyWalks.length > 0 && (
