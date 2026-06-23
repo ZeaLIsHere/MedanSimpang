@@ -1,0 +1,586 @@
+{
+  "kawasan": [
+    {
+      "name": "Kesawan",
+      "slug": "kesawan",
+      "region": "Medan",
+      "tagline_id": "Jantung bersejarah Kota Medan dengan pesona arsitektur kolonial dan pecinan tua.",
+      "tagline_en": "The historical heart of Medan with colonial architecture and old Chinatown charm.",
+      "description_id": "Kesawan adalah salah satu kawasan tertua di Kota Medan yang dahulunya berfungsi sebagai pusat perdagangan utama. Menyusuri Jalan Ahmad Yani, Anda akan disuguhi deretan bangunan berarsitektur kolonial Belanda dan ruko-ruko Tionghoa kuno yang masih berdiri kokoh. Dari kediaman saudagar dermawan Tjong A Fie hingga restoran legendaris Tip Top, Kesawan menawarkan mesin waktu yang membawa kita kembali ke masa kejayaan perkebunan tembakau Deli.",
+      "description_en": "Kesawan is one of the oldest areas in Medan, once serving as the main commercial hub. Walking down Ahmad Yani Street, you will be treated to a row of Dutch colonial architecture and ancient Chinese shophouses still standing strong. From the residence of the generous tycoon Tjong A Fie to the legendary Tip Top restaurant, Kesawan offers a time machine that takes us back to the heyday of the Deli tobacco plantations.",
+      "coverImage": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=800&auto=format&fit=crop&q=80",
+      "walkCount": 2
+    }
+  ],
+  "walks": [
+    {
+      "title_id": "Jelajah Pusaka Kesawan",
+      "title_en": "Kesawan Heritage Trail",
+      "slug": "jelajah-pusaka-kesawan",
+      "neighbourhoodSlug": "kesawan",
+      "heroImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1200&auto=format&fit=crop&q=80",
+      "description_id": "Rute jalan kaki ini akan membawa Anda menelusuri arsitektur megah dan kisah sejarah di balik bangunan-bangunan kolonial paling ikonik di Kesawan. Kita akan melihat kontras dan akulturasi budaya yang membentuk identitas Kota Medan hari ini.",
+      "description_en": "This walking route will lead you through the grand architecture and historical stories behind the most iconic colonial buildings in Kesawan. We will see the contrast and cultural acculturation that shapes Medan's identity today.",
+      "durationMinutes": 90,
+      "distanceMeters": 2100,
+      "stepsCount": 3000,
+      "walkType": "Story Walk",
+      "pointsOfInterestCount": 7,
+      "latitude": 3.591244,
+      "longitude": 98.678125,
+      "lastUpdated": "Juni 2026",
+      "downloadableMapImage": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&auto=format&fit=crop&q=80",
+      "createdByOrg": "Medan Heritage Society",
+      "designedBy": "Simpang Design Studio",
+      "poweredBy": "Dinas Kebudayaan Kota Medan",
+      "locationSlugs": [
+        "kantor-pos-besar-medan",
+        "gedung-london-sumatra",
+        "gedung-balai-kota-lama",
+        "tjong-a-fie-mansion",
+        "gedung-warenhuis",
+        "kuil-sri-mariamman",
+        "gang-senggol-kesawan"
+      ],
+      "contributors": [
+        {
+          "name": "Rian Kurniawan",
+          "bio_id": "Sejarawan lokal dan pemandu wisata bersertifikat yang telah meneliti sejarah Kesawan selama lebih dari 10 tahun.",
+          "bio_en": "Local historian and certified tour guide who has researched the history of Kesawan for over 10 years.",
+          "logoOrPhoto": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80",
+          "linkUrl": "https://instagram.com/rian_heritage",
+          "type": "Dibuat oleh"
+        }
+      ],
+      "nearbyWalkSlugs": [
+        "cita-rasa-kesawan"
+      ]
+    },
+    {
+      "title_id": "Cita Rasa Klasik Kesawan",
+      "title_en": "Classic Tastes of Kesawan",
+      "slug": "cita-rasa-kesawan",
+      "neighbourhoodSlug": "kesawan",
+      "heroImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&auto=format&fit=crop&q=80",
+      "description_id": "Medan terkenal sebagai surga kuliner Indonesia. Rute ini didedikasikan untuk lidah Anda, menjelajahi kedai kopi tertua, restoran legendaris yang mempertahankan resep jadul, hingga gang kuliner malam tersembunyi.",
+      "description_en": "Medan is famous as Indonesia's culinary heaven. This route is dedicated to your palate, exploring the oldest coffee shops, legendary restaurants keeping old recipes, and hidden night food alleys.",
+      "durationMinutes": 60,
+      "distanceMeters": 1200,
+      "stepsCount": 1800,
+      "walkType": "Culinary Walk",
+      "pointsOfInterestCount": 5,
+      "latitude": 3.586884,
+      "longitude": 98.677021,
+      "lastUpdated": "Juni 2026",
+      "downloadableMapImage": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&auto=format&fit=crop&q=80",
+      "createdByOrg": "Medan Foodie Community",
+      "designedBy": "Simpang Design Studio",
+      "poweredBy": "UMKM Kuliner Kesawan",
+      "locationSlugs": [
+        "tip-top-restaurant",
+        "kopi-apek",
+        "kopi-kok-tong-kesawan",
+        "restoran-nelayan-merdeka",
+        "gang-senggol-kesawan"
+      ],
+      "contributors": [
+        {
+          "name": "Sarah Siahaan",
+          "bio_id": "Food blogger dan penulis kuliner yang berdedikasi mendokumentasikan resep kuno keluarga di Sumatera Utara.",
+          "bio_en": "Food blogger and culinary writer dedicated to documenting ancient family recipes in North Sumatra.",
+          "logoOrPhoto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80",
+          "linkUrl": "https://instagram.com/sarah_makanmana",
+          "type": "Dibuat oleh"
+        }
+      ],
+      "nearbyWalkSlugs": [
+        "jelajah-pusaka-kesawan"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name_id": "Kantor Pos Besar Medan",
+      "name_en": "Medan Main Post Office",
+      "slug": "kantor-pos-besar-medan",
+      "walkSlug": "jelajah-pusaka-kesawan",
+      "category": "iSee",
+      "thumbnail": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1590073844006-33379778ae09?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Ikon arsitektur kolonial dengan kubah burung merpati yang khas.",
+      "shortDescription_en": "Colonial architectural icon featuring a distinctive dove-shaped dome.",
+      "address_id": "Jl. Pos No. 1, Kesawan, Kota Medan",
+      "address_en": "1 Pos St, Kesawan, Medan City",
+      "openingHours_id": "Buka setiap hari, 08:00 - 20:00",
+      "openingHours_en": "Open daily, 08:00 AM - 08:00 PM",
+      "latitude": 3.591244,
+      "longitude": 98.678125,
+      "googleMapsUrl": "https://maps.google.com/?q=3.591244,98.678125",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.591244,98.678125",
+      "websiteUrl": "https://posindonesia.co.id",
+      "order": 1,
+      "contentBlocks": [
+        {
+          "type": "heading",
+          "text_id": "Pusat Komunikasi Era Kolonial",
+          "text_en": "The Hub of Colonial Communication"
+        },
+        {
+          "type": "paragraph",
+          "text_id": "Didesain oleh arsitek Belanda terkemuka, Snuyf, kantor pos ini selesai dibangun pada tahun 1911. Kubah setengah lingkaran yang menghias atapnya dirancang menyerupai burung merpati pos, simbol pengiriman pesan zaman dahulu.",
+          "text_en": "Designed by the prominent Dutch architect Snuyf, this post office was completed in 1911. The semi-circular dome adorning its roof was designed to resemble a carrier pigeon, the ancient symbol of message delivery."
+        },
+        {
+          "type": "circle-image",
+          "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&auto=format&fit=crop&q=80",
+          "caption_id": "Detail pilar bangunan bergaya Eropa klasik di sudut depan.",
+          "caption_en": "Detail of the classic European style pillars at the front corner."
+        },
+        {
+          "type": "pull-quote",
+          "text_id": "\"Kantor Pos Besar bukan sekadar tempat mengirim surat; ia adalah saksi bisu modernitas kota Medan saat beralih dari rawa menjadi metropolis perkebunan.\"",
+          "text_en": "\"The Main Post Office is not just a place to send letters; it is a silent witness to Medan's modernity as it transitioned from swamp to a plantation metropolis.\"",
+          "author_id": "Koran Sumatra Post (1911)",
+          "author_en": "Sumatra Post Newspaper (1911)"
+        }
+      ]
+    },
+    {
+      "name_id": "Gedung London Sumatra (Lonsum)",
+      "name_en": "London Sumatra Building",
+      "slug": "gedung-london-sumatra",
+      "walkSlug": "jelajah-pusaka-kesawan",
+      "category": "iSee",
+      "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Gedung pertama di Medan yang dilengkapi fasilitas lift.",
+      "shortDescription_en": "The first building in Medan equipped with passenger elevator facilities.",
+      "address_id": "Jl. Jenderal Ahmad Yani No. 2, Kesawan, Kota Medan",
+      "address_en": "2 Jenderal Ahmad Yani St, Kesawan, Medan City",
+      "openingHours_id": "Hanya eksterior (area kantor aktif)",
+      "openingHours_en": "Exterior only (active office area)",
+      "latitude": 3.589882,
+      "longitude": 98.677843,
+      "googleMapsUrl": "https://maps.google.com/?q=3.589882,98.677843",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.589882,98.677843",
+      "order": 2,
+      "contentBlocks": [
+        {
+          "type": "heading",
+          "text_id": "Gedung Pencakar Langit Pertama",
+          "text_en": "The First Skyscraper"
+        },
+        {
+          "type": "paragraph",
+          "text_id": "Selesai dibangun pada tahun 1906 untuk perusahaan perkebunan Inggris Harrison & Crosfield. Gaya arsitekturnya meniru rumah-rumah bangsawan London di era Edwardian, lengkap dengan jendela kaca patri dan struktur beton bertulang yang kokoh.",
+          "text_en": "Completed in 1906 for the British plantation firm Harrison & Crosfield. Its architectural style mimics London townhouse mansions of the Edwardian era, complete with stained glass windows and reinforced concrete."
+        }
+      ]
+    },
+    {
+      "name_id": "Gedung Balai Kota Lama",
+      "name_en": "Old Town Hall Building",
+      "slug": "gedung-balai-kota-lama",
+      "walkSlug": "jelajah-pusaka-kesawan",
+      "category": "iSee",
+      "thumbnail": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Bekas pusat administrasi kota peninggalan tahun 1908.",
+      "shortDescription_en": "Former city administrative center dating back to 1908.",
+      "address_id": "Jl. Balai Kota No. 1, Kesawan, Kota Medan",
+      "address_en": "1 Balai Kota St, Kesawan, Medan City",
+      "openingHours_id": "Hanya akses luar (sekarang bagian hotel)",
+      "openingHours_en": "Exterior access only (now part of hotel)",
+      "latitude": 3.591987,
+      "longitude": 98.677321,
+      "googleMapsUrl": "https://maps.google.com/?q=3.591987,98.677321",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.591987,98.677321",
+      "order": 3,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Gedung putih klasik ini dirancang oleh Hulswit dan berfungsi sebagai Balai Kota Medan. Memiliki lonceng jam bersejarah yang disumbangkan oleh Tjong A Fie, melambangkan eratnya hubungan elite Tionghoa dengan pemerintah kolonial Belanda.",
+          "text_en": "This classical white building was designed by Hulswit and served as the Medan City Hall. It features a historic clock bell donated by Tjong A Fie, symbolizing the close relationship between the Chinese elite and the Dutch colonial government."
+        }
+      ]
+    },
+    {
+      "name_id": "Tjong A Fie Mansion",
+      "name_en": "Tjong A Fie Mansion",
+      "slug": "tjong-a-fie-mansion",
+      "walkSlug": "jelajah-pusaka-kesawan",
+      "category": "iSee",
+      "thumbnail": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Rumah megah 35 kamar milik tokoh paling berpengaruh di Medan tempo dulu.",
+      "shortDescription_en": "Grand 35-room mansion belonging to the most influential figure in old Medan.",
+      "address_id": "Jl. Jenderal Ahmad Yani No. 105, Kesawan, Kota Medan",
+      "address_en": "105 Jenderal Ahmad Yani St, Kesawan, Medan City",
+      "openingHours_id": "Buka setiap hari, 09:00 - 17:00 (Tiket masuk berbayar)",
+      "openingHours_en": "Open daily, 09:00 AM - 05:00 PM (Paid admission)",
+      "latitude": 3.585721,
+      "longitude": 98.676904,
+      "googleMapsUrl": "https://maps.google.com/?q=3.585721,98.676904",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.585721,98.676904",
+      "websiteUrl": "http://tjongafiemansion.org",
+      "order": 4,
+      "contentBlocks": [
+        {
+          "type": "heading",
+          "text_id": "Mahakarya Akulturasi Arsitektur",
+          "text_en": "A Masterpiece of Architectural Fusion"
+        },
+        {
+          "type": "paragraph",
+          "text_id": "Mansion ini memadukan gaya dinasti Qing dari Tiongkok, detail dekorasi Art Nouveau Eropa, dan struktur teras terbuka khas Melayu Deli. Tjong A Fie membangun kediaman ini pada 1895 untuk membuktikan harmoni antar etnis di tanah Deli.",
+          "text_en": "This mansion blends China's Qing Dynasty style, European Art Nouveau details, and Deli Malay open terrace layout. Tjong A Fie built this residence in 1895 to demonstrate inter-ethnic harmony in the land of Deli."
+        },
+        {
+          "type": "circle-image",
+          "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=400&auto=format&fit=crop&q=80",
+          "caption_id": "Ruang tamu utama berlapis kayu jati dan ornamen emas.",
+          "caption_en": "Main reception hall lined with teak wood and gold ornaments."
+        },
+        {
+          "type": "pull-quote",
+          "text_id": "\"Di mana tanah dipijak, di situ langit dijunjung. Saya ingin rumah ini menjadi jembatan budaya.\"",
+          "text_en": "\"Where we stand is the sky we hold high. I want this house to be a bridge of cultures.\"",
+          "author_id": "Wasiat Tjong A Fie",
+          "author_en": "Tjong A Fie's Testament"
+        }
+      ]
+    },
+    {
+      "name_id": "Gedung Warenhuis",
+      "name_en": "Warenhuis Building",
+      "slug": "gedung-warenhuis",
+      "walkSlug": "jelajah-pusaka-kesawan",
+      "category": "iSee",
+      "thumbnail": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Supermarket pertama di Sumatera yang bernilai sejarah tinggi.",
+      "shortDescription_en": "The first department store in Sumatra with high historical value.",
+      "address_id": "Jl. Hindu, Kesawan, Kota Medan",
+      "address_en": "Hindu St, Kesawan, Medan City",
+      "openingHours_id": "Dilihat dari luar saja (sedang restorasi)",
+      "openingHours_en": "View from exterior only (under restoration)",
+      "latitude": 3.588523,
+      "longitude": 98.676102,
+      "googleMapsUrl": "https://maps.google.com/?q=3.588523,98.676102",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.588523,98.676102",
+      "order": 5,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Dibangun tahun 1916 oleh arsitek G. Bos, toserba legendaris ini pernah menjual berbagai barang mewah impor dari Eropa untuk para administratur perkebunan Belanda yang makmur di Deli.",
+          "text_en": "Built in 1916 by architect G. Bos, this legendary department store once sold luxury European goods to the prosperous Dutch plantation administrators in Deli."
+        }
+      ]
+    },
+    {
+      "name_id": "Kuil Sri Mariamman",
+      "name_en": "Sri Mariamman Temple",
+      "slug": "kuil-sri-mariamman",
+      "walkSlug": "jelajah-pusaka-kesawan",
+      "category": "iSee",
+      "thumbnail": "https://images.unsplash.com/photo-1568283236402-6045d65c4ec9?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1568283236402-6045d65c4ec9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Kuil Hindu tertua di Kota Medan dengan gopuram megah.",
+      "shortDescription_en": "The oldest Hindu temple in Medan featuring a grand gopuram.",
+      "address_id": "Jl. K.H. Zainul Arifin No. 130, Kampung Madras, Medan",
+      "address_en": "130 K.H. Zainul Arifin St, Kampung Madras, Medan",
+      "openingHours_id": "Buka setiap hari, 06:00 - 12:00, 16:00 - 20:00",
+      "openingHours_en": "Open daily, 06:00 AM - 12:00 PM, 04:00 PM - 08:00 PM",
+      "latitude": 3.583561,
+      "longitude": 98.672004,
+      "googleMapsUrl": "https://maps.google.com/?q=3.583561,98.672004",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.583561,98.672004",
+      "order": 6,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Didirikan tahun 1884 oleh imigran asal India Selatan yang didatangkan untuk bekerja di perkebunan Deli. Kuil ini didekorasi dengan patung-patung dewa Hindu berwarna-warni yang dipahat langsung oleh seniman India.",
+          "text_en": "Founded in 1884 by South Indian immigrants brought in to work on the Deli plantations. The temple is decorated with colorful statues of Hindu deities sculpted directly by Indian artists."
+        }
+      ]
+    },
+    {
+      "name_id": "Gang Senggol Kesawan",
+      "name_en": "Kesawan Alleyway (Gang Senggol)",
+      "slug": "gang-senggol-kesawan",
+      "walkSlug": "cita-rasa-kesawan",
+      "category": "iSurprise",
+      "thumbnail": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Gang kuliner sempit yang hidup di bawah bayang-bayang ruko tua.",
+      "shortDescription_en": "A narrow culinary alleyway coming alive under the shadows of old shophouses.",
+      "address_id": "Gang Senggol, Jl. A. Yani, Kesawan, Kota Medan",
+      "address_en": "Senggol Alley, A. Yani St, Kesawan, Medan City",
+      "openingHours_id": "Buka malam hari, 18:00 - 23:00",
+      "openingHours_en": "Open evening, 06:00 PM - 11:00 PM",
+      "latitude": 3.587211,
+      "longitude": 98.676504,
+      "googleMapsUrl": "https://maps.google.com/?q=3.587211,98.676504",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.587211,98.676504",
+      "order": 7,
+      "contentBlocks": [
+        {
+          "type": "heading",
+          "text_id": "Kehidupan Malam di Gang Sempit",
+          "text_en": "Nightlife in a Narrow Lane"
+        },
+        {
+          "type": "paragraph",
+          "text_id": "Dinamai 'Gang Senggol' karena lebarnya yang hanya 1.5 meter memaksa para pengunjung saling bersenggolan saat melewatinya. Di sini Anda akan menemukan sate khas Medan, martabak tipis, dan berbagai hidangan lokal lainnya.",
+          "text_en": "Named 'Gang Senggol' (Nudge Alley) because its 1.5-meter width forces visitors to brush against each other. Here, you'll find Medan skewered meats, thin pancakes, and other local dishes."
+        }
+      ]
+    },
+    {
+      "name_id": "Tip Top Restaurant",
+      "name_en": "Tip Top Restaurant",
+      "slug": "tip-top-restaurant",
+      "walkSlug": "cita-rasa-kesawan",
+      "category": "iEat",
+      "thumbnail": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Cita rasa otentik era kolonial dengan panggangan batu arang sejak 1934.",
+      "shortDescription_en": "Authentic colonial flavors using a charcoal stone oven since 1934.",
+      "address_id": "Jl. Jenderal Ahmad Yani No. 92, Kesawan, Kota Medan",
+      "address_en": "92 Jenderal Ahmad Yani St, Kesawan, Medan City",
+      "openingHours_id": "Setiap hari, 08:00 - 21:30",
+      "openingHours_en": "Daily, 08:00 AM - 09:30 PM",
+      "latitude": 3.586884,
+      "longitude": 98.677021,
+      "googleMapsUrl": "https://maps.google.com/?q=3.586884,98.677021",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.586884,98.677021",
+      "websiteUrl": "https://tiptopmedan.com",
+      "order": 1,
+      "contentBlocks": [
+        {
+          "type": "heading",
+          "text_id": "Menjaga Resep Belanda Klasik",
+          "text_en": "Preserving Classic Dutch Recipes"
+        },
+        {
+          "type": "paragraph",
+          "text_id": "Tip Top awalnya didirikan dengan nama Jangkie di Jalan Pandu, lalu pindah ke Kesawan pada tahun 1934. Kue-kue kering Belanda seperti Bitterballen dan Speculaas di sini masih dipanggang menggunakan tungku batu kuno berbahan bakar kayu arang, menghasilkan aroma khas yang tak tertandingi.",
+          "text_en": "Tip Top was originally founded under the name Jangkie on Pandu Street, before moving to Kesawan in 1934. Dutch pastries such as Bitterballen and Speculaas are still baked in an ancient charcoal stone oven, yielding an incomparable aroma."
+        },
+        {
+          "type": "pull-quote",
+          "text_id": "\"Makan di Tip Top bukan sekadar mengisi perut, melainkan merayakan sejarah cita rasa kota Medan.\"",
+          "text_en": "\"Dining at Tip Top is not just filling your stomach; it is celebrating the history of Medan's taste.\"",
+          "author_id": "Pengunjung Setia (Sejak 1960)",
+          "author_en": "Loyal Visitor (Since 1960)"
+        }
+      ]
+    },
+    {
+      "name_id": "Kopi Apek",
+      "name_en": "Kopi Apek Coffee Shop",
+      "slug": "kopi-apek",
+      "walkSlug": "cita-rasa-kesawan",
+      "category": "iDrink",
+      "thumbnail": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Kedai kopi tertua di Medan, menyajikan kopi tiam legendaris sejak 1919.",
+      "shortDescription_en": "The oldest coffee shop in Medan, serving legendary kopitiam brews since 1919.",
+      "address_id": "Jl. Hindu No. 37, Kesawan, Kota Medan",
+      "address_en": "37 Hindu St, Kesawan, Medan City",
+      "openingHours_id": "Senin - Sabtu, 06:00 - 12:00",
+      "openingHours_en": "Monday - Saturday, 06:00 AM - 12:00 PM",
+      "latitude": 3.588824,
+      "longitude": 98.675902,
+      "googleMapsUrl": "https://maps.google.com/?q=3.588824,98.675902",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.588824,98.675902",
+      "order": 2,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Didirikan oleh pasangan suami istri keturunan Tionghoa, Kopi Apek mempertahankan suasana kedai tradisional dengan meja marmer bulat dan kursi kayu tua. Menu andalannya adalah Kopi Susu Panas dan roti bakar srikaya homemade yang kental.",
+          "text_en": "Founded by a Chinese-descendant couple, Kopi Apek maintains a traditional shop atmosphere with round marble tables and old wooden chairs. Its signature menu includes Hot Milk Coffee and thick homemade kaya toast."
+        }
+      ]
+    },
+    {
+      "name_id": "Kopi Kok Tong Kesawan",
+      "name_en": "Kok Tong Coffee Kesawan",
+      "slug": "kopi-kok-tong-kesawan",
+      "walkSlug": "cita-rasa-kesawan",
+      "category": "iDrink",
+      "thumbnail": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Kopi robusta pekat resep klasik Pematangsiantar.",
+      "shortDescription_en": "Strong robusta coffee using Pematangsiantar classic recipe.",
+      "address_id": "Jl. Jenderal Ahmad Yani No. 82, Kesawan, Kota Medan",
+      "address_en": "82 Jenderal Ahmad Yani St, Kesawan, Medan City",
+      "openingHours_id": "Setiap hari, 09:00 - 22:00",
+      "openingHours_en": "Daily, 09:00 AM - 10:00 PM",
+      "latitude": 3.587884,
+      "longitude": 98.677221,
+      "order": 3,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Waralaba kopi klasik asal Siantar ini membawakan cita rasa robusta pekat hasil pemanggangan biji kopi dengan mentega secara tradisional. Tempat nongkrong favorit warga lokal di sore hari.",
+          "text_en": "This classic coffee franchise from Siantar brings strong robusta coffee notes roasted traditionally with butter. A favorite hang out spot for locals in the late afternoon."
+        }
+      ]
+    },
+    {
+      "name_id": "Restoran Nelayan Merdeka Walk",
+      "name_en": "Nelayan Restaurant Merdeka Walk",
+      "slug": "restoran-nelayan-merdeka",
+      "walkSlug": "cita-rasa-kesawan",
+      "category": "iEat",
+      "thumbnail": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=300&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&auto=format&fit=crop&q=80"
+      ],
+      "shortDescription_id": "Pelopor dimsum halal paling populer di Medan.",
+      "shortDescription_en": "The pioneer of Medan's most popular halal dim sum.",
+      "address_id": "Merdeka Walk Area, Jl. Balai Kota, Kesawan, Kota Medan",
+      "address_en": "Merdeka Walk Area, Balai Kota St, Kesawan, Medan City",
+      "openingHours_id": "Setiap hari, 10:00 - 22:00",
+      "openingHours_en": "Daily, 10:00 AM - 10:00 PM",
+      "latitude": 3.591561,
+      "longitude": 98.677004,
+      "order": 4,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Nelayan terkenal dengan dimsum pancake durian dan leng hong kien. Dimsum Nelayan telah menjadi standar kuliner Tionghoa-Medan yang ramah muslim dan sangat disukai wisatawan.",
+          "text_en": "Nelayan is famous for its durian pancake and leng hong kien. Nelayan's dim sum has become the Muslim-friendly standard of Chinese-Medanese culinary highly loved by tourists."
+        }
+      ]
+    }
+  ],
+  "cerita": [
+    {
+      "title_id": "Kedai Kopi Tua di Ujung Gang: Sejarah Kopi Apek Kesawan",
+      "title_en": "The Old Coffee Shop at the Corner: History of Kopi Apek",
+      "slug": "sejarah-kopi-apek-kesawan",
+      "coverImage": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=800&auto=format&fit=crop&q=80",
+      "excerpt_id": "Menyusuri kedai kopi legendaris Kopi Apek yang telah menyeduh kehangatan untuk warga Medan sejak tahun 1919.",
+      "excerpt_en": "Tracing the legendary Kopi Apek coffee shop that has been brewing warmth for Medan residents since 1919.",
+      "neighbourhoodSlug": "kesawan",
+      "categories": [
+        "Kuliner",
+        "Sejarah"
+      ],
+      "publishedDate": "2026-06-15",
+      "featured": true,
+      "body_id": [
+        {
+          "type": "paragraph",
+          "text_id": "Di sudut sunyi Jalan Hindu Kesawan, aroma kopi robusta menyeruak dari sebuah ruko tua bercat pudar. Ini adalah Kopi Apek, kedai kopi tertua di Medan yang didirikan oleh Mr. Lim A Pek pada tahun 1919.",
+          "text_en": "In a quiet corner of Hindu Street, Kesawan, the aroma of robusta coffee wafts from a faded shophouse. This is Kopi Apek, Medan's oldest coffee shop founded by Mr. Lim A Pek in 1919."
+        },
+        {
+          "type": "pull-quote",
+          "text_id": "\"Kopi di sini diseduh dengan air mendidih dari tungku arang, resep yang tak berubah selama satu abad.\"",
+          "text_en": "\"The coffee here is brewed with boiling water from a charcoal furnace, a recipe unchanged for a century.\"",
+          "author_id": "Generasi Penerus Kopi Apek",
+          "author_en": "Kopi Apek Successor"
+        }
+      ],
+      "body_en": [
+        {
+          "type": "paragraph",
+          "text_id": "Di sudut sunyi Jalan Hindu Kesawan, aroma kopi robusta menyeruak dari sebuah ruko tua bercat pudar. Ini adalah Kopi Apek, kedai kopi tertua di Medan yang didirikan oleh Mr. Lim A Pek pada tahun 1919.",
+          "text_en": "In a quiet corner of Hindu Street, Kesawan, the aroma of robusta coffee wafts from a faded shophouse. This is Kopi Apek, Medan's oldest coffee shop founded by Mr. Lim A Pek in 1919."
+        },
+        {
+          "type": "pull-quote",
+          "text_id": "\"Kopi di sini diseduh dengan air mendidih dari tungku arang, resep yang tak berubah selama satu abad.\"",
+          "text_en": "\"The coffee here is brewed with boiling water from a charcoal furnace, a recipe unchanged for a century.\"",
+          "author_id": "Generasi Penerus Kopi Apek",
+          "author_en": "Kopi Apek Successor"
+        }
+      ]
+    },
+    {
+      "title_id": "Arsitektur Megah Tjong A Fie Mansion: Perpaduan Tiga Budaya",
+      "title_en": "The Grand Architecture of Tjong A Fie Mansion: A Fusion of Three Cultures",
+      "slug": "arsitektur-tjong-a-fie-mansion",
+      "coverImage": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&auto=format&fit=crop&q=80",
+      "excerpt_id": "Bagaimana sebuah rumah megah di pusat Kesawan menggabungkan tradisi Tiongkok, kemegahan Eropa, dan kehangatan Melayu.",
+      "excerpt_en": "How a grand house in the center of Kesawan combines Chinese tradition, European grandeur, and Malay warmth.",
+      "neighbourhoodSlug": "kesawan",
+      "categories": [
+        "Arsitektur",
+        "Sejarah",
+        "Budaya"
+      ],
+      "publishedDate": "2026-06-10",
+      "featured": false,
+      "body_id": [
+        {
+          "type": "paragraph",
+          "text_id": "Mansion Tjong A Fie didirikan pada tahun 1895. Bangunan megah ini mencerminkan semangat multikulturalisme Kota Medan dengan memadukan unsur Tionghoa, kolonial Eropa, dan ornamen khas Melayu Deli.",
+          "text_en": "The Tjong A Fie Mansion was completed in 1895. This grand building reflects Medan's multicultural spirit by combining Chinese, European colonial, and Deli Malay styles."
+        }
+      ],
+      "body_en": [
+        {
+          "type": "paragraph",
+          "text_id": "Mansion Tjong A Fie didirikan pada tahun 1895. Bangunan megah ini mencerminkan semangat multikulturalisme Kota Medan dengan memadukan unsur Tionghoa, kolonial Eropa, dan ornamen khas Melayu Deli.",
+          "text_en": "The Tjong A Fie Mansion was completed in 1895. This grand building reflects Medan's multicultural spirit by combining Chinese, European colonial, and Deli Malay styles."
+        }
+      ]
+    },
+    {
+      "title_id": "Menyelamatkan Warenhuis: Upaya Konservasi Cagar Budaya",
+      "title_en": "Saving Warenhuis: Cultural Heritage Conservation Efforts",
+      "slug": "menyelamatkan-warenhuis-konservasi",
+      "coverImage": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&auto=format&fit=crop&q=80",
+      "excerpt_id": "Melihat lebih dekat proses restorasi Gedung Warenhuis, toserba pertama di Sumatera yang terancam punah.",
+      "excerpt_en": "A closer look at the restoration process of the Warenhuis Building, Sumatra's endangered first department store.",
+      "neighbourhoodSlug": "kesawan",
+      "categories": [
+        "Komunitas",
+        "Sejarah"
+      ],
+      "publishedDate": "2026-06-08",
+      "featured": false,
+      "body_id": [
+        {
+          "type": "paragraph",
+          "text_id": "Gedung Warenhuis di Jalan Hindu adalah saksi keemasan ekonomi kota Medan abad ke-20. Sempat terbakar dan terlantar, kini komunitas arsitek lokal bekerja keras merestorasinya.",
+          "text_en": "The Warenhuis Building on Hindu Street is a witness to the golden economy of 20th-century Medan. Once burned and neglected, now a local architects community is working hard to restore it."
+        }
+      ],
+      "body_en": [
+        {
+          "type": "paragraph",
+          "text_id": "Gedung Warenhuis di Jalan Hindu adalah saksi keemasan ekonomi kota Medan abad ke-20. Sempat terbakar dan terlantar, kini komunitas arsitek lokal bekerja keras merestorasinya.",
+          "text_en": "The Warenhuis Building on Hindu Street is a witness to the golden economy of 20th-century Medan. Once burned and neglected, now a local architects community is working hard to restore it."
+        }
+      ]
+    }
+  ]
+}

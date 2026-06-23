@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FDFBF7; /* Off-white / Cream */
+  --foreground: #1F2937; /* Charcoal / Dark Grey */
+  --color-primary: #DDA15E; /* Royal Malay Yellow */
+  --color-secondary: #2A9D8F; /* Sage Green */
+  --color-accent: #264653; /* Iron/Charcoal */
+  --color-bone: #F4F1DE; /* Heritage Bone */
+  
+  /* Category Colors */
+  --color-isee: #1E6B65; /* Deep Sage for POI/Situs */
+  --color-ieat: #E76F51; /* Terracotta/Orange-Red for Food */
+  --color-idrink: #F4A261; /* Ochre/Orange for Drinks */
+  --color-isurprise: #457B9D; /* Steel Blue for Surprise */
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-bone: var(--color-bone);
+  
+  --color-isee: var(--color-isee);
+  --color-ieat: var(--color-ieat);
+  --color-idrink: var(--color-idrink);
+  --color-isurprise: var(--color-isurprise);
+  
+  --font-sans: var(--font-outfit), sans-serif;
+  --font-serif: var(--font-playfair), serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDA15E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C59050;
+}
+
+/* Dropdown Animations */
+@keyframes dropdownEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dropdownExit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+    visibility: hidden;
+  }
+}
+
+.animate-dropdown-enter {
+  animation: dropdownEnter 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-dropdown-exit {
+  animation: dropdownExit 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
