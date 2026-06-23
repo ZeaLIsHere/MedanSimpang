@@ -371,6 +371,7 @@ export default function WalkDetail() {
             <div className="lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px] w-full h-[380px] sm:h-[450px] lg:h-[calc(100vh-140px)] rounded-2xl overflow-hidden shadow-md">
               <MedanMap
                 pins={mapPins}
+                routes={walk.route ? [{ coordinates: walk.route }] : undefined}
                 language={language}
                 centerLat={walk.latitude || 3.589882}
                 centerLng={walk.longitude || 98.677843}

@@ -32,6 +32,8 @@ export interface Kawasan {
   description_en: string;
   coverImage: string;
   walkCount: number;
+  latitude?: number;
+  longitude?: number;
 }
 
 export interface Walk {
@@ -57,6 +59,7 @@ export interface Walk {
   locationSlugs: string[];
   contributors: Contributor[];
   nearbyWalkSlugs?: string[];
+  route?: number[][];
 }
 
 export interface Location {

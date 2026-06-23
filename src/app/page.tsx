@@ -4,11 +4,10 @@ import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import { WalkCard } from '@/components/ui/Card';
-import { getAllWalks } from '@/data/db';
+import { KawasanCard } from '@/components/ui/Card';
+import { getAllKawasan } from '@/data/db';
 import { useLanguage } from '@/context/LanguageContext';
-import { Map, List, Compass, Navigation, Clock, MapPin } from 'lucide-react';
-import Link from 'next/link';
+import { MapPin } from 'lucide-react';
 
 // Dynamically import generic MedanMap component
 const MedanMap = dynamic(() => import('@/components/map/MedanMap'), {
@@ -23,37 +22,31 @@ const MedanMap = dynamic(() => import('@/components/map/MedanMap'), {
 
 export default function Home() {
   const { language } = useLanguage();
-  const walks = getAllWalks();
-  
-  // States for interactive map
-  const [activeWalkSlug, setActiveWalkSlug] = useState<string | undefined>(undefined);
+  const kawasanList = getAllKawasan();
+
+  // Active kawasan for map highlight (hover sync)
+  const [activeKawasanSlug, setActiveKawasanSlug] = useState<string | undefined>(undefined);
 
   const translations = {
-    heroTitle: 'Medan Simpang',
     heroSubtitle: 'Seen at eye level',
     heroDescription: language === 'id'
       ? 'Medan Simpang membawa Anda menyusuri sejarah, kuliner, dan budaya tersembunyi di balik gang-gang kecil (simpang) dan fasad tua kota Medan.'
       : 'Medan Simpang leads you through history, culinary delights, and hidden cultures behind the narrow alleys (simpang) and historic facades of Medan.',
   };
 
-  // Map walks data to generic MedanMap MapPinData format
-  const mapPins = walks.map((walk) => {
-    const title = language === 'id' ? walk.title_id : walk.title_en;
-    const description = language === 'id' ? walk.description_id : walk.description_en;
-    
-    return {
-      id: walk.slug,
-      latitude: walk.latitude || 3.589882,
-      longitude: walk.longitude || 98.677843,
-      popupData: {
-        title: title,
-        subtitle: description.slice(0, 70) + '...',
-        imageUrl: walk.heroImage,
-        linkUrl: `/walks/${walk.slug}`,
-        linkText: language === 'id' ? 'Jelajahi Rute' : 'Explore Trail',
-      },
-    };
-  });
+  // Map kawasan data to generic MedanMap MapPinData format (one pin per kawasan)
+  const mapPins = kawasanList.map((k) => ({
+    id: k.slug,
+    latitude: k.latitude ?? 3.6005,
+    longitude: k.longitude ?? 98.6706,
+    popupData: {
+      title: k.name,
+      subtitle: language === 'id' ? k.tagline_id : k.tagline_en,
+      imageUrl: k.coverImage,
+      linkUrl: `/kawasan/${k.slug}`,
+      linkText: language === 'id' ? 'Jelajahi Kawasan' : 'Explore Neighbourhood',
+    },
+  }));
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
@@ -63,8 +56,8 @@ export default function Home() {
       <main className="flex-grow pt-24 pb-16">
         <div className="w-full px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-            
-            {/* Left Column: Hero & Walks List */}
+
+            {/* Left Column: Hero & Kawasan List */}
             <div className="lg:col-span-5 xl:col-span-5 space-y-8">
               {/* Hero Section */}
               <div className="space-y-4 pt-2">
@@ -79,23 +72,28 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* Walks guide list */}
+              {/* Kawasan list */}
               <div className="border-t border-bone/45 pt-6 space-y-6">
                 <div className="flex items-center justify-between">
                   <h2 className="font-serif text-xl font-bold text-accent">
-                    {language === 'id' ? 'Daftar Rute' : 'Trails Guide'}
+                    {language === 'id' ? 'Jelajah Kawasan' : 'Explore Neighbourhood'}
                   </h2>
                 </div>
+                <p className="text-sm text-text-muted font-light leading-relaxed -mt-2">
+                  {language === 'id'
+                    ? 'Pilih kawasan untuk melihat rute-rute jalan kaki di dalamnya.'
+                    : 'Choose a neighbourhood to see the walking trails inside it.'}
+                </p>
 
-                {/* List of walks - 2 columns on tablet/desktop */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  {walks.map((walk) => (
-                    <div 
-                      key={walk.slug}
-                      onMouseEnter={() => setActiveWalkSlug(walk.slug)}
-                      onMouseLeave={() => setActiveWalkSlug(undefined)}
+                {/* List of kawasan */}
+                <div className="grid grid-cols-1 gap-6">
+                  {kawasanList.map((k) => (
+                    <div
+                      key={k.slug}
+                      onMouseEnter={() => setActiveKawasanSlug(k.slug)}
+                      onMouseLeave={() => setActiveKawasanSlug(undefined)}
                     >
-                      <WalkCard walk={walk} />
+                      <KawasanCard kawasan={k} />
                     </div>
                   ))}
                 </div>
@@ -107,11 +105,11 @@ export default function Home() {
               {/* Generic MedanMap Component as a Window */}
               <MedanMap
                 pins={mapPins}
-                centerLat={3.589882} // Kesawan center
-                centerLng={98.677843}
-                zoom={15}
-                activePinId={activeWalkSlug}
-                onPinClick={(slug) => setActiveWalkSlug(slug)}
+                centerLat={3.6005} // Silalas / Deli Riverside center
+                centerLng={98.6706}
+                zoom={14.5}
+                activePinId={activeKawasanSlug}
+                onPinClick={(slug) => setActiveKawasanSlug(slug)}
                 language={language}
               />
             </div>
