@@ -81,6 +81,10 @@ export default function KawasanDetail() {
   const centerLat = walks[0]?.latitude || 3.589882;
   const centerLng = walks[0]?.longitude || 98.677843;
 
+  // Route only shows for the trail the user is currently focusing, never all combined.
+  const activeWalk = walks.find((w) => w.slug === activeWalkSlug);
+  const activeRoutes = activeWalk?.route ? [{ coordinates: activeWalk.route }] : [];
+
   const translations = {
     routesTitle: language === 'id' ? 'Pilih Rute Jalan Kaki' : 'Choose Walking Trail',
   };
@@ -167,6 +171,7 @@ export default function KawasanDetail() {
             <div className="lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px] w-full h-[380px] sm:h-[450px] lg:h-[calc(100vh-140px)] rounded-2xl overflow-hidden shadow-md">
               <MedanMap
                 pins={mapPins}
+                routes={activeRoutes}
                 centerLat={centerLat}
                 centerLng={centerLng}
                 zoom={15.5}

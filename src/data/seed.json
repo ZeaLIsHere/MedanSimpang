@@ -1,584 +1,2445 @@
 {
   "kawasan": [
     {
-      "name": "Kesawan",
-      "slug": "kesawan",
+      "name": "Silalas",
+      "slug": "silalas",
       "region": "Medan",
-      "tagline_id": "Jantung bersejarah Kota Medan dengan pesona arsitektur kolonial dan pecinan tua.",
-      "tagline_en": "The historical heart of Medan with colonial architecture and old Chinatown charm.",
-      "description_id": "Kesawan adalah salah satu kawasan tertua di Kota Medan yang dahulunya berfungsi sebagai pusat perdagangan utama. Menyusuri Jalan Ahmad Yani, Anda akan disuguhi deretan bangunan berarsitektur kolonial Belanda dan ruko-ruko Tionghoa kuno yang masih berdiri kokoh. Dari kediaman saudagar dermawan Tjong A Fie hingga restoran legendaris Tip Top, Kesawan menawarkan mesin waktu yang membawa kita kembali ke masa kejayaan perkebunan tembakau Deli.",
-      "description_en": "Kesawan is one of the oldest areas in Medan, once serving as the main commercial hub. Walking down Ahmad Yani Street, you will be treated to a row of Dutch colonial architecture and ancient Chinese shophouses still standing strong. From the residence of the generous tycoon Tjong A Fie to the legendary Tip Top restaurant, Kesawan offers a time machine that takes us back to the heyday of the Deli tobacco plantations.",
-      "coverImage": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=800&auto=format&fit=crop&q=80",
-      "walkCount": 2
+      "tagline_id": "Kampung tepi Sungai Deli di jantung Medan Barat — rumah bagi hunian Melayu panggung, kedai kopi, dan jejak kehidupan riverside.",
+      "tagline_en": "A kampung along the Deli River in the heart of Medan Barat — home to Malay stilt houses, coffee shops, and riverside everyday life.",
+      "description_id": "Silalas adalah salah satu kelurahan di Kecamatan Medan Barat yang membentang di tepian Sungai Deli. Menyusuri gang-gang sempitnya, Anda akan menemukan rumah panggung khas Melayu, kedai kopi dan warung legendaris, masjid tua, hingga pemandangan sungai yang menjadi urat nadi Kota Medan. Kawasan ini menawarkan sisi Medan yang membumi: kehidupan warga sehari-hari yang hangat di balik fasad kota modern.",
+      "description_en": "Silalas is an urban village (kelurahan) in the Medan Barat district, stretching along the banks of the Deli River. Walking through its narrow lanes, you will discover Malay stilt houses, legendary coffee shops and food stalls, old mosques, and river views that form the lifeline of Medan. The area offers a grounded side of the city: the warm everyday life of its residents behind the modern urban facade.",
+      "coverImage": "/images/silalas.jpg",
+      "walkCount": 4,
+      "latitude": 3.6005,
+      "longitude": 98.6706
     }
   ],
   "walks": [
     {
-      "title_id": "Jelajah Pusaka Kesawan",
-      "title_en": "Kesawan Heritage Trail",
-      "slug": "jelajah-pusaka-kesawan",
-      "neighbourhoodSlug": "kesawan",
-      "heroImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1200&auto=format&fit=crop&q=80",
-      "description_id": "Rute jalan kaki ini akan membawa Anda menelusuri arsitektur megah dan kisah sejarah di balik bangunan-bangunan kolonial paling ikonik di Kesawan. Kita akan melihat kontras dan akulturasi budaya yang membentuk identitas Kota Medan hari ini.",
-      "description_en": "This walking route will lead you through the grand architecture and historical stories behind the most iconic colonial buildings in Kesawan. We will see the contrast and cultural acculturation that shapes Medan's identity today.",
-      "durationMinutes": 90,
-      "distanceMeters": 2100,
-      "stepsCount": 3000,
-      "walkType": "Story Walk",
-      "pointsOfInterestCount": 7,
-      "latitude": 3.591244,
-      "longitude": 98.678125,
+      "title_id": "Trail 1 — Deli Riverside",
+      "title_en": "Trail 1 — Deli Riverside",
+      "slug": "trails-1-deli-riverside",
+      "neighbourhoodSlug": "silalas",
+      "heroImage": "/images/locations/deli-riverview/gallery-1.jpg",
+      "description_id": "Rute utama menyusuri tepian Sungai Deli, dari Jl. Guru Patimpus hingga Jl. Sei Deli. Sepanjang jalur ini Anda akan singgah di kedai kopi, warung legendaris, rumah adat, jembatan kereta api tua, hingga masjid bersejarah yang menghidupkan kampung riverside Silalas.",
+      "description_en": "The main route along the banks of the Deli River, from Jl. Guru Patimpus to Jl. Sei Deli. Along the way you will stop at coffee shops, legendary eateries, a traditional house, an old railway bridge, and a historic mosque that bring the Silalas riverside kampung to life.",
+      "durationMinutes": 60,
+      "distanceMeters": 1600,
+      "stepsCount": 2300,
+      "walkType": "Riverside Walk",
+      "pointsOfInterestCount": 12,
+      "latitude": 3.6005,
+      "longitude": 98.6706,
       "lastUpdated": "Juni 2026",
-      "downloadableMapImage": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&auto=format&fit=crop&q=80",
-      "createdByOrg": "Medan Heritage Society",
-      "designedBy": "Simpang Design Studio",
-      "poweredBy": "Dinas Kebudayaan Kota Medan",
+      "downloadableMapImage": "/images/locations/deli-riverview/gallery-2.jpg",
       "locationSlugs": [
-        "kantor-pos-besar-medan",
-        "gedung-london-sumatra",
-        "gedung-balai-kota-lama",
-        "tjong-a-fie-mansion",
-        "gedung-warenhuis",
-        "kuil-sri-mariamman",
-        "gang-senggol-kesawan"
+        "rumah-qohwah",
+        "deli-riverview",
+        "rumah-adat-toba",
+        "steves-coffee",
+        "bakso-mie-ayam-panorama",
+        "mie-ayam-bakso-solo",
+        "rel-kereta-api",
+        "ra-asasil-islam",
+        "toko-kipas",
+        "bamboo-bali-cafe",
+        "masjid-haji-maraset",
+        "florist"
       ],
-      "contributors": [
-        {
-          "name": "Rian Kurniawan",
-          "bio_id": "Sejarawan lokal dan pemandu wisata bersertifikat yang telah meneliti sejarah Kesawan selama lebih dari 10 tahun.",
-          "bio_en": "Local historian and certified tour guide who has researched the history of Kesawan for over 10 years.",
-          "logoOrPhoto": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80",
-          "linkUrl": "https://instagram.com/rian_heritage",
-          "type": "Dibuat oleh"
-        }
-      ],
+      "contributors": [],
       "nearbyWalkSlugs": [
-        "cita-rasa-kesawan"
+        "trails-2-malay-house",
+        "trails-3-malay-house",
+        "trails-4-cemetery-mosque"
+      ],
+      "route": [
+        [
+          3.59463,
+          98.67215
+        ],
+        [
+          3.59479,
+          98.67214
+        ],
+        [
+          3.59508,
+          98.67214
+        ],
+        [
+          3.59535,
+          98.67215
+        ],
+        [
+          3.59546,
+          98.67215
+        ],
+        [
+          3.59552,
+          98.67215
+        ],
+        [
+          3.5956,
+          98.67216
+        ],
+        [
+          3.59614,
+          98.67217
+        ],
+        [
+          3.59618,
+          98.67217
+        ],
+        [
+          3.59622,
+          98.67217
+        ],
+        [
+          3.59626,
+          98.67217
+        ],
+        [
+          3.59632,
+          98.67215
+        ],
+        [
+          3.59638,
+          98.67213
+        ],
+        [
+          3.59646,
+          98.6721
+        ],
+        [
+          3.59655,
+          98.67236
+        ],
+        [
+          3.59656,
+          98.67241
+        ],
+        [
+          3.59656,
+          98.67242
+        ],
+        [
+          3.59657,
+          98.67243
+        ],
+        [
+          3.59658,
+          98.67244
+        ],
+        [
+          3.59659,
+          98.67245
+        ],
+        [
+          3.59664,
+          98.67245
+        ],
+        [
+          3.59707,
+          98.67238
+        ],
+        [
+          3.59664,
+          98.67245
+        ],
+        [
+          3.59659,
+          98.67245
+        ],
+        [
+          3.59658,
+          98.67244
+        ],
+        [
+          3.59657,
+          98.67243
+        ],
+        [
+          3.59656,
+          98.67242
+        ],
+        [
+          3.59656,
+          98.67241
+        ],
+        [
+          3.59655,
+          98.67236
+        ],
+        [
+          3.59646,
+          98.6721
+        ],
+        [
+          3.59651,
+          98.67207
+        ],
+        [
+          3.59673,
+          98.67197
+        ],
+        [
+          3.59689,
+          98.67188
+        ],
+        [
+          3.59696,
+          98.67184
+        ],
+        [
+          3.59702,
+          98.67178
+        ],
+        [
+          3.59708,
+          98.67171
+        ],
+        [
+          3.59713,
+          98.67165
+        ],
+        [
+          3.59719,
+          98.67157
+        ],
+        [
+          3.59724,
+          98.67151
+        ],
+        [
+          3.5973,
+          98.67142
+        ],
+        [
+          3.5974,
+          98.67129
+        ],
+        [
+          3.59744,
+          98.67122
+        ],
+        [
+          3.59748,
+          98.67116
+        ],
+        [
+          3.59751,
+          98.67114
+        ],
+        [
+          3.59754,
+          98.67111
+        ],
+        [
+          3.59759,
+          98.67108
+        ],
+        [
+          3.59766,
+          98.67104
+        ],
+        [
+          3.59774,
+          98.67101
+        ],
+        [
+          3.59779,
+          98.67098
+        ],
+        [
+          3.59784,
+          98.67095
+        ],
+        [
+          3.59789,
+          98.67091
+        ],
+        [
+          3.59796,
+          98.67086
+        ],
+        [
+          3.59804,
+          98.67079
+        ],
+        [
+          3.5981,
+          98.67074
+        ],
+        [
+          3.59812,
+          98.67077
+        ],
+        [
+          3.59813,
+          98.6708
+        ],
+        [
+          3.59813,
+          98.67084
+        ],
+        [
+          3.59813,
+          98.6709
+        ],
+        [
+          3.59812,
+          98.67095
+        ],
+        [
+          3.59808,
+          98.67109
+        ],
+        [
+          3.59805,
+          98.67116
+        ],
+        [
+          3.59803,
+          98.67124
+        ],
+        [
+          3.59801,
+          98.67135
+        ],
+        [
+          3.59799,
+          98.67143
+        ],
+        [
+          3.59799,
+          98.67148
+        ],
+        [
+          3.59796,
+          98.67157
+        ],
+        [
+          3.5979,
+          98.67176
+        ],
+        [
+          3.59783,
+          98.67192
+        ],
+        [
+          3.59777,
+          98.67202
+        ],
+        [
+          3.59762,
+          98.67214
+        ],
+        [
+          3.59748,
+          98.67223
+        ],
+        [
+          3.59737,
+          98.67229
+        ],
+        [
+          3.59748,
+          98.67223
+        ],
+        [
+          3.59762,
+          98.67214
+        ],
+        [
+          3.59777,
+          98.67202
+        ],
+        [
+          3.59783,
+          98.67192
+        ],
+        [
+          3.5979,
+          98.67176
+        ],
+        [
+          3.59796,
+          98.67157
+        ],
+        [
+          3.59799,
+          98.67148
+        ],
+        [
+          3.59799,
+          98.67143
+        ],
+        [
+          3.59801,
+          98.67135
+        ],
+        [
+          3.59803,
+          98.67124
+        ],
+        [
+          3.59805,
+          98.67116
+        ],
+        [
+          3.59808,
+          98.67109
+        ],
+        [
+          3.59812,
+          98.67095
+        ],
+        [
+          3.59813,
+          98.6709
+        ],
+        [
+          3.59813,
+          98.67084
+        ],
+        [
+          3.59813,
+          98.6708
+        ],
+        [
+          3.59812,
+          98.67077
+        ],
+        [
+          3.5981,
+          98.67074
+        ],
+        [
+          3.59812,
+          98.67072
+        ],
+        [
+          3.5983,
+          98.67056
+        ],
+        [
+          3.5985,
+          98.67039
+        ],
+        [
+          3.59862,
+          98.67029
+        ],
+        [
+          3.59871,
+          98.67023
+        ],
+        [
+          3.59879,
+          98.67018
+        ],
+        [
+          3.59886,
+          98.67015
+        ],
+        [
+          3.59894,
+          98.67012
+        ],
+        [
+          3.59901,
+          98.67011
+        ],
+        [
+          3.59905,
+          98.6701
+        ],
+        [
+          3.59911,
+          98.6701
+        ],
+        [
+          3.59918,
+          98.67011
+        ],
+        [
+          3.59928,
+          98.67012
+        ],
+        [
+          3.59938,
+          98.67014
+        ],
+        [
+          3.5995,
+          98.67016
+        ],
+        [
+          3.59966,
+          98.67019
+        ],
+        [
+          3.59974,
+          98.67021
+        ],
+        [
+          3.59988,
+          98.67026
+        ],
+        [
+          3.59997,
+          98.67028
+        ],
+        [
+          3.60004,
+          98.6703
+        ],
+        [
+          3.60012,
+          98.67031
+        ],
+        [
+          3.60018,
+          98.67033
+        ],
+        [
+          3.60025,
+          98.67034
+        ],
+        [
+          3.60032,
+          98.67035
+        ],
+        [
+          3.60039,
+          98.67035
+        ],
+        [
+          3.60045,
+          98.67036
+        ],
+        [
+          3.60088,
+          98.67043
+        ],
+        [
+          3.60105,
+          98.67046
+        ],
+        [
+          3.60108,
+          98.67046
+        ],
+        [
+          3.60133,
+          98.67045
+        ],
+        [
+          3.60141,
+          98.67045
+        ],
+        [
+          3.60149,
+          98.67045
+        ],
+        [
+          3.60156,
+          98.67046
+        ],
+        [
+          3.60161,
+          98.67046
+        ],
+        [
+          3.60168,
+          98.67048
+        ],
+        [
+          3.60173,
+          98.67049
+        ],
+        [
+          3.60185,
+          98.67052
+        ],
+        [
+          3.602,
+          98.67056
+        ],
+        [
+          3.60211,
+          98.67059
+        ],
+        [
+          3.60219,
+          98.67062
+        ],
+        [
+          3.60224,
+          98.67064
+        ],
+        [
+          3.60245,
+          98.67076
+        ],
+        [
+          3.60257,
+          98.6708
+        ],
+        [
+          3.60276,
+          98.67084
+        ],
+        [
+          3.60302,
+          98.67093
+        ],
+        [
+          3.60315,
+          98.67098
+        ],
+        [
+          3.60319,
+          98.671
+        ],
+        [
+          3.60323,
+          98.67103
+        ],
+        [
+          3.60335,
+          98.6711
+        ],
+        [
+          3.60345,
+          98.67116
+        ],
+        [
+          3.60359,
+          98.67122
+        ],
+        [
+          3.60364,
+          98.67124
+        ],
+        [
+          3.60367,
+          98.67124
+        ],
+        [
+          3.60371,
+          98.67125
+        ],
+        [
+          3.60375,
+          98.67125
+        ],
+        [
+          3.6039,
+          98.67124
+        ],
+        [
+          3.60394,
+          98.67123
+        ],
+        [
+          3.60456,
+          98.67115
+        ],
+        [
+          3.60506,
+          98.67108
+        ],
+        [
+          3.60525,
+          98.67104
+        ],
+        [
+          3.60533,
+          98.67102
+        ],
+        [
+          3.60546,
+          98.67098
+        ],
+        [
+          3.60569,
+          98.67091
+        ],
+        [
+          3.60583,
+          98.67088
+        ],
+        [
+          3.60619,
+          98.67077
+        ],
+        [
+          3.60625,
+          98.67077
+        ],
+        [
+          3.60631,
+          98.67076
+        ],
+        [
+          3.60639,
+          98.67077
+        ],
+        [
+          3.60658,
+          98.67078
+        ],
+        [
+          3.60657,
+          98.67076
+        ],
+        [
+          3.60656,
+          98.67072
+        ],
+        [
+          3.60655,
+          98.67069
+        ],
+        [
+          3.60655,
+          98.67067
+        ],
+        [
+          3.60655,
+          98.67066
+        ],
+        [
+          3.60655,
+          98.67064
+        ],
+        [
+          3.60655,
+          98.67062
+        ],
+        [
+          3.60657,
+          98.6706
+        ],
+        [
+          3.60659,
+          98.6706
+        ],
+        [
+          3.60662,
+          98.6706
+        ],
+        [
+          3.60667,
+          98.6706
+        ],
+        [
+          3.60667,
+          98.67079
+        ],
+        [
+          3.60658,
+          98.67078
+        ],
+        [
+          3.60643,
+          98.67077
+        ]
       ]
     },
     {
-      "title_id": "Cita Rasa Klasik Kesawan",
-      "title_en": "Classic Tastes of Kesawan",
-      "slug": "cita-rasa-kesawan",
-      "neighbourhoodSlug": "kesawan",
-      "heroImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&auto=format&fit=crop&q=80",
-      "description_id": "Medan terkenal sebagai surga kuliner Indonesia. Rute ini didedikasikan untuk lidah Anda, menjelajahi kedai kopi tertua, restoran legendaris yang mempertahankan resep jadul, hingga gang kuliner malam tersembunyi.",
-      "description_en": "Medan is famous as Indonesia's culinary heaven. This route is dedicated to your palate, exploring the oldest coffee shops, legendary restaurants keeping old recipes, and hidden night food alleys.",
-      "durationMinutes": 60,
-      "distanceMeters": 1200,
-      "stepsCount": 1800,
-      "walkType": "Culinary Walk",
-      "pointsOfInterestCount": 5,
-      "latitude": 3.586884,
-      "longitude": 98.677021,
+      "title_id": "Trail 2 — Rumah Tradisional Melayu",
+      "title_en": "Trail 2 — Malay Traditional House",
+      "slug": "trails-2-malay-house",
+      "neighbourhoodSlug": "silalas",
+      "heroImage": "/images/locations/rumah-adat-toba/gallery-1.jpg",
+      "description_id": "Rute yang menyusuri deretan rumah panggung tradisional Melayu di lorong-lorong Silalas. Data titik singgah dan dokumentasi rute ini akan segera ditambahkan.",
+      "description_en": "A route tracing the rows of traditional Malay stilt houses in the lanes of Silalas. Stop data and route documentation for this trail will be added soon.",
+      "durationMinutes": 35,
+      "distanceMeters": 900,
+      "stepsCount": 1300,
+      "walkType": "Heritage Walk",
+      "pointsOfInterestCount": 3,
+      "latitude": 3.598,
+      "longitude": 98.6696,
       "lastUpdated": "Juni 2026",
-      "downloadableMapImage": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&auto=format&fit=crop&q=80",
-      "createdByOrg": "Medan Foodie Community",
-      "designedBy": "Simpang Design Studio",
-      "poweredBy": "UMKM Kuliner Kesawan",
+      "downloadableMapImage": "/images/locations/rumah-adat-toba/gallery-1.jpg",
       "locationSlugs": [
-        "tip-top-restaurant",
-        "kopi-apek",
-        "kopi-kok-tong-kesawan",
-        "restoran-nelayan-merdeka",
-        "gang-senggol-kesawan"
+        "pos-ronda",
+        "warung-bunda-long",
+        "dapur-sedap-wangi"
       ],
-      "contributors": [
-        {
-          "name": "Sarah Siahaan",
-          "bio_id": "Food blogger dan penulis kuliner yang berdedikasi mendokumentasikan resep kuno keluarga di Sumatera Utara.",
-          "bio_en": "Food blogger and culinary writer dedicated to documenting ancient family recipes in North Sumatra.",
-          "logoOrPhoto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80",
-          "linkUrl": "https://instagram.com/sarah_makanmana",
-          "type": "Dibuat oleh"
-        }
-      ],
+      "contributors": [],
       "nearbyWalkSlugs": [
-        "jelajah-pusaka-kesawan"
+        "trails-1-deli-riverside",
+        "trails-3-malay-house"
+      ],
+      "route": [
+        [
+          3.59467,
+          98.66899
+        ],
+        [
+          3.59472,
+          98.66899
+        ],
+        [
+          3.59479,
+          98.66899
+        ],
+        [
+          3.59482,
+          98.669
+        ],
+        [
+          3.59524,
+          98.66902
+        ],
+        [
+          3.59518,
+          98.66976
+        ],
+        [
+          3.59518,
+          98.66979
+        ],
+        [
+          3.59564,
+          98.66983
+        ],
+        [
+          3.5956,
+          98.67008
+        ],
+        [
+          3.59559,
+          98.67012
+        ],
+        [
+          3.59559,
+          98.67013
+        ],
+        [
+          3.59558,
+          98.67014
+        ],
+        [
+          3.59558,
+          98.67015
+        ],
+        [
+          3.59557,
+          98.67016
+        ],
+        [
+          3.59557,
+          98.67018
+        ],
+        [
+          3.59555,
+          98.67053
+        ],
+        [
+          3.5955,
+          98.67053
+        ],
+        [
+          3.59547,
+          98.67052
+        ],
+        [
+          3.59537,
+          98.67051
+        ],
+        [
+          3.59543,
+          98.67065
+        ],
+        [
+          3.59545,
+          98.67071
+        ],
+        [
+          3.59546,
+          98.67076
+        ],
+        [
+          3.59547,
+          98.67083
+        ],
+        [
+          3.59548,
+          98.67095
+        ],
+        [
+          3.59558,
+          98.67095
+        ],
+        [
+          3.59608,
+          98.67088
+        ],
+        [
+          3.59612,
+          98.67082
+        ],
+        [
+          3.59613,
+          98.6708
+        ],
+        [
+          3.59614,
+          98.67079
+        ],
+        [
+          3.59614,
+          98.67077
+        ],
+        [
+          3.59614,
+          98.67075
+        ],
+        [
+          3.59614,
+          98.67072
+        ],
+        [
+          3.59614,
+          98.6707
+        ],
+        [
+          3.5961,
+          98.67062
+        ],
+        [
+          3.59606,
+          98.67061
+        ],
+        [
+          3.59598,
+          98.6706
+        ],
+        [
+          3.59595,
+          98.67058
+        ],
+        [
+          3.59593,
+          98.67057
+        ],
+        [
+          3.59592,
+          98.67057
+        ],
+        [
+          3.59591,
+          98.67056
+        ],
+        [
+          3.59589,
+          98.67054
+        ],
+        [
+          3.5959,
+          98.6705
+        ],
+        [
+          3.59591,
+          98.67048
+        ],
+        [
+          3.59592,
+          98.67026
+        ],
+        [
+          3.59594,
+          98.67002
+        ],
+        [
+          3.59594,
+          98.66999
+        ],
+        [
+          3.59592,
+          98.66996
+        ],
+        [
+          3.59597,
+          98.66993
+        ],
+        [
+          3.59601,
+          98.66991
+        ],
+        [
+          3.5961,
+          98.6699
+        ],
+        [
+          3.59628,
+          98.66988
+        ],
+        [
+          3.59631,
+          98.66988
+        ],
+        [
+          3.59639,
+          98.66987
+        ],
+        [
+          3.59651,
+          98.66985
+        ],
+        [
+          3.59649,
+          98.66957
+        ],
+        [
+          3.59649,
+          98.66955
+        ],
+        [
+          3.59648,
+          98.66954
+        ],
+        [
+          3.59647,
+          98.66953
+        ],
+        [
+          3.59645,
+          98.66952
+        ],
+        [
+          3.59642,
+          98.66952
+        ],
+        [
+          3.59639,
+          98.66951
+        ],
+        [
+          3.59637,
+          98.66951
+        ],
+        [
+          3.59636,
+          98.66951
+        ],
+        [
+          3.59636,
+          98.6695
+        ],
+        [
+          3.59635,
+          98.66949
+        ],
+        [
+          3.59633,
+          98.66947
+        ],
+        [
+          3.59632,
+          98.66942
+        ],
+        [
+          3.59631,
+          98.66937
+        ],
+        [
+          3.59624,
+          98.66902
+        ],
+        [
+          3.59639,
+          98.66902
+        ],
+        [
+          3.59696,
+          98.66902
+        ],
+        [
+          3.59708,
+          98.66903
+        ],
+        [
+          3.59706,
+          98.66925
+        ],
+        [
+          3.59703,
+          98.66962
+        ],
+        [
+          3.59701,
+          98.66985
+        ],
+        [
+          3.5974,
+          98.66983
+        ],
+        [
+          3.5974,
+          98.66985
+        ],
+        [
+          3.5974,
+          98.66989
+        ],
+        [
+          3.59742,
+          98.66997
+        ],
+        [
+          3.59743,
+          98.66999
+        ],
+        [
+          3.59745,
+          98.67008
+        ],
+        [
+          3.59784,
+          98.66996
+        ],
+        [
+          3.59808,
+          98.66988
+        ],
+        [
+          3.59826,
+          98.66981
+        ],
+        [
+          3.5984,
+          98.66977
+        ],
+        [
+          3.59847,
+          98.66976
+        ],
+        [
+          3.59855,
+          98.66977
+        ],
+        [
+          3.59878,
+          98.66985
+        ],
+        [
+          3.59881,
+          98.66966
+        ],
+        [
+          3.59904,
+          98.66965
+        ],
+        [
+          3.59914,
+          98.66965
+        ],
+        [
+          3.59929,
+          98.66966
+        ],
+        [
+          3.59946,
+          98.66969
+        ],
+        [
+          3.59964,
+          98.66971
+        ],
+        [
+          3.59993,
+          98.66972
+        ],
+        [
+          3.59993,
+          98.66976
+        ],
+        [
+          3.60013,
+          98.66976
+        ],
+        [
+          3.6003,
+          98.66975
+        ],
+        [
+          3.6004,
+          98.66975
+        ],
+        [
+          3.60055,
+          98.66974
+        ],
+        [
+          3.60085,
+          98.66977
+        ],
+        [
+          3.60086,
+          98.67043
+        ],
+        [
+          3.60051,
+          98.67037
+        ]
+      ]
+    },
+    {
+      "title_id": "Trail 3 — Rumah Tradisional Melayu",
+      "title_en": "Trail 3 — Malay Traditional House",
+      "slug": "trails-3-malay-house",
+      "neighbourhoodSlug": "silalas",
+      "heroImage": "/images/locations/rumah-adat-toba/gallery-2.jpg",
+      "description_id": "Rute yang menyusuri deretan rumah panggung tradisional Melayu di lorong-lorong Silalas. Data titik singgah dan dokumentasi rute ini akan segera ditambahkan.",
+      "description_en": "A route tracing rows of traditional Malay stilt houses in the lanes of Silalas. Stop data and route documentation for this trail will be added soon.",
+      "durationMinutes": 30,
+      "distanceMeters": 800,
+      "stepsCount": 1100,
+      "walkType": "Heritage Walk",
+      "pointsOfInterestCount": 0,
+      "latitude": 3.5965,
+      "longitude": 98.6712,
+      "lastUpdated": "Juni 2026",
+      "downloadableMapImage": "/images/locations/rumah-adat-toba/gallery-2.jpg",
+      "locationSlugs": [],
+      "contributors": [],
+      "nearbyWalkSlugs": [
+        "trails-2-malay-house",
+        "trails-4-cemetery-mosque"
+      ],
+      "route": [
+        [
+          3.5955,
+          98.67112
+        ],
+        [
+          3.5955,
+          98.67121
+        ],
+        [
+          3.59553,
+          98.67154
+        ],
+        [
+          3.59603,
+          98.67136
+        ],
+        [
+          3.59615,
+          98.67131
+        ],
+        [
+          3.59619,
+          98.67129
+        ],
+        [
+          3.59645,
+          98.6712
+        ],
+        [
+          3.59656,
+          98.67146
+        ],
+        [
+          3.59645,
+          98.6712
+        ],
+        [
+          3.59654,
+          98.67117
+        ],
+        [
+          3.59668,
+          98.67111
+        ],
+        [
+          3.59675,
+          98.67108
+        ],
+        [
+          3.5968,
+          98.67105
+        ],
+        [
+          3.59685,
+          98.67102
+        ],
+        [
+          3.59691,
+          98.67099
+        ],
+        [
+          3.59695,
+          98.67097
+        ],
+        [
+          3.59703,
+          98.67094
+        ],
+        [
+          3.59697,
+          98.67065
+        ],
+        [
+          3.59699,
+          98.67061
+        ],
+        [
+          3.59703,
+          98.67061
+        ],
+        [
+          3.59748,
+          98.67053
+        ],
+        [
+          3.59752,
+          98.67052
+        ],
+        [
+          3.59756,
+          98.67051
+        ],
+        [
+          3.5976,
+          98.6705
+        ],
+        [
+          3.59797,
+          98.67039
+        ],
+        [
+          3.59801,
+          98.6705
+        ],
+        [
+          3.5981,
+          98.67074
+        ],
+        [
+          3.59804,
+          98.67079
+        ],
+        [
+          3.59796,
+          98.67086
+        ],
+        [
+          3.59789,
+          98.67091
+        ],
+        [
+          3.59784,
+          98.67095
+        ],
+        [
+          3.59779,
+          98.67098
+        ],
+        [
+          3.59774,
+          98.67101
+        ],
+        [
+          3.59766,
+          98.67104
+        ],
+        [
+          3.59759,
+          98.67108
+        ],
+        [
+          3.59754,
+          98.67111
+        ],
+        [
+          3.59751,
+          98.67114
+        ],
+        [
+          3.59748,
+          98.67116
+        ],
+        [
+          3.59744,
+          98.67122
+        ],
+        [
+          3.5974,
+          98.67129
+        ],
+        [
+          3.5973,
+          98.67142
+        ],
+        [
+          3.59724,
+          98.67151
+        ],
+        [
+          3.59719,
+          98.67157
+        ],
+        [
+          3.59713,
+          98.67165
+        ],
+        [
+          3.59708,
+          98.67171
+        ],
+        [
+          3.59702,
+          98.67178
+        ],
+        [
+          3.59696,
+          98.67184
+        ],
+        [
+          3.59689,
+          98.67188
+        ],
+        [
+          3.59673,
+          98.67197
+        ],
+        [
+          3.59651,
+          98.67207
+        ],
+        [
+          3.59645,
+          98.6721
+        ],
+        [
+          3.59638,
+          98.67213
+        ],
+        [
+          3.59632,
+          98.67215
+        ],
+        [
+          3.59626,
+          98.67217
+        ],
+        [
+          3.59622,
+          98.67217
+        ],
+        [
+          3.59618,
+          98.67217
+        ],
+        [
+          3.59614,
+          98.67217
+        ],
+        [
+          3.5956,
+          98.67216
+        ],
+        [
+          3.59553,
+          98.67154
+        ],
+        [
+          3.59536,
+          98.67156
+        ],
+        [
+          3.59527,
+          98.67156
+        ],
+        [
+          3.59521,
+          98.67157
+        ],
+        [
+          3.59514,
+          98.67158
+        ],
+        [
+          3.59507,
+          98.67159
+        ],
+        [
+          3.59502,
+          98.6716
+        ],
+        [
+          3.59497,
+          98.6716
+        ],
+        [
+          3.59488,
+          98.67161
+        ],
+        [
+          3.59486,
+          98.67161
+        ],
+        [
+          3.59458,
+          98.67163
+        ],
+        [
+          3.59438,
+          98.67163
+        ]
+      ]
+    },
+    {
+      "title_id": "Trail 4 — Pemakaman Hijau & Masjid",
+      "title_en": "Trail 4 — Green Cemetery and Mosque",
+      "slug": "trails-4-cemetery-mosque",
+      "neighbourhoodSlug": "silalas",
+      "heroImage": "/images/locations/masjid-haji-maraset/gallery-1.jpg",
+      "description_id": "Rute yang menghubungkan ruang hijau pemakaman tua dan masjid bersejarah di kawasan Silalas. Data titik singgah dan dokumentasi rute ini akan segera ditambahkan.",
+      "description_en": "A route connecting the green space of an old cemetery and a historic mosque in the Silalas area. Stop data and route documentation for this trail will be added soon.",
+      "durationMinutes": 35,
+      "distanceMeters": 1000,
+      "stepsCount": 1400,
+      "walkType": "Heritage Walk",
+      "pointsOfInterestCount": 0,
+      "latitude": 3.594,
+      "longitude": 98.671,
+      "lastUpdated": "Juni 2026",
+      "downloadableMapImage": "/images/locations/masjid-haji-maraset/gallery-1.jpg",
+      "locationSlugs": [],
+      "contributors": [],
+      "nearbyWalkSlugs": [
+        "trails-1-deli-riverside",
+        "trails-3-malay-house"
+      ],
+      "route": [
+        [
+          3.595,
+          98.67432
+        ],
+        [
+          3.59495,
+          98.67421
+        ],
+        [
+          3.59489,
+          98.67402
+        ],
+        [
+          3.59482,
+          98.67377
+        ],
+        [
+          3.59469,
+          98.6738
+        ],
+        [
+          3.59466,
+          98.6737
+        ],
+        [
+          3.59464,
+          98.67361
+        ],
+        [
+          3.59464,
+          98.6735
+        ],
+        [
+          3.59463,
+          98.67339
+        ],
+        [
+          3.59462,
+          98.67321
+        ],
+        [
+          3.59461,
+          98.67298
+        ],
+        [
+          3.59456,
+          98.67249
+        ],
+        [
+          3.59456,
+          98.67242
+        ],
+        [
+          3.59455,
+          98.67232
+        ],
+        [
+          3.59453,
+          98.67222
+        ],
+        [
+          3.59451,
+          98.67215
+        ],
+        [
+          3.59393,
+          98.67217
+        ],
+        [
+          3.5938,
+          98.67217
+        ],
+        [
+          3.59367,
+          98.67217
+        ],
+        [
+          3.5936,
+          98.67217
+        ],
+        [
+          3.59354,
+          98.67217
+        ],
+        [
+          3.59329,
+          98.67218
+        ],
+        [
+          3.59325,
+          98.67219
+        ],
+        [
+          3.59315,
+          98.6722
+        ],
+        [
+          3.59304,
+          98.6722
+        ],
+        [
+          3.593,
+          98.6722
+        ],
+        [
+          3.59292,
+          98.6722
+        ],
+        [
+          3.59284,
+          98.6722
+        ],
+        [
+          3.59275,
+          98.6722
+        ],
+        [
+          3.59268,
+          98.67219
+        ],
+        [
+          3.59265,
+          98.67219
+        ],
+        [
+          3.59263,
+          98.67218
+        ],
+        [
+          3.59261,
+          98.67218
+        ],
+        [
+          3.59258,
+          98.67216
+        ],
+        [
+          3.59255,
+          98.67214
+        ],
+        [
+          3.59253,
+          98.67211
+        ],
+        [
+          3.59251,
+          98.67209
+        ],
+        [
+          3.59249,
+          98.67205
+        ],
+        [
+          3.59248,
+          98.67203
+        ],
+        [
+          3.59245,
+          98.67194
+        ],
+        [
+          3.59231,
+          98.67155
+        ],
+        [
+          3.59226,
+          98.6714
+        ],
+        [
+          3.59223,
+          98.67118
+        ],
+        [
+          3.59222,
+          98.67109
+        ],
+        [
+          3.59223,
+          98.67099
+        ],
+        [
+          3.59221,
+          98.67096
+        ],
+        [
+          3.5922,
+          98.67093
+        ],
+        [
+          3.59218,
+          98.6709
+        ],
+        [
+          3.59215,
+          98.67087
+        ],
+        [
+          3.59219,
+          98.67083
+        ],
+        [
+          3.59225,
+          98.67077
+        ],
+        [
+          3.59231,
+          98.6707
+        ],
+        [
+          3.59235,
+          98.67062
+        ],
+        [
+          3.59237,
+          98.67055
+        ],
+        [
+          3.59237,
+          98.67052
+        ],
+        [
+          3.59237,
+          98.6705
+        ],
+        [
+          3.59239,
+          98.6704
+        ],
+        [
+          3.59244,
+          98.67022
+        ],
+        [
+          3.59251,
+          98.66997
+        ],
+        [
+          3.59255,
+          98.66984
+        ],
+        [
+          3.59262,
+          98.66963
+        ],
+        [
+          3.59268,
+          98.66933
+        ],
+        [
+          3.59276,
+          98.66904
+        ],
+        [
+          3.59279,
+          98.669
+        ],
+        [
+          3.59283,
+          98.66898
+        ],
+        [
+          3.59287,
+          98.66896
+        ],
+        [
+          3.59292,
+          98.66893
+        ],
+        [
+          3.59297,
+          98.66892
+        ],
+        [
+          3.59301,
+          98.66891
+        ],
+        [
+          3.59307,
+          98.66892
+        ],
+        [
+          3.59317,
+          98.66893
+        ],
+        [
+          3.59323,
+          98.66893
+        ],
+        [
+          3.59331,
+          98.66895
+        ],
+        [
+          3.59343,
+          98.6691
+        ],
+        [
+          3.5935,
+          98.66928
+        ],
+        [
+          3.59353,
+          98.66936
+        ],
+        [
+          3.59356,
+          98.66945
+        ],
+        [
+          3.59358,
+          98.66953
+        ],
+        [
+          3.5936,
+          98.6696
+        ],
+        [
+          3.59362,
+          98.66968
+        ],
+        [
+          3.59347,
+          98.66968
+        ],
+        [
+          3.59329,
+          98.66968
+        ],
+        [
+          3.59311,
+          98.66968
+        ],
+        [
+          3.5931,
+          98.66986
+        ],
+        [
+          3.59309,
+          98.67004
+        ],
+        [
+          3.59307,
+          98.6704
+        ],
+        [
+          3.59307,
+          98.67058
+        ],
+        [
+          3.59306,
+          98.67076
+        ],
+        [
+          3.59304,
+          98.67112
+        ],
+        [
+          3.59303,
+          98.67125
+        ],
+        [
+          3.59306,
+          98.67124
+        ],
+        [
+          3.59308,
+          98.67124
+        ],
+        [
+          3.59309,
+          98.67124
+        ],
+        [
+          3.5931,
+          98.67125
+        ],
+        [
+          3.59311,
+          98.67125
+        ],
+        [
+          3.59312,
+          98.67124
+        ],
+        [
+          3.59314,
+          98.67123
+        ],
+        [
+          3.59352,
+          98.67112
+        ],
+        [
+          3.59381,
+          98.67104
+        ]
       ]
     }
   ],
   "locations": [
     {
-      "name_id": "Kantor Pos Besar Medan",
-      "name_en": "Medan Main Post Office",
-      "slug": "kantor-pos-besar-medan",
-      "walkSlug": "jelajah-pusaka-kesawan",
-      "category": "iSee",
-      "thumbnail": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=300&auto=format&fit=crop&q=80",
+      "name_id": "Rumah Qohwah",
+      "name_en": "Rumah Qohwah",
+      "slug": "rumah-qohwah",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iDrink",
+      "thumbnail": "/images/locations/rumah-qohwah/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1590073844006-33379778ae09?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/rumah-qohwah/gallery-1.jpg",
+        "/images/locations/rumah-qohwah/gallery-2.jpg",
+        "/images/locations/rumah-qohwah/gallery-3.jpg",
+        "/images/locations/rumah-qohwah/gallery-4.jpg",
+        "/images/locations/rumah-qohwah/gallery-5.jpg",
+        "/images/locations/rumah-qohwah/gallery-6.jpg",
+        "/images/locations/rumah-qohwah/gallery-7.jpg"
       ],
-      "shortDescription_id": "Ikon arsitektur kolonial dengan kubah burung merpati yang khas.",
-      "shortDescription_en": "Colonial architectural icon featuring a distinctive dove-shaped dome.",
-      "address_id": "Jl. Pos No. 1, Kesawan, Kota Medan",
-      "address_en": "1 Pos St, Kesawan, Medan City",
-      "openingHours_id": "Buka setiap hari, 08:00 - 20:00",
-      "openingHours_en": "Open daily, 08:00 AM - 08:00 PM",
-      "latitude": 3.591244,
-      "longitude": 98.678125,
-      "googleMapsUrl": "https://maps.google.com/?q=3.591244,98.678125",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.591244,98.678125",
-      "websiteUrl": "https://posindonesia.co.id",
+      "shortDescription_id": "Kedai kopi bernuansa khas yang menjadi titik awal penjelajahan rute ini.",
+      "shortDescription_en": "A characterful coffee house marking the start of this trail.",
+      "address_id": "Jl. Guru Patimpus, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. Guru Patimpus, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5949041,
+      "longitude": 98.6722438,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5949041,98.6722438",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5949041,98.6722438",
       "order": 1,
       "contentBlocks": [
         {
-          "type": "heading",
-          "text_id": "Pusat Komunikasi Era Kolonial",
-          "text_en": "The Hub of Colonial Communication"
-        },
-        {
           "type": "paragraph",
-          "text_id": "Didesain oleh arsitek Belanda terkemuka, Snuyf, kantor pos ini selesai dibangun pada tahun 1911. Kubah setengah lingkaran yang menghias atapnya dirancang menyerupai burung merpati pos, simbol pengiriman pesan zaman dahulu.",
-          "text_en": "Designed by the prominent Dutch architect Snuyf, this post office was completed in 1911. The semi-circular dome adorning its roof was designed to resemble a carrier pigeon, the ancient symbol of message delivery."
-        },
-        {
-          "type": "circle-image",
-          "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&auto=format&fit=crop&q=80",
-          "caption_id": "Detail pilar bangunan bergaya Eropa klasik di sudut depan.",
-          "caption_en": "Detail of the classic European style pillars at the front corner."
-        },
-        {
-          "type": "pull-quote",
-          "text_id": "\"Kantor Pos Besar bukan sekadar tempat mengirim surat; ia adalah saksi bisu modernitas kota Medan saat beralih dari rawa menjadi metropolis perkebunan.\"",
-          "text_en": "\"The Main Post Office is not just a place to send letters; it is a silent witness to Medan's modernity as it transitioned from swamp to a plantation metropolis.\"",
-          "author_id": "Koran Sumatra Post (1911)",
-          "author_en": "Sumatra Post Newspaper (1911)"
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     },
     {
-      "name_id": "Gedung London Sumatra (Lonsum)",
-      "name_en": "London Sumatra Building",
-      "slug": "gedung-london-sumatra",
-      "walkSlug": "jelajah-pusaka-kesawan",
-      "category": "iSee",
-      "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&auto=format&fit=crop&q=80",
+      "name_id": "Deli Riverview",
+      "name_en": "Deli Riverview",
+      "slug": "deli-riverview",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iSurprise",
+      "thumbnail": "/images/locations/deli-riverview/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/deli-riverview/gallery-1.jpg",
+        "/images/locations/deli-riverview/gallery-2.jpg",
+        "/images/locations/deli-riverview/gallery-3.jpg",
+        "/images/locations/deli-riverview/gallery-4.jpg"
       ],
-      "shortDescription_id": "Gedung pertama di Medan yang dilengkapi fasilitas lift.",
-      "shortDescription_en": "The first building in Medan equipped with passenger elevator facilities.",
-      "address_id": "Jl. Jenderal Ahmad Yani No. 2, Kesawan, Kota Medan",
-      "address_en": "2 Jenderal Ahmad Yani St, Kesawan, Medan City",
-      "openingHours_id": "Hanya eksterior (area kantor aktif)",
-      "openingHours_en": "Exterior only (active office area)",
-      "latitude": 3.589882,
-      "longitude": 98.677843,
-      "googleMapsUrl": "https://maps.google.com/?q=3.589882,98.677843",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.589882,98.677843",
+      "shortDescription_id": "Titik pandang menghadap Sungai Deli yang menjadi urat nadi Kota Medan.",
+      "shortDescription_en": "A viewpoint overlooking the Deli River, the lifeline of Medan.",
+      "address_id": "Tepi Sungai Deli, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Deli Riverbank, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5967211,
+      "longitude": 98.6720206,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5967211,98.6720206",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5967211,98.6720206",
       "order": 2,
       "contentBlocks": [
         {
-          "type": "heading",
-          "text_id": "Gedung Pencakar Langit Pertama",
-          "text_en": "The First Skyscraper"
-        },
-        {
           "type": "paragraph",
-          "text_id": "Selesai dibangun pada tahun 1906 untuk perusahaan perkebunan Inggris Harrison & Crosfield. Gaya arsitekturnya meniru rumah-rumah bangsawan London di era Edwardian, lengkap dengan jendela kaca patri dan struktur beton bertulang yang kokoh.",
-          "text_en": "Completed in 1906 for the British plantation firm Harrison & Crosfield. Its architectural style mimics London townhouse mansions of the Edwardian era, complete with stained glass windows and reinforced concrete."
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     },
     {
-      "name_id": "Gedung Balai Kota Lama",
-      "name_en": "Old Town Hall Building",
-      "slug": "gedung-balai-kota-lama",
-      "walkSlug": "jelajah-pusaka-kesawan",
+      "name_id": "Rumah Adat Toba",
+      "name_en": "Toba Traditional House",
+      "slug": "rumah-adat-toba",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=300&auto=format&fit=crop&q=80",
+      "thumbnail": "/images/locations/rumah-adat-toba/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/rumah-adat-toba/gallery-1.jpg",
+        "/images/locations/rumah-adat-toba/gallery-2.jpg",
+        "/images/locations/rumah-adat-toba/gallery-3.jpg"
       ],
-      "shortDescription_id": "Bekas pusat administrasi kota peninggalan tahun 1908.",
-      "shortDescription_en": "Former city administrative center dating back to 1908.",
-      "address_id": "Jl. Balai Kota No. 1, Kesawan, Kota Medan",
-      "address_en": "1 Balai Kota St, Kesawan, Medan City",
-      "openingHours_id": "Hanya akses luar (sekarang bagian hotel)",
-      "openingHours_en": "Exterior access only (now part of hotel)",
-      "latitude": 3.591987,
-      "longitude": 98.677321,
-      "googleMapsUrl": "https://maps.google.com/?q=3.591987,98.677321",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.591987,98.677321",
+      "shortDescription_id": "Rumah adat Batak Toba dengan arsitektur tradisional yang khas.",
+      "shortDescription_en": "A traditional Batak Toba house with distinctive vernacular architecture.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5970763,
+      "longitude": 98.6716123,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5970763,98.6716123",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5970763,98.6716123",
       "order": 3,
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Gedung putih klasik ini dirancang oleh Hulswit dan berfungsi sebagai Balai Kota Medan. Memiliki lonceng jam bersejarah yang disumbangkan oleh Tjong A Fie, melambangkan eratnya hubungan elite Tionghoa dengan pemerintah kolonial Belanda.",
-          "text_en": "This classical white building was designed by Hulswit and served as the Medan City Hall. It features a historic clock bell donated by Tjong A Fie, symbolizing the close relationship between the Chinese elite and the Dutch colonial government."
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     },
     {
-      "name_id": "Tjong A Fie Mansion",
-      "name_en": "Tjong A Fie Mansion",
-      "slug": "tjong-a-fie-mansion",
-      "walkSlug": "jelajah-pusaka-kesawan",
-      "category": "iSee",
-      "thumbnail": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=300&auto=format&fit=crop&q=80",
+      "name_id": "Steve's Coffee",
+      "name_en": "Steve's Coffee",
+      "slug": "steves-coffee",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iDrink",
+      "thumbnail": "/images/locations/steves-coffee/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/steves-coffee/gallery-1.jpg",
+        "/images/locations/steves-coffee/gallery-2.jpg"
       ],
-      "shortDescription_id": "Rumah megah 35 kamar milik tokoh paling berpengaruh di Medan tempo dulu.",
-      "shortDescription_en": "Grand 35-room mansion belonging to the most influential figure in old Medan.",
-      "address_id": "Jl. Jenderal Ahmad Yani No. 105, Kesawan, Kota Medan",
-      "address_en": "105 Jenderal Ahmad Yani St, Kesawan, Medan City",
-      "openingHours_id": "Buka setiap hari, 09:00 - 17:00 (Tiket masuk berbayar)",
-      "openingHours_en": "Open daily, 09:00 AM - 05:00 PM (Paid admission)",
-      "latitude": 3.585721,
-      "longitude": 98.676904,
-      "googleMapsUrl": "https://maps.google.com/?q=3.585721,98.676904",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.585721,98.676904",
-      "websiteUrl": "http://tjongafiemansion.org",
+      "shortDescription_id": "Kedai kopi modern untuk rehat sejenak di tengah rute.",
+      "shortDescription_en": "A modern coffee spot for a mid-trail break.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5978892,
+      "longitude": 98.6708553,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5978892,98.6708553",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5978892,98.6708553",
       "order": 4,
       "contentBlocks": [
         {
-          "type": "heading",
-          "text_id": "Mahakarya Akulturasi Arsitektur",
-          "text_en": "A Masterpiece of Architectural Fusion"
-        },
-        {
           "type": "paragraph",
-          "text_id": "Mansion ini memadukan gaya dinasti Qing dari Tiongkok, detail dekorasi Art Nouveau Eropa, dan struktur teras terbuka khas Melayu Deli. Tjong A Fie membangun kediaman ini pada 1895 untuk membuktikan harmoni antar etnis di tanah Deli.",
-          "text_en": "This mansion blends China's Qing Dynasty style, European Art Nouveau details, and Deli Malay open terrace layout. Tjong A Fie built this residence in 1895 to demonstrate inter-ethnic harmony in the land of Deli."
-        },
-        {
-          "type": "circle-image",
-          "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=400&auto=format&fit=crop&q=80",
-          "caption_id": "Ruang tamu utama berlapis kayu jati dan ornamen emas.",
-          "caption_en": "Main reception hall lined with teak wood and gold ornaments."
-        },
-        {
-          "type": "pull-quote",
-          "text_id": "\"Di mana tanah dipijak, di situ langit dijunjung. Saya ingin rumah ini menjadi jembatan budaya.\"",
-          "text_en": "\"Where we stand is the sky we hold high. I want this house to be a bridge of cultures.\"",
-          "author_id": "Wasiat Tjong A Fie",
-          "author_en": "Tjong A Fie's Testament"
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     },
     {
-      "name_id": "Gedung Warenhuis",
-      "name_en": "Warenhuis Building",
-      "slug": "gedung-warenhuis",
-      "walkSlug": "jelajah-pusaka-kesawan",
-      "category": "iSee",
-      "thumbnail": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=300&auto=format&fit=crop&q=80",
+      "name_id": "Bakso dan Mie Ayam Panorama",
+      "name_en": "Panorama Meatball & Chicken Noodles",
+      "slug": "bakso-mie-ayam-panorama",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iEat",
+      "thumbnail": "/images/locations/bakso-mie-ayam-panorama/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/bakso-mie-ayam-panorama/gallery-1.jpg",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-2.jpg",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-3.jpg",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-4.jpg",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-5.jpg",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-6.jpg"
       ],
-      "shortDescription_id": "Supermarket pertama di Sumatera yang bernilai sejarah tinggi.",
-      "shortDescription_en": "The first department store in Sumatra with high historical value.",
-      "address_id": "Jl. Hindu, Kesawan, Kota Medan",
-      "address_en": "Hindu St, Kesawan, Medan City",
-      "openingHours_id": "Dilihat dari luar saja (sedang restorasi)",
-      "openingHours_en": "View from exterior only (under restoration)",
-      "latitude": 3.588523,
-      "longitude": 98.676102,
-      "googleMapsUrl": "https://maps.google.com/?q=3.588523,98.676102",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.588523,98.676102",
+      "shortDescription_id": "Warung bakso dan mie ayam favorit warga setempat.",
+      "shortDescription_en": "A local favourite for meatball soup and chicken noodles.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5983242,
+      "longitude": 98.6705575,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5983242,98.6705575",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5983242,98.6705575",
       "order": 5,
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Dibangun tahun 1916 oleh arsitek G. Bos, toserba legendaris ini pernah menjual berbagai barang mewah impor dari Eropa untuk para administratur perkebunan Belanda yang makmur di Deli.",
-          "text_en": "Built in 1916 by architect G. Bos, this legendary department store once sold luxury European goods to the prosperous Dutch plantation administrators in Deli."
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     },
     {
-      "name_id": "Kuil Sri Mariamman",
-      "name_en": "Sri Mariamman Temple",
-      "slug": "kuil-sri-mariamman",
-      "walkSlug": "jelajah-pusaka-kesawan",
-      "category": "iSee",
-      "thumbnail": "https://images.unsplash.com/photo-1568283236402-6045d65c4ec9?w=300&auto=format&fit=crop&q=80",
+      "name_id": "Mie Ayam Bakso Solo",
+      "name_en": "Solo Chicken Noodles & Meatball",
+      "slug": "mie-ayam-bakso-solo",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iEat",
+      "thumbnail": "/images/locations/mie-ayam-bakso-solo/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1568283236402-6045d65c4ec9?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/mie-ayam-bakso-solo/gallery-1.jpg",
+        "/images/locations/mie-ayam-bakso-solo/gallery-2.jpg",
+        "/images/locations/mie-ayam-bakso-solo/gallery-3.jpg",
+        "/images/locations/mie-ayam-bakso-solo/gallery-4.jpg"
       ],
-      "shortDescription_id": "Kuil Hindu tertua di Kota Medan dengan gopuram megah.",
-      "shortDescription_en": "The oldest Hindu temple in Medan featuring a grand gopuram.",
-      "address_id": "Jl. K.H. Zainul Arifin No. 130, Kampung Madras, Medan",
-      "address_en": "130 K.H. Zainul Arifin St, Kampung Madras, Medan",
-      "openingHours_id": "Buka setiap hari, 06:00 - 12:00, 16:00 - 20:00",
-      "openingHours_en": "Open daily, 06:00 AM - 12:00 PM, 04:00 PM - 08:00 PM",
-      "latitude": 3.583561,
-      "longitude": 98.672004,
-      "googleMapsUrl": "https://maps.google.com/?q=3.583561,98.672004",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.583561,98.672004",
+      "shortDescription_id": "Sajian mie ayam dan bakso bercita rasa khas Solo.",
+      "shortDescription_en": "Solo-style chicken noodles and meatball soup.",
+      "address_id": "Jl. Sei Deli, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. Sei Deli, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6005944,
+      "longitude": 98.6703687,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6005944,98.6703687",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6005944,98.6703687",
       "order": 6,
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Didirikan tahun 1884 oleh imigran asal India Selatan yang didatangkan untuk bekerja di perkebunan Deli. Kuil ini didekorasi dengan patung-patung dewa Hindu berwarna-warni yang dipahat langsung oleh seniman India.",
-          "text_en": "Founded in 1884 by South Indian immigrants brought in to work on the Deli plantations. The temple is decorated with colorful statues of Hindu deities sculpted directly by Indian artists."
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     },
     {
-      "name_id": "Gang Senggol Kesawan",
-      "name_en": "Kesawan Alleyway (Gang Senggol)",
-      "slug": "gang-senggol-kesawan",
-      "walkSlug": "cita-rasa-kesawan",
+      "name_id": "Jembatan Kereta Api",
+      "name_en": "Railway Bridge",
+      "slug": "rel-kereta-api",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iSurprise",
-      "thumbnail": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300&auto=format&fit=crop&q=80",
+      "thumbnail": "/images/locations/rel-kereta-api/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/rel-kereta-api/gallery-1.jpg",
+        "/images/locations/rel-kereta-api/gallery-2.jpg",
+        "/images/locations/rel-kereta-api/gallery-3.jpg",
+        "/images/locations/rel-kereta-api/gallery-4.jpg",
+        "/images/locations/rel-kereta-api/gallery-5.jpg"
       ],
-      "shortDescription_id": "Gang kuliner sempit yang hidup di bawah bayang-bayang ruko tua.",
-      "shortDescription_en": "A narrow culinary alleyway coming alive under the shadows of old shophouses.",
-      "address_id": "Gang Senggol, Jl. A. Yani, Kesawan, Kota Medan",
-      "address_en": "Senggol Alley, A. Yani St, Kesawan, Medan City",
-      "openingHours_id": "Buka malam hari, 18:00 - 23:00",
-      "openingHours_en": "Open evening, 06:00 PM - 11:00 PM",
-      "latitude": 3.587211,
-      "longitude": 98.676504,
-      "googleMapsUrl": "https://maps.google.com/?q=3.587211,98.676504",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.587211,98.676504",
+      "shortDescription_id": "Jembatan rel kereta api tua yang melintang di atas Sungai Deli.",
+      "shortDescription_en": "An old railway bridge spanning the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.601147,
+      "longitude": 98.6704313,
+      "googleMapsUrl": "https://maps.google.com/?q=3.601147,98.6704313",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.601147,98.6704313",
       "order": 7,
       "contentBlocks": [
         {
-          "type": "heading",
-          "text_id": "Kehidupan Malam di Gang Sempit",
-          "text_en": "Nightlife in a Narrow Lane"
-        },
-        {
           "type": "paragraph",
-          "text_id": "Dinamai 'Gang Senggol' karena lebarnya yang hanya 1.5 meter memaksa para pengunjung saling bersenggolan saat melewatinya. Di sini Anda akan menemukan sate khas Medan, martabak tipis, dan berbagai hidangan lokal lainnya.",
-          "text_en": "Named 'Gang Senggol' (Nudge Alley) because its 1.5-meter width forces visitors to brush against each other. Here, you'll find Medan skewered meats, thin pancakes, and other local dishes."
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     },
     {
-      "name_id": "Tip Top Restaurant",
-      "name_en": "Tip Top Restaurant",
-      "slug": "tip-top-restaurant",
-      "walkSlug": "cita-rasa-kesawan",
+      "name_id": "TK Asasil Islam",
+      "name_en": "Asasil Islam Kindergarten",
+      "slug": "ra-asasil-islam",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iSee",
+      "thumbnail": "/images/locations/ra-asasil-islam/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/ra-asasil-islam/gallery-1.jpg",
+        "/images/locations/ra-asasil-islam/gallery-2.jpg",
+        "/images/locations/ra-asasil-islam/gallery-3.jpg",
+        "/images/locations/ra-asasil-islam/gallery-4.jpg"
+      ],
+      "shortDescription_id": "Taman kanak-kanak bernuansa keislaman yang menjadi penanda kampung.",
+      "shortDescription_en": "An Islamic kindergarten that marks the neighbourhood.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6025818,
+      "longitude": 98.6707819,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6025818,98.6707819",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6025818,98.6707819",
+      "order": 8,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Toko Kipas",
+      "name_en": "Toko Kipas",
+      "slug": "toko-kipas",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iSurprise",
+      "thumbnail": "/images/locations/toko-kipas/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/toko-kipas/gallery-1.jpg",
+        "/images/locations/toko-kipas/gallery-2.jpg",
+        "/images/locations/toko-kipas/gallery-3.jpg",
+        "/images/locations/toko-kipas/gallery-4.jpg"
+      ],
+      "shortDescription_id": "Toko lawas yang menyimpan cerita perdagangan tempo dulu.",
+      "shortDescription_en": "An old shop holding stories of bygone trade.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6008731,
+      "longitude": 98.6702533,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6008731,98.6702533",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6008731,98.6702533",
+      "order": 9,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Dapur Sedap Wangi",
+      "name_en": "Dapur Sedap Wangi",
+      "slug": "dapur-sedap-wangi",
+      "walkSlug": "trails-2-malay-house",
       "category": "iEat",
-      "thumbnail": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=300&auto=format&fit=crop&q=80",
+      "thumbnail": "/images/locations/dapur-sedap-wangi/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/dapur-sedap-wangi/gallery-1.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-2.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-3.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-4.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-5.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-6.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-7.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-8.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-9.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-10.jpg",
+        "/images/locations/dapur-sedap-wangi/gallery-11.jpg"
       ],
-      "shortDescription_id": "Cita rasa otentik era kolonial dengan panggangan batu arang sejak 1934.",
-      "shortDescription_en": "Authentic colonial flavors using a charcoal stone oven since 1934.",
-      "address_id": "Jl. Jenderal Ahmad Yani No. 92, Kesawan, Kota Medan",
-      "address_en": "92 Jenderal Ahmad Yani St, Kesawan, Medan City",
-      "openingHours_id": "Setiap hari, 08:00 - 21:30",
-      "openingHours_en": "Daily, 08:00 AM - 09:30 PM",
-      "latitude": 3.586884,
-      "longitude": 98.677021,
-      "googleMapsUrl": "https://maps.google.com/?q=3.586884,98.677021",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.586884,98.677021",
-      "websiteUrl": "https://tiptopmedan.com",
-      "order": 1,
-      "contentBlocks": [
-        {
-          "type": "heading",
-          "text_id": "Menjaga Resep Belanda Klasik",
-          "text_en": "Preserving Classic Dutch Recipes"
-        },
-        {
-          "type": "paragraph",
-          "text_id": "Tip Top awalnya didirikan dengan nama Jangkie di Jalan Pandu, lalu pindah ke Kesawan pada tahun 1934. Kue-kue kering Belanda seperti Bitterballen dan Speculaas di sini masih dipanggang menggunakan tungku batu kuno berbahan bakar kayu arang, menghasilkan aroma khas yang tak tertandingi.",
-          "text_en": "Tip Top was originally founded under the name Jangkie on Pandu Street, before moving to Kesawan in 1934. Dutch pastries such as Bitterballen and Speculaas are still baked in an ancient charcoal stone oven, yielding an incomparable aroma."
-        },
-        {
-          "type": "pull-quote",
-          "text_id": "\"Makan di Tip Top bukan sekadar mengisi perut, melainkan merayakan sejarah cita rasa kota Medan.\"",
-          "text_en": "\"Dining at Tip Top is not just filling your stomach; it is celebrating the history of Medan's taste.\"",
-          "author_id": "Pengunjung Setia (Sejak 1960)",
-          "author_en": "Loyal Visitor (Since 1960)"
-        }
-      ]
-    },
-    {
-      "name_id": "Kopi Apek",
-      "name_en": "Kopi Apek Coffee Shop",
-      "slug": "kopi-apek",
-      "walkSlug": "cita-rasa-kesawan",
-      "category": "iDrink",
-      "thumbnail": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=300&auto=format&fit=crop&q=80",
-      "gallery": [
-        "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=800&auto=format&fit=crop&q=80"
-      ],
-      "shortDescription_id": "Kedai kopi tertua di Medan, menyajikan kopi tiam legendaris sejak 1919.",
-      "shortDescription_en": "The oldest coffee shop in Medan, serving legendary kopitiam brews since 1919.",
-      "address_id": "Jl. Hindu No. 37, Kesawan, Kota Medan",
-      "address_en": "37 Hindu St, Kesawan, Medan City",
-      "openingHours_id": "Senin - Sabtu, 06:00 - 12:00",
-      "openingHours_en": "Monday - Saturday, 06:00 AM - 12:00 PM",
-      "latitude": 3.588824,
-      "longitude": 98.675902,
-      "googleMapsUrl": "https://maps.google.com/?q=3.588824,98.675902",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.588824,98.675902",
-      "order": 2,
-      "contentBlocks": [
-        {
-          "type": "paragraph",
-          "text_id": "Didirikan oleh pasangan suami istri keturunan Tionghoa, Kopi Apek mempertahankan suasana kedai tradisional dengan meja marmer bulat dan kursi kayu tua. Menu andalannya adalah Kopi Susu Panas dan roti bakar srikaya homemade yang kental.",
-          "text_en": "Founded by a Chinese-descendant couple, Kopi Apek maintains a traditional shop atmosphere with round marble tables and old wooden chairs. Its signature menu includes Hot Milk Coffee and thick homemade kaya toast."
-        }
-      ]
-    },
-    {
-      "name_id": "Kopi Kok Tong Kesawan",
-      "name_en": "Kok Tong Coffee Kesawan",
-      "slug": "kopi-kok-tong-kesawan",
-      "walkSlug": "cita-rasa-kesawan",
-      "category": "iDrink",
-      "thumbnail": "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=300&auto=format&fit=crop&q=80",
-      "gallery": [
-        "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=800&auto=format&fit=crop&q=80"
-      ],
-      "shortDescription_id": "Kopi robusta pekat resep klasik Pematangsiantar.",
-      "shortDescription_en": "Strong robusta coffee using Pematangsiantar classic recipe.",
-      "address_id": "Jl. Jenderal Ahmad Yani No. 82, Kesawan, Kota Medan",
-      "address_en": "82 Jenderal Ahmad Yani St, Kesawan, Medan City",
-      "openingHours_id": "Setiap hari, 09:00 - 22:00",
-      "openingHours_en": "Daily, 09:00 AM - 10:00 PM",
-      "latitude": 3.587884,
-      "longitude": 98.677221,
+      "shortDescription_id": "Rumah makan dengan aneka masakan rumahan.",
+      "shortDescription_en": "An eatery serving a variety of home-style dishes.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5987785,
+      "longitude": 98.6695771,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5987785,98.6695771",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5987785,98.6695771",
       "order": 3,
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Waralaba kopi klasik asal Siantar ini membawakan cita rasa robusta pekat hasil pemanggangan biji kopi dengan mentega secara tradisional. Tempat nongkrong favorit warga lokal di sore hari.",
-          "text_en": "This classic coffee franchise from Siantar brings strong robusta coffee notes roasted traditionally with butter. A favorite hang out spot for locals in the late afternoon."
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     },
     {
-      "name_id": "Restoran Nelayan Merdeka Walk",
-      "name_en": "Nelayan Restaurant Merdeka Walk",
-      "slug": "restoran-nelayan-merdeka",
-      "walkSlug": "cita-rasa-kesawan",
-      "category": "iEat",
-      "thumbnail": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=300&auto=format&fit=crop&q=80",
+      "name_id": "Pos Ronda",
+      "name_en": "Pos Ronda (Neighbourhood Watch Post)",
+      "slug": "pos-ronda",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSurprise",
+      "thumbnail": "/images/locations/pos-ronda/thumbnail.jpg",
       "gallery": [
-        "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&auto=format&fit=crop&q=80"
+        "/images/locations/pos-ronda/gallery-1.jpg"
       ],
-      "shortDescription_id": "Pelopor dimsum halal paling populer di Medan.",
-      "shortDescription_en": "The pioneer of Medan's most popular halal dim sum.",
-      "address_id": "Merdeka Walk Area, Jl. Balai Kota, Kesawan, Kota Medan",
-      "address_en": "Merdeka Walk Area, Balai Kota St, Kesawan, Medan City",
-      "openingHours_id": "Setiap hari, 10:00 - 22:00",
-      "openingHours_en": "Daily, 10:00 AM - 10:00 PM",
-      "latitude": 3.591561,
-      "longitude": 98.677004,
-      "order": 4,
+      "shortDescription_id": "Pos ronda warga, simbol kebersamaan lingkungan.",
+      "shortDescription_en": "A neighbourhood watch post, a symbol of community spirit.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5965373,
+      "longitude": 98.6698074,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5965373,98.6698074",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5965373,98.6698074",
+      "order": 1,
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Nelayan terkenal dengan dimsum pancake durian dan leng hong kien. Dimsum Nelayan telah menjadi standar kuliner Tionghoa-Medan yang ramah muslim dan sangat disukai wisatawan.",
-          "text_en": "Nelayan is famous for its durian pancake and leng hong kien. Nelayan's dim sum has become the Muslim-friendly standard of Chinese-Medanese culinary highly loved by tourists."
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Bamboo Bali Cafe",
+      "name_en": "Bamboo Bali Cafe",
+      "slug": "bamboo-bali-cafe",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iDrink",
+      "thumbnail": "/images/locations/bamboo-bali-cafe/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/bamboo-bali-cafe/gallery-1.jpg",
+        "/images/locations/bamboo-bali-cafe/gallery-2.jpg",
+        "/images/locations/bamboo-bali-cafe/gallery-3.jpg",
+        "/images/locations/bamboo-bali-cafe/gallery-4.jpg",
+        "/images/locations/bamboo-bali-cafe/gallery-5.jpg",
+        "/images/locations/bamboo-bali-cafe/gallery-6.jpg",
+        "/images/locations/bamboo-bali-cafe/gallery-7.jpg"
+      ],
+      "shortDescription_id": "Kafe bernuansa bambu Bali untuk bersantai di ujung rute.",
+      "shortDescription_en": "A Balinese bamboo-themed cafe to unwind at the end of the trail.",
+      "address_id": "Jl. Sei Deli, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. Sei Deli, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6064915,
+      "longitude": 98.6707998,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6064915,98.6707998",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6064915,98.6707998",
+      "order": 10,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Masjid Haji Maraset",
+      "name_en": "Haji Maraset Mosque",
+      "slug": "masjid-haji-maraset",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iSee",
+      "thumbnail": "/images/locations/masjid-haji-maraset/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/masjid-haji-maraset/gallery-1.jpg",
+        "/images/locations/masjid-haji-maraset/gallery-2.jpg",
+        "/images/locations/masjid-haji-maraset/gallery-3.jpg"
+      ],
+      "shortDescription_id": "Masjid bersejarah yang menjadi penanda kawasan.",
+      "shortDescription_en": "A historic mosque marking the neighbourhood.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6054839,
+      "longitude": 98.6709559,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6054839,98.6709559",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6054839,98.6709559",
+      "order": 11,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Florist",
+      "name_en": "Florist",
+      "slug": "florist",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iSurprise",
+      "thumbnail": "/images/locations/florist/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/florist/gallery-1.jpg",
+        "/images/locations/florist/gallery-2.jpg",
+        "/images/locations/florist/gallery-3.jpg",
+        "/images/locations/florist/gallery-4.jpg",
+        "/images/locations/florist/gallery-5.jpg",
+        "/images/locations/florist/gallery-6.jpg",
+        "/images/locations/florist/gallery-7.jpg"
+      ],
+      "shortDescription_id": "Kios bunga yang mewarnai sudut kawasan.",
+      "shortDescription_en": "A florist adding colour to the corner of the neighbourhood.",
+      "address_id": "Jl. Sei Deli, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. Sei Deli, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6060816,
+      "longitude": 98.6708052,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6060816,98.6708052",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6060816,98.6708052",
+      "order": 12,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Warung Bunda Long",
+      "name_en": "Warung Bunda Long",
+      "slug": "warung-bunda-long",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iEat",
+      "thumbnail": "/images/locations/warung-bunda-long/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/warung-bunda-long/gallery-1.jpg",
+        "/images/locations/warung-bunda-long/gallery-2.jpg",
+        "/images/locations/warung-bunda-long/gallery-3.jpg",
+        "/images/locations/warung-bunda-long/gallery-4.jpg",
+        "/images/locations/warung-bunda-long/gallery-5.jpg"
+      ],
+      "shortDescription_id": "Warung rumahan dengan menu sehari-hari yang merakyat.",
+      "shortDescription_en": "A homely warung serving everyday local fare.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5973567,
+      "longitude": 98.6697904,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5973567,98.6697904",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5973567,98.6697904",
+      "order": 2,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
     }
   ],
   "cerita": [
     {
-      "title_id": "Kedai Kopi Tua di Ujung Gang: Sejarah Kopi Apek Kesawan",
-      "title_en": "The Old Coffee Shop at the Corner: History of Kopi Apek",
-      "slug": "sejarah-kopi-apek-kesawan",
-      "coverImage": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=800&auto=format&fit=crop&q=80",
-      "excerpt_id": "Menyusuri kedai kopi legendaris Kopi Apek yang telah menyeduh kehangatan untuk warga Medan sejak tahun 1919.",
-      "excerpt_en": "Tracing the legendary Kopi Apek coffee shop that has been brewing warmth for Medan residents since 1919.",
-      "neighbourhoodSlug": "kesawan",
-      "categories": [
-        "Kuliner",
-        "Sejarah"
-      ],
-      "publishedDate": "2026-06-15",
-      "featured": true,
-      "body_id": [
-        {
-          "type": "paragraph",
-          "text_id": "Di sudut sunyi Jalan Hindu Kesawan, aroma kopi robusta menyeruak dari sebuah ruko tua bercat pudar. Ini adalah Kopi Apek, kedai kopi tertua di Medan yang didirikan oleh Mr. Lim A Pek pada tahun 1919.",
-          "text_en": "In a quiet corner of Hindu Street, Kesawan, the aroma of robusta coffee wafts from a faded shophouse. This is Kopi Apek, Medan's oldest coffee shop founded by Mr. Lim A Pek in 1919."
-        },
-        {
-          "type": "pull-quote",
-          "text_id": "\"Kopi di sini diseduh dengan air mendidih dari tungku arang, resep yang tak berubah selama satu abad.\"",
-          "text_en": "\"The coffee here is brewed with boiling water from a charcoal furnace, a recipe unchanged for a century.\"",
-          "author_id": "Generasi Penerus Kopi Apek",
-          "author_en": "Kopi Apek Successor"
-        }
-      ],
-      "body_en": [
-        {
-          "type": "paragraph",
-          "text_id": "Di sudut sunyi Jalan Hindu Kesawan, aroma kopi robusta menyeruak dari sebuah ruko tua bercat pudar. Ini adalah Kopi Apek, kedai kopi tertua di Medan yang didirikan oleh Mr. Lim A Pek pada tahun 1919.",
-          "text_en": "In a quiet corner of Hindu Street, Kesawan, the aroma of robusta coffee wafts from a faded shophouse. This is Kopi Apek, Medan's oldest coffee shop founded by Mr. Lim A Pek in 1919."
-        },
-        {
-          "type": "pull-quote",
-          "text_id": "\"Kopi di sini diseduh dengan air mendidih dari tungku arang, resep yang tak berubah selama satu abad.\"",
-          "text_en": "\"The coffee here is brewed with boiling water from a charcoal furnace, a recipe unchanged for a century.\"",
-          "author_id": "Generasi Penerus Kopi Apek",
-          "author_en": "Kopi Apek Successor"
-        }
-      ]
-    },
-    {
-      "title_id": "Arsitektur Megah Tjong A Fie Mansion: Perpaduan Tiga Budaya",
-      "title_en": "The Grand Architecture of Tjong A Fie Mansion: A Fusion of Three Cultures",
-      "slug": "arsitektur-tjong-a-fie-mansion",
-      "coverImage": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=800&auto=format&fit=crop&q=80",
-      "excerpt_id": "Bagaimana sebuah rumah megah di pusat Kesawan menggabungkan tradisi Tiongkok, kemegahan Eropa, dan kehangatan Melayu.",
-      "excerpt_en": "How a grand house in the center of Kesawan combines Chinese tradition, European grandeur, and Malay warmth.",
-      "neighbourhoodSlug": "kesawan",
-      "categories": [
-        "Arsitektur",
-        "Sejarah",
-        "Budaya"
-      ],
-      "publishedDate": "2026-06-10",
-      "featured": false,
-      "body_id": [
-        {
-          "type": "paragraph",
-          "text_id": "Mansion Tjong A Fie didirikan pada tahun 1895. Bangunan megah ini mencerminkan semangat multikulturalisme Kota Medan dengan memadukan unsur Tionghoa, kolonial Eropa, dan ornamen khas Melayu Deli.",
-          "text_en": "The Tjong A Fie Mansion was completed in 1895. This grand building reflects Medan's multicultural spirit by combining Chinese, European colonial, and Deli Malay styles."
-        }
-      ],
-      "body_en": [
-        {
-          "type": "paragraph",
-          "text_id": "Mansion Tjong A Fie didirikan pada tahun 1895. Bangunan megah ini mencerminkan semangat multikulturalisme Kota Medan dengan memadukan unsur Tionghoa, kolonial Eropa, dan ornamen khas Melayu Deli.",
-          "text_en": "The Tjong A Fie Mansion was completed in 1895. This grand building reflects Medan's multicultural spirit by combining Chinese, European colonial, and Deli Malay styles."
-        }
-      ]
-    },
-    {
-      "title_id": "Menyelamatkan Warenhuis: Upaya Konservasi Cagar Budaya",
-      "title_en": "Saving Warenhuis: Cultural Heritage Conservation Efforts",
-      "slug": "menyelamatkan-warenhuis-konservasi",
-      "coverImage": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&auto=format&fit=crop&q=80",
-      "excerpt_id": "Melihat lebih dekat proses restorasi Gedung Warenhuis, toserba pertama di Sumatera yang terancam punah.",
-      "excerpt_en": "A closer look at the restoration process of the Warenhuis Building, Sumatra's endangered first department store.",
-      "neighbourhoodSlug": "kesawan",
+      "title_id": "Menyusuri Tepian Sungai Deli di Silalas",
+      "title_en": "Walking the Deli Riverbanks in Silalas",
+      "slug": "menyusuri-tepian-sungai-deli-silalas",
+      "coverImage": "/images/locations/deli-riverview/gallery-1.jpg",
+      "excerpt_id": "Catatan perjalanan menyusuri kampung tepi Sungai Deli di Silalas, dari kedai kopi hingga rumah panggung Melayu.",
+      "excerpt_en": "A travel note walking the Deli riverside kampung in Silalas, from coffee shops to Malay stilt houses.",
+      "neighbourhoodSlug": "silalas",
       "categories": [
         "Komunitas",
         "Sejarah"
       ],
-      "publishedDate": "2026-06-08",
-      "featured": false,
+      "publishedDate": "2026-06-19",
+      "featured": true,
       "body_id": [
         {
           "type": "paragraph",
-          "text_id": "Gedung Warenhuis di Jalan Hindu adalah saksi keemasan ekonomi kota Medan abad ke-20. Sempat terbakar dan terlantar, kini komunitas arsitek lokal bekerja keras merestorasinya.",
-          "text_en": "The Warenhuis Building on Hindu Street is a witness to the golden economy of 20th-century Medan. Once burned and neglected, now a local architects community is working hard to restore it."
+          "text_id": "Artikel ini masih berupa placeholder. Konten cerita akan ditambahkan setelah dokumentasi survei Silalas dirapikan.",
+          "text_en": "This article is still a placeholder. Story content will be added once the Silalas survey documentation is finalised."
         }
       ],
       "body_en": [
         {
           "type": "paragraph",
-          "text_id": "Gedung Warenhuis di Jalan Hindu adalah saksi keemasan ekonomi kota Medan abad ke-20. Sempat terbakar dan terlantar, kini komunitas arsitek lokal bekerja keras merestorasinya.",
-          "text_en": "The Warenhuis Building on Hindu Street is a witness to the golden economy of 20th-century Medan. Once burned and neglected, now a local architects community is working hard to restore it."
+          "text_id": "Artikel ini masih berupa placeholder. Konten cerita akan ditambahkan setelah dokumentasi survei Silalas dirapikan.",
+          "text_en": "This article is still a placeholder. Story content will be added once the Silalas survey documentation is finalised."
         }
       ]
     }
