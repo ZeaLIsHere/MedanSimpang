@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Clock, Navigation, MapPin, Globe, Download, ArrowLeft, Heart, Share2 } from 'lucide-react';
+import { Clock, Navigation, MapPin, Globe, Download, ArrowLeft } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -18,7 +18,7 @@ import { CategoryType } from '@/types';
 const MedanMap = dynamic(() => import('@/components/map/MedanMap'), {
   ssr: false,
   loading: () => (
-    <div className="h-[350px] md:h-[450px] w-full bg-bone/35 animate-pulse rounded-2xl flex flex-col items-center justify-center text-text-muted border border-bone/60">
+    <div className="h-full w-full bg-bone/35 animate-pulse flex flex-col items-center justify-center text-text-muted border-l border-bone/60">
       <MapPin className="h-8 w-8 text-primary animate-bounce mb-2" />
       <span className="text-sm font-semibold tracking-wider">Memuat Peta Interaktif...</span>
     </div>
@@ -40,7 +40,7 @@ export default function WalkDetail() {
         <Header />
         <main className="flex-grow flex flex-col items-center justify-center pt-24 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Rute Tidak Ditemukan</h2>
-          <p className="mt-2 text-text-muted">Maaf, rute jalan kaki dengan slug "{walkSlug}" belum terdaftar.</p>
+          <p className="mt-2 text-text-muted">Maaf, rute jalan kaki dengan slug &quot;{walkSlug}&quot; belum terdaftar.</p>
           <Link href="/" className="mt-6 flex items-center text-primary font-bold hover:underline">
             <ArrowLeft className="mr-1.5 h-4 w-4" /> Kembali ke Beranda
           </Link>
@@ -63,8 +63,8 @@ export default function WalkDetail() {
 
   const distanceKm = (walk.distanceMeters / 1000).toFixed(1);
   const distanceText = language === 'id'
-    ? `${distanceKm} km (${walk.stepsCount} langkah)`
-    : `${distanceKm} km (${walk.stepsCount} steps)`;
+    ? `${distanceKm} km`
+    : `${distanceKm} km`;
 
   const breadcrumbsItems = [
     { label: kawasan?.name || 'Kawasan', path: `/kawasan/${walk.neighbourhoodSlug}` },
@@ -89,135 +89,117 @@ export default function WalkDetail() {
     { key: 'iSurprise', label: language === 'id' ? 'Unik' : 'Surprises', color: 'bg-isurprise text-white border-isurprise' },
   ];
 
+  // Build map pins from filtered locations
+  const mapPins = filteredLocations.map((loc) => ({
+    id: loc.slug,
+    latitude: loc.latitude,
+    longitude: loc.longitude,
+    order: loc.order,
+    category: loc.category,
+    popupData: {
+      title: language === 'id' ? loc.name_id : loc.name_en,
+      subtitle: language === 'id' ? loc.shortDescription_id : loc.shortDescription_en,
+      imageUrl: loc.thumbnail,
+      linkUrl: `/walks/${walkSlug}/lokasi/${loc.slug}`,
+      linkText: language === 'id' ? 'Detail Lokasi' : 'Explore Stop',
+    },
+  }));
+
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-background">
       <Header />
 
+      {/* Main scrollable grid container — same pattern as Homepage */}
       <main className="flex-grow pt-24 pb-16">
-        {/* Breadcrumbs */}
-        <div className="bg-bone/30 border-b border-bone/40 py-3">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <Breadcrumbs items={breadcrumbsItems} />
-          </div>
-        </div>
-
-        {/* Hero Section */}
-        <div className="relative h-[300px] md:h-[450px] w-full overflow-hidden bg-accent">
-          <Image
-            src={walk.heroImage}
-            alt={title}
-            fill
-            className="object-cover opacity-40"
-            priority
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-accent via-accent/50 to-transparent" />
-          <div className="absolute bottom-0 left-0 right-0 py-8 md:py-12 z-10">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-white">
-              <span className="inline-block rounded-md bg-primary/20 border border-primary/40 px-2.5 py-0.5 text-xs font-bold text-primary uppercase tracking-wider mb-3">
-                {walk.walkType}
-              </span>
-              <h1 className="font-serif text-3xl md:text-5xl font-black tracking-tight leading-tight max-w-3xl">
-                {title}
-              </h1>
-              <p className="mt-2 text-xs md:text-sm text-gray-300 font-light">
-                {language === 'id' ? 'Kredit Kawasan: ' : 'District: '}
-                <Link href={`/kawasan/${walk.neighbourhoodSlug}`} className="underline font-bold text-white hover:text-primary">
-                  {kawasan?.name}
-                </Link>
-                {` • `}
-                {language === 'id' ? 'Terakhir diperbarui: ' : 'Last updated: '} {walk.lastUpdated}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Info Strip */}
-        <section className="bg-white border-b border-bone/40 shadow-sm py-4">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center md:text-left divide-y md:divide-y-0 md:divide-x divide-bone/50">
-              <div className="flex flex-col justify-center items-center md:items-start py-2 md:py-0 md:px-4">
-                <span className="text-[10px] uppercase font-bold tracking-wider text-text-muted mb-1 flex items-center gap-1">
-                  <Clock className="w-3.5 h-3.5 text-secondary" />
-                  {language === 'id' ? 'Durasi Rute' : 'Walk Duration'}
-                </span>
-                <span className="text-lg font-bold text-accent">{durationText}</span>
-              </div>
-              
-              <div className="flex flex-col justify-center items-center md:items-start py-2 md:py-0 md:px-4">
-                <span className="text-[10px] uppercase font-bold tracking-wider text-text-muted mb-1 flex items-center gap-1">
-                  <Navigation className="w-3.5 h-3.5 text-secondary" />
-                  {language === 'id' ? 'Jarak Tempuh' : 'Walk Distance'}
-                </span>
-                <span className="text-lg font-bold text-accent">{distanceText}</span>
-              </div>
-
-              <div className="flex flex-col justify-center items-center md:items-start py-2 md:py-0 md:px-4">
-                <span className="text-[10px] uppercase font-bold tracking-wider text-text-muted mb-1 flex items-center gap-1">
-                  <MapPin className="w-3.5 h-3.5 text-secondary" />
-                  {language === 'id' ? 'Titik Singgah' : 'Points of Interest'}
-                </span>
-                <span className="text-lg font-bold text-accent">{walk.pointsOfInterestCount} POI</span>
-              </div>
-
-              <div className="flex flex-col justify-center items-center md:items-start py-2 md:py-0 md:px-4">
-                <span className="text-[10px] uppercase font-bold tracking-wider text-text-muted mb-1 flex items-center gap-1">
-                  <Globe className="w-3.5 h-3.5 text-secondary" />
-                  {language === 'id' ? 'Bahasa Rute' : 'Languages'}
-                </span>
-                <span className="text-lg font-bold text-accent">ID / EN</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Description & Map Layout */}
-        <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="w-full px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             
-            {/* Left Content Column */}
-            <div className="lg:col-span-2 space-y-8">
-              {/* Bilingual Switcher */}
-              <div className="inline-flex items-center gap-3 bg-bone/45 border border-bone/80 px-4 py-2 rounded-xl text-xs font-medium text-text-muted">
-                <Globe className="h-4 w-4 text-secondary" />
-                <span>{language === 'id' ? 'Baca rute dalam:' : 'Read walk in:'}</span>
-                <div className="flex gap-2">
-                  <button
-                    onClick={() => setLanguage('id')}
-                    className={`px-2 py-0.5 rounded ${
-                      language === 'id'
-                        ? 'bg-primary text-accent font-bold'
-                        : 'hover:text-secondary'
-                    }`}
-                  >
-                    Indonesia
-                  </button>
-                  <button
-                    onClick={() => setLanguage('en')}
-                    className={`px-2 py-0.5 rounded ${
-                      language === 'en'
-                        ? 'bg-primary text-accent font-bold'
-                        : 'hover:text-secondary'
-                    }`}
-                  >
-                    English
-                  </button>
+            {/* Left Column: Walk Content (5/12) */}
+            <div className="lg:col-span-5 xl:col-span-5 space-y-8">
+              {/* Breadcrumbs */}
+              <Breadcrumbs items={breadcrumbsItems} />
+
+              {/* Walk Header */}
+              <div className="space-y-4 pt-2">
+                <span className="inline-block rounded-md bg-primary/20 border border-primary/40 px-2.5 py-0.5 text-xs font-bold text-primary uppercase tracking-wider">
+                  {walk.walkType}
+                </span>
+                <h1 className="font-serif text-3xl sm:text-4xl font-black text-accent tracking-tight leading-tight">
+                  {title}
+                </h1>
+                <p className="text-xs text-text-muted font-light">
+                  {language === 'id' ? 'Kawasan: ' : 'District: '}
+                  <Link href={`/kawasan/${walk.neighbourhoodSlug}`} className="underline font-bold text-secondary hover:text-primary">
+                    {kawasan?.name}
+                  </Link>
+                  {` • `}
+                  {language === 'id' ? 'Terakhir diperbarui: ' : 'Last updated: '} {walk.lastUpdated}
+                </p>
+              </div>
+
+              {/* Info Strip (compact horizontal) */}
+              <div className="flex flex-wrap items-center gap-4 bg-white border border-bone/50 rounded-xl px-4 py-3 shadow-sm text-center">
+                <div className="flex items-center gap-1.5">
+                  <Clock className="w-3.5 h-3.5 text-secondary" />
+                  <span className="text-xs font-bold text-accent">{durationText}</span>
+                </div>
+                <div className="w-px h-5 bg-bone/60" />
+                <div className="flex items-center gap-1.5">
+                  <Navigation className="w-3.5 h-3.5 text-secondary" />
+                  <span className="text-xs font-bold text-accent">{distanceText}</span>
+                </div>
+                <div className="w-px h-5 bg-bone/60" />
+                <div className="flex items-center gap-1.5">
+                  <MapPin className="w-3.5 h-3.5 text-secondary" />
+                  <span className="text-xs font-bold text-accent">{walk.pointsOfInterestCount} POI</span>
+                </div>
+                <div className="w-px h-5 bg-bone/60" />
+                <div className="flex items-center gap-1.5">
+                  <Globe className="w-3.5 h-3.5 text-secondary" />
+                  <span className="text-xs font-bold text-accent">ID / EN</span>
                 </div>
               </div>
 
-              {/* Walk Description */}
-              <p className="text-base md:text-lg text-text-main font-light leading-relaxed">
-                {description}
-              </p>
+              {/* Bilingual Switcher & Description */}
+              <div className="space-y-4 border-t border-bone/45 pt-6">
+                <div className="inline-flex items-center gap-3 bg-bone/45 border border-bone/80 px-4 py-2 rounded-xl text-xs font-medium text-text-muted">
+                  <Globe className="h-4 w-4 text-secondary" />
+                  <span>{language === 'id' ? 'Baca rute dalam:' : 'Read walk in:'}</span>
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => setLanguage('id')}
+                      className={`px-2 py-0.5 rounded ${
+                        language === 'id'
+                          ? 'bg-primary text-accent font-bold'
+                          : 'hover:text-secondary'
+                      }`}
+                    >
+                      Indonesia
+                    </button>
+                    <button
+                      onClick={() => setLanguage('en')}
+                      className={`px-2 py-0.5 rounded ${
+                        language === 'en'
+                          ? 'bg-primary text-accent font-bold'
+                          : 'hover:text-secondary'
+                      }`}
+                    >
+                      English
+                    </button>
+                  </div>
+                </div>
 
-              {/* Map Filter & Interactive Map Section */}
-              <div className="space-y-4 pt-4">
-                <h3 className="font-serif text-2xl font-bold text-accent">
-                  {language === 'id' ? 'Peta Interaktif Rute' : 'Interactive Trail Map'}
+                <p className="text-sm md:text-base text-text-main font-light leading-relaxed">
+                  {description}
+                </p>
+              </div>
+
+              {/* Category Filter Chips */}
+              <div className="space-y-4 border-t border-bone/45 pt-6">
+                <h3 className="font-serif text-xl font-bold text-accent">
+                  {language === 'id' ? 'Filter Kategori' : 'Category Filter'}
                 </h3>
-                
-                {/* Custom Category Filter Chips */}
-                <div className="flex flex-wrap gap-2 pb-2">
+                <div className="flex flex-wrap gap-2">
                   {filterChips.map((chip) => {
                     const count = getCategoryCount(chip.key);
                     const isActive = activeCategory === chip.key;
@@ -237,42 +219,11 @@ export default function WalkDetail() {
                     );
                   })}
                 </div>
-
-                {/* Map Display */}
-                <div className="h-[350px] md:h-[450px] w-full">
-                  {(() => {
-                    const pins = filteredLocations.map((loc) => ({
-                      id: loc.slug,
-                      latitude: loc.latitude,
-                      longitude: loc.longitude,
-                      order: loc.order,
-                      category: loc.category,
-                      popupData: {
-                        title: language === 'id' ? loc.name_id : loc.name_en,
-                        subtitle: language === 'id' ? loc.shortDescription_id : loc.shortDescription_en,
-                        imageUrl: loc.thumbnail,
-                        linkUrl: `/walks/${walkSlug}/lokasi/${loc.slug}`,
-                        linkText: language === 'id' ? 'Detail Lokasi' : 'Explore Stop',
-                      },
-                    }));
-                    return (
-                      <MedanMap
-                        pins={pins}
-                        language={language}
-                        centerLat={walk.latitude || 3.589882}
-                        centerLng={walk.longitude || 98.677843}
-                        zoom={15}
-                        activePinId={activeLocationSlug}
-                        onPinClick={(slug) => setActiveLocationSlug(slug)}
-                      />
-                    );
-                  })()}
-                </div>
               </div>
 
-              {/* List of Locations (Synced with Active Filters) */}
-              <div className="space-y-6 pt-8">
-                <h3 className="font-serif text-2xl font-bold text-accent">
+              {/* List of Locations (Synced with Active Filters & Map) */}
+              <div className="space-y-6 border-t border-bone/45 pt-6">
+                <h3 className="font-serif text-xl font-bold text-accent">
                   {language === 'id' ? 'Urutan Titik Singgah' : 'List of Stops'}
                 </h3>
                 
@@ -314,14 +265,14 @@ export default function WalkDetail() {
                         {/* Location Details */}
                         <div className="flex-1 space-y-1">
                           <div className="flex flex-wrap items-center gap-2">
-                            <h4 className={`font-serif font-bold text-base md:text-lg transition-colors duration-300 ${
+                            <h4 className={`font-serif font-bold text-sm md:text-base transition-colors duration-300 ${
                               isHovered ? 'text-secondary' : 'text-accent'
                             }`}>
                               {name}
                             </h4>
                             <Badge category={loc.category} lang={language} />
                           </div>
-                          <p className="text-xs md:text-sm text-text-muted font-light leading-relaxed">
+                          <p className="text-xs text-text-muted font-light leading-relaxed">
                             {subtitle}
                           </p>
                         </div>
@@ -329,13 +280,13 @@ export default function WalkDetail() {
                         {/* Detail Link button */}
                         <Link
                           href={`/walks/${walkSlug}/lokasi/${loc.slug}`}
-                          className={`w-full sm:w-auto text-center px-4 py-2 text-xs font-bold rounded-lg transition-colors uppercase tracking-wider ${
+                          className={`w-full sm:w-auto text-center px-3 py-2 text-xs font-bold rounded-lg transition-colors uppercase tracking-wider ${
                             isHovered 
                               ? 'bg-secondary text-white border border-secondary'
                               : 'bg-bone/40 border border-bone/70 text-accent hover:bg-secondary hover:text-white'
                           }`}
                         >
-                          {language === 'id' ? 'Detail Lokasi' : 'Explore Stop'} &rarr;
+                          {language === 'id' ? 'Detail' : 'Explore'} &rarr;
                         </Link>
                       </div>
                     );
@@ -349,10 +300,7 @@ export default function WalkDetail() {
                   )}
                 </div>
               </div>
-            </div>
 
-            {/* Right Sidebar Column */}
-            <div className="space-y-8">
               {/* Download Map Card */}
               <div className="bg-white rounded-2xl border border-bone/60 shadow-sm p-6 space-y-4">
                 <h3 className="font-serif text-lg font-bold text-accent">
@@ -364,7 +312,7 @@ export default function WalkDetail() {
                     alt="Map illustration preview"
                     fill
                     className="object-cover opacity-80"
-                    sizes="(max-width: 768px) 100vw, 300px"
+                    sizes="(max-width: 768px) 100vw, 400px"
                   />
                   <div className="absolute inset-0 bg-black/10" />
                 </div>
@@ -463,10 +411,24 @@ export default function WalkDetail() {
               )}
             </div>
 
+            {/* Right Column: Sticky Window Map (7/12) — same as Homepage */}
+            <div className="lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px] w-full h-[380px] sm:h-[450px] lg:h-[calc(100vh-140px)] rounded-2xl overflow-hidden shadow-md">
+              <MedanMap
+                pins={mapPins}
+                language={language}
+                centerLat={walk.latitude || 3.589882}
+                centerLng={walk.longitude || 98.677843}
+                zoom={15}
+                activePinId={activeLocationSlug}
+                onPinClick={(slug) => setActiveLocationSlug(slug)}
+              />
+            </div>
+
           </div>
-        </section>
+        </div>
       </main>
 
+      {/* Footer at the very bottom of the page */}
       <Footer />
     </div>
   );
