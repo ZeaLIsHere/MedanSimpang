@@ -3,6 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { CategoryType } from '@/types';
+import { assetPath } from '@/lib/paths';
 import 'leaflet/dist/leaflet.css';
 
 export interface MapPinData {
@@ -87,8 +88,10 @@ export default function MedanMap({
       ? `<div class="absolute -top-1.5 -right-1.5 flex items-center justify-center w-4 h-4 rounded-full bg-white text-[9px] font-bold shadow-sm" style="color: ${color}; border: 1px solid ${color};">${pin.order}</div>`
       : '';
 
+    const label = (pin.popupData?.title || 'Lokasi').replace(/"/g, '&quot;');
+
     const htmlContent = `
-      <div class="relative flex items-center justify-center">
+      <div class="relative flex items-center justify-center" role="button" tabindex="0" aria-label="${label}">
         <span class="absolute inline-flex h-8 w-8 rounded-full opacity-40 animate-ping" style="background-color: ${color};"></span>
         <div class="relative flex items-center justify-center w-8 h-8 rounded-full border-2 border-white shadow-md text-white" style="background-color: ${color};">
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${svg}</svg>
@@ -183,13 +186,13 @@ export default function MedanMap({
         <div class="w-48 font-sans" style="margin: -4px -4px;">
           ${popupData.imageUrl ? `
             <div style="height: 100px; width: 100%; overflow: hidden; border-radius: 8px 8px 0 0; background-color: #F4F1DE; margin-bottom: 8px;">
-              <img src="${popupData.imageUrl}" style="width: 100%; height: 100%; object-fit: cover;" />
+              <img src="${assetPath(popupData.imageUrl)}" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
           ` : ''}
           <div style="padding: ${popupData.imageUrl ? '0 10px 10px 10px' : '10px'};">
             <h4 style="font-family: inherit; font-weight: 700; color: #264653; font-size: 13px; margin: 0; line-height: 1.3;">${popupData.title}</h4>
             ${popupData.subtitle ? `<p style="font-family: inherit; color: #4B5563; font-size: 11px; margin: 4px 0 0 0; line-height: 1.4; font-weight: 300;">${popupData.subtitle}</p>` : ''}
-            <a href="${popupData.linkUrl}" class="map-popup-link" data-url="${popupData.linkUrl}" style="display: block; width: 100%; text-align: center; padding: 6px 0; background-color: #DDA15E; color: #264653; font-weight: 700; font-size: 10px; border-radius: 6px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 10px; transition: background-color 0.2s;">
+            <a href="${assetPath(popupData.linkUrl)}" class="map-popup-link" data-url="${popupData.linkUrl}" style="display: block; width: 100%; text-align: center; padding: 6px 0; background-color: #DDA15E; color: #264653; font-weight: 700; font-size: 10px; border-radius: 6px; text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 10px; transition: background-color 0.2s;">
               ${popupData.linkText}
             </a>
           </div>
@@ -198,6 +201,9 @@ export default function MedanMap({
 
       const marker = L.marker([pin.latitude, pin.longitude], {
         icon: getMarkerIcon(L, pin),
+        title: pin.popupData?.title,
+        alt: pin.popupData?.title,
+        keyboard: true,
       })
         .addTo(mapRef.current)
         .bindPopup(popupHtml, {
@@ -234,8 +240,8 @@ export default function MedanMap({
       if (!route.coordinates || route.coordinates.length < 2) return;
       const poly = L.polyline(route.coordinates, {
         color: route.color || ROUTE_COLOR,
-        weight: 4,
-        opacity: 0.85,
+        weight: 5,
+        opacity: 0.9,
         lineJoin: 'round',
         lineCap: 'round',
       }).addTo(mapRef.current);

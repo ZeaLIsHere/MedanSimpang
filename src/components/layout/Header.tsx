@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X, ChevronDown, Globe } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { getAllKawasan, getAllCeritaCategories } from '@/data/db';
@@ -87,14 +88,16 @@ export default function Header() {
     >
       <div className="w-full px-6 lg:px-12">
         <div className="flex h-16 items-center justify-between">
-          {/* Logo & Tagline */}
-          <Link href="/" className="flex flex-col items-start group">
-            <span className="font-serif text-xl md:text-2xl font-black tracking-wider text-accent transition-colors group-hover:text-secondary">
-              MEDAN <span className="text-primary">SIMPANG</span>
-            </span>
-            <span className="text-[10px] uppercase font-bold tracking-widest text-text-muted mt-0.5 font-sans leading-none">
-              Seen at eye level
-            </span>
+          {/* Logo */}
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/images/logo.png"
+              alt="Medan Simpang — Seen at Eye Level"
+              width={200}
+              height={59}
+              className="h-12 md:h-16 w-auto transition-opacity group-hover:opacity-80"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation & Actions (Right Aligned) */}
