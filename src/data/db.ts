@@ -1,5 +1,33 @@
-import seedData from './seed.json';
+import rawSeedData from './seed.json';
 import { Kawasan, Walk, Location, Cerita } from '@/types';
+
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+// Recursively prefix any local asset path (starts with "/images") with the
+// configured basePath, so images resolve correctly when the app is served
+// under a subpath (e.g. namadomain/medansimpang). next/image with
+// `unoptimized` does NOT apply basePath automatically, so we do it here at the
+// single data-access boundary.
+function withBasePath<T>(value: T): T {
+  if (typeof value === 'string') {
+    return (value.startsWith('/images') && !value.startsWith(`${BASE_PATH}/images`)
+      ? `${BASE_PATH}${value}`
+      : value) as T;
+  }
+  if (Array.isArray(value)) {
+    return value.map(withBasePath) as T;
+  }
+  if (value && typeof value === 'object') {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value)) {
+      out[k] = withBasePath(v);
+    }
+    return out as T;
+  }
+  return value;
+}
+
+const seedData = withBasePath(rawSeedData);
 
 // Cast JSON data to typed arrays
 const kawasanList = seedData.kawasan as Kawasan[];

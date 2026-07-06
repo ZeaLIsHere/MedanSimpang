@@ -1,0 +1,8 @@
+# Taruh file ini di public_html/.htaccess (root domain, DI LUAR folder medansimpang).
+# Fungsinya: mengarahkan pengunjung urbanmorph.com  ->  urbanmorph.com/medansimpang/
+
+RewriteEngine On
+
+# Arahkan HANYA root domain (urbanmorph.com atau urbanmorph.com/) ke /medansimpang/.
+# Pakai 302 (sementara) dulu selama testing. Setelah yakin benar, ganti 302 -> 301 (permanen, ramah SEO).
+RewriteRule ^$ /medansimpang/ [R=302,L]
