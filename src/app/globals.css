@@ -4,6 +4,8 @@
   --background: #FDFBF7; /* Off-white / Cream */
   --foreground: #1F2937; /* Charcoal / Dark Grey */
   --color-primary: #DDA15E; /* Royal Malay Yellow */
+  --color-primary-strong: #8a5a12; /* Dark gold — teks di atas background terang (WCAG AA) */
+  --color-primary-light: #ecc07f; /* Light gold — teks di atas background gelap (footer) */
   --color-secondary: #2A9D8F; /* Sage Green */
   --color-accent: #264653; /* Iron/Charcoal */
   --color-bone: #F4F1DE; /* Heritage Bone */
@@ -19,6 +21,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--color-primary);
+  --color-primary-strong: var(--color-primary-strong);
+  --color-primary-light: var(--color-primary-light);
   --color-secondary: var(--color-secondary);
   --color-accent: var(--color-accent);
   --color-bone: var(--color-bone);

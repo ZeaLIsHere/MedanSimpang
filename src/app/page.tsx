@@ -30,8 +30,8 @@ export default function Home() {
   const translations = {
     heroSubtitle: 'Seen at eye level',
     heroDescription: language === 'id'
-      ? 'Medan Simpang membawa Anda menyusuri sejarah, kuliner, dan budaya tersembunyi di balik gang-gang kecil (simpang) dan fasad tua kota Medan.'
-      : 'Medan Simpang leads you through history, culinary delights, and hidden cultures behind the narrow alleys (simpang) and historic facades of Medan.',
+      ? 'Medan Simpang mengajak Anda menjelajahi kota sebagai persimpangan budaya, etnis, dan kepercayaan — melalui ruang dan jalan di mana kehidupan urban terbentang nyata di depan mata.'
+      : 'Medan Simpang invites you to explore the city as an intersection of cultures, ethnicities, and beliefs - through spaces and streets where urban life unfolds at eye level.',
   };
 
   // Map kawasan data to generic MedanMap MapPinData format (one pin per kawasan)
@@ -62,9 +62,9 @@ export default function Home() {
               {/* Hero Section */}
               <div className="space-y-4 pt-2">
                 <h1 className="font-serif text-4xl sm:text-5xl font-black text-accent tracking-tight leading-none">
-                  MEDAN <span className="text-primary">SIMPANG</span>
+                  MEDAN <span className="text-primary-strong">SIMPANG</span>
                 </h1>
-                <p className="text-lg text-primary font-bold tracking-wide uppercase">
+                <p className="text-lg text-primary-strong font-bold tracking-wide uppercase">
                   {translations.heroSubtitle}
                 </p>
                 <p className="text-sm sm:text-base font-semibold text-accent/90 leading-relaxed max-w-md">
@@ -105,8 +105,8 @@ export default function Home() {
               {/* Generic MedanMap Component as a Window */}
               <MedanMap
                 pins={mapPins}
-                centerLat={3.6005} // Silalas / Deli Riverside center
-                centerLng={98.6706}
+                centerLat={3.5932}
+                centerLng={98.6712}
                 zoom={14.5}
                 activePinId={activeKawasanSlug}
                 onPinClick={(slug) => setActiveKawasanSlug(slug)}

@@ -1,0 +1,44 @@
+# ============================================================
+#  MedanSimpang — konfigurasi hosting (Hostinger / Apache / LiteSpeed)
+#  Ditaruh di dalam folder /medansimpang bersama file dari out/
+# ============================================================
+
+# ---- Kompresi teks (gzip; LiteSpeed juga otomatis brotli) ----
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml \
+    application/javascript application/json application/xml image/svg+xml \
+    font/ttf font/otf font/woff font/woff2
+</IfModule>
+
+<IfModule mod_headers.c>
+  # ---- Cache aset statis ----
+  # JS/CSS/font dari _next/static sudah ber-hash → aman cache 1 tahun
+  <FilesMatch "\.(js|css|woff2?|ttf|otf)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  # Gambar & ikon → 30 hari (bisa berubah saat konten diperbarui)
+  <FilesMatch "\.(jpg|jpeg|png|webp|avif|gif|svg|ico)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  # HTML → selalu revalidasi (biar update konten langsung terlihat)
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # ---- Header keamanan (aman, tidak memblok apa pun) ----
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  # HSTS aktif hanya di HTTPS (Hostinger sudah SSL). Tanpa preload dulu.
+  Header always set Strict-Transport-Security "max-age=15552000"
+</IfModule>
+
+# ---- (OPSIONAL) Content-Security-Policy ----
+# Uji dulu sebelum diaktifkan — CSP terlalu ketat bisa memblok peta/skrip.
+# <IfModule mod_headers.c>
+#   Header always set Content-Security-Policy "default-src 'self'; img-src 'self' data: https://*.basemaps.cartocdn.com; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'; frame-ancestors 'self'"
+# </IfModule>
+
+# ---- Halaman 404 kustom Next ----
+ErrorDocument 404 /medansimpang/404.html

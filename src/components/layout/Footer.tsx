@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, Instagram, Facebook, Youtube, Send } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { getAllKawasan } from '@/data/db';
@@ -56,13 +57,14 @@ export default function Footer() {
           
           {/* Column 1: Brand & Mission */}
           <div className="space-y-4">
-            <Link href="/" className="inline-block flex flex-col">
-              <span className="font-serif text-2xl font-black tracking-wider">
-                MEDAN <span className="text-primary">SIMPANG</span>
-              </span>
-              <span className="text-[10px] uppercase font-bold tracking-widest text-primary/80 mt-0.5 font-sans">
-                {translations.tagline}
-              </span>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/images/logo-footer.png"
+                alt="Medan Simpang — Seen at Eye Level"
+                width={200}
+                height={59}
+                className="h-12 md:h-14 w-auto"
+              />
             </Link>
             <p className="text-sm font-light text-gray-300 leading-relaxed max-w-xs">
               {translations.mission}
@@ -72,7 +74,7 @@ export default function Footer() {
                 href="https://instagram.com/medansimpang"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary transition-colors"
+                className="text-gray-400 hover:text-primary-light transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
@@ -81,7 +83,7 @@ export default function Footer() {
                 href="https://facebook.com/medansimpang"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary transition-colors"
+                className="text-gray-400 hover:text-primary-light transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
@@ -90,7 +92,7 @@ export default function Footer() {
                 href="https://youtube.com/medansimpang"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary transition-colors"
+                className="text-gray-400 hover:text-primary-light transition-colors"
                 aria-label="YouTube"
               >
                 <Youtube className="h-5 w-5" />
@@ -100,11 +102,11 @@ export default function Footer() {
 
           {/* Column 2: Sitemap - Jelajah Kota */}
           <div>
-            <h4 className="font-serif text-lg font-bold text-primary mb-4">{translations.explore}</h4>
+            <h4 className="font-serif text-lg font-bold text-primary-light mb-4">{translations.explore}</h4>
             <ul className="space-y-2 text-sm font-light text-gray-300">
               {kawasanList.map((k) => (
                 <li key={k.slug}>
-                  <Link href={`/kawasan/${k.slug}`} className="hover:text-primary transition-colors">
+                  <Link href={`/kawasan/${k.slug}`} className="hover:text-primary-light transition-colors">
                     {k.name}
                   </Link>
                 </li>
@@ -114,34 +116,34 @@ export default function Footer() {
 
           {/* Column 3: Sitemap - Tentang & Kontak */}
           <div>
-            <h4 className="font-serif text-lg font-bold text-primary mb-4">{translations.about}</h4>
+            <h4 className="font-serif text-lg font-bold text-primary-light mb-4">{translations.about}</h4>
             <ul className="space-y-2 text-sm font-light text-gray-300 mb-6">
               {aboutSubLinks.map((link, idx) => (
                 <li key={idx}>
-                  <Link href={link.path} className="hover:text-primary transition-colors">
+                  <Link href={link.path} className="hover:text-primary-light transition-colors">
                     {link.label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <h4 className="font-serif text-sm font-bold text-primary uppercase tracking-wider mb-2">{translations.contact}</h4>
+            <h4 className="font-serif text-sm font-bold text-primary-light uppercase tracking-wider mb-2">{translations.contact}</h4>
             <a
               href="mailto:halo@medansimpang.com"
-              className="flex items-center text-sm font-light text-gray-300 hover:text-primary transition-colors"
+              className="flex items-center text-sm font-light text-gray-300 hover:text-primary-light transition-colors"
             >
-              <Mail className="mr-2 h-4 w-4 text-primary" />
+              <Mail className="mr-2 h-4 w-4 text-primary-light" />
               halo@medansimpang.com
             </a>
           </div>
 
           {/* Column 4: Newsletter */}
           <div className="space-y-4">
-            <h4 className="font-serif text-lg font-bold text-primary">{translations.newsletterTitle}</h4>
+            <h4 className="font-serif text-lg font-bold text-primary-light">{translations.newsletterTitle}</h4>
             <p className="text-sm font-light text-gray-300 leading-relaxed">
               {translations.newsletterDesc}
             </p>
             {subscribed ? (
-              <div className="rounded-lg bg-primary/20 border border-primary/40 p-3 text-sm text-primary">
+              <div className="rounded-lg bg-primary/20 border border-primary/40 p-3 text-sm text-primary-light">
                 {translations.success}
               </div>
             ) : (

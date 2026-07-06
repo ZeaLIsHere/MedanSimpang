@@ -10,8 +10,8 @@
       "description_en": "Silalas is an urban village (kelurahan) in the Medan Barat district, stretching along the banks of the Deli River. Walking through its narrow lanes, you will discover Malay stilt houses, legendary coffee shops and food stalls, old mosques, and river views that form the lifeline of Medan. The area offers a grounded side of the city: the warm everyday life of its residents behind the modern urban facade.",
       "coverImage": "/images/silalas.jpg",
       "walkCount": 4,
-      "latitude": 3.6005,
-      "longitude": 98.6706
+      "latitude": 3.5932484442616834,
+      "longitude": 98.67119621090289
     }
   ],
   "walks": [
@@ -82,6 +82,10 @@
           98.67216
         ],
         [
+          3.59587,
+          98.672165
+        ],
+        [
           3.59614,
           98.67217
         ],
@@ -136,38 +140,6 @@
         [
           3.59664,
           98.67245
-        ],
-        [
-          3.59707,
-          98.67238
-        ],
-        [
-          3.59664,
-          98.67245
-        ],
-        [
-          3.59659,
-          98.67245
-        ],
-        [
-          3.59658,
-          98.67244
-        ],
-        [
-          3.59657,
-          98.67243
-        ],
-        [
-          3.59656,
-          98.67242
-        ],
-        [
-          3.59656,
-          98.67241
-        ],
-        [
-          3.59655,
-          98.67236
         ],
         [
           3.59646,
@@ -342,6 +314,38 @@
           98.67229
         ],
         [
+          3.59717,
+          98.67233
+        ],
+        [
+          3.59695,
+          98.6724
+        ],
+        [
+          3.59674,
+          98.67244
+        ],
+        [
+          3.59664,
+          98.67245
+        ],
+        [
+          3.59674,
+          98.67244
+        ],
+        [
+          3.59695,
+          98.6724
+        ],
+        [
+          3.59717,
+          98.67233
+        ],
+        [
+          3.59737,
+          98.67229
+        ],
+        [
           3.59748,
           98.67223
         ],
@@ -414,8 +418,20 @@
           98.67074
         ],
         [
-          3.59812,
-          98.67072
+          3.5983,
+          98.67057
+        ],
+        [
+          3.5985,
+          98.6706
+        ],
+        [
+          3.5982,
+          98.67066
+        ],
+        [
+          3.5981,
+          98.67074
         ],
         [
           3.5983,
@@ -516,6 +532,10 @@
         [
           3.60045,
           98.67036
+        ],
+        [
+          3.6006650000000002,
+          98.670395
         ],
         [
           3.60088,
@@ -642,8 +662,16 @@
           98.67123
         ],
         [
+          3.6042500000000004,
+          98.67119
+        ],
+        [
           3.60456,
           98.67115
+        ],
+        [
+          3.60481,
+          98.671115
         ],
         [
           3.60506,
@@ -2403,6 +2431,33 @@
       "longitude": 98.6697904,
       "googleMapsUrl": "https://maps.google.com/?q=3.5973567,98.6697904",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5973567,98.6697904",
+      "order": 2,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Kantor Lurah Silalas",
+      "name_en": "Silalas Village Office",
+      "slug": "kantor-lurah-silalas",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iSee",
+      "thumbnail": "/images/locations/kantor-lurah-silalas/thumbnail.jpg",
+      "gallery": [],
+      "shortDescription_id": "Kantor Kelurahan Silalas, pusat administrasi kawasan bersejarah ini sejak era kolonial.",
+      "shortDescription_en": "The Silalas Village Office, administrative centre of this historic district since the colonial era.",
+      "address_id": "Jl. Klp. No.5, Silalas, Kec. Medan Bar., Kota Medan, Sumatera Utara 20231",
+      "address_en": "Jl. Klp. No.5, Silalas, Medan Barat District, Medan City, North Sumatra 20231",
+      "openingHours_id": "Senin-Jumat, 08.00-16.00 WIB",
+      "openingHours_en": "Monday-Friday, 08:00-16:00 WIB",
+      "latitude": 3.5932484442616834,
+      "longitude": 98.67119621090289,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5932484442616834,98.67119621090289",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5932484442616834,98.67119621090289",
       "order": 2,
       "contentBlocks": [
         {

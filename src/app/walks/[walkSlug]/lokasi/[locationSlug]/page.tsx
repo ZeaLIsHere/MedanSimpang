@@ -2,6 +2,8 @@ import React from 'react';
 import { getAllWalks, getLocationsForWalk } from '@/data/db';
 import LocationDetailClient from './LocationDetailClient';
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const walks = getAllWalks();
   const paramsList: { walkSlug: string; locationSlug: string }[] = [];

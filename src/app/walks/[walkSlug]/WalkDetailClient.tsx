@@ -12,6 +12,7 @@ import Badge from '@/components/ui/Badge';
 import { getWalkBySlug, getKawasanBySlug, getLocationsForWalk, getWalksForKawasan } from '@/data/db';
 import { useLanguage } from '@/context/LanguageContext';
 import { CategoryType } from '@/types';
+import { assetPath } from '@/lib/paths';
 
 // Dynamically import map client-side to prevent SSR window reference error
 const MedanMap = dynamic(() => import('@/components/map/MedanMap'), {
@@ -319,7 +320,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                     : 'Take our beautifully illustrated map with you, readable offline.'}
                 </p>
                 <a
-                  href={walk.downloadableMapImage}
+                  href={assetPath(walk.downloadableMapImage)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full rounded-lg bg-primary hover:bg-primary/95 text-accent font-bold py-2.5 text-xs uppercase tracking-wider text-center flex items-center justify-center gap-1.5 shadow-sm transition-all"
