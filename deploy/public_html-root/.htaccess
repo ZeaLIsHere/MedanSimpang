@@ -1,0 +1,14 @@
+# ============================================================
+#  urbanmorphsoc.com — REDIRECT ROOT DOMAIN
+#  Taruh file ini di public_html/ (root domain), BUKAN di dalam
+#  folder medansimpang. File ini mengalihkan pembukaan
+#  https://urbanmorphsoc.com/ -> https://urbanmorphsoc.com/medansimpang/
+# ============================================================
+
+RewriteEngine On
+
+# Alihkan HANYA root domain ("/") ke /medansimpang/.
+# Pakai 302 (sementara) dulu supaya browser tidak meng-cache selamanya —
+# kalau nanti urbanmorphsoc.com punya homepage sendiri, tinggal ganti/hapus.
+# Ganti R=302 menjadi R=301 kalau memang ingin permanen (baik untuk SEO).
+RewriteRule ^$ /medansimpang/ [R=302,L]
