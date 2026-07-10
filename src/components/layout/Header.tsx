@@ -70,11 +70,11 @@ export default function Header() {
   };
 
   const aboutSubLinks = [
-    { label: language === 'id' ? 'Visi Kami' : 'Our Vision', path: '/tentang/visi' },
-    { label: language === 'id' ? 'Mitra' : 'Partners', path: '/tentang/mitra' },
-    { label: language === 'id' ? 'Tim' : 'Our Team', path: '/tentang/tim' },
-    { label: language === 'id' ? 'Perjalanan' : 'Our Journey', path: '/tentang/perjalanan' },
-    { label: language === 'id' ? 'Metodologi' : 'Methodology', path: '/tentang/metodologi' },
+    { label: language === 'id' ? 'Visi Kami' : 'Our Vision', path: '/medansimpang/tentang/visi' },
+    { label: language === 'id' ? 'Mitra' : 'Partners', path: '/medansimpang/tentang/mitra' },
+    { label: language === 'id' ? 'Tim' : 'Our Team', path: '/medansimpang/tentang/tim' },
+    { label: language === 'id' ? 'Perjalanan' : 'Our Journey', path: '/medansimpang/tentang/perjalanan' },
+    { label: language === 'id' ? 'Metodologi' : 'Methodology', path: '/medansimpang/tentang/metodologi' },
   ];
 
   return (
@@ -89,7 +89,7 @@ export default function Header() {
       <div className="w-full px-6 lg:px-12">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center group">
+          <Link href="/medansimpang" className="flex items-center group">
             <Image
               src="/images/logo.png"
               alt="Medan Simpang — Seen at Eye Level"
@@ -123,7 +123,7 @@ export default function Header() {
                     {kawasanList.map((kawasan) => (
                       <Link
                         key={kawasan.slug}
-                        href={`/kawasan/${kawasan.slug}`}
+                        href={`/medansimpang/kawasan/${kawasan.slug}`}
                         onClick={() => setActiveDropdown(null)}
                         className="block rounded-lg px-4 py-2.5 text-sm font-medium text-text-main hover:bg-bone/40 hover:text-secondary transition-colors"
                       >
@@ -152,7 +152,7 @@ export default function Header() {
                     }`}
                   >
                     <Link
-                      href="/cerita"
+                      href="/medansimpang/cerita"
                       onClick={() => setActiveDropdown(null)}
                       className="block rounded-lg px-4 py-2.5 text-sm font-bold text-accent hover:bg-bone/40 hover:text-secondary border-b border-bone/20 pb-2 mb-1"
                     >
@@ -161,7 +161,7 @@ export default function Header() {
                     {categories.map((cat) => (
                       <Link
                         key={cat}
-                        href={`/cerita?kategori=${encodeURIComponent(cat.toLowerCase())}`}
+                        href={`/medansimpang/cerita?kategori=${encodeURIComponent(cat.toLowerCase())}`}
                         onClick={() => setActiveDropdown(null)}
                         className="block rounded-lg px-4 py-2 text-sm font-medium text-text-main hover:bg-bone/40 hover:text-secondary transition-colors"
                       >
@@ -174,7 +174,7 @@ export default function Header() {
 
               {/* Akademi (direct link placeholder) */}
               <Link
-                href="/tentang/metodologi"
+                href="/medansimpang/tentang/metodologi"
                 className="relative text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
               >
                 {navTranslations.academy}
@@ -270,7 +270,7 @@ export default function Header() {
                   {kawasanList.map((k) => (
                     <Link
                       key={k.slug}
-                      href={`/kawasan/${k.slug}`}
+                      href={`/medansimpang/kawasan/${k.slug}`}
                       onClick={() => setIsOpen(false)}
                       className="block py-1.5 text-sm font-medium text-text-muted hover:text-secondary"
                     >
@@ -297,7 +297,7 @@ export default function Header() {
               {activeDropdown === 'stories' && (
                 <div className="mt-2 pl-4 space-y-2">
                   <Link
-                    href="/cerita"
+                    href="/medansimpang/cerita"
                     onClick={() => setIsOpen(false)}
                     className="block py-1.5 text-sm font-bold text-secondary"
                   >
@@ -306,7 +306,7 @@ export default function Header() {
                   {categories.map((cat) => (
                     <Link
                       key={cat}
-                      href={`/cerita?kategori=${encodeURIComponent(cat.toLowerCase())}`}
+                      href={`/medansimpang/cerita?kategori=${encodeURIComponent(cat.toLowerCase())}`}
                       onClick={() => setIsOpen(false)}
                       className="block py-1.5 text-sm font-medium text-text-muted hover:text-secondary"
                     >
@@ -320,7 +320,7 @@ export default function Header() {
             {/* Academy (direct) */}
             <div className="border-b border-bone/30 py-3">
               <Link
-                href="/tentang/metodologi"
+                href="/medansimpang/tentang/metodologi"
                 onClick={() => setIsOpen(false)}
                 className="block py-2 text-base font-bold text-accent"
               >

@@ -46,11 +46,11 @@ function CeritaContent() {
         params.delete('kategori');
       }
     }
-    router.push(`/cerita?${params.toString()}`, { scroll: false });
+    router.push(`/medansimpang/cerita?${params.toString()}`, { scroll: false });
   };
 
   const handleReset = () => {
-    router.push('/cerita', { scroll: false });
+    router.push('/medansimpang/cerita', { scroll: false });
   };
 
   // Filter logic
@@ -208,7 +208,7 @@ function CeritaContent() {
                 </p>
                 <div className="pt-2">
                   <Link
-                    href={`/cerita/${featuredStory.slug}`}
+                    href={`/medansimpang/cerita/${featuredStory.slug}`}
                     className="inline-flex rounded-lg bg-primary px-4 py-2 text-xs font-bold text-accent hover:bg-primary/90 transition-colors uppercase tracking-wider"
                   >
                     {translations.readMore} &rarr;

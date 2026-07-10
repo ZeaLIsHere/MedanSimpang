@@ -39,7 +39,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
         <main className="flex-grow flex flex-col items-center justify-center pt-24 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Rute Tidak Ditemukan</h2>
           <p className="mt-2 text-text-muted">Maaf, rute jalan kaki dengan slug &quot;{walkSlug}&quot; belum terdaftar.</p>
-          <Link href="/" className="mt-6 flex items-center text-primary font-bold hover:underline">
+          <Link href="/medansimpang" className="mt-6 flex items-center text-primary font-bold hover:underline">
             <ArrowLeft className="mr-1.5 h-4 w-4" /> Kembali ke Beranda
           </Link>
         </main>
@@ -65,7 +65,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
     : `${distanceKm} km`;
 
   const breadcrumbsItems = [
-    { label: kawasan?.name || 'Kawasan', path: `/kawasan/${walk.neighbourhoodSlug}` },
+    { label: kawasan?.name || 'Kawasan', path: `/medansimpang/kawasan/${walk.neighbourhoodSlug}` },
     { label: title },
   ];
 
@@ -98,7 +98,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
       title: language === 'id' ? loc.name_id : loc.name_en,
       subtitle: language === 'id' ? loc.shortDescription_id : loc.shortDescription_en,
       imageUrl: loc.thumbnail,
-      linkUrl: `/walks/${walkSlug}/lokasi/${loc.slug}`,
+      linkUrl: `/medansimpang/walks/${walkSlug}/lokasi/${loc.slug}`,
       linkText: language === 'id' ? 'Detail Lokasi' : 'Explore Stop',
     },
   }));
@@ -127,7 +127,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                 </h1>
                 <p className="text-xs text-text-muted font-light">
                   {language === 'id' ? 'Kawasan: ' : 'District: '}
-                  <Link href={`/kawasan/${walk.neighbourhoodSlug}`} className="underline font-bold text-secondary hover:text-primary">
+                  <Link href={`/medansimpang/kawasan/${walk.neighbourhoodSlug}`} className="underline font-bold text-secondary hover:text-primary">
                     {kawasan?.name}
                   </Link>
                   {` • `}
@@ -278,7 +278,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
 
                         {/* Detail Link button */}
                         <Link
-                          href={`/walks/${walkSlug}/lokasi/${loc.slug}`}
+                          href={`/medansimpang/walks/${walkSlug}/lokasi/${loc.slug}`}
                           className={`w-full sm:w-auto text-center px-3 py-2 text-xs font-bold rounded-lg transition-colors uppercase tracking-wider ${
                             isHovered 
                               ? 'bg-secondary text-white border border-secondary'
@@ -349,7 +349,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                       return (
                         <Link
                           key={nWalk.slug}
-                          href={`/walks/${nWalk.slug}`}
+                          href={`/medansimpang/walks/${nWalk.slug}`}
                           className="group block p-3 rounded-xl border border-bone/50 hover:border-secondary/40 bg-white transition-colors"
                         >
                           <h4 className="font-serif font-bold text-accent group-hover:text-secondary transition-colors text-sm line-clamp-1">

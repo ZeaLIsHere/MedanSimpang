@@ -22,7 +22,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
       <ol className="inline-flex items-center space-x-1 md:space-x-2 text-xs md:text-sm font-medium">
         <li className="inline-flex items-center">
           <Link
-            href="/"
+            href="/medansimpang"
             className="inline-flex items-center text-text-muted hover:text-secondary transition-colors"
           >
             <Home className="mr-1.5 h-3.5 w-3.5" />

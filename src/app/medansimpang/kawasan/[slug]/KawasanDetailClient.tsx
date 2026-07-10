@@ -38,7 +38,7 @@ export default function KawasanDetail({ slug }: { slug: string }) {
         <main className="flex-grow flex flex-col items-center justify-center pt-24 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Kawasan Tidak Ditemukan</h2>
           <p className="mt-2 text-text-muted">Maaf, kawasan dengan slug &quot;{slug}&quot; belum terdaftar.</p>
-          <Link href="/" className="mt-6 flex items-center text-primary font-bold hover:underline">
+          <Link href="/medansimpang" className="mt-6 flex items-center text-primary font-bold hover:underline">
             <ArrowLeft className="mr-1.5 h-4 w-4" /> Kembali ke Beranda
           </Link>
         </main>
@@ -68,7 +68,7 @@ export default function KawasanDetail({ slug }: { slug: string }) {
         title: wTitle,
         subtitle: wDescription.slice(0, 70) + '...',
         imageUrl: walk.heroImage,
-        linkUrl: `/walks/${walk.slug}`,
+        linkUrl: `/medansimpang/walks/${walk.slug}`,
         linkText: language === 'id' ? 'Jelajahi Rute' : 'Explore Trail',
       },
     };

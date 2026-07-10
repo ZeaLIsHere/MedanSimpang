@@ -23,7 +23,7 @@ export default function CeritaDetail({ slug }: { slug: string }) {
         <main className="flex-grow flex flex-col items-center justify-center pt-24 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Artikel Tidak Ditemukan</h2>
           <p className="mt-2 text-text-muted">Maaf, cerita dengan slug "{slug}" belum terdaftar.</p>
-          <Link href="/cerita" className="mt-6 flex items-center text-primary font-bold hover:underline">
+          <Link href="/medansimpang/cerita" className="mt-6 flex items-center text-primary font-bold hover:underline">
             <ChevronLeft className="mr-1.5 h-4 w-4" /> Kembali ke Cerita
           </Link>
         </main>
@@ -45,7 +45,7 @@ export default function CeritaDetail({ slug }: { slug: string }) {
   );
 
   const breadcrumbsItems = [
-    { label: language === 'id' ? 'Cerita' : 'Stories', path: '/cerita' },
+    { label: language === 'id' ? 'Cerita' : 'Stories', path: '/medansimpang/cerita' },
     { label: title },
   ];
 
@@ -135,7 +135,7 @@ export default function CeritaDetail({ slug }: { slug: string }) {
                   return (
                     <Link
                       key={relStory.slug}
-                      href={`/cerita/${relStory.slug}`}
+                      href={`/medansimpang/cerita/${relStory.slug}`}
                       className="group block bg-white rounded-xl border border-bone/60 p-5 shadow-sm hover:shadow-md transition-shadow duration-300"
                     >
                       <div className="relative h-32 w-full rounded-lg overflow-hidden bg-bone mb-4">

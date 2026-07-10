@@ -16,7 +16,7 @@ export function KawasanCard({ kawasan }: KawasanCardProps) {
   const tagline = language === 'id' ? kawasan.tagline_id : kawasan.tagline_en;
 
   return (
-    <Link href={`/kawasan/${kawasan.slug}`} className="group block relative overflow-hidden rounded-xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+    <Link href={`/medansimpang/kawasan/${kawasan.slug}`} className="group block relative overflow-hidden rounded-xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
       <div className="relative h-64 w-full overflow-hidden bg-bone">
         <Image
           src={kawasan.coverImage}
@@ -61,7 +61,7 @@ export function WalkCard({ walk }: WalkCardProps) {
     : `~${distanceKm} km (${walk.stepsCount} steps)`;
 
   return (
-    <Link href={`/walks/${walk.slug}`} className="group flex flex-col overflow-hidden rounded-xl border border-bone/60 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+    <Link href={`/medansimpang/walks/${walk.slug}`} className="group flex flex-col overflow-hidden rounded-xl border border-bone/60 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
       <div className="relative h-48 w-full overflow-hidden bg-bone">
         <Image
           src={walk.heroImage}
@@ -100,7 +100,7 @@ export function CeritaCard({ cerita }: CeritaCardProps) {
   );
 
   return (
-    <Link href={`/cerita/${cerita.slug}`} className="group flex flex-col md:flex-row overflow-hidden rounded-xl border border-bone/60 bg-white transition-all duration-300 hover:shadow-md">
+    <Link href={`/medansimpang/cerita/${cerita.slug}`} className="group flex flex-col md:flex-row overflow-hidden rounded-xl border border-bone/60 bg-white transition-all duration-300 hover:shadow-md">
       <div className="relative h-48 w-full md:h-auto md:w-2/5 min-h-[192px] overflow-hidden bg-bone">
         <Image
           src={cerita.coverImage}

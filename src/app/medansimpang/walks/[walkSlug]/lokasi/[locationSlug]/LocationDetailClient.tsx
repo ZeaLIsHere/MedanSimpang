@@ -27,7 +27,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
         <main className="flex-grow flex flex-col items-center justify-center pt-24 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Lokasi Tidak Ditemukan</h2>
           <p className="mt-2 text-text-muted">Maaf, detail lokasi atau rute tidak ditemukan.</p>
-          <Link href="/" className="mt-6 flex items-center text-primary font-bold hover:underline">
+          <Link href="/medansimpang" className="mt-6 flex items-center text-primary font-bold hover:underline">
             <ChevronLeft className="mr-1.5 h-4 w-4" /> Kembali ke Beranda
           </Link>
         </main>
@@ -82,7 +82,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
         <div className="bg-bone/30 border-b border-bone/40 py-4">
           <div className="w-full px-6 lg:px-12 flex items-center justify-between">
             <Link
-              href={`/walks/${walkSlug}`}
+              href={`/medansimpang/walks/${walkSlug}`}
               className="inline-flex items-center text-sm font-bold text-accent hover:text-secondary transition-colors"
             >
               <ChevronLeft className="mr-1.5 h-4.5 w-4.5 text-secondary" />
@@ -281,7 +281,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
                     {language === 'id' ? 'Titik Singgah Berikutnya' : 'Next Stop on Trail'}
                   </span>
                   <Link
-                    href={`/walks/${walkSlug}/lokasi/${nextLocation.slug}`}
+                    href={`/medansimpang/walks/${walkSlug}/lokasi/${nextLocation.slug}`}
                     className="group flex items-center justify-between p-5 rounded-2xl bg-white border border-bone hover:border-secondary/40 shadow-sm hover:shadow-md transition-all duration-300"
                   >
                     <div className="flex items-center gap-4">
