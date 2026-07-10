@@ -16,14 +16,14 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Medan Simpang — Seen at eye level",
-  description: "Platform city-guide & heritage-walk mandiri di Kota Medan. Jelajahi gang-gang kecil, sejarah, kuliner, dan arsitektur bersejarah dari level mata.",
-  metadataBase: new URL("https://urbanmorphsoc.com/medansimpang"),
+  title: "UrbanMorphSoc — Seeing cities at eye level",
+  description: "UrbanMorphSoc adalah wadah bagi project-project urban: heritage walk, riset, dan cerita kota. Melihat kota dari level mata.",
+  metadataBase: new URL("https://urbanmorphsoc.com"),
   openGraph: {
-    title: "Medan Simpang — Seen at eye level",
-    description: "Jelajahi Kota Medan dari level mata, selangkah demi selangkah.",
-    url: "https://urbanmorphsoc.com/medansimpang",
-    siteName: "Medan Simpang",
+    title: "UrbanMorphSoc — Seeing cities at eye level",
+    description: "Wadah project-project urban: heritage walk, riset, dan cerita kota.",
+    url: "https://urbanmorphsoc.com",
+    siteName: "UrbanMorphSoc",
     locale: "id_ID",
     type: "website",
   },
