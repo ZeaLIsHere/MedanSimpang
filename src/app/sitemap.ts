@@ -25,12 +25,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tentang/metodologi',
   ];
 
-  const entries: MetadataRoute.Sitemap = staticPaths.map((p) => ({
-    url: `${BASE_URL}${p}/`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: p === '' ? 1 : 0.7,
-  }));
+  const entries: MetadataRoute.Sitemap = [
+    {
+      url: 'https://urbanmorphsoc.com/',
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 1,
+    },
+    ...staticPaths.map((p) => ({
+      url: `${BASE_URL}${p}/`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
+  ];
 
   // Kawasan
   for (const k of getAllKawasan()) {
