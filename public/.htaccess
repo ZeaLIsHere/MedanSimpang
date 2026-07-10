@@ -1,6 +1,6 @@
 # ============================================================
 #  MedanSimpang — konfigurasi hosting (Hostinger / Apache / LiteSpeed)
-#  Ditaruh di dalam folder /medansimpang bersama file dari out/
+#  Ditaruh di root situs (public_html/) bersama seluruh isi out/
 # ============================================================
 
 # ---- Kompresi teks (gzip; LiteSpeed juga otomatis brotli) ----

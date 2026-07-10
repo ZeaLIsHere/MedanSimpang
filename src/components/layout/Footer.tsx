@@ -170,6 +170,10 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between text-xs font-light text-gray-400 gap-4">
+          <Link href="/" className="flex items-center gap-1.5 hover:text-primary-light transition-colors">
+            <span aria-hidden="true">←</span>
+            <span>{language === 'id' ? 'Kembali ke UrbanMorphSoc' : 'Back to UrbanMorphSoc'}</span>
+          </Link>
           <p>© {currentYear} Medan Simpang. All rights reserved.</p>
           <p className="flex items-center gap-1">
             <span>Powered by</span>
