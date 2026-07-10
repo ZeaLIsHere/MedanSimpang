@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Clock, Navigation, MapPin, Globe, Download, ArrowLeft } from 'lucide-react';
+import { Clock, Navigation, MapPin, Globe, Download, ArrowLeft, Eye, Utensils, Coffee, Compass, LayoutGrid } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -79,12 +79,12 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
     ? locations
     : locations.filter((loc) => loc.category === activeCategory);
 
-  const filterChips: { key: CategoryType | 'All'; label: string; color: string }[] = [
-    { key: 'All', label: language === 'id' ? 'Semua' : 'All', color: 'bg-accent text-white border-accent' },
-    { key: 'iSee', label: language === 'id' ? 'Situs' : 'Sites', color: 'bg-isee text-white border-isee' },
-    { key: 'iEat', label: language === 'id' ? 'Kuliner' : 'Eats', color: 'bg-ieat text-white border-ieat' },
-    { key: 'iDrink', label: language === 'id' ? 'Minuman' : 'Drinks', color: 'bg-idrink text-white border-idrink' },
-    { key: 'iSurprise', label: language === 'id' ? 'Unik' : 'Surprises', color: 'bg-isurprise text-white border-isurprise' },
+  const filterChips: { key: CategoryType | 'All'; label: string; color: string; icon: React.ReactNode }[] = [
+    { key: 'All', label: language === 'id' ? 'Semua' : 'All', color: 'bg-accent text-white border-accent', icon: <LayoutGrid className="w-3.5 h-3.5" /> },
+    { key: 'iSee', label: language === 'id' ? 'Situs' : 'Sites', color: 'bg-isee text-white border-isee', icon: <Eye className="w-3.5 h-3.5" /> },
+    { key: 'iEat', label: language === 'id' ? 'Kuliner' : 'Eats', color: 'bg-ieat text-white border-ieat', icon: <Utensils className="w-3.5 h-3.5" /> },
+    { key: 'iDrink', label: language === 'id' ? 'Minuman' : 'Drinks', color: 'bg-idrink text-white border-idrink', icon: <Coffee className="w-3.5 h-3.5" /> },
+    { key: 'iSurprise', label: language === 'id' ? 'Unik' : 'Surprises', color: 'bg-isurprise text-white border-isurprise', icon: <Compass className="w-3.5 h-3.5" /> },
   ];
 
   // Build map pins from filtered locations
@@ -206,12 +206,13 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                       <button
                         key={chip.key}
                         onClick={() => setActiveCategory(chip.key)}
-                        className={`px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all duration-300 ${
+                        className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all duration-300 ${
                           isActive
                             ? `${chip.color} shadow-sm scale-103`
                             : 'border-bone bg-white text-text-muted hover:border-gray-400'
                         }`}
                       >
+                        {chip.icon}
                         {chip.label} ({count})
                       </button>
                     );
