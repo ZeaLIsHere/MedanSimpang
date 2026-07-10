@@ -19,17 +19,17 @@ export default function Landing() {
 
   return (
     <>
-      {/* Hero — frontpage.png background, ~50vh */}
+      {/* Hero — frontpage.webp background, ~50vh */}
       <section className="relative h-[50vh] min-h-[360px] flex items-end">
         <div className="absolute inset-0">
-          <Image src="/images/frontpage.png" alt="" fill priority className="object-cover" sizes="100vw" />
+          <Image src="/images/frontpage.webp" alt="" fill priority fetchPriority="high" className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-accent/85 via-accent/45 to-accent/20" />
         </div>
         <div className="relative w-full px-6 lg:px-12 pb-10 lg:pb-14">
-          <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-none">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tight leading-none break-words">
             Urban<span className="text-primary-light">Morph</span>Soc
           </h1>
-          <p className="mt-3 text-lg sm:text-xl font-semibold text-white/90">Urban Morphology and Society</p>
+          <p className="mt-3 text-base sm:text-lg md:text-xl font-semibold text-white/90">Urban Morphology and Society</p>
           <Link
             href="/projects"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-bold text-accent hover:bg-primary/90 hover:scale-[1.02] active:scale-[0.98] transition-all"

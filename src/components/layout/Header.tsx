@@ -92,14 +92,11 @@ export default function Header() {
           <div className="flex h-8 items-center justify-between text-xs">
             <Link
               href="/"
-              className="group inline-flex items-center gap-1.5 font-medium text-white/90 hover:text-primary-light transition-colors"
+              className="group inline-flex min-w-0 items-center gap-1.5 font-medium text-white/90 hover:text-primary-light transition-colors"
             >
-              <ArrowLeft className="h-3.5 w-3.5 transition-transform group-hover:-translate-x-0.5" />
-              <span className="font-serif font-bold tracking-tight">Urban Morphology and Society</span>
+              <ArrowLeft className="h-3.5 w-3.5 shrink-0 transition-transform group-hover:-translate-x-0.5" />
+              <span className="truncate font-serif font-bold tracking-tight">Urban Morphology and Society</span>
             </Link>
-            <span className="hidden sm:inline text-white/55">
-              {language === 'id' ? 'Sebuah project' : 'A project'}
-            </span>
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ export default function ProjectsPage() {
           className="group mt-10 grid grid-cols-1 md:grid-cols-2 overflow-hidden rounded-2xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md max-w-4xl"
         >
           <div className="relative h-56 md:h-auto md:min-h-[260px]">
-            <Image src="/images/silalas.jpg" alt="Medan Simpang" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+            <Image src="/images/silalas.webp" alt="Medan Simpang" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
           </div>
           <div className="p-8 flex flex-col justify-center">
             <p className="text-xs font-bold uppercase tracking-widest text-secondary mb-2">Heritage Walk · Medan</p>
