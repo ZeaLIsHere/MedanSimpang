@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Clock, Navigation, MapPin } from 'lucide-react';
+import { Clock, Navigation, MapPin, ArrowRight } from 'lucide-react';
 import { Kawasan, Walk, Cerita } from '@/types';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -14,9 +14,10 @@ interface KawasanCardProps {
 export function KawasanCard({ kawasan }: KawasanCardProps) {
   const { language } = useLanguage();
   const tagline = language === 'id' ? kawasan.tagline_id : kawasan.tagline_en;
+  const walkLabel = `${kawasan.walkCount} ${kawasan.walkCount === 1 ? 'Walk' : 'Walks'}`;
 
   return (
-    <Link href={`/medansimpang/kawasan/${kawasan.slug}`} className="group block relative overflow-hidden rounded-xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+    <Link href={`/medansimpang/kawasan/${kawasan.slug}`} className="group block overflow-hidden rounded-xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
       <div className="relative h-64 w-full overflow-hidden bg-bone">
         <Image
           src={kawasan.coverImage}
@@ -28,16 +29,24 @@ export function KawasanCard({ kawasan }: KawasanCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-10">
-          <div className="flex items-center justify-between">
-            <h3 className="font-serif text-2xl font-bold tracking-wide">{kawasan.name}</h3>
-            <span className="rounded-full bg-primary/20 border border-primary/40 px-3 py-1 text-xs font-semibold text-primary uppercase tracking-wider backdrop-blur-sm">
-              {kawasan.walkCount} {language === 'id' ? 'Walk' : 'Walks'}
-            </span>
-          </div>
+          <h3 className="font-serif text-2xl font-bold tracking-wide">{kawasan.name}</h3>
           <p className="mt-2 text-sm text-gray-200 line-clamp-2 font-light">
             {tagline}
           </p>
         </div>
+      </div>
+
+      {/* CTA row: label + walk-count pill (left), arrow (far right) */}
+      <div className="flex items-center justify-between gap-3 px-6 py-4">
+        <div className="flex items-center gap-2.5">
+          <span className="text-sm font-bold text-secondary">
+            {language === 'id' ? 'Jelajahi Kawasan' : 'Explore Neighbourhood'}
+          </span>
+          <span className="rounded-full bg-secondary/10 px-2.5 py-0.5 text-xs font-semibold text-secondary">
+            {walkLabel}
+          </span>
+        </div>
+        <ArrowRight className="h-4 w-4 shrink-0 text-secondary transition-transform duration-300 group-hover:translate-x-1" />
       </div>
     </Link>
   );
