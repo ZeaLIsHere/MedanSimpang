@@ -62,9 +62,9 @@ export default function Home() {
               {/* Hero Section */}
               <div className="space-y-4 pt-2">
                 <h1 className="font-serif text-4xl sm:text-5xl font-black text-accent tracking-tight leading-none">
-                  MEDAN <span className="text-primary-strong">SIMPANG</span>
+                  Medan <span className="text-primary-strong">Simpang</span>
                 </h1>
-                <p className="text-lg text-primary-strong font-bold tracking-wide uppercase">
+                <p className="text-lg text-primary-strong font-bold tracking-wide">
                   {translations.heroSubtitle}
                 </p>
                 <p className="text-sm sm:text-base font-semibold text-accent/90 leading-relaxed max-w-md">
