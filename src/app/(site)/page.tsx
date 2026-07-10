@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, FolderOpen, BookOpen, Info } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { umsDescription } from '@/data/ums';
+import { umsDescriptionFor } from '@/data/ums';
 
 export default function Landing() {
   const { language } = useLanguage();
@@ -46,7 +46,7 @@ export default function Landing() {
           <p className="text-sm font-bold uppercase tracking-widest text-primary-strong mb-4">
             {id ? 'Klaster Riset' : 'Research Cluster'}
           </p>
-          <p className="text-base sm:text-lg font-medium text-accent/90 leading-relaxed">{umsDescription}</p>
+          <p className="text-base sm:text-lg font-medium text-accent/90 leading-relaxed">{umsDescriptionFor(language)}</p>
           <Link href="/about" className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold text-secondary hover:gap-2.5 transition-all">
             {id ? 'Selengkapnya tentang kami' : 'Learn more about us'}
             <ArrowRight className="h-4 w-4" />

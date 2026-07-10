@@ -4,7 +4,7 @@ import React from 'react';
 import { Mail, MapPin } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import {
-  umsDescription,
+  umsDescriptionFor,
   umsEstablishment,
   umsAddress,
   umsHead,
@@ -37,7 +37,7 @@ export default function AboutPage() {
       <div className="w-full px-6 lg:px-12 max-w-4xl">
         <h1 className="font-serif text-4xl sm:text-5xl font-black text-accent tracking-tight">Urban Morphology and Society</h1>
 
-        <p className="mt-6 text-base sm:text-lg font-medium text-accent/90 leading-relaxed">{umsDescription}</p>
+        <p className="mt-6 text-base sm:text-lg font-medium text-accent/90 leading-relaxed">{umsDescriptionFor(language)}</p>
 
         <p className="mt-6 text-sm text-text-muted">
           <span className="font-bold text-accent">{id ? 'Pendirian resmi: ' : 'Officially established: '}</span>

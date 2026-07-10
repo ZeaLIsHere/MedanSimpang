@@ -7,6 +7,13 @@ export interface Person {
 export const umsDescription =
   'Urban Morphology and Society (UMS) is a research cluster dedicated to understanding how society shapes the built environment and, in turn, how the built environment influences social life. The cluster investigates the morphology of buildings, neighbourhoods, and cities through the lens of spatial transformation, cultural practices, historical processes, community adaptation, and everyday urban life. Rather than viewing urban form as a static physical artifact, UMS approaches morphology as a means of understanding the evolving relationship between space and society across diverse cultural and historical settings.';
 
+export const umsDescriptionId =
+  'Urban Morphology and Society (UMS) adalah klaster riset yang berfokus pada pemahaman tentang bagaimana masyarakat membentuk lingkungan binaan dan, sebaliknya, bagaimana lingkungan binaan memengaruhi kehidupan sosial. Klaster ini meneliti morfologi bangunan, permukiman, dan kota melalui lensa transformasi spasial, praktik budaya, proses sejarah, adaptasi komunitas, dan kehidupan urban sehari-hari. Alih-alih memandang bentuk kota sebagai artefak fisik yang statis, UMS memaknai morfologi sebagai cara untuk memahami hubungan yang terus berkembang antara ruang dan masyarakat di berbagai latar budaya dan sejarah.';
+
+/** Pick the UMS description for the active language. */
+export const umsDescriptionFor = (language: 'id' | 'en') =>
+  language === 'id' ? umsDescriptionId : umsDescription;
+
 export const umsEstablishment = {
   decree: '4921/UN5.1.R/SK/PPM/2023',
   date: '28 December 2023',
