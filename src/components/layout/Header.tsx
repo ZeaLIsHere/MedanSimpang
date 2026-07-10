@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, X, ChevronDown, Globe } from 'lucide-react';
+import { Menu, X, ChevronDown, Globe, ArrowLeft } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { getAllKawasan, getAllCeritaCategories } from '@/data/db';
 
@@ -82,11 +82,33 @@ export default function Header() {
       ref={headerRef}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled || isOpen
-          ? 'bg-white/95 backdrop-blur-md shadow-md border-b border-bone/45 py-3'
-          : 'bg-white/80 backdrop-blur-sm py-4'
+          ? 'bg-white/95 backdrop-blur-md shadow-md border-b border-bone/45'
+          : 'bg-white/80 backdrop-blur-sm'
       }`}
     >
-      <div className="w-full px-6 lg:px-12">
+      {/* Umbrella parent bar — persistent way back to the UrbanMorphSoc site */}
+      <div className="bg-accent text-white/90">
+        <div className="w-full px-6 lg:px-12">
+          <div className="flex h-8 items-center justify-between text-xs">
+            <Link
+              href="/"
+              className="group inline-flex items-center gap-1.5 font-medium text-white/90 hover:text-primary-light transition-colors"
+            >
+              <ArrowLeft className="h-3.5 w-3.5 transition-transform group-hover:-translate-x-0.5" />
+              <span className="font-serif font-bold tracking-tight">Urban Morphology and Society</span>
+            </Link>
+            <span className="hidden sm:inline text-white/55">
+              {language === 'id' ? 'Sebuah project' : 'A project'}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`w-full px-6 lg:px-12 transition-all duration-300 ${
+          scrolled || isOpen ? 'py-3' : 'py-4'
+        }`}
+      >
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/medansimpang" className="flex items-center group">
@@ -250,7 +272,7 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       {isOpen && (
-        <div className="lg:hidden absolute top-[80px] left-0 right-0 bg-white border-b border-bone/60 shadow-lg max-h-[calc(100vh-80px)] overflow-y-auto z-40 animate-fade-in">
+        <div className="lg:hidden absolute top-[112px] left-0 right-0 bg-white border-b border-bone/60 shadow-lg max-h-[calc(100vh-112px)] overflow-y-auto z-40 animate-fade-in">
           <div className="space-y-1 px-4 py-6">
             {/* Explore Section Accordion */}
             <div className="border-b border-bone/30 pb-3">

@@ -20,7 +20,7 @@ export default function CeritaDetail({ slug }: { slug: string }) {
     return (
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow flex flex-col items-center justify-center pt-24 px-4 text-center">
+        <main className="flex-grow flex flex-col items-center justify-center pt-32 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Artikel Tidak Ditemukan</h2>
           <p className="mt-2 text-text-muted">Maaf, cerita dengan slug "{slug}" belum terdaftar.</p>
           <Link href="/medansimpang/cerita" className="mt-6 flex items-center text-primary font-bold hover:underline">
@@ -55,7 +55,7 @@ export default function CeritaDetail({ slug }: { slug: string }) {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="flex-grow pt-24 pb-16">
+      <main className="flex-grow pt-32 pb-16">
         {/* Breadcrumb row */}
         <div className="bg-bone/30 border-b border-bone/40 py-3">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

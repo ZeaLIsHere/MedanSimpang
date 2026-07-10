@@ -43,7 +43,7 @@ export default function PerjalananPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="flex-grow pt-24 pb-16">
+      <main className="flex-grow pt-32 pb-16">
         <div className="bg-bone/30 border-b border-bone/40 py-3 mb-8">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <Breadcrumbs items={breadcrumbsItems} />

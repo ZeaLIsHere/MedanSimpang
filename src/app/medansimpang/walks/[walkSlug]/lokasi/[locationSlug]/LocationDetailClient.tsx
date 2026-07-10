@@ -24,7 +24,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
     return (
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow flex flex-col items-center justify-center pt-24 px-4 text-center">
+        <main className="flex-grow flex flex-col items-center justify-center pt-32 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Lokasi Tidak Ditemukan</h2>
           <p className="mt-2 text-text-muted">Maaf, detail lokasi atau rute tidak ditemukan.</p>
           <Link href="/medansimpang" className="mt-6 flex items-center text-primary font-bold hover:underline">
@@ -77,7 +77,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
 
-      <main className="flex-grow pt-24 pb-16">
+      <main className="flex-grow pt-32 pb-16">
         {/* Sub-header Navigation */}
         <div className="bg-bone/30 border-b border-bone/40 py-4">
           <div className="w-full px-6 lg:px-12 flex items-center justify-between">

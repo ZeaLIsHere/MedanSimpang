@@ -252,7 +252,7 @@ export default function CeritaListing() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="flex-grow pt-24 pb-20">
+      <main className="flex-grow pt-32 pb-20">
         {/* Intro Section */}
         <section className="bg-bone/15 py-12 md:py-16 border-b border-bone/45 mb-12">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center max-w-3xl">

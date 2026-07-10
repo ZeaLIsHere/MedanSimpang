@@ -36,7 +36,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
     return (
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow flex flex-col items-center justify-center pt-24 px-4 text-center">
+        <main className="flex-grow flex flex-col items-center justify-center pt-32 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Rute Tidak Ditemukan</h2>
           <p className="mt-2 text-text-muted">Maaf, rute jalan kaki dengan slug &quot;{walkSlug}&quot; belum terdaftar.</p>
           <Link href="/medansimpang" className="mt-6 flex items-center text-primary font-bold hover:underline">
@@ -108,7 +108,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
       <Header />
 
       {/* Main scrollable grid container — same pattern as Homepage */}
-      <main className="flex-grow pt-24 pb-16">
+      <main className="flex-grow pt-32 pb-16">
         <div className="w-full px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             
