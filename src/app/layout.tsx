@@ -16,14 +16,14 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "UrbanMorphSoc — Seeing cities at eye level",
-  description: "UrbanMorphSoc adalah wadah bagi project-project urban: heritage walk, riset, dan cerita kota. Melihat kota dari level mata.",
+  title: "Urban Morphology and Society",
+  description: "Urban Morphology and Society (UMS) is a research cluster at Universitas Sumatera Utara studying how society shapes the built environment and, in turn, how the built environment shapes social life.",
   metadataBase: new URL("https://urbanmorphsoc.com"),
   openGraph: {
-    title: "UrbanMorphSoc — Seeing cities at eye level",
-    description: "Wadah project-project urban: heritage walk, riset, dan cerita kota.",
+    title: "Urban Morphology and Society",
+    description: "A research cluster studying the morphology of buildings, neighbourhoods, and cities — and its relationship with society.",
     url: "https://urbanmorphsoc.com",
-    siteName: "UrbanMorphSoc",
+    siteName: "Urban Morphology and Society",
     locale: "id_ID",
     type: "website",
   },
