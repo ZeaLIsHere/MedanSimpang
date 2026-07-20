@@ -27,7 +27,7 @@
       "distanceMeters": 1600,
       "stepsCount": 2300,
       "walkType": "Riverside Walk",
-      "pointsOfInterestCount": 12,
+      "pointsOfInterestCount": 15,
       "latitude": 3.6005,
       "longitude": 98.6706,
       "lastUpdated": "Juni 2026",
@@ -42,9 +42,12 @@
         "rel-kereta-api",
         "ra-asasil-islam",
         "toko-kipas",
+        "dapur-sedap-wangi",
+        "pos-ronda",
         "bamboo-bali-cafe",
         "masjid-haji-maraset",
-        "florist"
+        "florist",
+        "warung-bunda-long"
       ],
       "contributors": [],
       "nearbyWalkSlugs": [
@@ -236,198 +239,6 @@
         [
           3.59804,
           98.67079
-        ],
-        [
-          3.5981,
-          98.67074
-        ],
-        [
-          3.59812,
-          98.67077
-        ],
-        [
-          3.59813,
-          98.6708
-        ],
-        [
-          3.59813,
-          98.67084
-        ],
-        [
-          3.59813,
-          98.6709
-        ],
-        [
-          3.59812,
-          98.67095
-        ],
-        [
-          3.59808,
-          98.67109
-        ],
-        [
-          3.59805,
-          98.67116
-        ],
-        [
-          3.59803,
-          98.67124
-        ],
-        [
-          3.59801,
-          98.67135
-        ],
-        [
-          3.59799,
-          98.67143
-        ],
-        [
-          3.59799,
-          98.67148
-        ],
-        [
-          3.59796,
-          98.67157
-        ],
-        [
-          3.5979,
-          98.67176
-        ],
-        [
-          3.59783,
-          98.67192
-        ],
-        [
-          3.59777,
-          98.67202
-        ],
-        [
-          3.59762,
-          98.67214
-        ],
-        [
-          3.59748,
-          98.67223
-        ],
-        [
-          3.59737,
-          98.67229
-        ],
-        [
-          3.59717,
-          98.67233
-        ],
-        [
-          3.59695,
-          98.6724
-        ],
-        [
-          3.59674,
-          98.67244
-        ],
-        [
-          3.59664,
-          98.67245
-        ],
-        [
-          3.59674,
-          98.67244
-        ],
-        [
-          3.59695,
-          98.6724
-        ],
-        [
-          3.59717,
-          98.67233
-        ],
-        [
-          3.59737,
-          98.67229
-        ],
-        [
-          3.59748,
-          98.67223
-        ],
-        [
-          3.59762,
-          98.67214
-        ],
-        [
-          3.59777,
-          98.67202
-        ],
-        [
-          3.59783,
-          98.67192
-        ],
-        [
-          3.5979,
-          98.67176
-        ],
-        [
-          3.59796,
-          98.67157
-        ],
-        [
-          3.59799,
-          98.67148
-        ],
-        [
-          3.59799,
-          98.67143
-        ],
-        [
-          3.59801,
-          98.67135
-        ],
-        [
-          3.59803,
-          98.67124
-        ],
-        [
-          3.59805,
-          98.67116
-        ],
-        [
-          3.59808,
-          98.67109
-        ],
-        [
-          3.59812,
-          98.67095
-        ],
-        [
-          3.59813,
-          98.6709
-        ],
-        [
-          3.59813,
-          98.67084
-        ],
-        [
-          3.59813,
-          98.6708
-        ],
-        [
-          3.59812,
-          98.67077
-        ],
-        [
-          3.5981,
-          98.67074
-        ],
-        [
-          3.5983,
-          98.67057
-        ],
-        [
-          3.5985,
-          98.6706
-        ],
-        [
-          3.5982,
-          98.67066
         ],
         [
           3.5981,
@@ -780,22 +591,26 @@
       "title_en": "Trail 2 — Malay Traditional House",
       "slug": "trails-2-malay-house",
       "neighbourhoodSlug": "silalas",
-      "heroImage": "/images/locations/rumah-adat-toba/gallery-1.jpg",
+      "heroImage": "/images/locations/masjid-al-muflihin/gallery-1.jpg",
       "description_id": "Rute yang menyusuri deretan rumah panggung tradisional Melayu di lorong-lorong Silalas. Data titik singgah dan dokumentasi rute ini akan segera ditambahkan.",
       "description_en": "A route tracing the rows of traditional Malay stilt houses in the lanes of Silalas. Stop data and route documentation for this trail will be added soon.",
       "durationMinutes": 35,
-      "distanceMeters": 900,
+      "distanceMeters": 1493,
       "stepsCount": 1300,
       "walkType": "Heritage Walk",
-      "pointsOfInterestCount": 3,
-      "latitude": 3.598,
-      "longitude": 98.6696,
-      "lastUpdated": "Juni 2026",
-      "downloadableMapImage": "/images/locations/rumah-adat-toba/gallery-1.jpg",
+      "pointsOfInterestCount": 7,
+      "latitude": 3.59631,
+      "longitude": 98.66988,
+      "lastUpdated": "Juli 2026",
+      "downloadableMapImage": "/images/locations/masjid-al-muflihin/gallery-1.jpg",
       "locationSlugs": [
-        "pos-ronda",
-        "warung-bunda-long",
-        "dapur-sedap-wangi"
+        "masjid-al-muflihin",
+        "pohon-besar-sei-deli",
+        "jajanan-viral-nangka",
+        "kelenteng-jit-sien",
+        "smp-negeri-7-medan",
+        "gang-tumbuhan-cempedak",
+        "shidoka-dojo"
       ],
       "contributors": [],
       "nearbyWalkSlugs": [
@@ -1222,25 +1037,84 @@
       "title_en": "Trail 3 — Malay Traditional House",
       "slug": "trails-3-malay-house",
       "neighbourhoodSlug": "silalas",
-      "heroImage": "/images/locations/rumah-adat-toba/gallery-2.jpg",
+      "heroImage": "/images/locations/jl-kemiri/gallery-1.jpg",
       "description_id": "Rute yang menyusuri deretan rumah panggung tradisional Melayu di lorong-lorong Silalas. Data titik singgah dan dokumentasi rute ini akan segera ditambahkan.",
       "description_en": "A route tracing rows of traditional Malay stilt houses in the lanes of Silalas. Stop data and route documentation for this trail will be added soon.",
       "durationMinutes": 30,
-      "distanceMeters": 800,
+      "distanceMeters": 1195,
       "stepsCount": 1100,
       "walkType": "Heritage Walk",
-      "pointsOfInterestCount": 0,
-      "latitude": 3.5965,
-      "longitude": 98.6712,
-      "lastUpdated": "Juni 2026",
-      "downloadableMapImage": "/images/locations/rumah-adat-toba/gallery-2.jpg",
-      "locationSlugs": [],
+      "pointsOfInterestCount": 2,
+      "latitude": 3.59796,
+      "longitude": 98.67086,
+      "lastUpdated": "Juli 2026",
+      "downloadableMapImage": "/images/locations/jl-kemiri/gallery-1.jpg",
+      "locationSlugs": [
+        "jl-kemiri",
+        "the-promised-cafe"
+      ],
       "contributors": [],
       "nearbyWalkSlugs": [
         "trails-2-malay-house",
         "trails-4-cemetery-mosque"
       ],
       "route": [
+        [
+          3.59408,
+          98.67114
+        ],
+        [
+          3.59415,
+          98.67111
+        ],
+        [
+          3.59418,
+          98.67109
+        ],
+        [
+          3.59422,
+          98.67107
+        ],
+        [
+          3.59427,
+          98.67106
+        ],
+        [
+          3.59431,
+          98.67106
+        ],
+        [
+          3.59435,
+          98.67106
+        ],
+        [
+          3.59438,
+          98.67105
+        ],
+        [
+          3.59443,
+          98.67104
+        ],
+        [
+          3.59449,
+          98.67104
+        ],
+        [
+          3.59453,
+          98.67103
+        ],
+        [
+          3.59484,
+          98.67099
+        ],
+        [
+          3.59548,
+          98.67095
+        ],
+        [
+          3.59549,
+          98.67104
+        ],
         [
           3.5955,
           98.67112
@@ -1528,33 +1402,32 @@
       "title_en": "Trail 4 — Green Cemetery and Mosque",
       "slug": "trails-4-cemetery-mosque",
       "neighbourhoodSlug": "silalas",
-      "heroImage": "/images/locations/masjid-haji-maraset/gallery-1.jpg",
+      "heroImage": "/images/locations/masjid-jami-silalas/gallery-1.jpg",
       "description_id": "Rute yang menghubungkan ruang hijau pemakaman tua dan masjid bersejarah di kawasan Silalas. Data titik singgah dan dokumentasi rute ini akan segera ditambahkan.",
       "description_en": "A route connecting the green space of an old cemetery and a historic mosque in the Silalas area. Stop data and route documentation for this trail will be added soon.",
       "durationMinutes": 35,
-      "distanceMeters": 1000,
+      "distanceMeters": 702,
       "stepsCount": 1400,
       "walkType": "Heritage Walk",
-      "pointsOfInterestCount": 0,
-      "latitude": 3.594,
-      "longitude": 98.671,
-      "lastUpdated": "Juni 2026",
-      "downloadableMapImage": "/images/locations/masjid-haji-maraset/gallery-1.jpg",
-      "locationSlugs": [],
+      "pointsOfInterestCount": 6,
+      "latitude": 3.59323,
+      "longitude": 98.67176,
+      "lastUpdated": "Juli 2026",
+      "downloadableMapImage": "/images/locations/masjid-jami-silalas/gallery-1.jpg",
+      "locationSlugs": [
+        "masjid-jami-silalas",
+        "perkuburan-sei-deli-1",
+        "perkuburan-sei-deli-2",
+        "warung-makan-guru-patimpus",
+        "jembatan-guru-patimpus",
+        "kantor-lurah-silalas"
+      ],
       "contributors": [],
       "nearbyWalkSlugs": [
         "trails-1-deli-riverside",
         "trails-3-malay-house"
       ],
       "route": [
-        [
-          3.595,
-          98.67432
-        ],
-        [
-          3.59495,
-          98.67421
-        ],
         [
           3.59489,
           98.67402
@@ -1637,278 +1510,38 @@
         ],
         [
           3.59325,
-          98.67219
-        ],
-        [
-          3.59315,
-          98.6722
-        ],
-        [
-          3.59304,
-          98.6722
-        ],
-        [
-          3.593,
-          98.6722
-        ],
-        [
-          3.59292,
-          98.6722
-        ],
-        [
-          3.59284,
-          98.6722
-        ],
-        [
-          3.59275,
-          98.6722
-        ],
-        [
-          3.59268,
-          98.67219
-        ],
-        [
-          3.59265,
-          98.67219
-        ],
-        [
-          3.59263,
-          98.67218
-        ],
-        [
-          3.59261,
-          98.67218
-        ],
-        [
-          3.59258,
-          98.67216
-        ],
-        [
-          3.59255,
-          98.67214
-        ],
-        [
-          3.59253,
-          98.67211
-        ],
-        [
-          3.59251,
-          98.67209
-        ],
-        [
-          3.59249,
-          98.67205
-        ],
-        [
-          3.59248,
-          98.67203
-        ],
-        [
-          3.59245,
           98.67194
         ],
         [
-          3.59231,
-          98.67155
+          3.59323,
+          98.67176
         ],
         [
-          3.59226,
-          98.6714
-        ],
-        [
-          3.59223,
-          98.67118
-        ],
-        [
-          3.59222,
-          98.67109
-        ],
-        [
-          3.59223,
-          98.67099
-        ],
-        [
-          3.59221,
-          98.67096
-        ],
-        [
-          3.5922,
-          98.67093
-        ],
-        [
-          3.59218,
-          98.6709
-        ],
-        [
-          3.59215,
-          98.67087
-        ],
-        [
-          3.59219,
-          98.67083
-        ],
-        [
-          3.59225,
-          98.67077
-        ],
-        [
-          3.59231,
-          98.6707
-        ],
-        [
-          3.59235,
-          98.67062
-        ],
-        [
-          3.59237,
-          98.67055
-        ],
-        [
-          3.59237,
-          98.67052
-        ],
-        [
-          3.59237,
-          98.6705
-        ],
-        [
-          3.59239,
-          98.6704
-        ],
-        [
-          3.59244,
-          98.67022
-        ],
-        [
-          3.59251,
-          98.66997
-        ],
-        [
-          3.59255,
-          98.66984
-        ],
-        [
-          3.59262,
-          98.66963
-        ],
-        [
-          3.59268,
-          98.66933
-        ],
-        [
-          3.59276,
-          98.66904
-        ],
-        [
-          3.59279,
-          98.669
-        ],
-        [
-          3.59283,
-          98.66898
-        ],
-        [
-          3.59287,
-          98.66896
-        ],
-        [
-          3.59292,
-          98.66893
-        ],
-        [
-          3.59297,
-          98.66892
-        ],
-        [
-          3.59301,
-          98.66891
-        ],
-        [
-          3.59307,
-          98.66892
+          3.5932,
+          98.67159
         ],
         [
           3.59317,
-          98.66893
+          98.67141
         ],
         [
-          3.59323,
-          98.66893
+          3.59314,
+          98.67123
         ],
         [
-          3.59331,
-          98.66895
-        ],
-        [
-          3.59343,
-          98.6691
-        ],
-        [
-          3.5935,
-          98.66928
-        ],
-        [
-          3.59353,
-          98.66936
-        ],
-        [
-          3.59356,
-          98.66945
-        ],
-        [
-          3.59358,
-          98.66953
-        ],
-        [
-          3.5936,
-          98.6696
-        ],
-        [
-          3.59362,
-          98.66968
-        ],
-        [
-          3.59347,
-          98.66968
-        ],
-        [
-          3.59329,
-          98.66968
+          3.59312,
+          98.67124
         ],
         [
           3.59311,
-          98.66968
-        ],
-        [
-          3.5931,
-          98.66986
-        ],
-        [
-          3.59309,
-          98.67004
-        ],
-        [
-          3.59307,
-          98.6704
-        ],
-        [
-          3.59307,
-          98.67058
-        ],
-        [
-          3.59306,
-          98.67076
-        ],
-        [
-          3.59304,
-          98.67112
-        ],
-        [
-          3.59303,
           98.67125
         ],
         [
-          3.59306,
+          3.5931,
+          98.67125
+        ],
+        [
+          3.59309,
           98.67124
         ],
         [
@@ -1916,32 +1549,175 @@
           98.67124
         ],
         [
-          3.59309,
+          3.59306,
           98.67124
         ],
         [
-          3.5931,
+          3.59303,
           98.67125
         ],
         [
-          3.59311,
-          98.67125
-        ],
-        [
-          3.59312,
-          98.67124
-        ],
-        [
-          3.59314,
-          98.67123
-        ],
-        [
-          3.59352,
+          3.59304,
           98.67112
         ],
         [
-          3.59381,
-          98.67104
+          3.59306,
+          98.67076
+        ],
+        [
+          3.59307,
+          98.67058
+        ],
+        [
+          3.59307,
+          98.6704
+        ],
+        [
+          3.59309,
+          98.67004
+        ],
+        [
+          3.5931,
+          98.66986
+        ],
+        [
+          3.59311,
+          98.66968
+        ],
+        [
+          3.59329,
+          98.66968
+        ],
+        [
+          3.59347,
+          98.66968
+        ],
+        [
+          3.5935,
+          98.66968
+        ]
+      ]
+    },
+    {
+      "title_id": "Trail 5 — Kampung & Pemakaman Hijau",
+      "title_en": "Trail 5 — Kampung and Green Cemetery",
+      "slug": "trails-5-kampung-cemetery",
+      "neighbourhoodSlug": "silalas",
+      "heroImage": "/images/locations/sdn-060837/gallery-1.jpg",
+      "description_id": "Rute menyusuri kampung tepi Sungai Deli dan ruang hijau pemakaman tua di sisi selatan Silalas.",
+      "description_en": "A route through the riverside kampung along the Deli River and the green space of old cemeteries on the southern edge of Silalas.",
+      "durationMinutes": 35,
+      "distanceMeters": 774,
+      "stepsCount": 1400,
+      "walkType": "Heritage Walk",
+      "pointsOfInterestCount": 8,
+      "latitude": 3.5917,
+      "longitude": 98.672572,
+      "lastUpdated": "Juli 2026",
+      "downloadableMapImage": "/images/locations/sdn-060837/gallery-1.jpg",
+      "locationSlugs": [
+        "sdn-060837",
+        "perkuburan-sei-deli-3",
+        "kampung-tepi-sungai-deli",
+        "universitas-ibbi",
+        "bakso-moro-seneng",
+        "rumah-makan-sinar-pagi",
+        "pertokoan-gatot-subroto",
+        "tugu-gatot-subroto"
+      ],
+      "contributors": [],
+      "nearbyWalkSlugs": [
+        "trails-4-cemetery-mosque",
+        "trails-1-deli-riverside"
+      ],
+      "route": [
+        [
+          3.593263,
+          98.672175
+        ],
+        [
+          3.593023,
+          98.672191
+        ],
+        [
+          3.592819,
+          98.672186
+        ],
+        [
+          3.592712,
+          98.67218
+        ],
+        [
+          3.59261,
+          98.672416
+        ],
+        [
+          3.592557,
+          98.672679
+        ],
+        [
+          3.592562,
+          98.672937
+        ],
+        [
+          3.592407,
+          98.67298
+        ],
+        [
+          3.592236,
+          98.672996
+        ],
+        [
+          3.592059,
+          98.672937
+        ],
+        [
+          3.59185,
+          98.672744
+        ],
+        [
+          3.5917,
+          98.672572
+        ],
+        [
+          3.591813,
+          98.672465
+        ],
+        [
+          3.592214,
+          98.672229
+        ],
+        [
+          3.592514,
+          98.672062
+        ],
+        [
+          3.592396,
+          98.671869
+        ],
+        [
+          3.592273,
+          98.671446
+        ],
+        [
+          3.592257,
+          98.671134
+        ],
+        [
+          3.592278,
+          98.670909
+        ],
+        [
+          3.592811,
+          98.669066
+        ],
+        [
+          3.593008,
+          98.668971
+        ],
+        [
+          3.593301,
+          98.668962
         ]
       ]
     }
@@ -2242,7 +2018,7 @@
       "name_id": "Dapur Sedap Wangi",
       "name_en": "Dapur Sedap Wangi",
       "slug": "dapur-sedap-wangi",
-      "walkSlug": "trails-2-malay-house",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iEat",
       "thumbnail": "/images/locations/dapur-sedap-wangi/thumbnail.jpg",
       "gallery": [
@@ -2268,7 +2044,7 @@
       "longitude": 98.6695771,
       "googleMapsUrl": "https://maps.google.com/?q=3.5987785,98.6695771",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5987785,98.6695771",
-      "order": 3,
+      "order": 10,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2281,7 +2057,7 @@
       "name_id": "Pos Ronda",
       "name_en": "Pos Ronda (Neighbourhood Watch Post)",
       "slug": "pos-ronda",
-      "walkSlug": "trails-2-malay-house",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iSurprise",
       "thumbnail": "/images/locations/pos-ronda/thumbnail.jpg",
       "gallery": [
@@ -2297,7 +2073,7 @@
       "longitude": 98.6698074,
       "googleMapsUrl": "https://maps.google.com/?q=3.5965373,98.6698074",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5965373,98.6698074",
-      "order": 1,
+      "order": 11,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2332,7 +2108,7 @@
       "longitude": 98.6707998,
       "googleMapsUrl": "https://maps.google.com/?q=3.6064915,98.6707998",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6064915,98.6707998",
-      "order": 10,
+      "order": 12,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2363,7 +2139,7 @@
       "longitude": 98.6709559,
       "googleMapsUrl": "https://maps.google.com/?q=3.6054839,98.6709559",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6054839,98.6709559",
-      "order": 11,
+      "order": 13,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2398,7 +2174,7 @@
       "longitude": 98.6708052,
       "googleMapsUrl": "https://maps.google.com/?q=3.6060816,98.6708052",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6060816,98.6708052",
-      "order": 12,
+      "order": 14,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2411,7 +2187,7 @@
       "name_id": "Warung Bunda Long",
       "name_en": "Warung Bunda Long",
       "slug": "warung-bunda-long",
-      "walkSlug": "trails-2-malay-house",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iEat",
       "thumbnail": "/images/locations/warung-bunda-long/thumbnail.jpg",
       "gallery": [
@@ -2431,7 +2207,7 @@
       "longitude": 98.6697904,
       "googleMapsUrl": "https://maps.google.com/?q=3.5973567,98.6697904",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5973567,98.6697904",
-      "order": 2,
+      "order": 15,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2442,22 +2218,81 @@
     },
     {
       "name_id": "Kantor Lurah Silalas",
-      "name_en": "Silalas Village Office",
+      "name_en": "Kantor Lurah Silalas",
       "slug": "kantor-lurah-silalas",
-      "walkSlug": "trails-1-deli-riverside",
+      "walkSlug": "trails-4-cemetery-mosque",
       "category": "iSee",
-      "thumbnail": "/images/locations/kantor-lurah-silalas/thumbnail.jpg",
+      "thumbnail": "/images/placeholder-location.jpg",
       "gallery": [],
-      "shortDescription_id": "Kantor Kelurahan Silalas, pusat administrasi kawasan bersejarah ini sejak era kolonial.",
-      "shortDescription_en": "The Silalas Village Office, administrative centre of this historic district since the colonial era.",
-      "address_id": "Jl. Klp. No.5, Silalas, Kec. Medan Bar., Kota Medan, Sumatera Utara 20231",
-      "address_en": "Jl. Klp. No.5, Silalas, Medan Barat District, Medan City, North Sumatra 20231",
-      "openingHours_id": "Senin-Jumat, 08.00-16.00 WIB",
-      "openingHours_en": "Monday-Friday, 08:00-16:00 WIB",
-      "latitude": 3.5932484442616834,
-      "longitude": 98.67119621090289,
-      "googleMapsUrl": "https://maps.google.com/?q=3.5932484442616834,98.67119621090289",
-      "appleMapsUrl": "https://maps.apple.com/?q=3.5932484442616834,98.67119621090289",
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.592929,
+      "longitude": 98.671154,
+      "googleMapsUrl": "https://maps.google.com/?q=3.592929,98.671154",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.592929,98.671154",
+      "order": 6,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Masjid Al Muflihin",
+      "name_en": "Masjid Al Muflihin",
+      "slug": "masjid-al-muflihin",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/locations/masjid-al-muflihin/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/masjid-al-muflihin/gallery-1.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.599061,
+      "longitude": 98.670097,
+      "googleMapsUrl": "https://maps.google.com/?q=3.599061,98.670097",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.599061,98.670097",
+      "order": 1,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Pohon Besar Jl. Sei Deli",
+      "name_en": "Pohon Besar Jl. Sei Deli",
+      "slug": "pohon-besar-sei-deli",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/locations/pohon-besar-sei-deli/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/pohon-besar-sei-deli/gallery-1.jpg",
+        "/images/locations/pohon-besar-sei-deli/gallery-2.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6024,
+      "longitude": 98.670733,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6024,98.670733",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6024,98.670733",
       "order": 2,
       "contentBlocks": [
         {
@@ -2466,6 +2301,667 @@
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
+    },
+    {
+      "name_id": "Jajanan Viral Jl. Nangka",
+      "name_en": "Jajanan Viral Jl. Nangka",
+      "slug": "jajanan-viral-nangka",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iEat",
+      "thumbnail": "/images/locations/jajanan-viral-nangka/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/jajanan-viral-nangka/gallery-1.jpg",
+        "/images/locations/jajanan-viral-nangka/gallery-2.jpg",
+        "/images/locations/jajanan-viral-nangka/gallery-3.jpg",
+        "/images/locations/jajanan-viral-nangka/gallery-4.jpg",
+        "/images/locations/jajanan-viral-nangka/gallery-5.jpg",
+        "/images/locations/jajanan-viral-nangka/gallery-6.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.597651,
+      "longitude": 98.670001,
+      "googleMapsUrl": "https://maps.google.com/?q=3.597651,98.670001",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.597651,98.670001",
+      "order": 3,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Kelenteng Jit Sien",
+      "name_en": "Kelenteng Jit Sien",
+      "slug": "kelenteng-jit-sien",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/locations/kelenteng-jit-sien/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/kelenteng-jit-sien/gallery-1.jpg",
+        "/images/locations/kelenteng-jit-sien/gallery-2.jpg",
+        "/images/locations/kelenteng-jit-sien/gallery-3.jpg",
+        "/images/locations/kelenteng-jit-sien/gallery-4.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.594879,
+      "longitude": 98.66879,
+      "googleMapsUrl": "https://maps.google.com/?q=3.594879,98.66879",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.594879,98.66879",
+      "order": 4,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "SMP Negeri 7 Medan",
+      "name_en": "SMP Negeri 7 Medan",
+      "slug": "smp-negeri-7-medan",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/locations/smp-negeri-7-medan/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/smp-negeri-7-medan/gallery-1.jpg",
+        "/images/locations/smp-negeri-7-medan/gallery-2.jpg",
+        "/images/locations/smp-negeri-7-medan/gallery-3.jpg",
+        "/images/locations/smp-negeri-7-medan/gallery-4.jpg",
+        "/images/locations/smp-negeri-7-medan/gallery-5.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.594675,
+      "longitude": 98.669146,
+      "googleMapsUrl": "https://maps.google.com/?q=3.594675,98.669146",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.594675,98.669146",
+      "order": 5,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Jl. Kemiri",
+      "name_en": "Jl. Kemiri",
+      "slug": "jl-kemiri",
+      "walkSlug": "trails-3-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/locations/jl-kemiri/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/jl-kemiri/gallery-1.jpg",
+        "/images/locations/jl-kemiri/gallery-2.jpg",
+        "/images/locations/jl-kemiri/gallery-3.jpg",
+        "/images/locations/jl-kemiri/gallery-4.jpg",
+        "/images/locations/jl-kemiri/gallery-5.jpg",
+        "/images/locations/jl-kemiri/gallery-6.jpg",
+        "/images/locations/jl-kemiri/gallery-7.jpg",
+        "/images/locations/jl-kemiri/gallery-8.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.597538,
+      "longitude": 98.670698,
+      "googleMapsUrl": "https://maps.google.com/?q=3.597538,98.670698",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.597538,98.670698",
+      "order": 1,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Masjid Jami' Silalas Sei Deli",
+      "name_en": "Masjid Jami' Silalas Sei Deli",
+      "slug": "masjid-jami-silalas",
+      "walkSlug": "trails-4-cemetery-mosque",
+      "category": "iSee",
+      "thumbnail": "/images/locations/masjid-jami-silalas/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/masjid-jami-silalas/gallery-1.jpg",
+        "/images/locations/masjid-jami-silalas/gallery-2.jpg",
+        "/images/locations/masjid-jami-silalas/gallery-3.jpg",
+        "/images/locations/masjid-jami-silalas/gallery-4.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.594312,
+      "longitude": 98.672255,
+      "googleMapsUrl": "https://maps.google.com/?q=3.594312,98.672255",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.594312,98.672255",
+      "order": 1,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Perkuburan Sei Deli 1",
+      "name_en": "Perkuburan Sei Deli 1",
+      "slug": "perkuburan-sei-deli-1",
+      "walkSlug": "trails-4-cemetery-mosque",
+      "category": "iSee",
+      "thumbnail": "/images/locations/perkuburan-sei-deli-1/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/perkuburan-sei-deli-1/gallery-1.jpg",
+        "/images/locations/perkuburan-sei-deli-1/gallery-2.jpg",
+        "/images/locations/perkuburan-sei-deli-1/gallery-3.jpg",
+        "/images/locations/perkuburan-sei-deli-1/gallery-4.jpg",
+        "/images/locations/perkuburan-sei-deli-1/gallery-5.jpg",
+        "/images/locations/perkuburan-sei-deli-1/gallery-6.jpg",
+        "/images/locations/perkuburan-sei-deli-1/gallery-7.jpg",
+        "/images/locations/perkuburan-sei-deli-1/gallery-8.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.594072,
+      "longitude": 98.672258,
+      "googleMapsUrl": "https://maps.google.com/?q=3.594072,98.672258",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.594072,98.672258",
+      "order": 2,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Perkuburan Sei Deli 2",
+      "name_en": "Perkuburan Sei Deli 2",
+      "slug": "perkuburan-sei-deli-2",
+      "walkSlug": "trails-4-cemetery-mosque",
+      "category": "iSee",
+      "thumbnail": "/images/locations/perkuburan-sei-deli-2/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/perkuburan-sei-deli-2/gallery-1.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-2.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-3.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-4.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-5.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-6.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-7.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-8.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-9.jpg",
+        "/images/locations/perkuburan-sei-deli-2/gallery-10.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.593654,
+      "longitude": 98.672223,
+      "googleMapsUrl": "https://maps.google.com/?q=3.593654,98.672223",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.593654,98.672223",
+      "order": 3,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "SDN 060837",
+      "name_en": "SDN 060837",
+      "slug": "sdn-060837",
+      "walkSlug": "trails-5-kampung-cemetery",
+      "category": "iSee",
+      "thumbnail": "/images/locations/sdn-060837/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/sdn-060837/gallery-1.jpg",
+        "/images/locations/sdn-060837/gallery-2.jpg",
+        "/images/locations/sdn-060837/gallery-3.jpg",
+        "/images/locations/sdn-060837/gallery-4.jpg",
+        "/images/locations/sdn-060837/gallery-5.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.593229,
+      "longitude": 98.672261,
+      "googleMapsUrl": "https://maps.google.com/?q=3.593229,98.672261",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.593229,98.672261",
+      "order": 1,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Perkuburan Sei Deli 3",
+      "name_en": "Perkuburan Sei Deli 3",
+      "slug": "perkuburan-sei-deli-3",
+      "walkSlug": "trails-5-kampung-cemetery",
+      "category": "iSee",
+      "thumbnail": "/images/locations/perkuburan-sei-deli-3/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/perkuburan-sei-deli-3/gallery-1.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-2.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-3.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-4.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-5.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-6.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-7.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-8.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-9.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-10.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-11.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-12.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-13.jpg",
+        "/images/locations/perkuburan-sei-deli-3/gallery-14.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.592574,
+      "longitude": 98.672521,
+      "googleMapsUrl": "https://maps.google.com/?q=3.592574,98.672521",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.592574,98.672521",
+      "order": 2,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Kampung Tepi Sungai Deli",
+      "name_en": "Kampung Tepi Sungai Deli",
+      "slug": "kampung-tepi-sungai-deli",
+      "walkSlug": "trails-5-kampung-cemetery",
+      "category": "iSee",
+      "thumbnail": "/images/locations/kampung-tepi-sungai-deli/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/kampung-tepi-sungai-deli/gallery-1.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-2.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-3.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-4.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-5.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-6.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-7.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-8.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-9.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-10.jpg",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-11.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.592138,
+      "longitude": 98.672958,
+      "googleMapsUrl": "https://maps.google.com/?q=3.592138,98.672958",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.592138,98.672958",
+      "order": 3,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Universitas IBBI",
+      "name_en": "Universitas IBBI",
+      "slug": "universitas-ibbi",
+      "walkSlug": "trails-5-kampung-cemetery",
+      "category": "iSee",
+      "thumbnail": "/images/locations/universitas-ibbi/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/universitas-ibbi/gallery-1.jpg",
+        "/images/locations/universitas-ibbi/gallery-2.jpg",
+        "/images/locations/universitas-ibbi/gallery-3.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.592494,
+      "longitude": 98.672127,
+      "googleMapsUrl": "https://maps.google.com/?q=3.592494,98.672127",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.592494,98.672127",
+      "order": 4,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Bakso dan Nasi Goreng Moro Seneng",
+      "name_en": "Bakso dan Nasi Goreng Moro Seneng",
+      "slug": "bakso-moro-seneng",
+      "walkSlug": "trails-5-kampung-cemetery",
+      "category": "iEat",
+      "thumbnail": "/images/locations/bakso-moro-seneng/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/bakso-moro-seneng/gallery-1.jpg",
+        "/images/locations/bakso-moro-seneng/gallery-2.jpg",
+        "/images/locations/bakso-moro-seneng/gallery-3.jpg",
+        "/images/locations/bakso-moro-seneng/gallery-4.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.592319,
+      "longitude": 98.671615,
+      "googleMapsUrl": "https://maps.google.com/?q=3.592319,98.671615",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.592319,98.671615",
+      "order": 5,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Makan Sinar Pagi",
+      "name_en": "Rumah Makan Sinar Pagi",
+      "slug": "rumah-makan-sinar-pagi",
+      "walkSlug": "trails-5-kampung-cemetery",
+      "category": "iEat",
+      "thumbnail": "/images/locations/rumah-makan-sinar-pagi/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/rumah-makan-sinar-pagi/gallery-1.jpg",
+        "/images/locations/rumah-makan-sinar-pagi/gallery-2.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.592294,
+      "longitude": 98.671033,
+      "googleMapsUrl": "https://maps.google.com/?q=3.592294,98.671033",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.592294,98.671033",
+      "order": 6,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Pertokoan Jl. Gatot Subroto",
+      "name_en": "Pertokoan Jl. Gatot Subroto",
+      "slug": "pertokoan-gatot-subroto",
+      "walkSlug": "trails-5-kampung-cemetery",
+      "category": "iSee",
+      "thumbnail": "/images/locations/pertokoan-gatot-subroto/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/pertokoan-gatot-subroto/gallery-1.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-2.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-3.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-4.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-5.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-6.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-7.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-8.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-9.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-10.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-11.jpg",
+        "/images/locations/pertokoan-gatot-subroto/gallery-12.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.59251,
+      "longitude": 98.670259,
+      "googleMapsUrl": "https://maps.google.com/?q=3.59251,98.670259",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.59251,98.670259",
+      "order": 7,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Tugu Jl. Gatot Subroto",
+      "name_en": "Tugu Jl. Gatot Subroto",
+      "slug": "tugu-gatot-subroto",
+      "walkSlug": "trails-5-kampung-cemetery",
+      "category": "iSee",
+      "thumbnail": "/images/locations/tugu-gatot-subroto/thumbnail.jpg",
+      "gallery": [
+        "/images/locations/tugu-gatot-subroto/gallery-1.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-2.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-3.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-4.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-5.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-6.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-7.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-8.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-9.jpg",
+        "/images/locations/tugu-gatot-subroto/gallery-10.jpg"
+      ],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.593131,
+      "longitude": 98.668957,
+      "googleMapsUrl": "https://maps.google.com/?q=3.593131,98.668957",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.593131,98.668957",
+      "order": 8,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "slug": "gang-tumbuhan-cempedak",
+      "name_id": "Gang Tumbuhan Jl. Cempedak",
+      "name_en": "Gang Tumbuhan Jl. Cempedak",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.597049,
+      "longitude": 98.669512,
+      "googleMapsUrl": "https://maps.google.com/?q=3.597049,98.669512",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.597049,98.669512",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ],
+      "order": 6
+    },
+    {
+      "slug": "shidoka-dojo",
+      "name_id": "Shidoka Dojo",
+      "name_en": "Shidoka Dojo",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.604089,
+      "longitude": 98.671198,
+      "googleMapsUrl": "https://maps.google.com/?q=3.604089,98.671198",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.604089,98.671198",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ],
+      "order": 7
+    },
+    {
+      "slug": "the-promised-cafe",
+      "name_id": "The Promised Cafe",
+      "name_en": "The Promised Cafe",
+      "walkSlug": "trails-3-malay-house",
+      "category": "iDrink",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.595104,
+      "longitude": 98.672237,
+      "googleMapsUrl": "https://maps.google.com/?q=3.595104,98.672237",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.595104,98.672237",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ],
+      "order": 2
+    },
+    {
+      "slug": "warung-makan-guru-patimpus",
+      "name_id": "Warung Makan Jl. Guru Patimpus",
+      "name_en": "Warung Makan Jl. Guru Patimpus",
+      "walkSlug": "trails-4-cemetery-mosque",
+      "category": "iEat",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.594997,
+      "longitude": 98.673973,
+      "googleMapsUrl": "https://maps.google.com/?q=3.594997,98.673973",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.594997,98.673973",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ],
+      "order": 4
+    },
+    {
+      "slug": "jembatan-guru-patimpus",
+      "name_id": "Jembatan Jl. Guru Patimpus",
+      "name_en": "Jembatan Jl. Guru Patimpus",
+      "walkSlug": "trails-4-cemetery-mosque",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_en": "A short description will be added soon.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.594627,
+      "longitude": 98.672642,
+      "googleMapsUrl": "https://maps.google.com/?q=3.594627,98.672642",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.594627,98.672642",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ],
+      "order": 5
     }
   ],
   "cerita": [
