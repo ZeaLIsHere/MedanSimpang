@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   title: "Urban Morphology and Society",
   description: "Urban Morphology and Society (UMS) is a research cluster at Universitas Sumatera Utara studying how society shapes the built environment and, in turn, how the built environment shapes social life.",
   metadataBase: new URL("https://urbanmorphsoc.com"),
+  icons: { icon: "/main-favicon.png" },
   openGraph: {
     title: "Urban Morphology and Society",
     description: "A research cluster studying the morphology of buildings, neighbourhoods, and cities — and its relationship with society.",

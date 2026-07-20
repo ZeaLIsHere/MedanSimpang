@@ -43,9 +43,6 @@ export default function Landing() {
       {/* Intro — official UMS description (English) */}
       <section className="py-16 lg:py-20">
         <div className="w-full px-6 lg:px-12 max-w-3xl">
-          <p className="text-sm font-bold uppercase tracking-widest text-primary-strong mb-4">
-            {id ? 'Klaster Riset' : 'Research Cluster'}
-          </p>
           <p className="text-base sm:text-lg font-medium text-accent/90 leading-relaxed">{umsDescriptionFor(language)}</p>
           <Link href="/about" className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold text-secondary hover:gap-2.5 transition-all">
             {id ? 'Selengkapnya tentang kami' : 'Learn more about us'}

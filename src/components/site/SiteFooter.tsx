@@ -11,9 +11,6 @@ export default function SiteFooter() {
   const id = language === 'id';
 
   const t = {
-    mission: id
-      ? 'Klaster riset yang mempelajari bagaimana masyarakat membentuk lingkungan binaan, dan sebaliknya.'
-      : 'A research cluster studying how society shapes the built environment, and vice versa.',
     links: id ? 'Tautan' : 'Links',
     contact: id ? 'Kontak' : 'Contact',
   };
@@ -33,7 +30,6 @@ export default function SiteFooter() {
             <p className="font-serif text-xl font-black tracking-tight leading-tight">
               Urban Morphology <span className="text-primary-light">and Society</span>
             </p>
-            <p className="text-sm font-light text-gray-300 leading-relaxed max-w-xs">{t.mission}</p>
             <div className="flex space-x-4 pt-2">
               <a href="https://instagram.com/urbanmorphsoc" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary-light transition-colors" aria-label="Instagram"><Instagram className="h-5 w-5" /></a>
               <a href="https://facebook.com/urbanmorphsoc" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary-light transition-colors" aria-label="Facebook"><Facebook className="h-5 w-5" /></a>

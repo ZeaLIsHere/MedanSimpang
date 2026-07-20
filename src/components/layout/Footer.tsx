@@ -26,9 +26,6 @@ export default function Footer() {
 
   const translations = {
     tagline: language === 'id' ? 'Seen at eye level' : 'Seen at eye level',
-    mission: language === 'id' 
-      ? 'Melestarikan dan menampilkan kawasan bersejarah Kota Medan dari sudut pandang warganya sendiri. Menjelajahi setiap simpang dan gang kaki secara mendalam.'
-      : 'Preserving and showcasing Medan\'s historical neighbourhoods from the perspective of its residents. Discovering every alleyway and intersection on foot.',
     explore: language === 'id' ? 'Jelajah Kota' : 'Explore City',
     stories: language === 'id' ? 'Cerita' : 'Stories',
     about: language === 'id' ? 'Tentang' : 'About',
@@ -66,9 +63,6 @@ export default function Footer() {
                 className="h-12 md:h-14 w-auto"
               />
             </Link>
-            <p className="text-sm font-light text-gray-300 leading-relaxed max-w-xs">
-              {translations.mission}
-            </p>
             <div className="flex space-x-4 pt-2">
               <a
                 href="https://instagram.com/medansimpang"
@@ -175,10 +169,6 @@ export default function Footer() {
             <span>{language === 'id' ? 'Kembali ke UrbanMorphSoc' : 'Back to UrbanMorphSoc'}</span>
           </Link>
           <p>© {currentYear} Medan Simpang. All rights reserved.</p>
-          <p className="flex items-center gap-1">
-            <span>Powered by</span>
-            <span className="font-semibold text-gray-300">Sumatra Heritage Community</span>
-          </p>
         </div>
       </div>
     </footer>
