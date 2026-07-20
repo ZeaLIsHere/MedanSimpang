@@ -16,14 +16,14 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Medan Simpang — Seen at eye level",
-  description: "Platform city-guide & heritage-walk mandiri di Kota Medan. Jelajahi gang-gang kecil, sejarah, kuliner, dan arsitektur bersejarah dari level mata.",
-  metadataBase: new URL("https://urbanmorphsoc.com/medansimpang"),
+  title: "Urban Morphology and Society",
+  description: "Urban Morphology and Society (UMS) is a research cluster at Universitas Sumatera Utara studying how society shapes the built environment and, in turn, how the built environment shapes social life.",
+  metadataBase: new URL("https://urbanmorphsoc.com"),
   openGraph: {
-    title: "Medan Simpang — Seen at eye level",
-    description: "Jelajahi Kota Medan dari level mata, selangkah demi selangkah.",
-    url: "https://urbanmorphsoc.com/medansimpang",
-    siteName: "Medan Simpang",
+    title: "Urban Morphology and Society",
+    description: "A research cluster studying the morphology of buildings, neighbourhoods, and cities — and its relationship with society.",
+    url: "https://urbanmorphsoc.com",
+    siteName: "Urban Morphology and Society",
     locale: "id_ID",
     type: "website",
   },

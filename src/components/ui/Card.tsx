@@ -16,7 +16,7 @@ export function KawasanCard({ kawasan }: KawasanCardProps) {
   const tagline = language === 'id' ? kawasan.tagline_id : kawasan.tagline_en;
 
   return (
-    <Link href={`/kawasan/${kawasan.slug}`} className="group block relative overflow-hidden rounded-xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+    <Link href={`/medansimpang/kawasan/${kawasan.slug}`} className="group block relative overflow-hidden rounded-xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
       <div className="relative h-64 w-full overflow-hidden bg-bone">
         <Image
           src={kawasan.coverImage}
@@ -24,16 +24,11 @@ export function KawasanCard({ kawasan }: KawasanCardProps) {
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          priority
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-10">
-          <div className="flex items-center justify-between">
-            <h3 className="font-serif text-2xl font-bold tracking-wide">{kawasan.name}</h3>
-            <span className="rounded-full bg-primary/20 border border-primary/40 px-3 py-1 text-xs font-semibold text-primary uppercase tracking-wider backdrop-blur-sm">
-              {kawasan.walkCount} {language === 'id' ? 'Walk' : 'Walks'}
-            </span>
-          </div>
+          <h3 className="font-serif text-2xl font-bold tracking-wide">{kawasan.name}</h3>
           <p className="mt-2 text-sm text-gray-200 line-clamp-2 font-light">
             {tagline}
           </p>
@@ -61,7 +56,7 @@ export function WalkCard({ walk }: WalkCardProps) {
     : `~${distanceKm} km (${walk.stepsCount} steps)`;
 
   return (
-    <Link href={`/walks/${walk.slug}`} className="group flex flex-col overflow-hidden rounded-xl border border-bone/60 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+    <Link href={`/medansimpang/walks/${walk.slug}`} className="group flex flex-col overflow-hidden rounded-xl border border-bone/60 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
       <div className="relative h-48 w-full overflow-hidden bg-bone">
         <Image
           src={walk.heroImage}
@@ -100,7 +95,7 @@ export function CeritaCard({ cerita }: CeritaCardProps) {
   );
 
   return (
-    <Link href={`/cerita/${cerita.slug}`} className="group flex flex-col md:flex-row overflow-hidden rounded-xl border border-bone/60 bg-white transition-all duration-300 hover:shadow-md">
+    <Link href={`/medansimpang/cerita/${cerita.slug}`} className="group flex flex-col md:flex-row overflow-hidden rounded-xl border border-bone/60 bg-white transition-all duration-300 hover:shadow-md">
       <div className="relative h-48 w-full md:h-auto md:w-2/5 min-h-[192px] overflow-hidden bg-bone">
         <Image
           src={cerita.coverImage}

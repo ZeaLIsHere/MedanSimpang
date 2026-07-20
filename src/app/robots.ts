@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://urbanmorphsoc.com/medansimpang/sitemap.xml',
+    sitemap: 'https://urbanmorphsoc.com/sitemap.xml',
     host: 'https://urbanmorphsoc.com',
   };
 }

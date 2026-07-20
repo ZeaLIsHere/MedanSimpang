@@ -43,11 +43,11 @@ export default function Footer() {
   };
 
   const aboutSubLinks = [
-    { label: language === 'id' ? 'Visi Kami' : 'Our Vision', path: '/tentang/visi' },
-    { label: language === 'id' ? 'Mitra' : 'Partners', path: '/tentang/mitra' },
-    { label: language === 'id' ? 'Tim' : 'Our Team', path: '/tentang/tim' },
-    { label: language === 'id' ? 'Perjalanan' : 'Our Journey', path: '/tentang/perjalanan' },
-    { label: language === 'id' ? 'Metodologi' : 'Methodology', path: '/tentang/metodologi' },
+    { label: language === 'id' ? 'Visi Kami' : 'Our Vision', path: '/medansimpang/tentang/visi' },
+    { label: language === 'id' ? 'Mitra' : 'Partners', path: '/medansimpang/tentang/mitra' },
+    { label: language === 'id' ? 'Tim' : 'Our Team', path: '/medansimpang/tentang/tim' },
+    { label: language === 'id' ? 'Perjalanan' : 'Our Journey', path: '/medansimpang/tentang/perjalanan' },
+    { label: language === 'id' ? 'Metodologi' : 'Methodology', path: '/medansimpang/tentang/metodologi' },
   ];
 
   return (
@@ -57,7 +57,7 @@ export default function Footer() {
           
           {/* Column 1: Brand & Mission */}
           <div className="space-y-4">
-            <Link href="/" className="inline-block">
+            <Link href="/medansimpang" className="inline-block">
               <Image
                 src="/images/logo-footer.png"
                 alt="Medan Simpang — Seen at Eye Level"
@@ -106,7 +106,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm font-light text-gray-300">
               {kawasanList.map((k) => (
                 <li key={k.slug}>
-                  <Link href={`/kawasan/${k.slug}`} className="hover:text-primary-light transition-colors">
+                  <Link href={`/medansimpang/kawasan/${k.slug}`} className="hover:text-primary-light transition-colors">
                     {k.name}
                   </Link>
                 </li>
@@ -170,6 +170,10 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between text-xs font-light text-gray-400 gap-4">
+          <Link href="/" className="flex items-center gap-1.5 hover:text-primary-light transition-colors">
+            <span aria-hidden="true">←</span>
+            <span>{language === 'id' ? 'Kembali ke UrbanMorphSoc' : 'Back to UrbanMorphSoc'}</span>
+          </Link>
           <p>© {currentYear} Medan Simpang. All rights reserved.</p>
           <p className="flex items-center gap-1">
             <span>Powered by</span>

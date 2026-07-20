@@ -1,34 +1,27 @@
-# Deploy — redirect root domain ke /medansimpang
+# Deploy — UrbanMorphSoc (landing di root) + MedanSimpang
 
-## Masalah
-`urbanmorphsoc.com` (root) balas **403** karena `public_html/` tidak punya file index —
-seluruh app ada di `public_html/medansimpang/` (akibat `basePath: '/medansimpang'`).
+## Model
+Sejak landing page UrbanMorphSoc diintegrasikan, `basePath` dihapus dan
+seluruh situs di-export ke satu folder `out/`:
 
-## Solusi
-Upload isi folder `public_html-root/` ke **root domain** (`public_html/`), sejajar
-dengan folder `medansimpang/` — BUKAN ke dalamnya.
+    out/
+    ├── index.html          <- landing UrbanMorphSoc (root domain)
+    ├── 404.html
+    ├── .htaccess           <- dari public/.htaccess (kompresi, cache, header, 404)
+    ├── sitemap.xml, robots.txt
+    ├── _next/ ... images/ ...
+    └── medansimpang/
+        ├── index.html      <- MedanSimpang
+        └── kawasan/ walks/ cerita/ tentang/ ...
 
-Struktur akhir di server:
-
-```
-public_html/
-├── .htaccess          <- dari deploy/public_html-root/ (redirect root)
-├── index.html         <- dari deploy/public_html-root/ (fallback redirect)
-└── medansimpang/
-    ├── index.html     <- hasil build (out/)
-    ├── .htaccess      <- dari public/.htaccess
-    └── _next/ ...
-```
-
-## Cara upload (Hostinger — hPanel File Manager atau FTP)
-1. Buka File Manager, masuk ke `public_html/`.
-2. Upload `.htaccess` dan `index.html` dari `deploy/public_html-root/` ke sini.
-   - Kalau File Manager menyembunyikan file diawali titik: aktifkan "Show hidden files".
-3. Buka `https://urbanmorphsoc.com/` — harus langsung mengalih ke `/medansimpang/`.
+## Cara deploy (Hostinger — File Manager atau FTP)
+1. Jalankan `npm run build` → menghasilkan folder `out/`.
+2. Upload **seluruh isi `out/`** ke `public_html/` (root domain), termasuk
+   file tersembunyi `.htaccess` (aktifkan "Show hidden files" bila perlu).
+3. Buka `https://urbanmorphsoc.com/` → tampil landing UrbanMorphSoc.
+   Buka `https://urbanmorphsoc.com/medansimpang/` → tampil MedanSimpang.
 
 ## Catatan
-- `.htaccess` melakukan redirect di sisi server (paling bersih). `index.html`
-  jadi cadangan kalau mod_rewrite bermasalah — dua-duanya boleh dipasang bersama.
-- Redirect memakai **302 (sementara)**. Ganti ke **301 (permanen)** di `.htaccess`
-  kalau urbanmorphsoc.com memang selamanya hanya untuk MedanSimpang.
-- Kalau nanti bikin homepage sendiri untuk urbanmorphsoc.com, hapus/ganti kedua file ini.
+- Tidak ada lagi redirect root → /medansimpang (folder `public_html-root/`
+  yang lama sudah dihapus). Root kini disajikan langsung oleh `index.html`.
+- `.htaccess` di root berlaku untuk seluruh situs (aturan berbasis ekstensi).
