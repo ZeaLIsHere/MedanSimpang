@@ -65,7 +65,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
     : `${distanceKm} km`;
 
   const breadcrumbsItems = [
-    { label: kawasan?.name || 'Kawasan', path: `/medansimpang/kawasan/${walk.neighbourhoodSlug}` },
+    { label: kawasan?.name || 'Kawasan', path: `/medansimpang/${walk.neighbourhoodSlug}` },
     { label: title },
   ];
 
@@ -127,7 +127,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                 </h1>
                 <p className="text-xs text-text-muted font-light">
                   {language === 'id' ? 'Kawasan: ' : 'District: '}
-                  <Link href={`/medansimpang/kawasan/${walk.neighbourhoodSlug}`} className="underline font-bold text-secondary hover:text-primary">
+                  <Link href={`/medansimpang/${walk.neighbourhoodSlug}`} className="underline font-bold text-secondary hover:text-primary">
                     {kawasan?.name}
                   </Link>
                   {` • `}

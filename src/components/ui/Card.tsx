@@ -16,7 +16,7 @@ export function KawasanCard({ kawasan }: KawasanCardProps) {
   const tagline = language === 'id' ? kawasan.tagline_id : kawasan.tagline_en;
 
   return (
-    <Link href={`/medansimpang/kawasan/${kawasan.slug}`} className="group block relative overflow-hidden rounded-xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+    <Link href={`/medansimpang/${kawasan.slug}`} className="group block relative overflow-hidden rounded-xl border border-bone/60 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
       <div className="relative h-64 w-full overflow-hidden bg-bone">
         <Image
           src={kawasan.coverImage}

@@ -142,7 +142,7 @@ export default function Header() {
                     {kawasanList.map((kawasan) => (
                       <Link
                         key={kawasan.slug}
-                        href={`/medansimpang/kawasan/${kawasan.slug}`}
+                        href={`/medansimpang/${kawasan.slug}`}
                         onClick={() => setActiveDropdown(null)}
                         className="block rounded-lg px-4 py-2.5 text-sm font-medium text-text-main hover:bg-bone/40 hover:text-secondary transition-colors"
                       >
@@ -289,7 +289,7 @@ export default function Header() {
                   {kawasanList.map((k) => (
                     <Link
                       key={k.slug}
-                      href={`/medansimpang/kawasan/${k.slug}`}
+                      href={`/medansimpang/${k.slug}`}
                       onClick={() => setIsOpen(false)}
                       className="block py-1.5 text-sm font-medium text-text-muted hover:text-secondary"
                     >

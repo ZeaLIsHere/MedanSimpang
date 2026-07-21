@@ -61,7 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Kawasan
   for (const k of getAllKawasan()) {
     entries.push({
-      url: `${BASE_URL}/kawasan/${k.slug}/`,
+      url: `${BASE_URL}/${k.slug}/`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,
