@@ -65,9 +65,6 @@ export function WalkCard({ walk }: WalkCardProps) {
           className="object-cover transition-transform duration-500 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
         />
-        <div className="absolute top-4 left-4 rounded-md bg-accent/90 px-2.5 py-1 text-xs font-semibold text-white tracking-wider uppercase z-10">
-          {walk.walkType}
-        </div>
       </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="font-serif text-xl font-bold text-accent transition-colors group-hover:text-secondary">

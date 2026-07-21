@@ -16,8 +16,8 @@
   ],
   "walks": [
     {
-      "title_id": "Trail 1 — Deli Riverside",
-      "title_en": "Trail 1 — Deli Riverside",
+      "title_id": "Trails 1 Tepian Sungai Deli",
+      "title_en": "Trails 1 Deli Riverside",
       "slug": "trails-1-deli-riverside",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/locations/deli-riverview/gallery-1.jpg",
@@ -587,8 +587,8 @@
       ]
     },
     {
-      "title_id": "Trail 2 — Rumah Tradisional Melayu",
-      "title_en": "Trail 2 — Malay Traditional House",
+      "title_id": "Trails 2 Lanskap Kampung Melayu",
+      "title_en": "Trails 2 Malay Kampung Landscape",
       "slug": "trails-2-malay-house",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/locations/masjid-al-muflihin/gallery-1.jpg",
@@ -1033,8 +1033,8 @@
       ]
     },
     {
-      "title_id": "Trail 3 — Rumah Tradisional Melayu",
-      "title_en": "Trail 3 — Malay Traditional House",
+      "title_id": "Trails 3 Rumah Tradisional Melayu",
+      "title_en": "Trails 3 Malay Traditional Houses",
       "slug": "trails-3-malay-house",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/locations/jl-kemiri/gallery-1.jpg",
@@ -1398,8 +1398,8 @@
       ]
     },
     {
-      "title_id": "Trail 4 — Pemakaman Hijau & Masjid",
-      "title_en": "Trail 4 — Green Cemetery and Mosque",
+      "title_id": "Trails 4 Masjid Tua Silalas",
+      "title_en": "Trails 4 Silalas Old Mosque",
       "slug": "trails-4-cemetery-mosque",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/locations/masjid-jami-silalas/gallery-1.jpg",
@@ -1599,8 +1599,8 @@
       ]
     },
     {
-      "title_id": "Trail 5 — Kampung & Pemakaman Hijau",
-      "title_en": "Trail 5 — Kampung and Green Cemetery",
+      "title_id": "Trails 5 Kampung & Pemakaman Hijau",
+      "title_en": "Trails 5 Kampung and Green Cemetery",
       "slug": "trails-5-kampung-cemetery",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/locations/sdn-060837/gallery-1.jpg",
