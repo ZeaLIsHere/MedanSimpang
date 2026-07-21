@@ -43,7 +43,7 @@ export default function Home() {
       title: k.name,
       subtitle: language === 'id' ? k.tagline_id : k.tagline_en,
       imageUrl: k.coverImage,
-      linkUrl: `/medansimpang/kawasan/${k.slug}`,
+      linkUrl: `/medansimpang/${k.slug}`,
       linkText: language === 'id' ? 'Jelajahi Kawasan' : 'Explore Neighbourhood',
     },
   }));

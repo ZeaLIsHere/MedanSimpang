@@ -2,6 +2,10 @@ export interface Person {
   name: string;
   role?: string;
   photo?: string | null;
+  /** Profil eksternal (halaman dosen/repositori). Kartu jadi bisa diklik jika ada. */
+  link?: string;
+  /** Institusi asal — ditampilkan sebagai tag kecil di kartu. */
+  affiliation?: string;
 }
 
 export const umsDescription =
@@ -26,17 +30,23 @@ export const umsAddress = {
   email: 'urbanmorphsoc@gmail.com',
 };
 
-export const umsHead: Person = { name: 'Dr. Salmina Wati Ginting', role: 'Head', photo: null };
+export const umsHead: Person = {
+  name: 'Dr. Salmina Wati Ginting',
+  role: 'Head',
+  photo: null,
+  link: 'https://ft.usu.ac.id/id/dosen/salmina-wati-ginting',
+  affiliation: 'Universitas Sumatera Utara',
+};
 
 export const umsMembers: Person[] = [
-  { name: 'Dr. Ulrike Herbig', photo: null },
-  { name: 'Dr. Isnen Fitri', photo: null },
-  { name: 'Dr. Wahyuni Zahrah', photo: null },
-  { name: 'Dr. Lim Seng Boon', photo: null },
-  { name: 'Dr. Norhazlan Haron', photo: null },
-  { name: 'Sri Elfina Panjaitan', photo: null },
-  { name: 'Ryandika Afdila', photo: null },
-  { name: 'Nurrahmadayeni', photo: null },
+  { name: 'Dr. Ulrike Herbig', photo: null, link: 'https://gcd.tuwien.ac.at/ulrike-herbig', affiliation: 'TU Wien' },
+  { name: 'Dr. Isnen Fitri', photo: null, link: 'https://ft.usu.ac.id/id/dosen/isnen-fitri/', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Dr. Wahyuni Zahrah', photo: null, link: 'https://ft.usu.ac.id/id/dosen/wahyuni-zahrah', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Dr. Lim Seng Boon', photo: null, link: 'https://perak.uitm.edu.my/index.php/en/component/content/article/487-department-of-built-environment-studies-technology-2?layout=edit&Itemid=101', affiliation: 'UiTM Perak' },
+  { name: 'Dr. Norhazlan Haron', photo: null, link: 'https://perak.uitm.edu.my/index.php/en/component/content/article/487-department-of-built-environment-studies-technology-2?layout=edit&Itemid=101', affiliation: 'UiTM Perak' },
+  { name: 'Sri Elfina Panjaitan', photo: null, link: 'https://repositori.usu.ac.id/handle/123456789/110616', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Ryandika Afdila', photo: null, link: 'https://ft.usu.ac.id/en/lecturer/ryandika-afdila', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Nurrahmadayeni', photo: null, link: 'https://fasilkom-ti.usu.ac.id/id/dosen/nurrahmadayeni', affiliation: 'Universitas Sumatera Utara' },
 ];
 
 // TBD — user will provide student names/photos. Keep empty until then.

@@ -100,7 +100,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm font-light text-gray-300">
               {kawasanList.map((k) => (
                 <li key={k.slug}>
-                  <Link href={`/medansimpang/kawasan/${k.slug}`} className="hover:text-primary-light transition-colors">
+                  <Link href={`/medansimpang/${k.slug}`} className="hover:text-primary-light transition-colors">
                     {k.name}
                   </Link>
                 </li>
