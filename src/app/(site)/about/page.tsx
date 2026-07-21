@@ -10,23 +10,8 @@ import {
   umsHead,
   umsMembers,
   umsStudents,
-  initials,
-  type Person,
 } from '@/data/ums';
-
-function PersonCard({ person }: { person: Person }) {
-  return (
-    <div className="flex items-center gap-4 rounded-2xl border border-bone/60 bg-white p-4 shadow-sm">
-      <div className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-secondary/10 text-secondary font-serif font-bold text-lg shrink-0">
-        {initials(person.name)}
-      </div>
-      <div>
-        <p className="font-semibold text-accent leading-tight">{person.name}</p>
-        {person.role && <p className="text-xs text-text-muted uppercase tracking-wider mt-0.5">{person.role}</p>}
-      </div>
-    </div>
-  );
-}
+import PersonCard from '@/components/ui/PersonCard';
 
 export default function AboutPage() {
   const { language } = useLanguage();
@@ -66,18 +51,18 @@ export default function AboutPage() {
 
           <h3 className="mt-6 text-xs font-bold uppercase tracking-widest text-primary-strong">{id ? 'Ketua' : 'Head'}</h3>
           <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl">
-            <PersonCard person={umsHead} />
+            <PersonCard person={umsHead} featured />
           </div>
 
           <h3 className="mt-8 text-xs font-bold uppercase tracking-widest text-primary-strong">{id ? 'Anggota' : 'Members'}</h3>
           <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {umsMembers.map((m) => <PersonCard key={m.name} person={m} />)}
+            {umsMembers.map((m, i) => <PersonCard key={m.name} person={m} index={i} />)}
           </div>
 
           <h3 className="mt-8 text-xs font-bold uppercase tracking-widest text-primary-strong">{id ? 'Mahasiswa' : 'Students'}</h3>
           {umsStudents.length > 0 ? (
             <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {umsStudents.map((s) => <PersonCard key={s.name} person={s} />)}
+              {umsStudents.map((s, i) => <PersonCard key={s.name} person={s} index={i} />)}
             </div>
           ) : (
             <p className="mt-3 text-sm text-text-muted font-light italic">
