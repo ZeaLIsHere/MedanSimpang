@@ -34,20 +34,20 @@
       "downloadableMapImage": "/images/locations/deli-riverview/gallery-2.jpg",
       "locationSlugs": [
         "rumah-qohwah",
-        "deli-riverview",
-        "rumah-adat-toba",
-        "steves-coffee",
+        "the-promised-cafe",
+        "jl-kemiri",
+        "rb1-rumah-sei-deli",
         "bakso-mie-ayam-panorama",
-        "mie-ayam-bakso-solo",
-        "rel-kereta-api",
-        "ra-asasil-islam",
-        "toko-kipas",
         "dapur-sedap-wangi",
-        "pos-ronda",
-        "bamboo-bali-cafe",
+        "masjid-al-muflihin",
+        "rel-kereta-api",
+        "rb3-rumah-sei-deli-2",
+        "pohon-besar-sei-deli",
+        "ra-asasil-islam",
+        "shidoka-dojo",
         "masjid-haji-maraset",
         "florist",
-        "warung-bunda-long"
+        "bamboo-bali-cafe"
       ],
       "contributors": [],
       "nearbyWalkSlugs": [
@@ -598,19 +598,29 @@
       "distanceMeters": 1493,
       "stepsCount": 1300,
       "walkType": "Heritage Walk",
-      "pointsOfInterestCount": 7,
+      "pointsOfInterestCount": 17,
       "latitude": 3.59631,
       "longitude": 98.66988,
       "lastUpdated": "Juli 2026",
       "downloadableMapImage": "/images/locations/masjid-al-muflihin/gallery-1.jpg",
       "locationSlugs": [
-        "masjid-al-muflihin",
-        "pohon-besar-sei-deli",
-        "jajanan-viral-nangka",
         "kelenteng-jit-sien",
         "smp-negeri-7-medan",
+        "rp4-rumah-panggung-petai",
+        "rp1-rumah-panggung-rambutan",
+        "rp2-rumah-tuan-guru-tohir",
+        "rp3-rumah-panggung-nam-nam",
+        "pos-ronda",
+        "rp5-rumah-panggung-langsat",
         "gang-tumbuhan-cempedak",
-        "shidoka-dojo"
+        "warung-bunda-long",
+        "jajanan-viral-nangka",
+        "rp7-rumah-panggung-pala",
+        "rp9-rumah-panggung-nenas",
+        "rb2-rumah-nenas",
+        "rp11-rumah-panggung-nenas-2",
+        "toko-kipas",
+        "mie-ayam-bakso-solo"
       ],
       "contributors": [],
       "nearbyWalkSlugs": [
@@ -1044,14 +1054,18 @@
       "distanceMeters": 1195,
       "stepsCount": 1100,
       "walkType": "Heritage Walk",
-      "pointsOfInterestCount": 2,
+      "pointsOfInterestCount": 6,
       "latitude": 3.59796,
       "longitude": 98.67086,
       "lastUpdated": "Juli 2026",
       "downloadableMapImage": "/images/locations/jl-kemiri/gallery-1.jpg",
       "locationSlugs": [
-        "jl-kemiri",
-        "the-promised-cafe"
+        "deli-riverview",
+        "rumah-adat-toba",
+        "rp8-warung-nasi-barkah",
+        "steves-coffee",
+        "rp6-rumah-panggung-rambe",
+        "rp10-rumah-panggung-jambu"
       ],
       "contributors": [],
       "nearbyWalkSlugs": [
@@ -1762,7 +1776,7 @@
       "name_id": "Deli Riverview",
       "name_en": "Deli Riverview",
       "slug": "deli-riverview",
-      "walkSlug": "trails-1-deli-riverside",
+      "walkSlug": "trails-3-malay-house",
       "category": "iSurprise",
       "thumbnail": "/images/locations/deli-riverview/thumbnail.jpg",
       "gallery": [
@@ -1781,7 +1795,7 @@
       "longitude": 98.6720206,
       "googleMapsUrl": "https://maps.google.com/?q=3.5967211,98.6720206",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5967211,98.6720206",
-      "order": 2,
+      "order": 1,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -1794,7 +1808,7 @@
       "name_id": "Rumah Adat Toba",
       "name_en": "Toba Traditional House",
       "slug": "rumah-adat-toba",
-      "walkSlug": "trails-1-deli-riverside",
+      "walkSlug": "trails-3-malay-house",
       "category": "iSee",
       "thumbnail": "/images/locations/rumah-adat-toba/thumbnail.jpg",
       "gallery": [
@@ -1812,7 +1826,7 @@
       "longitude": 98.6716123,
       "googleMapsUrl": "https://maps.google.com/?q=3.5970763,98.6716123",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5970763,98.6716123",
-      "order": 3,
+      "order": 2,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -1825,7 +1839,7 @@
       "name_id": "Steve's Coffee",
       "name_en": "Steve's Coffee",
       "slug": "steves-coffee",
-      "walkSlug": "trails-1-deli-riverside",
+      "walkSlug": "trails-3-malay-house",
       "category": "iDrink",
       "thumbnail": "/images/locations/steves-coffee/thumbnail.jpg",
       "gallery": [
@@ -1889,7 +1903,7 @@
       "name_id": "Mie Ayam Bakso Solo",
       "name_en": "Solo Chicken Noodles & Meatball",
       "slug": "mie-ayam-bakso-solo",
-      "walkSlug": "trails-1-deli-riverside",
+      "walkSlug": "trails-2-malay-house",
       "category": "iEat",
       "thumbnail": "/images/locations/mie-ayam-bakso-solo/thumbnail.jpg",
       "gallery": [
@@ -1908,7 +1922,7 @@
       "longitude": 98.6703687,
       "googleMapsUrl": "https://maps.google.com/?q=3.6005944,98.6703687",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6005944,98.6703687",
-      "order": 6,
+      "order": 17,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -1941,7 +1955,7 @@
       "longitude": 98.6704313,
       "googleMapsUrl": "https://maps.google.com/?q=3.601147,98.6704313",
       "appleMapsUrl": "https://maps.apple.com/?q=3.601147,98.6704313",
-      "order": 7,
+      "order": 8,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -1973,7 +1987,7 @@
       "longitude": 98.6707819,
       "googleMapsUrl": "https://maps.google.com/?q=3.6025818,98.6707819",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6025818,98.6707819",
-      "order": 8,
+      "order": 11,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -1986,7 +2000,7 @@
       "name_id": "Toko Kipas",
       "name_en": "Toko Kipas",
       "slug": "toko-kipas",
-      "walkSlug": "trails-1-deli-riverside",
+      "walkSlug": "trails-2-malay-house",
       "category": "iSurprise",
       "thumbnail": "/images/locations/toko-kipas/thumbnail.jpg",
       "gallery": [
@@ -2005,7 +2019,7 @@
       "longitude": 98.6702533,
       "googleMapsUrl": "https://maps.google.com/?q=3.6008731,98.6702533",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6008731,98.6702533",
-      "order": 9,
+      "order": 16,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2044,7 +2058,7 @@
       "longitude": 98.6695771,
       "googleMapsUrl": "https://maps.google.com/?q=3.5987785,98.6695771",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5987785,98.6695771",
-      "order": 10,
+      "order": 6,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2057,7 +2071,7 @@
       "name_id": "Pos Ronda",
       "name_en": "Pos Ronda (Neighbourhood Watch Post)",
       "slug": "pos-ronda",
-      "walkSlug": "trails-1-deli-riverside",
+      "walkSlug": "trails-2-malay-house",
       "category": "iSurprise",
       "thumbnail": "/images/locations/pos-ronda/thumbnail.jpg",
       "gallery": [
@@ -2073,7 +2087,7 @@
       "longitude": 98.6698074,
       "googleMapsUrl": "https://maps.google.com/?q=3.5965373,98.6698074",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5965373,98.6698074",
-      "order": 11,
+      "order": 7,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2108,7 +2122,7 @@
       "longitude": 98.6707998,
       "googleMapsUrl": "https://maps.google.com/?q=3.6064915,98.6707998",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6064915,98.6707998",
-      "order": 12,
+      "order": 15,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2187,7 +2201,7 @@
       "name_id": "Warung Bunda Long",
       "name_en": "Warung Bunda Long",
       "slug": "warung-bunda-long",
-      "walkSlug": "trails-1-deli-riverside",
+      "walkSlug": "trails-2-malay-house",
       "category": "iEat",
       "thumbnail": "/images/locations/warung-bunda-long/thumbnail.jpg",
       "gallery": [
@@ -2207,7 +2221,7 @@
       "longitude": 98.6697904,
       "googleMapsUrl": "https://maps.google.com/?q=3.5973567,98.6697904",
       "appleMapsUrl": "https://maps.apple.com/?q=3.5973567,98.6697904",
-      "order": 15,
+      "order": 10,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2247,7 +2261,7 @@
       "name_id": "Masjid Al Muflihin",
       "name_en": "Masjid Al Muflihin",
       "slug": "masjid-al-muflihin",
-      "walkSlug": "trails-2-malay-house",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
       "thumbnail": "/images/locations/masjid-al-muflihin/thumbnail.jpg",
       "gallery": [
@@ -2263,7 +2277,7 @@
       "longitude": 98.670097,
       "googleMapsUrl": "https://maps.google.com/?q=3.599061,98.670097",
       "appleMapsUrl": "https://maps.apple.com/?q=3.599061,98.670097",
-      "order": 1,
+      "order": 7,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2276,7 +2290,7 @@
       "name_id": "Pohon Besar Jl. Sei Deli",
       "name_en": "Pohon Besar Jl. Sei Deli",
       "slug": "pohon-besar-sei-deli",
-      "walkSlug": "trails-2-malay-house",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
       "thumbnail": "/images/locations/pohon-besar-sei-deli/thumbnail.jpg",
       "gallery": [
@@ -2293,7 +2307,7 @@
       "longitude": 98.670733,
       "googleMapsUrl": "https://maps.google.com/?q=3.6024,98.670733",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6024,98.670733",
-      "order": 2,
+      "order": 10,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2327,7 +2341,7 @@
       "longitude": 98.670001,
       "googleMapsUrl": "https://maps.google.com/?q=3.597651,98.670001",
       "appleMapsUrl": "https://maps.apple.com/?q=3.597651,98.670001",
-      "order": 3,
+      "order": 11,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2359,7 +2373,7 @@
       "longitude": 98.66879,
       "googleMapsUrl": "https://maps.google.com/?q=3.594879,98.66879",
       "appleMapsUrl": "https://maps.apple.com/?q=3.594879,98.66879",
-      "order": 4,
+      "order": 1,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2392,7 +2406,7 @@
       "longitude": 98.669146,
       "googleMapsUrl": "https://maps.google.com/?q=3.594675,98.669146",
       "appleMapsUrl": "https://maps.apple.com/?q=3.594675,98.669146",
-      "order": 5,
+      "order": 2,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2405,7 +2419,7 @@
       "name_id": "Jl. Kemiri",
       "name_en": "Jl. Kemiri",
       "slug": "jl-kemiri",
-      "walkSlug": "trails-3-malay-house",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
       "thumbnail": "/images/locations/jl-kemiri/thumbnail.jpg",
       "gallery": [
@@ -2428,7 +2442,7 @@
       "longitude": 98.670698,
       "googleMapsUrl": "https://maps.google.com/?q=3.597538,98.670698",
       "appleMapsUrl": "https://maps.apple.com/?q=3.597538,98.670698",
-      "order": 1,
+      "order": 3,
       "contentBlocks": [
         {
           "type": "paragraph",
@@ -2853,13 +2867,13 @@
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ],
-      "order": 6
+      "order": 9
     },
     {
       "slug": "shidoka-dojo",
       "name_id": "Shidoka Dojo",
       "name_en": "Shidoka Dojo",
-      "walkSlug": "trails-2-malay-house",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
       "thumbnail": "/images/placeholder-location.jpg",
       "gallery": [],
@@ -2880,13 +2894,13 @@
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ],
-      "order": 7
+      "order": 12
     },
     {
       "slug": "the-promised-cafe",
       "name_id": "The Promised Cafe",
       "name_en": "The Promised Cafe",
-      "walkSlug": "trails-3-malay-house",
+      "walkSlug": "trails-1-deli-riverside",
       "category": "iDrink",
       "thumbnail": "/images/placeholder-location.jpg",
       "gallery": [],
@@ -2962,6 +2976,412 @@
         }
       ],
       "order": 5
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Rambutan",
+      "name_en": "Stilt House, Jl. Rambutan",
+      "slug": "rp1-rumah-panggung-rambutan",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5954023,
+      "longitude": 98.670635,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5954023,98.670635",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5954023,98.670635",
+      "order": 4,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Tuan Guru Tohir",
+      "name_en": "Tuan Guru Tohir's House",
+      "slug": "rp2-rumah-tuan-guru-tohir",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Kediaman Tuan Guru Tohir, salah satu rumah tetua kampung.",
+      "shortDescription_en": "The home of Tuan Guru Tohir, one of the kampung elders' houses.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5956623,
+      "longitude": 98.6710337,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5956623,98.6710337",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5956623,98.6710337",
+      "order": 5,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Nam Nam",
+      "name_en": "Stilt House, Jl. Nam Nam",
+      "slug": "rp3-rumah-panggung-nam-nam",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5959176,
+      "longitude": 98.6704096,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5959176,98.6704096",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5959176,98.6704096",
+      "order": 6,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Petai",
+      "name_en": "Stilt House, Jl. Petai",
+      "slug": "rp4-rumah-panggung-petai",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5955858,
+      "longitude": 98.670134,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5955858,98.670134",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5955858,98.670134",
+      "order": 3,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Langsat",
+      "name_en": "Stilt House, Jl. Langsat",
+      "slug": "rp5-rumah-panggung-langsat",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5964115,
+      "longitude": 98.6695419,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5964115,98.6695419",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5964115,98.6695419",
+      "order": 8,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Rambe",
+      "name_en": "Stilt House, Jl. Rambe",
+      "slug": "rp6-rumah-panggung-rambe",
+      "walkSlug": "trails-3-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5972749,
+      "longitude": 98.6705682,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5972749,98.6705682",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5972749,98.6705682",
+      "order": 5,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Pala",
+      "name_en": "Stilt House, Jl. Pala",
+      "slug": "rp7-rumah-panggung-pala",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5978754,
+      "longitude": 98.67005,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5978754,98.67005",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5978754,98.67005",
+      "order": 12,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Warung Nasi Barkah",
+      "name_en": "Warung Nasi Barkah (Rice Eatery)",
+      "slug": "rp8-warung-nasi-barkah",
+      "walkSlug": "trails-3-malay-house",
+      "category": "iEat",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Warung nasi rumahan warga kampung Silalas.",
+      "shortDescription_en": "A home-style rice eatery run by Silalas residents.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.597639,
+      "longitude": 98.6709969,
+      "googleMapsUrl": "https://maps.google.com/?q=3.597639,98.6709969",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.597639,98.6709969",
+      "order": 3,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Nenas",
+      "name_en": "Stilt House, Jl. Nenas",
+      "slug": "rp9-rumah-panggung-nenas",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5991452,
+      "longitude": 98.6696562,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5991452,98.6696562",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5991452,98.6696562",
+      "order": 13,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Jambu",
+      "name_en": "Stilt House, Jl. Jambu",
+      "slug": "rp10-rumah-panggung-jambu",
+      "walkSlug": "trails-3-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.596563,
+      "longitude": 98.6715071,
+      "googleMapsUrl": "https://maps.google.com/?q=3.596563,98.6715071",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.596563,98.6715071",
+      "order": 6,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Jl. Nenas 2",
+      "name_en": "Stilt House, Jl. Nenas 2",
+      "slug": "rp11-rumah-panggung-nenas-2",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
+      "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6008725,
+      "longitude": 98.6699575,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6008725,98.6699575",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6008725,98.6699575",
+      "order": 15,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Jl. Sei Deli",
+      "name_en": "House, Jl. Sei Deli",
+      "slug": "rb1-rumah-sei-deli",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah warga bercorak lama di kampung Silalas.",
+      "shortDescription_en": "An old-style resident's house in kampung Silalas.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5982426,
+      "longitude": 98.6705809,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5982426,98.6705809",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5982426,98.6705809",
+      "order": 4,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Jl. Nenas",
+      "name_en": "House, Jl. Nenas",
+      "slug": "rb2-rumah-nenas",
+      "walkSlug": "trails-2-malay-house",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah warga bercorak lama di kampung Silalas.",
+      "shortDescription_en": "An old-style resident's house in kampung Silalas.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5995881,
+      "longitude": 98.6697094,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5995881,98.6697094",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5995881,98.6697094",
+      "order": 14,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Jl. Sei Deli 2",
+      "name_en": "House, Jl. Sei Deli 2",
+      "slug": "rb3-rumah-sei-deli-2",
+      "walkSlug": "trails-1-deli-riverside",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [
+        "/images/placeholder-location.jpg"
+      ],
+      "shortDescription_id": "Rumah warga bercorak lama di kampung Silalas.",
+      "shortDescription_en": "An old-style resident's house in kampung Silalas.",
+      "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6018052,
+      "longitude": 98.6704518,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6018052,98.6704518",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6018052,98.6704518",
+      "order": 9,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
     }
   ],
   "cerita": [
