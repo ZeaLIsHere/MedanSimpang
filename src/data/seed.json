@@ -2983,9 +2983,15 @@
       "slug": "rp1-rumah-panggung-rambutan",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp1-rumah-panggung-rambutan/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.jpg",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-2.jpg",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-3.jpg",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-4.jpg",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-5.jpg",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-6.jpg",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-7.jpg"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3012,9 +3018,14 @@
       "slug": "rp2-rumah-tuan-guru-tohir",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp2-rumah-tuan-guru-tohir/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-1.jpg",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-2.jpg",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-3.jpg",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-4.jpg",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-5.jpg",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-6.jpg"
       ],
       "shortDescription_id": "Kediaman Tuan Guru Tohir, salah satu rumah tetua kampung.",
       "shortDescription_en": "The home of Tuan Guru Tohir, one of the kampung elders' houses.",
@@ -3041,9 +3052,11 @@
       "slug": "rp3-rumah-panggung-nam-nam",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp3-rumah-panggung-nam-nam/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-1.jpg",
+        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-2.jpg",
+        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-3.jpg"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3070,9 +3083,10 @@
       "slug": "rp4-rumah-panggung-petai",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp4-rumah-panggung-petai/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp4-rumah-panggung-petai/gallery-1.jpg",
+        "/images/locations/rp4-rumah-panggung-petai/gallery-2.jpg"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3099,9 +3113,13 @@
       "slug": "rp5-rumah-panggung-langsat",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp5-rumah-panggung-langsat/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-1.jpg",
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-2.jpg",
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-3.jpg",
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-4.jpg",
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-5.jpg"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3128,9 +3146,10 @@
       "slug": "rp6-rumah-panggung-rambe",
       "walkSlug": "trails-3-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp6-rumah-panggung-rambe/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp6-rumah-panggung-rambe/gallery-1.jpg",
+        "/images/locations/rp6-rumah-panggung-rambe/gallery-2.jpg"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3157,9 +3176,11 @@
       "slug": "rp7-rumah-panggung-pala",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp7-rumah-panggung-pala/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp7-rumah-panggung-pala/gallery-1.jpg",
+        "/images/locations/rp7-rumah-panggung-pala/gallery-2.jpg",
+        "/images/locations/rp7-rumah-panggung-pala/gallery-3.jpg"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3186,9 +3207,11 @@
       "slug": "rp8-warung-nasi-barkah",
       "walkSlug": "trails-3-malay-house",
       "category": "iEat",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp8-warung-nasi-barkah/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp8-warung-nasi-barkah/gallery-1.jpg",
+        "/images/locations/rp8-warung-nasi-barkah/gallery-2.jpg",
+        "/images/locations/rp8-warung-nasi-barkah/gallery-3.jpg"
       ],
       "shortDescription_id": "Warung nasi rumahan warga kampung Silalas.",
       "shortDescription_en": "A home-style rice eatery run by Silalas residents.",
@@ -3215,9 +3238,13 @@
       "slug": "rp9-rumah-panggung-nenas",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp9-rumah-panggung-nenas/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-1.jpg",
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-2.jpg",
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-3.jpg",
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-4.jpg",
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-5.jpg"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3244,9 +3271,29 @@
       "slug": "rp10-rumah-panggung-jambu",
       "walkSlug": "trails-3-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp10-rumah-panggung-jambu/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-1.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-2.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-3.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-4.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-5.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-6.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-7.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-8.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-9.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-10.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-11.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-12.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-13.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-14.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-15.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-16.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-17.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-18.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-19.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-20.jpg",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-21.jpg"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3302,9 +3349,9 @@
       "slug": "rb1-rumah-sei-deli",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rb1-rumah-sei-deli/thumbnail.jpg",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rb1-rumah-sei-deli/gallery-1.jpg"
       ],
       "shortDescription_id": "Rumah warga bercorak lama di kampung Silalas.",
       "shortDescription_en": "An old-style resident's house in kampung Silalas.",
