@@ -1747,7 +1747,7 @@
       "distanceMeters": 1100,
       "stepsCount": 1600,
       "walkType": "Heritage Walk",
-      "pointsOfInterestCount": 6,
+      "pointsOfInterestCount": 7,
       "latitude": 3.5978,
       "longitude": 98.6691,
       "lastUpdated": "Agustus 2026",
@@ -1757,6 +1757,7 @@
         "regale-convention-centre",
         "pt-dwi-pertiwi",
         "rumah-belanda-adam-malik",
+        "kelenteng-jit-sien",
         "smp-sma-kalam-kudus",
         "gereja-kalam-kudus"
       ],
