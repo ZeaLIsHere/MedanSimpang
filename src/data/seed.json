@@ -9,7 +9,7 @@
       "description_id": "Silalas adalah salah satu kelurahan di Kecamatan Medan Barat yang membentang di tepian Sungai Deli. Menyusuri gang-gang sempitnya, Anda akan menemukan rumah panggung khas Melayu, kedai kopi dan warung legendaris, masjid tua, hingga pemandangan sungai yang menjadi urat nadi Kota Medan. Kawasan ini menawarkan sisi Medan yang membumi: kehidupan warga sehari-hari yang hangat di balik fasad kota modern.",
       "description_en": "Silalas is an urban village (kelurahan) in the Medan Barat district, stretching along the banks of the Deli River. Walking through its narrow lanes, you will discover Malay stilt houses, legendary coffee shops and food stalls, old mosques, and river views that form the lifeline of Medan. The area offers a grounded side of the city: the warm everyday life of its residents behind the modern urban facade.",
       "coverImage": "/images/silalas.webp",
-      "walkCount": 4,
+      "walkCount": 6,
       "latitude": 3.5932484442616834,
       "longitude": 98.67119621090289
     }
@@ -1734,6 +1734,103 @@
           98.668962
         ]
       ]
+    },
+    {
+      "title_id": "Trails 6 Koridor Jl. H. Adam Malik",
+      "title_en": "Trails 6 Jl. H. Adam Malik Corridor",
+      "slug": "trails-6-adam-malik-corridor",
+      "neighbourhoodSlug": "silalas",
+      "heroImage": "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.jpg",
+      "description_id": "Rute menyusuri koridor Jl. H. Adam Malik di sisi barat Silalas, dari area Graha Putra Mandiri menuju Sekip. Jalur ini melewati deretan bangunan komersial, rumah-rumah tua, kelenteng, dan sekolah bersejarah yang mencerminkan keragaman budaya kawasan.",
+      "description_en": "A route along the Jl. H. Adam Malik corridor on the western side of Silalas, from the Graha Putra Mandiri area toward Sekip. The trail passes rows of commercial buildings, old houses, a Chinese temple, and a historic school reflecting the cultural diversity of the area.",
+      "durationMinutes": 40,
+      "distanceMeters": 1100,
+      "stepsCount": 1600,
+      "walkType": "Heritage Walk",
+      "pointsOfInterestCount": 6,
+      "latitude": 3.5978,
+      "longitude": 98.6691,
+      "lastUpdated": "Agustus 2026",
+      "downloadableMapImage": "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.jpg",
+      "locationSlugs": [
+        "rumah-panggung-graha-putra-mandiri",
+        "regale-convention-centre",
+        "pt-dwi-pertiwi",
+        "rumah-belanda-adam-malik",
+        "smp-sma-kalam-kudus",
+        "gereja-kalam-kudus"
+      ],
+      "contributors": [],
+      "nearbyWalkSlugs": [
+        "trails-2-malay-house",
+        "trails-5-kampung-cemetery"
+      ],
+      "route": [
+        [3.60423, 98.66914],
+        [3.60415, 98.66913],
+        [3.60413, 98.66913],
+        [3.60385, 98.66913],
+        [3.6035, 98.66914],
+        [3.60318, 98.66912],
+        [3.60313, 98.66912],
+        [3.60306, 98.66912],
+        [3.60304, 98.66912],
+        [3.60291, 98.66912],
+        [3.60268, 98.66912],
+        [3.60262, 98.66912],
+        [3.60256, 98.66911],
+        [3.60244, 98.66911],
+        [3.60222, 98.66911],
+        [3.60219, 98.6691],
+        [3.60212, 98.66911],
+        [3.60194, 98.66911],
+        [3.60188, 98.66911],
+        [3.60182, 98.66912],
+        [3.60156, 98.66912],
+        [3.60153, 98.66912],
+        [3.6015, 98.66912],
+        [3.60138, 98.66912],
+        [3.6012, 98.66911],
+        [3.60108, 98.66911],
+        [3.60082, 98.66911],
+        [3.60054, 98.66911],
+        [3.59993, 98.66909],
+        [3.59979, 98.66908],
+        [3.59967, 98.66908],
+        [3.59924, 98.66907],
+        [3.59892, 98.66908],
+        [3.59875, 98.66908],
+        [3.5982, 98.66906],
+        [3.59783, 98.66905],
+        [3.59778, 98.66905],
+        [3.59773, 98.66905],
+        [3.59768, 98.66905],
+        [3.59763, 98.66905],
+        [3.59754, 98.66901],
+        [3.59749, 98.669],
+        [3.59745, 98.669],
+        [3.59741, 98.66899],
+        [3.59725, 98.66899],
+        [3.59671, 98.66896],
+        [3.59616, 98.66896],
+        [3.59607, 98.66896],
+        [3.59561, 98.66896],
+        [3.59541, 98.66895],
+        [3.59526, 98.66894],
+        [3.5947, 98.66892],
+        [3.59471, 98.66878],
+        [3.59472, 98.66854],
+        [3.59475, 98.66773],
+        [3.59475, 98.66757],
+        [3.59475, 98.66754],
+        [3.59475, 98.66748],
+        [3.59476, 98.66734],
+        [3.59476, 98.66727],
+        [3.59476, 98.66708],
+        [3.59477, 98.66706],
+        [3.59478, 98.6668],
+        [3.59478, 98.66679]
+      ]
     }
   ],
   "locations": [
@@ -3422,6 +3519,168 @@
       "googleMapsUrl": "https://maps.google.com/?q=3.6018052,98.6704518",
       "appleMapsUrl": "https://maps.apple.com/?q=3.6018052,98.6704518",
       "order": 9,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Panggung Graha Putra Mandiri",
+      "name_en": "Graha Putra Mandiri Stilt House",
+      "slug": "rumah-panggung-graha-putra-mandiri",
+      "walkSlug": "trails-6-adam-malik-corridor",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Rumah panggung bersejarah di Jl. H. Adam Malik.",
+      "shortDescription_en": "A historic stilt house on Jl. H. Adam Malik.",
+      "address_id": "Jl. H. Adam Malik, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. H. Adam Malik, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6042474,
+      "longitude": 98.6692761,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6042474,98.6692761",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6042474,98.6692761",
+      "order": 1,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Regale Convention Centre",
+      "name_en": "Regale Convention Centre",
+      "slug": "regale-convention-centre",
+      "walkSlug": "trails-6-adam-malik-corridor",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Gedung konvensi besar di koridor Jl. H. Adam Malik.",
+      "shortDescription_en": "A large convention centre along the Jl. H. Adam Malik corridor.",
+      "address_id": "Jl. H. Adam Malik, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. H. Adam Malik, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.6035295,
+      "longitude": 98.6692348,
+      "googleMapsUrl": "https://maps.google.com/?q=3.6035295,98.6692348",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.6035295,98.6692348",
+      "order": 2,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "PT. Dwi Pertiwi",
+      "name_en": "PT. Dwi Pertiwi",
+      "slug": "pt-dwi-pertiwi",
+      "walkSlug": "trails-6-adam-malik-corridor",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Bangunan bersejarah di koridor Jl. H. Adam Malik.",
+      "shortDescription_en": "A heritage building along the Jl. H. Adam Malik corridor.",
+      "address_id": "Jl. H. Adam Malik, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. H. Adam Malik, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5994383,
+      "longitude": 98.6689391,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5994383,98.6689391",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5994383,98.6689391",
+      "order": 3,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Rumah Belanda",
+      "name_en": "Dutch House",
+      "slug": "rumah-belanda-adam-malik",
+      "walkSlug": "trails-6-adam-malik-corridor",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Rumah bergaya kolonial Belanda di Jl. H. Adam Malik.",
+      "shortDescription_en": "A Dutch colonial-style house on Jl. H. Adam Malik.",
+      "address_id": "Jl. H. Adam Malik, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. H. Adam Malik, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5988039,
+      "longitude": 98.668958,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5988039,98.668958",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5988039,98.668958",
+      "order": 4,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "SMP-SMA Kalam Kudus",
+      "name_en": "Kalam Kudus Middle-High School",
+      "slug": "smp-sma-kalam-kudus",
+      "walkSlug": "trails-6-adam-malik-corridor",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Sekolah bersejarah di ujung koridor Jl. H. Adam Malik.",
+      "shortDescription_en": "A historic school at the end of the Jl. H. Adam Malik corridor.",
+      "address_id": "Jl. H. Adam Malik, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. H. Adam Malik, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.594853,
+      "longitude": 98.6668528,
+      "googleMapsUrl": "https://maps.google.com/?q=3.594853,98.6668528",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.594853,98.6668528",
+      "order": 5,
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_en": "A full description of this location will be added soon, once the survey data is finalised."
+        }
+      ]
+    },
+    {
+      "name_id": "Gereja Kristen Kalam Kudus",
+      "name_en": "Kalam Kudus Christian Church",
+      "slug": "gereja-kalam-kudus",
+      "walkSlug": "trails-6-adam-malik-corridor",
+      "category": "iSee",
+      "thumbnail": "/images/placeholder-location.jpg",
+      "gallery": [],
+      "shortDescription_id": "Gereja bersejarah di dekat SMP-SMA Kalam Kudus.",
+      "shortDescription_en": "A historic church near the Kalam Kudus school.",
+      "address_id": "Jl. H. Adam Malik, Silalas, Kec. Medan Barat, Kota Medan",
+      "address_en": "Jl. H. Adam Malik, Silalas, Medan Barat, Medan City",
+      "openingHours_id": "Akan diperbarui",
+      "openingHours_en": "To be updated",
+      "latitude": 3.5948759,
+      "longitude": 98.6669683,
+      "googleMapsUrl": "https://maps.google.com/?q=3.5948759,98.6669683",
+      "appleMapsUrl": "https://maps.apple.com/?q=3.5948759,98.6669683",
+      "order": 6,
       "contentBlocks": [
         {
           "type": "paragraph",
