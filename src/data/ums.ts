@@ -33,24 +33,28 @@ export const umsAddress = {
 export const umsHead: Person = {
   name: 'Dr. Salmina Wati Ginting',
   role: 'Head',
-  photo: null,
+  photo: '/images/new-images/foto-dosen/SalminaWatiGinting.webp',
   link: 'https://ft.usu.ac.id/id/dosen/salmina-wati-ginting',
   affiliation: 'Universitas Sumatera Utara',
 };
 
 export const umsMembers: Person[] = [
   { name: 'Dr. Ulrike Herbig', photo: null, link: 'https://gcd.tuwien.ac.at/ulrike-herbig', affiliation: 'TU Wien' },
-  { name: 'Dr. Isnen Fitri', photo: null, link: 'https://ft.usu.ac.id/id/dosen/isnen-fitri/', affiliation: 'Universitas Sumatera Utara' },
-  { name: 'Dr. Wahyuni Zahrah', photo: null, link: 'https://ft.usu.ac.id/id/dosen/wahyuni-zahrah', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Dr. Isnen Fitri', photo: '/images/new-images/foto-dosen/IsnenFitri.webp', link: 'https://ft.usu.ac.id/id/dosen/isnen-fitri/', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Dr. Wahyuni Zahrah', photo: '/images/new-images/foto-dosen/ArWahyuniZahrah.webp', link: 'https://ft.usu.ac.id/id/dosen/wahyuni-zahrah', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Dr. Lim Seng Boon', photo: null, link: 'https://perak.uitm.edu.my/index.php/en/component/content/article/487-department-of-built-environment-studies-technology-2?layout=edit&Itemid=101', affiliation: 'UiTM Perak' },
   { name: 'Dr. Norhazlan Haron', photo: null, link: 'https://perak.uitm.edu.my/index.php/en/component/content/article/487-department-of-built-environment-studies-technology-2?layout=edit&Itemid=101', affiliation: 'UiTM Perak' },
   { name: 'Sri Elfina Panjaitan', photo: null, link: 'https://repositori.usu.ac.id/handle/123456789/110616', affiliation: 'Universitas Sumatera Utara' },
-  { name: 'Ryandika Afdila', photo: null, link: 'https://ft.usu.ac.id/en/lecturer/ryandika-afdila', affiliation: 'Universitas Sumatera Utara' },
-  { name: 'Nurrahmadayeni', photo: null, link: 'https://fasilkom-ti.usu.ac.id/id/dosen/nurrahmadayeni', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Ryandika Afdila', photo: '/images/new-images/foto-dosen/Ryandika.webp', link: 'https://ft.usu.ac.id/en/lecturer/ryandika-afdila', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Nurrahmadayeni', photo: '/images/new-images/foto-dosen/Nurrahmadayenni.webp', link: 'https://fasilkom-ti.usu.ac.id/id/dosen/nurrahmadayeni', affiliation: 'Universitas Sumatera Utara' },
 ];
 
-// TBD — user will provide student names/photos. Keep empty until then.
-export const umsStudents: Person[] = [];
+export const umsStudents: Person[] = [
+  { name: 'Gilby', photo: null, affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Nurhidayah Munthe', photo: '/images/new-images/foto-mahasiswa/Nurhidayah.webp', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Tariq Rahmadari', photo: '/images/new-images/foto-mahasiswa/TariqRahmadari.webp', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Blessly Silaban', photo: '/images/new-images/foto-mahasiswa/BlesslySilaban.webp', affiliation: 'Universitas Sumatera Utara' },
+];
 
 export function initials(name: string): string {
   const parts = name.replace(/^Dr\.\s*/i, '').trim().split(/\s+/);

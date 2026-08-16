@@ -12,6 +12,7 @@ import PersonCard from '@/components/ui/PersonCard';
 function SectionHeading({ label, count }: { label: string; count?: number }) {
   return (
     <div className="flex items-center gap-3">
+      <span className="h-px flex-1 bg-bone/60" />
       <h3 className="text-xs font-bold uppercase tracking-widest text-primary-strong whitespace-nowrap">
         {label}
       </h3>
@@ -63,9 +64,11 @@ export default function TimPage() {
           </div>
 
           {/* Head */}
-          <div className="space-y-3 animate-fade-up" style={{ animationDelay: '60ms' }}>
-            <SectionHeading label={id ? 'Ketua' : 'Head'} />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="space-y-4 animate-fade-up flex flex-col items-center" style={{ animationDelay: '60ms' }}>
+            <div className="w-full">
+              <SectionHeading label={id ? 'Ketua' : 'Head'} />
+            </div>
+            <div className="w-full max-w-xs sm:max-w-md">
               <PersonCard person={umsHead} featured />
             </div>
           </div>
@@ -73,7 +76,7 @@ export default function TimPage() {
           {/* Members */}
           <div className="mt-12 space-y-3 animate-fade-up" style={{ animationDelay: '120ms' }}>
             <SectionHeading label={id ? 'Anggota' : 'Members'} count={umsMembers.length} />
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
               {umsMembers.map((m, i) => (
                 <div key={m.name} className="animate-fade-up" style={{ animationDelay: `${160 + i * 45}ms` }}>
                   <PersonCard person={m} index={i} />
@@ -86,7 +89,7 @@ export default function TimPage() {
           <div className="mt-12 space-y-3 animate-fade-up" style={{ animationDelay: '200ms' }}>
             <SectionHeading label={id ? 'Mahasiswa' : 'Students'} count={umsStudents.length} />
             {umsStudents.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
                 {umsStudents.map((s, i) => (
                   <div key={s.name} className="animate-fade-up" style={{ animationDelay: `${i * 45}ms` }}>
                     <PersonCard person={s} index={i} />

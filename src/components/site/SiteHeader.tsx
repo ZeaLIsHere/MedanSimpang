@@ -25,6 +25,17 @@ export default function SiteHeader() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [open]);
+
   const toggleLang = () => setLanguage(language === 'id' ? 'en' : 'id');
   const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.startsWith(href));
 
@@ -71,13 +82,13 @@ export default function SiteHeader() {
           <div className="flex items-center space-x-2 lg:hidden">
             <button
               onClick={toggleLang}
-              className="flex items-center rounded-lg border border-bone px-2 py-1 text-xs font-bold text-accent hover:bg-bone/30 transition-colors uppercase tracking-wider"
+              className="flex items-center rounded-lg border border-bone px-2.5 py-1 text-xs font-bold text-accent hover:bg-bone/30 transition-colors uppercase tracking-wider"
             >
               {language === 'id' ? 'EN' : 'ID'}
             </button>
             <button
               onClick={() => setOpen(!open)}
-              className="inline-flex items-center justify-center rounded-lg p-2 text-accent hover:bg-bone/40"
+              className="inline-flex items-center justify-center rounded-lg p-2 text-accent hover:bg-bone/40 focus:outline-none"
               aria-expanded={open}
             >
               <span className="sr-only">Menu</span>
@@ -88,20 +99,30 @@ export default function SiteHeader() {
       </div>
 
       {open && (
-        <div className="lg:hidden absolute top-[70px] left-0 right-0 bg-white border-b border-bone/60 shadow-lg animate-fade-in">
-          <div className="px-6 py-4 space-y-1">
-            {NAV.map((n) => (
-              <Link
-                key={n.href}
-                href={n.href}
-                onClick={() => setOpen(false)}
-                className={`block py-2 text-base font-bold ${
-                  isActive(n.href) ? 'text-secondary' : 'text-accent hover:text-secondary'
-                }`}
-              >
-                {language === 'id' ? n.id_label : n.en_label}
-              </Link>
-            ))}
+        <div
+          className="lg:hidden fixed inset-0 top-[70px] z-40 bg-black/40 backdrop-blur-sm animate-fade-in"
+          onClick={() => setOpen(false)}
+        >
+          <div
+            className="bg-white border-b border-bone/60 shadow-2xl animate-drawer-enter rounded-b-3xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="px-6 py-6 space-y-2">
+              {NAV.map((n) => (
+                <Link
+                  key={n.href}
+                  href={n.href}
+                  onClick={() => setOpen(false)}
+                  className={`flex items-center min-h-[44px] px-3 py-2 rounded-xl text-base font-bold transition-colors ${
+                    isActive(n.href)
+                      ? 'text-secondary bg-secondary/10'
+                      : 'text-accent hover:bg-bone/40 hover:text-secondary'
+                  }`}
+                >
+                  {language === 'id' ? n.id_label : n.en_label}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       )}

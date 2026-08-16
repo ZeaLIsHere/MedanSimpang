@@ -19,7 +19,7 @@ export default function AboutPage() {
 
   return (
     <section className="pt-28 lg:pt-32 pb-20">
-      <div className="w-full px-6 lg:px-12 max-w-4xl">
+      <div className="w-full mx-auto px-4 sm:px-6 lg:px-12 max-w-5xl">
         <h1 className="font-serif text-4xl sm:text-5xl font-black text-accent tracking-tight">Urban Morphology and Society</h1>
 
         <p className="mt-6 text-base sm:text-lg font-medium text-accent/90 leading-relaxed">{umsDescriptionFor(language)}</p>
@@ -46,29 +46,37 @@ export default function AboutPage() {
         </div>
 
         {/* People */}
-        <div className="mt-14">
-          <h2 className="font-serif text-2xl sm:text-3xl font-black text-accent tracking-tight">{id ? 'Tim' : 'People'}</h2>
-
-          <h3 className="mt-6 text-xs font-bold uppercase tracking-widest text-primary-strong">{id ? 'Ketua' : 'Head'}</h3>
-          <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl">
-            <PersonCard person={umsHead} featured />
+        <div className="mt-14 space-y-8">
+          <div>
+            <h2 className="font-serif text-2xl sm:text-3xl font-black text-accent tracking-tight">{id ? 'Tim' : 'People'}</h2>
           </div>
 
-          <h3 className="mt-8 text-xs font-bold uppercase tracking-widest text-primary-strong">{id ? 'Anggota' : 'Members'}</h3>
-          <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {umsMembers.map((m, i) => <PersonCard key={m.name} person={m} index={i} />)}
-          </div>
-
-          <h3 className="mt-8 text-xs font-bold uppercase tracking-widest text-primary-strong">{id ? 'Mahasiswa' : 'Students'}</h3>
-          {umsStudents.length > 0 ? (
-            <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {umsStudents.map((s, i) => <PersonCard key={s.name} person={s} index={i} />)}
+          <div className="flex flex-col items-center text-center">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-primary-strong mb-3">{id ? 'Ketua' : 'Head'}</h3>
+            <div className="w-full max-w-xs sm:max-w-md">
+              <PersonCard person={umsHead} featured />
             </div>
-          ) : (
-            <p className="mt-3 text-sm text-text-muted font-light italic">
-              {id ? 'Daftar mahasiswa akan segera ditambahkan.' : 'Student list coming soon.'}
-            </p>
-          )}
+          </div>
+
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-widest text-primary-strong mb-3">{id ? 'Anggota' : 'Members'}</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+              {umsMembers.map((m, i) => <PersonCard key={m.name} person={m} index={i} />)}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-widest text-primary-strong mb-3">{id ? 'Mahasiswa' : 'Students'}</h3>
+            {umsStudents.length > 0 ? (
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+                {umsStudents.map((s, i) => <PersonCard key={s.name} person={s} index={i} />)}
+              </div>
+            ) : (
+              <p className="text-sm text-text-muted font-light italic">
+                {id ? 'Daftar mahasiswa akan segera ditambahkan.' : 'Student list coming soon.'}
+              </p>
+            )}
+          </div>
         </div>
       </div>
     </section>

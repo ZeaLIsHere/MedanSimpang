@@ -34,6 +34,18 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Scroll lock when mobile drawer is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
+
   // Click outside to close dropdowns
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -267,113 +279,121 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu Backdrop & Drawer Sheet */}
       {isOpen && (
-        <div className="lg:hidden absolute top-[112px] left-0 right-0 bg-white border-b border-bone/60 shadow-lg max-h-[calc(100vh-112px)] overflow-y-auto z-40 animate-fade-in">
-          <div className="space-y-1 px-4 py-6">
-            {/* Explore Section Accordion */}
-            <div className="border-b border-bone/30 pb-3">
-              <button
-                onClick={() => handleDropdownToggle('explore')}
-                className="flex w-full items-center justify-between py-2 text-base font-bold text-accent"
-              >
-                <span>{navTranslations.explore}</span>
-                <ChevronDown
-                  className={`h-5 w-5 text-text-muted transition-transform ${
-                    activeDropdown === 'explore' ? 'rotate-180' : ''
-                  }`}
-                />
-              </button>
-              {activeDropdown === 'explore' && (
-                <div className="mt-2 pl-4 space-y-2">
-                  {kawasanList.map((k) => (
-                    <Link
-                      key={k.slug}
-                      href={`/medansimpang/${k.slug}`}
-                      onClick={() => setIsOpen(false)}
-                      className="block py-1.5 text-sm font-medium text-text-muted hover:text-secondary"
-                    >
-                      {k.name}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
+        <div
+          className="lg:hidden fixed inset-0 top-[108px] z-40 bg-black/40 backdrop-blur-sm animate-fade-in"
+          onClick={() => setIsOpen(false)}
+        >
+          <div
+            className="bg-white border-b border-bone/60 shadow-2xl max-h-[calc(100vh-108px)] overflow-y-auto animate-drawer-enter rounded-b-3xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="space-y-1 px-5 py-6">
+              {/* Explore Section Accordion */}
+              <div className="border-b border-bone/40 pb-2">
+                <button
+                  onClick={() => handleDropdownToggle('explore')}
+                  className="flex w-full min-h-[44px] items-center justify-between py-2 text-base font-bold text-accent active:text-secondary"
+                >
+                  <span>{navTranslations.explore}</span>
+                  <ChevronDown
+                    className={`h-5 w-5 text-text-muted transition-transform duration-200 ${
+                      activeDropdown === 'explore' ? 'rotate-180 text-secondary' : ''
+                    }`}
+                  />
+                </button>
+                {activeDropdown === 'explore' && (
+                  <div className="mt-1 pl-4 pb-2 space-y-1 border-l-2 border-secondary/30 ml-2">
+                    {kawasanList.map((k) => (
+                      <Link
+                        key={k.slug}
+                        href={`/medansimpang/${k.slug}`}
+                        onClick={() => setIsOpen(false)}
+                        className="flex items-center min-h-[44px] py-2 px-3 rounded-lg text-sm font-semibold text-text-main hover:bg-bone/40 active:bg-secondary/10 hover:text-secondary transition-colors"
+                      >
+                        {k.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
 
-            {/* Stories Section Accordion */}
-            <div className="border-b border-bone/30 py-3">
-              <button
-                onClick={() => handleDropdownToggle('stories')}
-                className="flex w-full items-center justify-between py-2 text-base font-bold text-accent"
-              >
-                <span>{navTranslations.stories}</span>
-                <ChevronDown
-                  className={`h-5 w-5 text-text-muted transition-transform ${
-                    activeDropdown === 'stories' ? 'rotate-180' : ''
-                  }`}
-                />
-              </button>
-              {activeDropdown === 'stories' && (
-                <div className="mt-2 pl-4 space-y-2">
-                  <Link
-                    href="/medansimpang/cerita"
-                    onClick={() => setIsOpen(false)}
-                    className="block py-1.5 text-sm font-bold text-secondary"
-                  >
-                    {navTranslations.allStories}
-                  </Link>
-                  {categories.map((cat) => (
+              {/* Stories Section Accordion */}
+              <div className="border-b border-bone/40 py-2">
+                <button
+                  onClick={() => handleDropdownToggle('stories')}
+                  className="flex w-full min-h-[44px] items-center justify-between py-2 text-base font-bold text-accent active:text-secondary"
+                >
+                  <span>{navTranslations.stories}</span>
+                  <ChevronDown
+                    className={`h-5 w-5 text-text-muted transition-transform duration-200 ${
+                      activeDropdown === 'stories' ? 'rotate-180 text-secondary' : ''
+                    }`}
+                  />
+                </button>
+                {activeDropdown === 'stories' && (
+                  <div className="mt-1 pl-4 pb-2 space-y-1 border-l-2 border-secondary/30 ml-2">
                     <Link
-                      key={cat}
-                      href={`/medansimpang/cerita?kategori=${encodeURIComponent(cat.toLowerCase())}`}
+                      href="/medansimpang/cerita"
                       onClick={() => setIsOpen(false)}
-                      className="block py-1.5 text-sm font-medium text-text-muted hover:text-secondary"
+                      className="flex items-center min-h-[44px] py-2 px-3 rounded-lg text-sm font-bold text-secondary hover:bg-bone/40 transition-colors"
                     >
-                      {cat}
+                      {navTranslations.allStories}
                     </Link>
-                  ))}
-                </div>
-              )}
-            </div>
+                    {categories.map((cat) => (
+                      <Link
+                        key={cat}
+                        href={`/medansimpang/cerita?kategori=${encodeURIComponent(cat.toLowerCase())}`}
+                        onClick={() => setIsOpen(false)}
+                        className="flex items-center min-h-[44px] py-2 px-3 rounded-lg text-sm font-semibold text-text-main hover:bg-bone/40 active:bg-secondary/10 hover:text-secondary transition-colors"
+                      >
+                        {cat}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
 
-            {/* Academy (direct) */}
-            <div className="border-b border-bone/30 py-3">
-              <Link
-                href="/medansimpang/tentang/metodologi"
-                onClick={() => setIsOpen(false)}
-                className="block py-2 text-base font-bold text-accent"
-              >
-                {navTranslations.academy}
-              </Link>
-            </div>
+              {/* Academy (direct) */}
+              <div className="border-b border-bone/40 py-2">
+                <Link
+                  href="/medansimpang/tentang/metodologi"
+                  onClick={() => setIsOpen(false)}
+                  className="flex items-center min-h-[44px] py-2 text-base font-bold text-accent hover:text-secondary transition-colors"
+                >
+                  {navTranslations.academy}
+                </Link>
+              </div>
 
-            {/* About Section Accordion */}
-            <div className="pb-3 py-3">
-              <button
-                onClick={() => handleDropdownToggle('about')}
-                className="flex w-full items-center justify-between py-2 text-base font-bold text-accent"
-              >
-                <span>{navTranslations.about}</span>
-                <ChevronDown
-                  className={`h-5 w-5 text-text-muted transition-transform ${
-                    activeDropdown === 'about' ? 'rotate-180' : ''
-                  }`}
-                />
-              </button>
-              {activeDropdown === 'about' && (
-                <div className="mt-2 pl-4 space-y-2">
-                  {aboutSubLinks.map((link, idx) => (
-                    <Link
-                      key={idx}
-                      href={link.path}
-                      onClick={() => setIsOpen(false)}
-                      className="block py-1.5 text-sm font-medium text-text-muted hover:text-secondary"
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
+              {/* About Section Accordion */}
+              <div className="py-2">
+                <button
+                  onClick={() => handleDropdownToggle('about')}
+                  className="flex w-full min-h-[44px] items-center justify-between py-2 text-base font-bold text-accent active:text-secondary"
+                >
+                  <span>{navTranslations.about}</span>
+                  <ChevronDown
+                    className={`h-5 w-5 text-text-muted transition-transform duration-200 ${
+                      activeDropdown === 'about' ? 'rotate-180 text-secondary' : ''
+                    }`}
+                  />
+                </button>
+                {activeDropdown === 'about' && (
+                  <div className="mt-1 pl-4 pb-2 space-y-1 border-l-2 border-secondary/30 ml-2">
+                    {aboutSubLinks.map((link, idx) => (
+                      <Link
+                        key={idx}
+                        href={link.path}
+                        onClick={() => setIsOpen(false)}
+                        className="flex items-center min-h-[44px] py-2 px-3 rounded-lg text-sm font-semibold text-text-main hover:bg-bone/40 active:bg-secondary/10 hover:text-secondary transition-colors"
+                      >
+                        {link.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>

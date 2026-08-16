@@ -7,7 +7,7 @@ import Footer from '@/components/layout/Footer';
 import { KawasanCard } from '@/components/ui/Card';
 import { getAllKawasan } from '@/data/db';
 import { useLanguage } from '@/context/LanguageContext';
-import { MapPin } from 'lucide-react';
+import { MapPin, Map, List } from 'lucide-react';
 
 // Dynamically import generic MedanMap component
 const MedanMap = dynamic(() => import('@/components/map/MedanMap'), {
@@ -26,6 +26,8 @@ export default function Home() {
 
   // Active kawasan for map highlight (hover sync)
   const [activeKawasanSlug, setActiveKawasanSlug] = useState<string | undefined>(undefined);
+  // Mobile view mode: 'list' (default) or 'map'
+  const [mobileView, setMobileView] = useState<'list' | 'map'>('list');
 
   const translations = {
     heroSubtitle: 'Seen at eye level',
@@ -53,18 +55,18 @@ export default function Home() {
       <Header />
 
       {/* Main scrollable grid container */}
-      <main className="flex-grow pt-32 pb-16">
-        <div className="w-full px-6 lg:px-12">
+      <main className="flex-grow pt-28 sm:pt-32 pb-24 lg:pb-16">
+        <div className="w-full px-4 sm:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
 
             {/* Left Column: Hero & Kawasan List */}
-            <div className="lg:col-span-5 xl:col-span-5 space-y-8">
+            <div className={`lg:col-span-5 xl:col-span-5 space-y-8 ${mobileView === 'map' ? 'hidden lg:block' : 'block'}`}>
               {/* Hero Section */}
               <div className="space-y-4 pt-2">
-                <h1 className="font-serif text-4xl sm:text-5xl font-black text-accent tracking-tight leading-none">
+                <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-black text-accent tracking-tight leading-tight">
                   Medan <span className="text-primary-strong">Simpang</span>
                 </h1>
-                <p className="text-lg text-primary-strong font-bold tracking-wide">
+                <p className="text-base sm:text-lg text-primary-strong font-bold tracking-wide">
                   {translations.heroSubtitle}
                 </p>
                 <p className="text-sm sm:text-base font-semibold text-accent/90 leading-relaxed max-w-md">
@@ -101,8 +103,9 @@ export default function Home() {
             </div>
 
             {/* Right Column: Sticky Window Map */}
-            <div className="lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px] w-full h-[380px] sm:h-[450px] lg:h-[calc(100vh-140px)] rounded-2xl overflow-hidden shadow-md">
-              {/* Generic MedanMap Component as a Window */}
+            <div className={`lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px] w-full rounded-2xl overflow-hidden shadow-md ${
+              mobileView === 'map' ? 'block h-[calc(100vh-170px)]' : 'hidden lg:block h-[380px] sm:h-[450px] lg:h-[calc(100vh-140px)]'
+            }`}>
               <MedanMap
                 pins={mapPins}
                 centerLat={3.5932}
@@ -117,6 +120,30 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      {/* Floating Mobile View Switcher */}
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 lg:hidden">
+        <div className="bg-accent/95 backdrop-blur-md text-white p-1 rounded-full shadow-2xl border border-white/20 flex items-center gap-1">
+          <button
+            onClick={() => setMobileView('list')}
+            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold transition-all ${
+              mobileView === 'list' ? 'bg-primary text-accent shadow-sm' : 'text-white/80 hover:text-white'
+            }`}
+          >
+            <List className="w-4 h-4" />
+            <span>{language === 'id' ? 'Daftar' : 'List'}</span>
+          </button>
+          <button
+            onClick={() => setMobileView('map')}
+            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold transition-all ${
+              mobileView === 'map' ? 'bg-primary text-accent shadow-sm' : 'text-white/80 hover:text-white'
+            }`}
+          >
+            <Map className="w-4 h-4" />
+            <span>{language === 'id' ? 'Peta' : 'Map'}</span>
+          </button>
+        </div>
+      </div>
 
       {/* Footer at the very bottom of the page */}
       <Footer />
