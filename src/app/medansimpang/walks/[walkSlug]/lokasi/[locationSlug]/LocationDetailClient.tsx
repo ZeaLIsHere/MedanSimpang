@@ -2,12 +2,12 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { ChevronLeft, ChevronRight, MapPin, Clock, Globe, Share2, Compass, ArrowRight, Check } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Badge from '@/components/ui/Badge';
 import ContentBlocks from '@/components/ui/ContentBlocks';
+import LocationMedia, { isPlaceholderLocationImage } from '@/components/ui/LocationMedia';
 import { getLocationBySlug, getWalkBySlug, getLocationsForWalk } from '@/data/db';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -115,15 +115,23 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
             {/* LEFT: Single-frame image carousel (sticky window) */}
             <div className="lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px]">
               <div className="relative w-full h-[320px] sm:h-[480px] lg:h-[calc(100vh-160px)] rounded-2xl overflow-hidden bg-bone border border-bone/60 shadow-md group">
-                <Image
+                <LocationMedia
                   key={safeIndex}
-                  src={images[safeIndex]}
-                  alt={`${name} — ${safeIndex + 1}`}
-                  fill
+                  imageUrl={images[safeIndex]}
+                  name={`${name} — ${safeIndex + 1}`}
+                  latitude={location.latitude}
+                  longitude={location.longitude}
                   priority
-                  className="object-cover animate-fade-in"
+                  interactive
+                  imageClassName="object-cover animate-fade-in"
                   sizes="(max-width: 1024px) 100vw, 60vw"
                 />
+
+                {isPlaceholderLocationImage(images[safeIndex]) && (
+                  <span className="absolute bottom-4 right-4 z-10 rounded-md bg-accent/85 px-3 py-1.5 text-[11px] font-bold text-white shadow-sm">
+                    Google Street View
+                  </span>
+                )}
 
                 {/* Order + Category badges */}
                 <div className="absolute top-4 left-4 flex items-center gap-2 z-10">

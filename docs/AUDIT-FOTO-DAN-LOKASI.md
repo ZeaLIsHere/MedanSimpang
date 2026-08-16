@@ -13,6 +13,8 @@ Terakhir diperiksa: 17 Agustus 2026
 
 Lokasi berikut masih memakai gambar placeholder. Tautan Maps mengarah ke koordinat yang tersimpan di proyek dan dapat digunakan untuk memastikan tempat sebelum pemotretan atau meminta izin kepada pemilik foto.
 
+Sebagai persiapan sosialisasi, placeholder pada halaman rute dan detail digantikan dengan Google Street View yang ditanam langsung berdasarkan koordinat KML `SILALAS`. Street View tetap berasal dari layanan Google, mempertahankan atribusi, dan tidak disalin menjadi file foto lokal. Jika foto lapangan berizin sudah tersedia, foto tersebut dapat menggantikan fallback ini tanpa perubahan komponen.
+
 | Lokasi | Rute | Titik verifikasi |
 |---|---|---|
 | The Promised Cafe | Trails 1 | [Google Maps](https://maps.google.com/?q=3.595104,98.672237) |

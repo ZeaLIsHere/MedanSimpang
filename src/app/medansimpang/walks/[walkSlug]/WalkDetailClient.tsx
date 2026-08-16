@@ -9,6 +9,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import Badge from '@/components/ui/Badge';
+import LocationMedia from '@/components/ui/LocationMedia';
 import { getWalkBySlug, getKawasanBySlug, getLocationsForWalk, getWalksForKawasan } from '@/data/db';
 import { useLanguage } from '@/context/LanguageContext';
 import { CategoryType } from '@/types';
@@ -245,20 +246,20 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                             : 'border-bone/60 shadow-sm'
                         }`}
                       >
-                        {/* Circle Stop Number and Mini Image */}
+                        {/* Stop number and location preview */}
                         <div className="flex items-center gap-3">
                           <div className={`w-8 h-8 rounded-full font-bold text-xs flex items-center justify-center flex-shrink-0 transition-colors duration-300 ${
                             isHovered ? 'bg-secondary text-white' : 'bg-accent text-white'
                           }`}>
                             {loc.order}
                           </div>
-                          <div className="relative w-14 h-14 rounded-full overflow-hidden bg-bone flex-shrink-0 border-2 border-bone">
-                            <Image
-                               src={loc.thumbnail}
-                               alt={name}
-                               fill
-                               className="object-cover"
-                               sizes="56px"
+                          <div className="relative w-20 h-16 rounded-lg overflow-hidden bg-bone flex-shrink-0 border border-bone">
+                            <LocationMedia
+                              imageUrl={loc.thumbnail}
+                              name={name}
+                              latitude={loc.latitude}
+                              longitude={loc.longitude}
+                              sizes="80px"
                             />
                           </div>
                         </div>
