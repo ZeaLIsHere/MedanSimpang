@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { Mail, Instagram, Facebook, Youtube, Send } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { getAllKawasan } from '@/data/db';
+import { umsAddress } from '@/data/ums';
 
 export default function Footer() {
   const { language } = useLanguage();
@@ -122,11 +123,11 @@ export default function Footer() {
             </ul>
             <h4 className="font-serif text-sm font-bold text-primary-light uppercase tracking-wider mb-2">{translations.contact}</h4>
             <a
-              href="mailto:halo@medansimpang.com"
+              href={`mailto:${umsAddress.email}`}
               className="flex items-center text-sm font-light text-gray-300 hover:text-primary-light transition-colors"
             >
               <Mail className="mr-2 h-4 w-4 text-primary-light" />
-              halo@medansimpang.com
+              {umsAddress.email}
             </a>
           </div>
 
