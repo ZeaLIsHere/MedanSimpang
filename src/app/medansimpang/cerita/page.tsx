@@ -191,7 +191,7 @@ function CeritaContent() {
                 priority
                 sizes="100vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-accent/95 via-accent/40 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-accent/95 via-accent/40 to-transparent" />
               <div className="absolute top-4 left-4 rounded-md bg-primary px-3 py-1 text-xs font-bold text-accent uppercase tracking-wider">
                 {translations.featuredTag}
               </div>
@@ -252,7 +252,7 @@ export default function CeritaListing() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="flex-grow pt-32 pb-20">
+      <main className="grow pt-32 pb-20">
         {/* Intro Section */}
         <section className="bg-bone/15 py-12 md:py-16 border-b border-bone/45 mb-12">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center max-w-3xl">

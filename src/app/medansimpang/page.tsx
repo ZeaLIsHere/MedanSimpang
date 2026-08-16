@@ -55,7 +55,7 @@ export default function Home() {
       <Header />
 
       {/* Main scrollable grid container */}
-      <main className="flex-grow pt-28 sm:pt-32 pb-24 lg:pb-16">
+      <main className="grow pt-28 sm:pt-32 pb-24 lg:pb-16">
         <div className="w-full px-4 sm:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
 

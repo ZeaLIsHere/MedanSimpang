@@ -37,7 +37,7 @@ export default function KawasanDetail({ slug }: { slug: string }) {
     return (
       <div className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow flex flex-col items-center justify-center pt-32 px-4 text-center">
+        <main className="grow flex flex-col items-center justify-center pt-32 px-4 text-center">
           <h2 className="font-serif text-3xl font-bold text-accent">Kawasan Tidak Ditemukan</h2>
           <p className="mt-2 text-text-muted">Maaf, kawasan dengan slug &quot;{slug}&quot; belum terdaftar.</p>
           <Link href="/medansimpang" className="mt-6 flex items-center text-primary font-bold hover:underline">
@@ -93,7 +93,7 @@ export default function KawasanDetail({ slug }: { slug: string }) {
       <Header />
 
       {/* Main scrollable grid container — same pattern as Homepage */}
-      <main className="flex-grow pt-28 sm:pt-32 pb-24 lg:pb-16">
+      <main className="grow pt-28 sm:pt-32 pb-24 lg:pb-16">
         <div className="w-full px-4 sm:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             

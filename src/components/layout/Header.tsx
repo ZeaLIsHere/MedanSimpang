@@ -138,7 +138,7 @@ export default function Header() {
               <div className="relative">
                 <button
                   onClick={() => handleDropdownToggle('explore')}
-                  className="relative flex items-center text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+                  className="relative flex items-center text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
                 >
                   {navTranslations.explore}
                   <ChevronDown className={`ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === 'explore' ? 'rotate-180' : ''}`} />
@@ -169,7 +169,7 @@ export default function Header() {
               <div className="relative">
                 <button
                   onClick={() => handleDropdownToggle('stories')}
-                  className="relative flex items-center text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+                  className="relative flex items-center text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
                 >
                   {navTranslations.stories}
                   <ChevronDown className={`ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === 'stories' ? 'rotate-180' : ''}`} />
@@ -206,7 +206,7 @@ export default function Header() {
               {/* Akademi (direct link placeholder) */}
               <Link
                 href="/medansimpang/tentang/metodologi"
-                className="relative text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+                className="relative text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
               >
                 {navTranslations.academy}
               </Link>
@@ -215,7 +215,7 @@ export default function Header() {
               <div className="relative">
                 <button
                   onClick={() => handleDropdownToggle('about')}
-                  className="relative flex items-center text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+                  className="relative flex items-center text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
                 >
                   {navTranslations.about}
                   <ChevronDown className={`ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === 'about' ? 'rotate-180' : ''}`} />

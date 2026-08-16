@@ -20,10 +20,10 @@ export default function Landing() {
   return (
     <>
       {/* Hero — frontpage.webp background, ~50vh */}
-      <section className="relative h-[50vh] min-h-[360px] flex items-end">
+      <section className="relative h-[50vh] min-h-90 flex items-end">
         <div className="absolute inset-0">
           <Image src="/images/frontpage.webp" alt="" fill priority fetchPriority="high" className="object-cover" sizes="100vw" />
-          <div className="absolute inset-0 bg-gradient-to-t from-accent/85 via-accent/45 to-accent/20" />
+          <div className="absolute inset-0 bg-linear-to-t from-accent/85 via-accent/45 to-accent/20" />
         </div>
         <div className="relative w-full px-6 lg:px-12 pb-10 lg:pb-14">
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tight leading-none break-words">

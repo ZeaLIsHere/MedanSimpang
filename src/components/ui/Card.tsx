@@ -26,7 +26,7 @@ export function KawasanCard({ kawasan }: KawasanCardProps) {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-10">
           <h3 className="font-serif text-2xl font-bold tracking-wide">{kawasan.name}</h3>
           <p className="mt-2 text-sm text-gray-200 line-clamp-2 font-light">

@@ -61,7 +61,7 @@ export default function SiteHeader() {
               <Link
                 key={n.href}
                 href={n.href}
-                className={`relative text-sm font-semibold transition-colors py-2 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-secondary after:transition-all after:duration-300 ${
+                className={`relative text-sm font-semibold transition-colors py-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-secondary after:transition-all after:duration-300 ${
                   isActive(n.href)
                     ? 'text-secondary after:w-full'
                     : 'text-accent hover:text-secondary after:w-0 hover:after:w-full'
@@ -100,7 +100,7 @@ export default function SiteHeader() {
 
       {open && (
         <div
-          className="lg:hidden fixed inset-0 top-[70px] z-40 bg-black/40 backdrop-blur-sm animate-fade-in"
+          className="lg:hidden fixed inset-0 top-17.5 z-40 bg-black/40 backdrop-blur-sm animate-fade-in"
           onClick={() => setOpen(false)}
         >
           <div

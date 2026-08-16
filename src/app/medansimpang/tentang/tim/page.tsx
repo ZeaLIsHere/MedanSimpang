@@ -39,7 +39,7 @@ export default function TimPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="flex-grow pt-32 pb-20">
+      <main className="grow pt-32 pb-20">
         <div className="bg-bone/30 border-b border-bone/40 py-3 mb-10">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <Breadcrumbs items={breadcrumbsItems} />
