@@ -2494,8 +2494,10 @@
       "slug": "kantor-lurah-silalas",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/kantor-lurah-silalas/gallery-1.png",
+      "gallery": [
+        "/images/locations/kantor-lurah-silalas/gallery-1.png"
+      ],
       "shortDescription_id": "Kantor Lurah Silalas merupakan salah satu fasilitas pemerintahan yang menjadi pusat pelayanan bagi masyarakat di kawasan Silalas.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Jl. Kelapa No. 5, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3054,8 +3056,10 @@
       "name_en": "Gang Tumbuhan Jl. Cempedak",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/gang-tumbuhan-cempedak/gallery-1.png",
+      "gallery": [
+        "/images/locations/gang-tumbuhan-cempedak/gallery-1.png"
+      ],
       "shortDescription_id": "Gang Tumbuhan di Jl.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Gang Tumbuhan, Jl. Cempedak, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3079,8 +3083,10 @@
       "name_en": "Shidoka Dojo",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/shidoka-dojo/gallery-1.png",
+      "gallery": [
+        "/images/locations/shidoka-dojo/gallery-1.png"
+      ],
       "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Jl. Sei Deli, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3104,8 +3110,10 @@
       "name_en": "The Promised Cafe",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iDrink",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/the-promised-cafe/gallery-1.png",
+      "gallery": [
+        "/images/locations/the-promised-cafe/gallery-1.png"
+      ],
       "shortDescription_id": "The Promised Cafe merupakan salah satu tempat singgah yang berada di sekitar kawasan Silalas.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Jl. Sei Deli No. 80, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3129,8 +3137,11 @@
       "name_en": "Warung Makan Jl. Guru Patimpus",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iEat",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/warung-makan-guru-patimpus/gallery-1.png",
+      "gallery": [
+        "/images/locations/warung-makan-guru-patimpus/gallery-1.png",
+        "/images/locations/warung-makan-guru-patimpus/gallery-2.png"
+      ],
       "shortDescription_id": "Warung makan ini adalah salah satu tempat makan sederhana yang dapat ditemui di sepanjang rute.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Jl. Guru Patimpus, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3154,8 +3165,10 @@
       "name_en": "Jembatan Jl. Guru Patimpus",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/jembatan-guru-patimpus/gallery-1.png",
+      "gallery": [
+        "/images/locations/jembatan-guru-patimpus/gallery-1.png"
+      ],
       "shortDescription_id": "Jembatan di Jl.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Jembatan di Jl. Guru Patimpus, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3484,9 +3497,10 @@
       "slug": "rp11-rumah-panggung-nenas-2",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rp11-rumah-panggung-nenas-2/gallery-1.png",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rp11-rumah-panggung-nenas-2/gallery-1.png",
+        "/images/locations/rp11-rumah-panggung-nenas-2/gallery-2.png"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3538,9 +3552,10 @@
       "slug": "rb2-rumah-nenas",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
+      "thumbnail": "/images/locations/rb2-rumah-nenas/gallery-1.png",
       "gallery": [
-        "/images/placeholder-location.jpg"
+        "/images/locations/rb2-rumah-nenas/gallery-1.png",
+        "/images/locations/rb2-rumah-nenas/gallery-2.png"
       ],
       "shortDescription_id": "Rumah warga bercorak lama di kampung Silalas.",
       "shortDescription_en": "An old-style resident's house in kampung Silalas.",
@@ -3592,8 +3607,10 @@
       "slug": "rumah-panggung-graha-putra-mandiri",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-1.png",
+      "gallery": [
+        "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-1.png"
+      ],
       "shortDescription_id": "Rumah panggung bersejarah di Jl. H. Adam Malik.",
       "shortDescription_en": "A historic stilt house on Jl. H. Adam Malik.",
       "address_id": "Jl. H. Adam Malik No. 76, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3617,8 +3634,10 @@
       "slug": "regale-convention-centre",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/regale-convention-centre/gallery-1.jpg",
+      "gallery": [
+        "/images/locations/regale-convention-centre/gallery-1.jpg"
+      ],
       "shortDescription_id": "Gedung konvensi besar di koridor Jl. H. Adam Malik.",
       "shortDescription_en": "A large convention centre along the Jl. H. Adam Malik corridor.",
       "address_id": "Jl. H. Adam Malik No. 66-68, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3642,8 +3661,11 @@
       "slug": "pt-dwi-pertiwi",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/pt-dwi-pertiwi/gallery-1.png",
+      "gallery": [
+        "/images/locations/pt-dwi-pertiwi/gallery-1.png",
+        "/images/locations/pt-dwi-pertiwi/gallery-2.png"
+      ],
       "shortDescription_id": "Bangunan bersejarah di koridor Jl. H. Adam Malik.",
       "shortDescription_en": "A heritage building along the Jl. H. Adam Malik corridor.",
       "address_id": "Jl. H. Adam Malik, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3667,8 +3689,10 @@
       "slug": "rumah-belanda-adam-malik",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/rumah-belanda-adam-malik/gallery-1.png",
+      "gallery": [
+        "/images/locations/rumah-belanda-adam-malik/gallery-1.png"
+      ],
       "shortDescription_id": "Rumah bergaya kolonial Belanda di Jl. H. Adam Malik.",
       "shortDescription_en": "A Dutch colonial-style house on Jl. H. Adam Malik.",
       "address_id": "Jl. H. Adam Malik, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara",
@@ -3692,8 +3716,10 @@
       "slug": "smp-sma-kalam-kudus",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/smp-sma-kalam-kudus/gallery-1.jpg",
+      "gallery": [
+        "/images/locations/smp-sma-kalam-kudus/gallery-1.jpg"
+      ],
       "shortDescription_id": "Sekolah bersejarah di ujung koridor Jl. H. Adam Malik.",
       "shortDescription_en": "A historic school at the end of the Jl. H. Adam Malik corridor.",
       "address_id": "Jl. Mayang No. 10, Kel. Sekip, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20113",
@@ -3717,8 +3743,10 @@
       "slug": "gereja-kalam-kudus",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/placeholder-location.jpg",
-      "gallery": [],
+      "thumbnail": "/images/locations/gereja-kalam-kudus/gallery-1.jpg",
+      "gallery": [
+        "/images/locations/gereja-kalam-kudus/gallery-1.jpg"
+      ],
       "shortDescription_id": "Gereja bersejarah di dekat SMP-SMA Kalam Kudus.",
       "shortDescription_en": "A historic church near the Kalam Kudus school.",
       "address_id": "Jl. Mayang No. 10, Kel. Sekip, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20113",

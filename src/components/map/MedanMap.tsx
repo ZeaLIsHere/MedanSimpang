@@ -262,7 +262,7 @@ export default function MedanMap({
   }, [activePinId]);
 
   return (
-    <div className="relative w-full h-full min-h-[350px] md:min-h-full rounded-2xl overflow-hidden border border-bone/60 shadow-inner">
+    <div className="relative w-full h-full min-h-87.5 md:min-h-full rounded-2xl overflow-hidden border border-bone/60 shadow-inner">
       <div ref={mapContainerRef} className="w-full h-full z-10" />
     </div>
   );
