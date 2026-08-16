@@ -49,7 +49,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
   const walkTitle = language === 'id' ? walk.title_id : walk.title_en;
 
   // Gallery as a single-frame carousel (fallback to thumbnail if empty)
-  const images = location.gallery.length > 0 ? location.gallery : [location.thumbnail];
+  const images = (location.gallery.length > 0 ? location.gallery : [location.thumbnail]).slice(0, 7);
   const safeIndex = Math.min(activeImage, images.length - 1);
   const goPrev = () => setActiveImage((i) => (i - 1 + images.length) % images.length);
   const goNext = () => setActiveImage((i) => (i + 1) % images.length);
@@ -196,13 +196,15 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
                   <p className="text-sm font-light text-text-main leading-relaxed">{address}</p>
                 </div>
 
-                <div className="space-y-1.5 border-t border-bone/50 pt-4">
-                  <span className="text-[10px] uppercase font-bold tracking-wider text-text-muted flex items-center gap-1.5">
-                    <Clock className="w-4 h-4 text-secondary" />
-                    {language === 'id' ? 'Jam Operasional' : 'Opening Hours'}
-                  </span>
-                  <p className="text-sm font-light text-text-main leading-relaxed">{hours}</p>
-                </div>
+                {hours && (
+                  <div className="space-y-1.5 border-t border-bone/50 pt-4">
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-text-muted flex items-center gap-1.5">
+                      <Clock className="w-4 h-4 text-secondary" />
+                      {language === 'id' ? 'Jam Operasional' : 'Opening Hours'}
+                    </span>
+                    <p className="text-sm font-light text-text-main leading-relaxed">{hours}</p>
+                  </div>
+                )}
 
                 {/* Actions */}
                 <div className="border-t border-bone/50 pt-4 space-y-3">

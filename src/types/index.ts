@@ -74,8 +74,8 @@ export interface Location {
   shortDescription_en: string;
   address_id: string;
   address_en: string;
-  openingHours_id: string;
-  openingHours_en: string;
+  openingHours_id?: string;
+  openingHours_en?: string;
   latitude: number;
   longitude: number;
   googleMapsUrl: string;
