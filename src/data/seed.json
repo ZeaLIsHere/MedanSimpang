@@ -1767,70 +1767,262 @@
         "trails-5-kampung-cemetery"
       ],
       "route": [
-        [3.60423, 98.66914],
-        [3.60415, 98.66913],
-        [3.60413, 98.66913],
-        [3.60385, 98.66913],
-        [3.6035, 98.66914],
-        [3.60318, 98.66912],
-        [3.60313, 98.66912],
-        [3.60306, 98.66912],
-        [3.60304, 98.66912],
-        [3.60291, 98.66912],
-        [3.60268, 98.66912],
-        [3.60262, 98.66912],
-        [3.60256, 98.66911],
-        [3.60244, 98.66911],
-        [3.60222, 98.66911],
-        [3.60219, 98.6691],
-        [3.60212, 98.66911],
-        [3.60194, 98.66911],
-        [3.60188, 98.66911],
-        [3.60182, 98.66912],
-        [3.60156, 98.66912],
-        [3.60153, 98.66912],
-        [3.6015, 98.66912],
-        [3.60138, 98.66912],
-        [3.6012, 98.66911],
-        [3.60108, 98.66911],
-        [3.60082, 98.66911],
-        [3.60054, 98.66911],
-        [3.59993, 98.66909],
-        [3.59979, 98.66908],
-        [3.59967, 98.66908],
-        [3.59924, 98.66907],
-        [3.59892, 98.66908],
-        [3.59875, 98.66908],
-        [3.5982, 98.66906],
-        [3.59783, 98.66905],
-        [3.59778, 98.66905],
-        [3.59773, 98.66905],
-        [3.59768, 98.66905],
-        [3.59763, 98.66905],
-        [3.59754, 98.66901],
-        [3.59749, 98.669],
-        [3.59745, 98.669],
-        [3.59741, 98.66899],
-        [3.59725, 98.66899],
-        [3.59671, 98.66896],
-        [3.59616, 98.66896],
-        [3.59607, 98.66896],
-        [3.59561, 98.66896],
-        [3.59541, 98.66895],
-        [3.59526, 98.66894],
-        [3.5947, 98.66892],
-        [3.59471, 98.66878],
-        [3.59472, 98.66854],
-        [3.59475, 98.66773],
-        [3.59475, 98.66757],
-        [3.59475, 98.66754],
-        [3.59475, 98.66748],
-        [3.59476, 98.66734],
-        [3.59476, 98.66727],
-        [3.59476, 98.66708],
-        [3.59477, 98.66706],
-        [3.59478, 98.6668],
-        [3.59478, 98.66679]
+        [
+          3.60423,
+          98.66914
+        ],
+        [
+          3.60415,
+          98.66913
+        ],
+        [
+          3.60413,
+          98.66913
+        ],
+        [
+          3.60385,
+          98.66913
+        ],
+        [
+          3.6035,
+          98.66914
+        ],
+        [
+          3.60318,
+          98.66912
+        ],
+        [
+          3.60313,
+          98.66912
+        ],
+        [
+          3.60306,
+          98.66912
+        ],
+        [
+          3.60304,
+          98.66912
+        ],
+        [
+          3.60291,
+          98.66912
+        ],
+        [
+          3.60268,
+          98.66912
+        ],
+        [
+          3.60262,
+          98.66912
+        ],
+        [
+          3.60256,
+          98.66911
+        ],
+        [
+          3.60244,
+          98.66911
+        ],
+        [
+          3.60222,
+          98.66911
+        ],
+        [
+          3.60219,
+          98.6691
+        ],
+        [
+          3.60212,
+          98.66911
+        ],
+        [
+          3.60194,
+          98.66911
+        ],
+        [
+          3.60188,
+          98.66911
+        ],
+        [
+          3.60182,
+          98.66912
+        ],
+        [
+          3.60156,
+          98.66912
+        ],
+        [
+          3.60153,
+          98.66912
+        ],
+        [
+          3.6015,
+          98.66912
+        ],
+        [
+          3.60138,
+          98.66912
+        ],
+        [
+          3.6012,
+          98.66911
+        ],
+        [
+          3.60108,
+          98.66911
+        ],
+        [
+          3.60082,
+          98.66911
+        ],
+        [
+          3.60054,
+          98.66911
+        ],
+        [
+          3.59993,
+          98.66909
+        ],
+        [
+          3.59979,
+          98.66908
+        ],
+        [
+          3.59967,
+          98.66908
+        ],
+        [
+          3.59924,
+          98.66907
+        ],
+        [
+          3.59892,
+          98.66908
+        ],
+        [
+          3.59875,
+          98.66908
+        ],
+        [
+          3.5982,
+          98.66906
+        ],
+        [
+          3.59783,
+          98.66905
+        ],
+        [
+          3.59778,
+          98.66905
+        ],
+        [
+          3.59773,
+          98.66905
+        ],
+        [
+          3.59768,
+          98.66905
+        ],
+        [
+          3.59763,
+          98.66905
+        ],
+        [
+          3.59754,
+          98.66901
+        ],
+        [
+          3.59749,
+          98.669
+        ],
+        [
+          3.59745,
+          98.669
+        ],
+        [
+          3.59741,
+          98.66899
+        ],
+        [
+          3.59725,
+          98.66899
+        ],
+        [
+          3.59671,
+          98.66896
+        ],
+        [
+          3.59616,
+          98.66896
+        ],
+        [
+          3.59607,
+          98.66896
+        ],
+        [
+          3.59561,
+          98.66896
+        ],
+        [
+          3.59541,
+          98.66895
+        ],
+        [
+          3.59526,
+          98.66894
+        ],
+        [
+          3.5947,
+          98.66892
+        ],
+        [
+          3.59471,
+          98.66878
+        ],
+        [
+          3.59472,
+          98.66854
+        ],
+        [
+          3.59475,
+          98.66773
+        ],
+        [
+          3.59475,
+          98.66757
+        ],
+        [
+          3.59475,
+          98.66754
+        ],
+        [
+          3.59475,
+          98.66748
+        ],
+        [
+          3.59476,
+          98.66734
+        ],
+        [
+          3.59476,
+          98.66727
+        ],
+        [
+          3.59476,
+          98.66708
+        ],
+        [
+          3.59477,
+          98.66706
+        ],
+        [
+          3.59478,
+          98.6668
+        ],
+        [
+          3.59478,
+          98.66679
+        ]
       ]
     }
   ],
@@ -1865,7 +2057,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Rumah Qohwah merupakan salah satu titik awal dalam perjalanan di kawasan Silalas. Berada di Jl. Guru Patimpus, tempat ini dapat menjadi ruang singgah sebelum pengunjung memulai penjelajahan menyusuri kawasan sekitar. Suasananya yang khas membuat Rumah Qohwah tidak hanya berfungsi sebagai tempat menikmati kopi, tetapi juga sebagai tempat untuk memulai perjalanan dengan lebih santai. Di kedai ini, pengunjung dapat menikmati waktu sejenak sambil mengenal suasana kawasan sebelum melanjutkan perjalanan menuju titik-titik berikutnya. Letaknya di kawasan Silalas menjadikan Rumah Qohwah bagian dari pengalaman perjalanan, terutama bagi pengunjung yang ingin menikmati Medan melalui tempat-tempat yang menjadi bagian dari kehidupan sehari-hari masyarakat.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -1897,7 +2089,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Deli Riverview merupakan salah satu titik tersembunyi yang menawarkan pemandangan ke arah Sungai Deli. Dari tempat ini, pengunjung dapat melihat suasana sungai yang menjadi bagian penting dari perkembangan dan kehidupan Kota Medan. Titik ini memberikan pengalaman yang berbeda dalam perjalanan Medan Heritage Trail. Selain menikmati pemandangan, pengunjung juga dapat melihat lebih dekat hubungan antara permukiman warga dan Sungai Deli yang sejak dahulu menjadi bagian dari kehidupan masyarakat di sekitarnya.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -1928,7 +2120,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Rumah Adat Toba merupakan salah satu situs yang memperlihatkan kekayaan arsitektur tradisional Batak Toba di kawasan Silalas. Bentuk bangunan, struktur kayu, serta detail khas pada rumah adat menjadikannya menarik untuk diamati sebagai bagian dari warisan budaya. Keberadaan rumah ini menambah keragaman karakter kawasan dan memberikan kesempatan bagi pengunjung untuk mengenal lebih dekat bentuk arsitektur tradisional Sumatera Utara. Dalam rute Medan Heritage Trail, Rumah Adat Toba menjadi salah satu titik yang memperkuat cerita budaya di sepanjang perjalanan.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -1958,7 +2150,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Steve's Coffee merupakan kedai kopi yang cukup menarik untuk dijadikan tempat beristirahat di tengah perjalanan. Dari pengamatan di sekitar lokasi, tempat ini memiliki suasana yang lebih modern dibandingkan lingkungan permukiman di sekitarnya. Beberapa warga juga mengenal tempat ini sebagai salah satu pilihan untuk membeli minuman dan bersantai. Bagi pengunjung Medan Heritage Trail, Steve's Coffee dapat menjadi titik rehat sebelum melanjutkan perjalanan ke lokasi berikutnya. Kehadiran kedai seperti ini juga menunjukkan bagaimana aktivitas dan tempat usaha baru dapat berdampingan dengan suasana permukiman lama di kawasan Silalas.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -1992,7 +2184,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Bakso dan Mie Ayam Panorama merupakan salah satu tempat makan yang dapat ditemui di sekitar kawasan Silalas dan menjadi pilihan warga setempat untuk menikmati makanan sederhana dengan harga yang terjangkau dan rasa yang nikmat. Menu bakso dan mie ayam yang familiar menjadikannya tempat yang cocok untuk beristirahat sejenak di tengah perjalanan. Bagi pengunjung, warung ini dapat menjadi pilihan untuk menikmati kuliner lokal sekaligus merasakan suasana makan yang lebih dekat dengan keseharian masyarakat di kawasan Silalas.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2024,7 +2216,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Mie Ayam Bakso Solo merupakan salah satu pilihan kuliner yang dapat ditemukan di kawasan Silalas. Menyajikan mie ayam dan bakso dengan cita rasa khas Solo, tempat ini cocok menjadi persinggahan bagi pengunjung yang ingin menikmati makanan sederhana di tengah perjalanan. Suasananya yang santai membuatnya pas untuk beristirahat sejenak sekaligus mencicipi kuliner yang dekat dengan keseharian warga setempat. Keberadaan tempat makan ini akan melengkapi pengalaman menyusuri kawasan Silalas melalui sisi kulinernya.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2057,7 +2249,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Jembatan Kereta Api merupakan jembatan rel tua yang melintang di atas Sungai Deli dan menjadi salah satu elemen penting dalam lanskap kawasan Silalas. Keberadaannya memperlihatkan jejak perkembangan transportasi dan infrastruktur yang pernah menjadi bagian dari perjalanan Kota Medan. Selain memiliki fungsi sebagai jalur kereta api, jembatan ini juga memberikan karakter tersendiri pada kawasan di sekitar Sungai Deli. Dari jalur heritage trail, pengunjung dapat mengamati struktur jembatan serta suasana sungai dan lingkungan di sekitarnya.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2089,7 +2281,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "TK Asasil Islam merupakan salah satu fasilitas pendidikan yang berada di kawasan permukiman Silalas. Dengan nuansa pendidikan Islam, tempat ini menjadi bagian dari aktivitas sehari-hari masyarakat, khususnya bagi anak-anak dan keluarga di lingkungan sekitar. Dalam rute Medan Heritage Trail, TK Asasil Islam dapat menjadi salah satu penanda kawasan sekaligus memperlihatkan kehidupan sosial masyarakat yang berkembang di dalam lingkungan kampung Silalas. Walaupun bangunan ini terlihat sedikit tua dan tidak terlalu mewah, kehadirannya menambah gambaran bahwa kawasan ini tidak hanya memiliki bangunan dan tempat bersejarah, tetapi juga ruang-ruang yang digunakan masyarakat dalam kehidupan sehari-hari.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2121,7 +2313,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Toko Kipas merupakan salah satu toko lawas yang unik dan tersembunyi di kawasan Silalas. Keberadaannya menjadi bagian dari jejak aktivitas perdagangan yang telah berlangsung di lingkungan ini dari waktu ke waktu. Meski terlihat sederhana, toko seperti ini memiliki daya tarik tersendiri dalam perjalanan heritage trail. Pengunjung dapat melihat sisi kawasan yang mungkin terlewat jika hanya mengunjungi bangunan-bangunan utama, sekaligus merasakan suasana perdagangan dan kehidupan warga yang masih bertahan di tengah perkembangan kota.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2160,7 +2352,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Dapur Sedap Wangi merupakan rumah makan yang menyajikan beragam pilihan masakan rumahan dengan cita rasa yang akrab bagi masyarakat setempat. Tempat ini dapat menjadi pilihan untuk beristirahat dan mengisi tenaga setelah menyusuri berbagai titik dalam rute. Dengan suasana makan yang sederhana dan pilihan menu yang beragam, Dapur Sedap Wangi memberikan pengalaman kuliner yang dekat dengan keseharian warga di kawasan Silalas.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2323,7 +2515,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Warung Bunda Long merupakan warung rumahan yang menyajikan menu sehari-hari dengan pilihan makanan sederhana dan dekat dengan selera masyarakat setempat. Suasananya yang santai membuat tempat ini cocok untuk singgah dan mengisi tenaga selama perjalanan. Warung ini terasa teduh dan cukup tenang karena banyak bunga rumahan yang ditanam di sekitarnya.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2336,7 +2528,7 @@
       "category": "iSee",
       "thumbnail": "/images/placeholder-location.jpg",
       "gallery": [],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Kantor Lurah Silalas merupakan salah satu fasilitas pemerintahan yang menjadi pusat pelayanan bagi masyarakat di kawasan Silalas.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2350,7 +2542,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Kantor Lurah Silalas merupakan salah satu fasilitas pemerintahan yang menjadi pusat pelayanan bagi masyarakat di kawasan Silalas. Tempat ini berkaitan langsung dengan berbagai kebutuhan administrasi dan kegiatan pemerintahan yang berlangsung di tingkat kelurahan. Dalam rute Medan Heritage Trail, kantor lurah menjadi salah satu penanda penting kawasan. Keberadaannya memperlihatkan sisi lain dari kehidupan Silalas, tidak hanya melalui bangunan lama dan permukiman, tetapi juga melalui fasilitas publik yang mendukung aktivitas masyarakat sehari-hari.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2365,7 +2557,7 @@
       "gallery": [
         "/images/locations/masjid-al-muflihin/gallery-1.jpg"
       ],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Masjid Al Muflihin merupakan salah satu tempat ibadah di kawasan Silalas yang menjadi bagian dari lingkungan masyarakat setempat.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2379,7 +2571,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Masjid Al Muflihin merupakan salah satu tempat ibadah di kawasan Silalas yang menjadi bagian dari lingkungan masyarakat setempat. Masjid ini tidak hanya menjadi tempat pelaksanaan kegiatan keagamaan, tetapi juga bagian dari kehidupan sosial warga di sekitarnya. Masyarakat menggunakan masjid ini untuk beribadah setiap hari, dengan suasana yang biasanya paling ramai pada hari Jumat saat pelaksanaan salat Jumat. Dalam rute Medan Heritage Trail, masjid ini menjadi salah satu titik yang memperlihatkan kehidupan sehari-hari masyarakat Silalas sekaligus menggambarkan keberagaman fungsi ruang dan bangunan yang membentuk karakter kawasan.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2395,7 +2587,7 @@
         "/images/locations/pohon-besar-sei-deli/gallery-1.jpg",
         "/images/locations/pohon-besar-sei-deli/gallery-2.jpg"
       ],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Pohon besar di Jl.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2409,7 +2601,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Pohon besar di Jl. Sei Deli menjadi salah satu elemen alami yang menarik perhatian di sepanjang rute. Ukurannya yang cukup menonjol memberikan kesan teduh dan menjadi bagian dari suasana lingkungan permukiman di kawasan Silalas. Keberadaan pohon ini memperlihatkan bahwa perjalanan heritage tidak hanya tentang bangunan lama, tetapi juga tentang unsur alam dan lingkungan yang membentuk karakter kawasan. Bagi pengunjung, pohon besar ini dapat menjadi salah satu penanda sederhana saat menyusuri rute.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2429,7 +2621,7 @@
         "/images/locations/jajanan-viral-nangka/gallery-5.jpg",
         "/images/locations/jajanan-viral-nangka/gallery-6.jpg"
       ],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Warung di Jl.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2443,7 +2635,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Warung di Jl. Nangka ini menyediakan makanan berat, jajanan yang sedang populer, dan minuman siap saji. Tempat ini menjadi salah satu titik kuliner yang menarik perhatian di kawasan Silalas. Keberadaannya menambah warna pada perjalanan, terutama bagi pengunjung yang ingin menikmati jajanan lokal dan minuman segar sambil melihat aktivitas masyarakat di sekitar kawasan.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2530,7 +2722,7 @@
         "/images/locations/jl-kemiri/gallery-7.jpg",
         "/images/locations/jl-kemiri/gallery-8.jpg"
       ],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Jl.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2544,7 +2736,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Jl. Kemiri merupakan salah satu ruas jalan yang dilalui dalam rute. Perjalanan melalui jalan ini memberikan gambaran suasana lingkungan permukiman dan kehidupan sehari-hari masyarakat setempat, sekaligus menjadi penghubung menuju titik-titik menarik lainnya dalam rute. Pada rute ini, pengunjung dapat melihat dan merasakan langsung suasana permukiman melalui beragam aktivitas warga setempat. Anak-anak yang bermain sepeda, petak umpet, dan permainan lainnya membuat lingkungan terasa lebih hidup.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2562,7 +2754,7 @@
         "/images/locations/masjid-jami-silalas/gallery-3.jpg",
         "/images/locations/masjid-jami-silalas/gallery-4.jpg"
       ],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Masjid Jami' Silalas Sei Deli merupakan salah satu tempat ibadah yang menjadi bagian penting dari kehidupan masyarakat di kawasan Silalas.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2576,7 +2768,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Masjid Jami' Silalas Sei Deli merupakan salah satu tempat ibadah yang menjadi bagian penting dari kehidupan masyarakat di kawasan Silalas. Masjid ini berada di lingkungan permukiman warga yang dekat dengan Sungai Deli sehingga suasana sekitar masih terasa seperti lingkungan kampung yang hidup dan akrab. Masjid Jami' memiliki bentuk bangunan sederhana dengan ciri khas warna hijau. Letaknya berdekatan dengan jalan besar dan pemakaman umum yang berada tepat di samping masjid.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2598,7 +2790,7 @@
         "/images/locations/perkuburan-sei-deli-1/gallery-7.jpg",
         "/images/locations/perkuburan-sei-deli-1/gallery-8.jpg"
       ],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Perkuburan Sei Deli 1 merupakan salah satu area pemakaman yang berada di kawasan sekitar Sungai Deli yang juga berada dekat dengan Masjid Jami'.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2612,7 +2804,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Perkuburan Sei Deli 1 merupakan salah satu area pemakaman di sekitar Sungai Deli yang berdekatan dengan Masjid Jami'. Tempat ini menjadi bagian dari lingkungan permukiman sekaligus memperlihatkan sisi lain dari kehidupan masyarakat setempat. Keberadaannya dapat menjadi salah satu titik dalam rute untuk mengenal lebih dekat ruang-ruang yang memiliki fungsi sosial dan sejarah bagi warga di kawasan Silalas. Suasana lingkungan yang tenang juga memberikan kontras dengan aktivitas permukiman di sekitarnya.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2636,7 +2828,7 @@
         "/images/locations/perkuburan-sei-deli-2/gallery-9.jpg",
         "/images/locations/perkuburan-sei-deli-2/gallery-10.jpg"
       ],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Perkuburan Sei Deli 2 merupakan salah satu area pemakaman yang berada di sekitar kawasan Sungai Deli.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2650,7 +2842,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Perkuburan Sei Deli 2 merupakan salah satu area pemakaman yang berada di sekitar kawasan Sungai Deli. Lingkungannya cenderung lebih tenang dibandingkan area permukiman di sekitarnya dan menjadi bagian dari ruang yang memiliki fungsi penting bagi masyarakat setempat.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -2948,7 +3140,7 @@
       "category": "iSee",
       "thumbnail": "/images/placeholder-location.jpg",
       "gallery": [],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Gang Tumbuhan di Jl.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -2961,7 +3153,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Gang Tumbuhan di Jl. Cempedak merupakan salah satu bagian kecil dari kawasan permukiman Silalas yang menarik untuk dilalui. Suasananya mencerminkan lingkungan kampung dengan jalan yang lebih sempit dan rumah-rumah warga yang berada cukup dekat satu sama lain.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ],
@@ -3002,7 +3194,7 @@
       "category": "iDrink",
       "thumbnail": "/images/placeholder-location.jpg",
       "gallery": [],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "The Promised Cafe merupakan salah satu tempat singgah yang berada di sekitar kawasan Silalas.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -3015,7 +3207,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "The Promised Cafe merupakan salah satu tempat singgah yang berada di sekitar kawasan Silalas. Kafe ini dapat menjadi pilihan bagi pengunjung untuk beristirahat, menikmati minuman atau makanan, dan melepas lelah setelah menyusuri rute. Kafe ini melengkapi perjalanan dengan suasana kuliner yang lebih santai, sekaligus menjadi bagian dari aktivitas dan kehidupan sehari-hari yang dapat ditemui di kawasan sekitar rute.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ],
@@ -3029,7 +3221,7 @@
       "category": "iEat",
       "thumbnail": "/images/placeholder-location.jpg",
       "gallery": [],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Warung makan ini adalah salah satu tempat makan sederhana yang dapat ditemui di sepanjang rute.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -3042,7 +3234,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Warung makan ini adalah salah satu tempat makan sederhana yang dapat ditemui di sepanjang rute. Tempat seperti ini menjadi bagian dari aktivitas sehari-hari warga, dengan suasana yang lebih santai dan dekat dengan kehidupan masyarakat sekitar. Warung ini dapat menjadi pilihan bagi pejalan kaki untuk beristirahat dan mengisi tenaga sebelum melanjutkan perjalanan.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ],
@@ -3056,7 +3248,7 @@
       "category": "iSee",
       "thumbnail": "/images/placeholder-location.jpg",
       "gallery": [],
-      "shortDescription_id": "Deskripsi singkat akan segera ditambahkan.",
+      "shortDescription_id": "Jembatan di Jl.",
       "shortDescription_en": "A short description will be added soon.",
       "address_id": "Silalas, Kec. Medan Barat, Kota Medan",
       "address_en": "Silalas, Medan Barat, Medan City",
@@ -3069,7 +3261,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Jembatan di Jl. Guru Patimpus merupakan salah satu jalur yang menghubungkan kawasan sekitar Sungai Deli. Dari jembatan ini, pengunjung dapat melihat kondisi sungai sekaligus aktivitas dan lingkungan permukiman di sekitarnya. Sebagai bagian dari rute Medan Heritage Trail, jembatan ini memberikan pengalaman perjalanan yang berbeda karena pengunjung dapat melihat hubungan antara infrastruktur kota, Sungai Deli, dan kehidupan masyarakat di sepanjang bantaran sungai.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ],
@@ -3263,7 +3455,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Rumah panggung di Jl. Rambe ini merupakan salah satu rumah warga yang masih mempertahankan bentuk hunian kayu khas kampung Melayu. Bentuk panggung dan material kayunya menjadi ciri yang cukup menonjol, terutama di tengah lingkungan permukiman yang terus berkembang. Letaknya yang berada di sekitar Sungai Deli juga memperlihatkan hubungan antara hunian masyarakat dengan lingkungan sungai. Rumah ini menjadi salah satu titik menarik dalam rute Medan Heritage Trail untuk melihat lebih dekat karakter permukiman lama di kawasan Silalas.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -3294,7 +3486,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Rumah panggung di Jl. Pala merupakan salah satu hunian yang masih memperlihatkan karakter rumah kampung Melayu di kawasan Silalas. Struktur kayu dan bentuk rumah yang ditinggikan menjadi ciri yang menarik untuk diamati, terutama karena berada di lingkungan permukiman yang dekat dengan Sungai Deli. Rumah ini menjadi salah satu titik yang memperlihatkan karakter hunian dan suasana kampung di sekitar sungai. Keberadaannya menggambarkan hubungan antara rumah warga, lingkungan, dan Sungai Deli yang telah menjadi bagian dari kehidupan masyarakat kawasan tersebut.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -3325,7 +3517,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Warung Nasi Barkah merupakan warung nasi rumahan yang berada di lingkungan kampung Silalas. Menyajikan makanan sehari-hari dengan suasana yang sederhana dan akrab, tempat ini menjadi salah satu pilihan bagi warga untuk makan dan beristirahat. Bagi pengunjung Medan Heritage Trail, warung ini dapat menjadi tempat singgah untuk menikmati kuliner sederhana sekaligus merasakan suasana kehidupan sehari-hari masyarakat di kawasan Silalas.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -3407,7 +3599,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Rumah panggung di Jl. Jambu merupakan salah satu rumah warga yang masih memperlihatkan karakter hunian kayu khas kampung Melayu di kawasan Silalas. Bentuk rumah yang ditinggikan serta penggunaan material kayu memberikan kesan tradisional yang cukup kuat. Letaknya yang berada di sekitar Sungai Deli menjadi bagian dari karakter permukiman di kawasan tersebut. Rumah ini menjadi salah satu titik menarik dalam rute Medan Heritage Trail untuk melihat bentuk hunian lama dan suasana kehidupan masyarakat di sekitar sungai.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -3436,7 +3628,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Rumah panggung ini merupakan salah satu hunian yang masih memperlihatkan karakter rumah kampung Melayu di kawasan Silalas. Struktur kayu dan bentuk rumah yang ditinggikan menjadi ciri yang menarik untuk diamati, terutama karena berada di lingkungan permukiman yang dekat dengan Sungai Deli. Rumah ini menjadi salah satu titik yang memperlihatkan karakter hunian dan suasana kampung di sekitar sungai. Keberadaannya menggambarkan hubungan antara rumah warga, lingkungan, dan Sungai Deli yang telah menjadi bagian dari kehidupan masyarakat kawasan tersebut.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -3465,7 +3657,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Rumah warga di Jl. Sei Deli menjadi salah satu bagian menarik dalam perjalanan menyusuri kawasan Silalas. Rumah dengan corak lama ini memperlihatkan karakter permukiman yang masih mempertahankan suasana lingkungan tempo dulu di tengah perkembangan Kota Medan. Bentuk bangunan, detail fasad, serta suasana di sekitarnya memberikan gambaran tentang kehidupan masyarakat yang telah berlangsung dari waktu ke waktu.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -3494,7 +3686,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Bangunan ini merupakan salah satu bangunan lama yang masih dapat ditemui di kawasan permukiman Silalas. Corak bangunannya memberikan gambaran tentang bentuk hunian masyarakat pada masa sebelumnya dan menambah karakter khas lingkungan kampung. Keberadaan rumah ini menjadi bagian dari perjalanan heritage karena pengunjung dapat melihat langsung suasana permukiman lama yang masih berdampingan dengan kehidupan warga hingga saat ini.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
@@ -3523,7 +3715,7 @@
       "contentBlocks": [
         {
           "type": "paragraph",
-          "text_id": "Deskripsi lengkap lokasi ini akan segera ditambahkan setelah data survei dirapikan.",
+          "text_id": "Rumah warga ini merupakan salah satu contoh bangunan lama yang masih ditemukan di kawasan permukiman Silalas. Corak bangunannya memberikan gambaran tentang karakter rumah tinggal masyarakat pada masa sebelumnya, juga memperlihatkan suasana kampung yang masih terasa di tengah perkembangan Kota Medan. Keberadaan rumah seperti ini menjadi bagian dari daya tarik rute karena pengunjung dapat melihat langsung sisi kehidupan permukiman lokal, bukan hanya bangunan yang memiliki nilai sejarah secara formal. Unsur bangunan dan lingkungan di sekitarnya juga membentuk karakter khas kawasan Silalas.",
           "text_en": "A full description of this location will be added soon, once the survey data is finalised."
         }
       ]
