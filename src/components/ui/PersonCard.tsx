@@ -4,6 +4,8 @@ import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { initials, type Person } from '@/data/ums';
 
+import { assetPath } from '@/lib/paths';
+
 // On-brand avatar themes — rotated so a roster reads as a set, not a wall of
 // identical circles. Each entry pairs a gradient ring with a matching tint.
 const avatarThemes = [
@@ -34,8 +36,16 @@ export default function PersonCard({
     <>
       {/* Gradient-ring avatar */}
       <div className={`bg-gradient-to-br ${theme.ring} rounded-full p-[2px] shrink-0 transition-transform duration-300 group-hover:scale-105`}>
-        <div className={`inline-flex ${avatarSize} items-center justify-center rounded-full ${theme.tint} font-serif font-bold ${featured ? 'text-2xl' : 'text-lg'} ring-2 ring-white`}>
-          {initials(person.name)}
+        <div className={`relative inline-flex ${avatarSize} items-center justify-center rounded-full ${theme.tint} font-serif font-bold ${featured ? 'text-2xl' : 'text-lg'} ring-2 ring-white overflow-hidden`}>
+          {person.photo ? (
+            <img
+              src={assetPath(person.photo)}
+              alt={person.name}
+              className="h-full w-full object-cover rounded-full"
+            />
+          ) : (
+            initials(person.name)
+          )}
         </div>
       </div>
 
