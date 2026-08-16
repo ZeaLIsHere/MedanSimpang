@@ -51,9 +51,9 @@ export const umsMembers: Person[] = [
 
 export const umsStudents: Person[] = [
   { name: 'Gilby', photo: null, affiliation: 'Universitas Sumatera Utara' },
-  { name: 'Nurhidayah Munthe', photo: null, affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Nurhidayah Munthe', photo: '/images/new-images/foto-mahasiswa/Nurhidayah.webp', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Tariq Rahmadari', photo: '/images/new-images/foto-mahasiswa/TariqRahmadari.webp', affiliation: 'Universitas Sumatera Utara' },
-  { name: 'Blessly Silaban', photo: null, affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Blessly Silaban', photo: '/images/new-images/foto-mahasiswa/BlesslySilaban.webp', affiliation: 'Universitas Sumatera Utara' },
 ];
 
 export function initials(name: string): string {

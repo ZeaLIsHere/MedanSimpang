@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Clock, Navigation, MapPin, Globe, Download, ArrowLeft, Eye, Utensils, Coffee, Compass, LayoutGrid } from 'lucide-react';
+import { Clock, Navigation, MapPin, Globe, Download, ArrowLeft, Eye, Utensils, Coffee, Compass, LayoutGrid, Map, List } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -29,6 +29,8 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
   const { language, setLanguage } = useLanguage();
   const [activeCategory, setActiveCategory] = useState<CategoryType | 'All'>('All');
   const [activeLocationSlug, setActiveLocationSlug] = useState<string | undefined>(undefined);
+  // Mobile view mode: 'list' (default) or 'map'
+  const [mobileView, setMobileView] = useState<'list' | 'map'>('list');
 
   const walk = getWalkBySlug(walkSlug);
 
@@ -108,12 +110,12 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
       <Header />
 
       {/* Main scrollable grid container — same pattern as Homepage */}
-      <main className="flex-grow pt-32 pb-16">
-        <div className="w-full px-6 lg:px-12">
+      <main className="flex-grow pt-28 sm:pt-32 pb-24 lg:pb-16">
+        <div className="w-full px-4 sm:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
             
             {/* Left Column: Walk Content (5/12) */}
-            <div className="lg:col-span-5 xl:col-span-5 space-y-8">
+            <div className={`lg:col-span-5 xl:col-span-5 space-y-8 ${mobileView === 'map' ? 'hidden lg:block' : 'block'}`}>
               {/* Breadcrumbs */}
               <Breadcrumbs items={breadcrumbsItems} />
 
@@ -136,7 +138,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
               </div>
 
               {/* Info Strip (compact horizontal) */}
-              <div className="flex flex-wrap items-center gap-4 bg-white border border-bone/50 rounded-xl px-4 py-3 shadow-sm text-center">
+              <div className="flex flex-wrap items-center gap-3 sm:gap-4 bg-white border border-bone/50 rounded-xl px-4 py-3 shadow-sm text-center">
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-secondary" />
                   <span className="text-xs font-bold text-accent">{durationText}</span>
@@ -192,12 +194,12 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                 </p>
               </div>
 
-              {/* Category Filter Chips */}
+              {/* Category Filter Chips - Mobile Scrollable */}
               <div className="space-y-4 border-t border-bone/45 pt-6">
                 <h3 className="font-serif text-xl font-bold text-accent">
                   {language === 'id' ? 'Filter Kategori' : 'Category Filter'}
                 </h3>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex overflow-x-auto no-scrollbar gap-2 pb-1.5 pt-0.5 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap">
                   {filterChips.map((chip) => {
                     const count = getCategoryCount(chip.key);
                     const isActive = activeCategory === chip.key;
@@ -206,7 +208,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                       <button
                         key={chip.key}
                         onClick={() => setActiveCategory(chip.key)}
-                        className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all duration-300 ${
+                        className={`inline-flex items-center gap-1.5 shrink-0 px-3.5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider border transition-all duration-300 ${
                           isActive
                             ? `${chip.color} shadow-sm scale-103`
                             : 'border-bone bg-white text-text-muted hover:border-gray-400'
@@ -367,7 +369,9 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
             </div>
 
             {/* Right Column: Sticky Window Map (7/12) — same as Homepage */}
-            <div className="lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px] w-full h-[380px] sm:h-[450px] lg:h-[calc(100vh-140px)] rounded-2xl overflow-hidden shadow-md">
+            <div className={`lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px] w-full rounded-2xl overflow-hidden shadow-md ${
+              mobileView === 'map' ? 'block h-[calc(100vh-170px)]' : 'hidden lg:block h-[380px] sm:h-[450px] lg:h-[calc(100vh-140px)]'
+            }`}>
               <MedanMap
                 pins={mapPins}
                 routes={walk.route ? [{ coordinates: walk.route }] : undefined}
@@ -383,6 +387,30 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
           </div>
         </div>
       </main>
+
+      {/* Floating Mobile View Switcher */}
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 lg:hidden">
+        <div className="bg-accent/95 backdrop-blur-md text-white p-1 rounded-full shadow-2xl border border-white/20 flex items-center gap-1">
+          <button
+            onClick={() => setMobileView('list')}
+            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold transition-all ${
+              mobileView === 'list' ? 'bg-primary text-accent shadow-sm' : 'text-white/80 hover:text-white'
+            }`}
+          >
+            <List className="w-4 h-4" />
+            <span>{language === 'id' ? 'Daftar' : 'List'}</span>
+          </button>
+          <button
+            onClick={() => setMobileView('map')}
+            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold transition-all ${
+              mobileView === 'map' ? 'bg-primary text-accent shadow-sm' : 'text-white/80 hover:text-white'
+            }`}
+          >
+            <Map className="w-4 h-4" />
+            <span>{language === 'id' ? 'Peta' : 'Map'}</span>
+          </button>
+        </div>
+      </div>
 
       {/* Footer at the very bottom of the page */}
       <Footer />

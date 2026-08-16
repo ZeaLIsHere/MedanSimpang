@@ -121,12 +121,38 @@ body {
   animation: fadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+/* No Scrollbar Utility for Horizontal Chips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Mobile Drawer Animations */
+@keyframes slideDownMobile {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-drawer-enter {
+  animation: slideDownMobile 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
 /* Honour users who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .animate-fade-up,
   .animate-fade-in,
   .animate-dropdown-enter,
-  .animate-dropdown-exit {
+  .animate-dropdown-exit,
+  .animate-drawer-enter {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;

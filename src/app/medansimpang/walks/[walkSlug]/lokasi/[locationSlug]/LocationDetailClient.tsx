@@ -109,12 +109,12 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
         </div>
 
         {/* Full-width split layout: carousel (left) + info (right) */}
-        <div className="w-full px-6 lg:px-12 mt-8">
+        <div className="w-full px-4 sm:px-6 lg:px-12 mt-6 sm:mt-8 pb-20 sm:pb-0">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
 
             {/* LEFT: Single-frame image carousel (sticky window) */}
             <div className="lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px]">
-              <div className="relative w-full h-[360px] sm:h-[480px] lg:h-[calc(100vh-160px)] rounded-2xl overflow-hidden bg-bone border border-bone/60 shadow-md group">
+              <div className="relative w-full h-[320px] sm:h-[480px] lg:h-[calc(100vh-160px)] rounded-2xl overflow-hidden bg-bone border border-bone/60 shadow-md group">
                 <Image
                   key={safeIndex}
                   src={images[safeIndex]}
@@ -187,7 +187,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
               </header>
 
               {/* Quick info: address + hours */}
-              <div className="bg-bone/25 rounded-2xl border border-bone/50 p-6 space-y-5">
+              <div className="bg-bone/25 rounded-2xl border border-bone/50 p-5 sm:p-6 space-y-5">
                 <div className="space-y-1.5">
                   <span className="text-[10px] uppercase font-bold tracking-wider text-text-muted flex items-center gap-1.5">
                     <MapPin className="w-4 h-4 text-secondary" />
@@ -209,7 +209,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
                   <div className="flex flex-col sm:flex-row gap-3">
                     <button
                       onClick={handleShare}
-                      className="flex-1 flex items-center justify-center gap-2 rounded-lg bg-white border border-bone px-4 py-2.5 text-xs font-bold text-accent shadow-sm hover:bg-bone/35 active:scale-[0.98] transition-all uppercase tracking-wider"
+                      className="flex-1 flex items-center justify-center gap-2 rounded-lg bg-white border border-bone px-4 py-2.5 text-xs font-bold text-accent shadow-sm hover:bg-bone/35 active:scale-[0.98] transition-all uppercase tracking-wider min-h-[44px]"
                     >
                       {copied ? (
                         <>
@@ -227,7 +227,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
                     <div className="relative flex-1">
                       <button
                         onClick={() => setShowDirections(!showDirections)}
-                        className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-xs font-bold text-accent shadow-sm hover:bg-primary/95 active:scale-[0.98] transition-all uppercase tracking-wider"
+                        className="w-full flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-xs font-bold text-accent shadow-sm hover:bg-primary/95 active:scale-[0.98] transition-all uppercase tracking-wider min-h-[44px]"
                       >
                         <Compass className="w-4 h-4" />
                         <span>{language === 'id' ? 'Petunjuk Arah' : 'Get Directions'}</span>
@@ -282,14 +282,14 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
                   </span>
                   <Link
                     href={`/medansimpang/walks/${walkSlug}/lokasi/${nextLocation.slug}`}
-                    className="group flex items-center justify-between p-5 rounded-2xl bg-white border border-bone hover:border-secondary/40 shadow-sm hover:shadow-md transition-all duration-300"
+                    className="group flex items-center justify-between p-4 sm:p-5 rounded-2xl bg-white border border-bone hover:border-secondary/40 shadow-sm hover:shadow-md transition-all duration-300 min-h-[60px]"
                   >
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 rounded-full bg-accent/10 text-accent font-bold flex items-center justify-center group-hover:bg-secondary group-hover:text-white transition-colors duration-300 flex-shrink-0">
                         {nextLocation.order}
                       </div>
                       <div>
-                        <h4 className="font-serif font-bold text-accent text-lg leading-tight group-hover:text-secondary transition-colors">
+                        <h4 className="font-serif font-bold text-accent text-base sm:text-lg leading-tight group-hover:text-secondary transition-colors">
                           {language === 'id' ? nextLocation.name_id : nextLocation.name_en}
                         </h4>
                         <p className="text-xs text-text-muted font-light mt-0.5 line-clamp-1">
@@ -309,6 +309,36 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
           </div>
         </div>
       </main>
+
+      {/* Sticky Mobile Quick Action Bar */}
+      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-bone/60 p-3 shadow-2xl">
+        <div className="flex items-center gap-2">
+          <a
+            href={location.googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 flex items-center justify-center gap-1.5 bg-primary text-accent text-xs font-bold py-2.5 px-3 rounded-xl shadow-sm uppercase tracking-wider active:scale-[0.98]"
+          >
+            <Compass className="w-4 h-4" />
+            <span>Peta</span>
+          </a>
+          <button
+            onClick={handleShare}
+            className="flex items-center justify-center gap-1.5 bg-bone/60 border border-bone text-accent text-xs font-bold py-2.5 px-3 rounded-xl shadow-sm uppercase tracking-wider active:scale-[0.98]"
+          >
+            <Share2 className="w-4 h-4 text-secondary" />
+          </button>
+          {nextLocation && (
+            <Link
+              href={`/medansimpang/walks/${walkSlug}/lokasi/${nextLocation.slug}`}
+              className="flex-1 flex items-center justify-center gap-1 bg-accent text-white text-xs font-bold py-2.5 px-3 rounded-xl shadow-sm uppercase tracking-wider active:scale-[0.98]"
+            >
+              <span>Berikutnya</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          )}
+        </div>
+      </div>
 
       <Footer />
     </div>
