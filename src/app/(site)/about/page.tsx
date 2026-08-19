@@ -70,7 +70,7 @@ export default function AboutPage() {
             {umsStudents.length > 0 ? (
               <div className="flex flex-wrap justify-center gap-3 sm:gap-6">
                 {umsStudents.map((s, i) => (
-                  <div key={s.name} className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)] lg:w-[calc(25%-18px)]">
+                  <div key={s.name} className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)]">
                     <PersonCard person={s} index={i} />
                   </div>
                 ))}

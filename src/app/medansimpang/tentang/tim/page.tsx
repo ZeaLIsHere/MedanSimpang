@@ -91,7 +91,7 @@ export default function TimPage() {
             {umsStudents.length > 0 ? (
               <div className="flex flex-wrap justify-center gap-3 sm:gap-6">
                 {umsStudents.map((s, i) => (
-                  <div key={s.name} className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)] lg:w-[calc(25%-18px)] animate-fade-up" style={{ animationDelay: `${i * 45}ms` }}>
+                  <div key={s.name} className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)] animate-fade-up" style={{ animationDelay: `${i * 45}ms` }}>
                     <PersonCard person={s} index={i} />
                   </div>
                 ))}
