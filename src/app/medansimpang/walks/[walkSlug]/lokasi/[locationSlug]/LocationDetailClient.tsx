@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ChevronLeft, ChevronRight, MapPin, Clock, Globe, Share2, Compass, ArrowRight, Check } from 'lucide-react';
+import { ChevronLeft, ChevronRight, MapPin, Clock, Share2, Compass, ArrowRight, Check } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Badge from '@/components/ui/Badge';
@@ -12,7 +12,7 @@ import { getLocationBySlug, getWalkBySlug, getLocationsForWalk } from '@/data/db
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: string, locationSlug: string }) {
-  const { language, setLanguage } = useLanguage();
+  const { language } = useLanguage();
   const [copied, setCopied] = useState(false);
   const [showDirections, setShowDirections] = useState(false);
   const [activeImage, setActiveImage] = useState(0);
@@ -80,7 +80,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
       <main className="grow pt-32 pb-16">
         {/* Sub-header Navigation */}
         <div className="bg-bone/30 border-b border-bone/40 py-4">
-          <div className="w-full px-6 lg:px-12 flex items-center justify-between">
+          <div className="w-full px-6 lg:px-12 flex items-center">
             <Link
               href={`/medansimpang/walks/${walkSlug}`}
               className="inline-flex items-center text-sm font-bold text-accent hover:text-secondary transition-colors"
@@ -88,23 +88,6 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
               <ChevronLeft className="mr-1.5 h-4.5 w-4.5 text-secondary" />
               <span className="truncate max-w-[200px] sm:max-w-xs">{walkTitle}</span>
             </Link>
-
-            {/* Bilingual Switcher */}
-            <div className="flex items-center gap-2 bg-white border border-bone/70 px-3 py-1 rounded-xl text-xs font-semibold text-text-muted shadow-sm">
-              <Globe className="h-3.5 w-3.5 text-secondary" />
-              <button
-                onClick={() => setLanguage('id')}
-                className={`px-1.5 py-0.5 rounded ${language === 'id' ? 'bg-primary text-accent font-bold' : ''}`}
-              >
-                ID
-              </button>
-              <button
-                onClick={() => setLanguage('en')}
-                className={`px-1.5 py-0.5 rounded ${language === 'en' ? 'bg-primary text-accent font-bold' : ''}`}
-              >
-                EN
-              </button>
-            </div>
           </div>
         </div>
 

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Clock, Navigation, MapPin, Globe, Download, ArrowLeft, Eye, Utensils, Coffee, Compass, LayoutGrid, Map, List } from 'lucide-react';
+import { Clock, Navigation, MapPin, Download, ArrowLeft, Eye, Utensils, Coffee, Compass, LayoutGrid, Map, List } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -27,7 +27,7 @@ const MedanMap = dynamic(() => import('@/components/map/MedanMap'), {
 });
 
 export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
-  const { language, setLanguage } = useLanguage();
+  const { language } = useLanguage();
   const [activeCategory, setActiveCategory] = useState<CategoryType | 'All'>('All');
   const [activeLocationSlug, setActiveLocationSlug] = useState<string | undefined>(undefined);
   // Mobile view mode: 'list' (default) or 'map'
@@ -154,42 +154,10 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                   <MapPin className="w-3.5 h-3.5 text-secondary" />
                   <span className="text-xs font-bold text-accent">{walk.pointsOfInterestCount} POI</span>
                 </div>
-                <div className="w-px h-5 bg-bone/60" />
-                <div className="flex items-center gap-1.5">
-                  <Globe className="w-3.5 h-3.5 text-secondary" />
-                  <span className="text-xs font-bold text-accent">ID / EN</span>
-                </div>
               </div>
 
-              {/* Bilingual Switcher & Description */}
-              <div className="space-y-4 border-t border-bone/45 pt-6">
-                <div className="inline-flex items-center gap-3 bg-bone/45 border border-bone/80 px-4 py-2 rounded-xl text-xs font-medium text-text-muted">
-                  <Globe className="h-4 w-4 text-secondary" />
-                  <span>{language === 'id' ? 'Baca rute dalam:' : 'Read walk in:'}</span>
-                  <div className="flex gap-2">
-                    <button
-                      onClick={() => setLanguage('id')}
-                      className={`px-2 py-0.5 rounded ${
-                        language === 'id'
-                          ? 'bg-primary text-accent font-bold'
-                          : 'hover:text-secondary'
-                      }`}
-                    >
-                      Indonesia
-                    </button>
-                    <button
-                      onClick={() => setLanguage('en')}
-                      className={`px-2 py-0.5 rounded ${
-                        language === 'en'
-                          ? 'bg-primary text-accent font-bold'
-                          : 'hover:text-secondary'
-                      }`}
-                    >
-                      English
-                    </button>
-                  </div>
-                </div>
-
+              {/* Description follows the global language selected in the header */}
+              <div className="border-t border-bone/45 pt-6">
                 <p className="text-sm md:text-base text-text-main font-light leading-relaxed">
                   {description}
                 </p>

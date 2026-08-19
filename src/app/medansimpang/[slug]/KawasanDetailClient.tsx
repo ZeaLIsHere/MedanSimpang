@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { Globe, ArrowLeft, MapPin, Map, List } from 'lucide-react';
+import { ArrowLeft, MapPin, Map, List } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -23,7 +23,7 @@ const MedanMap = dynamic(() => import('@/components/map/MedanMap'), {
 });
 
 export default function KawasanDetail({ slug }: { slug: string }) {
-  const { language, setLanguage } = useLanguage();
+  const { language } = useLanguage();
   
   const kawasan = getKawasanBySlug(slug);
   const walks = getWalksForKawasan(slug);
@@ -113,31 +113,8 @@ export default function KawasanDetail({ slug }: { slug: string }) {
                 </p>
               </div>
 
-              {/* Description & Language Switcher */}
-              <div className="space-y-4 border-t border-bone/45 pt-6">
-                <div className="flex items-center gap-3 bg-bone/35 border border-bone/70 px-3.5 py-1.5 rounded-xl text-xs font-semibold text-text-muted shadow-sm w-fit">
-                  <Globe className="h-4 w-4 text-secondary" />
-                  <span>{language === 'id' ? 'Baca dalam:' : 'Read in:'}</span>
-                  <div className="flex gap-2">
-                    <button
-                      onClick={() => setLanguage('id')}
-                      className={`px-1.5 py-0.5 rounded ${
-                        language === 'id' ? 'bg-primary text-accent font-bold' : 'hover:text-secondary'
-                      }`}
-                    >
-                      Indonesia
-                    </button>
-                    <button
-                      onClick={() => setLanguage('en')}
-                      className={`px-1.5 py-0.5 rounded ${
-                        language === 'en' ? 'bg-primary text-accent font-bold' : 'hover:text-secondary'
-                      }`}
-                    >
-                      English
-                    </button>
-                  </div>
-                </div>
-
+              {/* Description follows the global language selected in the header */}
+              <div className="border-t border-bone/45 pt-6">
                 <p className="text-sm md:text-base text-text-main font-light leading-relaxed">
                   {description}
                 </p>

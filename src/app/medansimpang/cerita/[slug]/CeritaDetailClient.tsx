@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ChevronLeft, Globe, Calendar, Folder } from 'lucide-react';
+import { ChevronLeft, Calendar, Folder } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -12,7 +12,7 @@ import { getCeritaBySlug, getAllCerita } from '@/data/db';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function CeritaDetail({ slug }: { slug: string }) {
-  const { language, setLanguage } = useLanguage();
+  const { language } = useLanguage();
 
   const story = getCeritaBySlug(slug);
 
@@ -68,7 +68,7 @@ export default function CeritaDetail({ slug }: { slug: string }) {
           
           {/* Header Metadata */}
           <header className="space-y-4 mb-8">
-            <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex flex-wrap items-center gap-4">
               <div className="flex flex-wrap items-center gap-3 text-xs font-semibold text-text-muted">
                 <span className="flex items-center">
                   <Calendar className="mr-1 h-3.5 w-3.5 text-secondary" />
@@ -80,22 +80,6 @@ export default function CeritaDetail({ slug }: { slug: string }) {
                 </span>
               </div>
 
-              {/* Bilingual Switcher */}
-              <div className="flex items-center gap-2 bg-bone/35 border border-bone/70 px-3 py-1 rounded-xl text-xs font-semibold text-text-muted shadow-sm">
-                <Globe className="h-3.5 w-3.5 text-secondary" />
-                <button
-                  onClick={() => setLanguage('id')}
-                  className={`px-1.5 py-0.5 rounded ${language === 'id' ? 'bg-primary text-accent font-bold' : ''}`}
-                >
-                  ID
-                </button>
-                <button
-                  onClick={() => setLanguage('en')}
-                  className={`px-1.5 py-0.5 rounded ${language === 'en' ? 'bg-primary text-accent font-bold' : ''}`}
-                >
-                  EN
-                </button>
-              </div>
             </div>
 
             <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-accent leading-tight">
