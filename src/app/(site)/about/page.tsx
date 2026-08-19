@@ -68,8 +68,12 @@ export default function AboutPage() {
           <div>
             <h3 className="text-xs font-bold uppercase tracking-widest text-primary-strong mb-3">{id ? 'Mahasiswa' : 'Students'}</h3>
             {umsStudents.length > 0 ? (
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
-                {umsStudents.map((s, i) => <PersonCard key={s.name} person={s} index={i} />)}
+              <div className="flex flex-wrap justify-center gap-3 sm:gap-6">
+                {umsStudents.map((s, i) => (
+                  <div key={s.name} className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)] lg:w-[calc(25%-18px)]">
+                    <PersonCard person={s} index={i} />
+                  </div>
+                ))}
               </div>
             ) : (
               <p className="text-sm text-text-muted font-light italic">
