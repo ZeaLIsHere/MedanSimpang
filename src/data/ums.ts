@@ -39,7 +39,7 @@ export const umsHead: Person = {
 };
 
 export const umsMembers: Person[] = [
-  { name: 'Dr. Ulrike Herbig', photo: null, link: 'https://gcd.tuwien.ac.at/ulrike-herbig', affiliation: 'TU Wien' },
+  { name: 'Dr. Ulrike Herbig', photo: '/images/new-images/foto-dosen/Dr-Urlike-herbig.webp', link: 'https://gcd.tuwien.ac.at/ulrike-herbig', affiliation: 'TU Wien' },
   { name: 'Dr. Isnen Fitri', photo: '/images/new-images/foto-dosen/IsnenFitri.webp', link: 'https://ft.usu.ac.id/id/dosen/isnen-fitri/', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Dr. Wahyuni Zahrah', photo: '/images/new-images/foto-dosen/ArWahyuniZahrah.webp', link: 'https://ft.usu.ac.id/id/dosen/wahyuni-zahrah', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Dr. Lim Seng Boon', photo: null, link: 'https://perak.uitm.edu.my/index.php/en/component/content/article/487-department-of-built-environment-studies-technology-2?layout=edit&Itemid=101', affiliation: 'UiTM Perak' },
