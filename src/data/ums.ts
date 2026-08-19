@@ -50,7 +50,7 @@ export const umsMembers: Person[] = [
 ];
 
 export const umsStudents: Person[] = [
-  { name: 'Gilby', photo: '/images/new-images/foto-mahasiswa/Gilby.PNG', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Muhammad Gilby', photo: '/images/new-images/foto-mahasiswa/Gilby.PNG', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Nurhidayah Munthe', photo: '/images/new-images/foto-mahasiswa/Nurhidayah.webp', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Tariq Rahmadari', photo: '/images/new-images/foto-mahasiswa/TariqRahmadari.webp', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Blessly Silaban', photo: '/images/new-images/foto-mahasiswa/BlesslySilaban.webp', affiliation: 'Universitas Sumatera Utara' },
