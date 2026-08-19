@@ -3771,9 +3771,11 @@
       "slug": "rumah-panggung-graha-putra-mandiri",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-1.png",
+      "thumbnail": "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.png",
       "gallery": [
-        "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-1.png"
+        "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.png",
+        "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-2.png",
+        "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-3.png"
       ],
       "shortDescription_id": "Rumah panggung bersejarah di Jl. H. Adam Malik.",
       "shortDescription_en": "A historic stilt house on Jl. H. Adam Malik.",
