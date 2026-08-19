@@ -54,6 +54,7 @@ export const umsStudents: Person[] = [
   { name: 'Nurhidayah Munthe', photo: '/images/new-images/foto-mahasiswa/Nurhidayah.webp', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Tariq Rahmadari', photo: '/images/new-images/foto-mahasiswa/TariqRahmadari.webp', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Blessly Silaban', photo: '/images/new-images/foto-mahasiswa/BlesslySilaban.webp', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Bahrena Liadi', photo: '/images/new-images/foto-mahasiswa/Bahrena-Liadi.webp', affiliation: 'Universitas Sumatera Utara' },
 ];
 
 export function initials(name: string): string {
