@@ -16,8 +16,8 @@
   ],
   "walks": [
     {
-      "title_id": "Trails 1 Tepian Sungai Deli",
-      "title_en": "Trails 1 Deli Riverside",
+      "title_id": "Trail 1 Tepian Sungai Deli",
+      "title_en": "Trail 1 Deli Riverside",
       "slug": "trails-1-deli-riverside",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/locations/deli-riverview/gallery-1.jpg",
@@ -751,8 +751,8 @@
       ]
     },
     {
-      "title_id": "Trails 2 Lanskap Kampung Melayu",
-      "title_en": "Trails 2 Malay Kampung Landscape",
+      "title_id": "Trail 2 Lanskap Kampung Melayu",
+      "title_en": "Trail 2 Malay Kampung Landscape",
       "slug": "trails-2-malay-house",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/cover-trail-2.webp",
@@ -1207,8 +1207,8 @@
       ]
     },
     {
-      "title_id": "Trails 3 Rumah Tradisional Melayu",
-      "title_en": "Trails 3 Malay Traditional Houses",
+      "title_id": "Trail 3 Rumah Tradisional Melayu",
+      "title_en": "Trail 3 Malay Traditional Houses",
       "slug": "trails-3-malay-house",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/cover-trail-3.webp",
@@ -1576,8 +1576,8 @@
       ]
     },
     {
-      "title_id": "Trails 4 Masjid Tua Silalas",
-      "title_en": "Trails 4 Silalas Old Mosque",
+      "title_id": "Trail 4 Masjid Tua Silalas",
+      "title_en": "Trail 4 Silalas Old Mosque",
       "slug": "trails-4-cemetery-mosque",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/locations/masjid-jami-silalas/gallery-1.jpg",
@@ -1777,8 +1777,8 @@
       ]
     },
     {
-      "title_id": "Trails 5 Kampung & Pemakaman Hijau",
-      "title_en": "Trails 5 Kampung and Green Cemetery",
+      "title_id": "Trail 5 Kampung & Pemakaman Hijau",
+      "title_en": "Trail 5 Kampung and Green Cemetery",
       "slug": "trails-5-kampung-cemetery",
       "neighbourhoodSlug": "silalas",
       "heroImage": "/images/locations/sdn-060837/gallery-1.jpg",
@@ -1900,11 +1900,11 @@
       ]
     },
     {
-      "title_id": "Trails 6 Koridor Jl. H. Adam Malik",
-      "title_en": "Trails 6 Jl. H. Adam Malik Corridor",
+      "title_id": "Trail 6 Koridor Jl. H. Adam Malik",
+      "title_en": "Trail 6 Jl. H. Adam Malik Corridor",
       "slug": "trails-6-adam-malik-corridor",
       "neighbourhoodSlug": "silalas",
-      "heroImage": "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.jpg",
+      "heroImage": "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.png",
       "description_id": "Rute menyusuri koridor Jl. H. Adam Malik di sisi barat Silalas, dari area Graha Putra Mandiri menuju Sekip. Jalur ini melewati deretan bangunan komersial, rumah-rumah tua, kelenteng, dan sekolah bersejarah yang mencerminkan keragaman budaya kawasan.",
       "description_en": "A route along the Jl. H. Adam Malik corridor on the western side of Silalas, from the Graha Putra Mandiri area toward Sekip. The trail passes rows of commercial buildings, old houses, a Chinese temple, and a historic school reflecting the cultural diversity of the area.",
       "durationMinutes": 40,
