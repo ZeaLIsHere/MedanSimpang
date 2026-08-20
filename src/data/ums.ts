@@ -39,6 +39,7 @@ export const umsHead: Person = {
 };
 
 export const umsMembers: Person[] = [
+  { name: 'Prof. Johannes Widodo', photo: '/images/new-images/foto-dosen/Prof-Johannes-Widodo.avif', affiliation: 'National University of Singapore' },
   { name: 'Dr. Ulrike Herbig', photo: '/images/new-images/foto-dosen/Dr-Urlike-herbig.webp', link: 'https://gcd.tuwien.ac.at/ulrike-herbig', affiliation: 'TU Wien' },
   { name: 'Dr. Isnen Fitri', photo: '/images/new-images/foto-dosen/IsnenFitri.webp', link: 'https://ft.usu.ac.id/id/dosen/isnen-fitri/', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Dr. Wahyuni Zahrah', photo: '/images/new-images/foto-dosen/ArWahyuniZahrah.webp', link: 'https://ft.usu.ac.id/id/dosen/wahyuni-zahrah', affiliation: 'Universitas Sumatera Utara' },

@@ -76,9 +76,9 @@ export default function TimPage() {
           {/* Members */}
           <div className="mt-12 space-y-3 animate-fade-up" style={{ animationDelay: '120ms' }}>
             <SectionHeading label={id ? 'Anggota' : 'Members'} count={umsMembers.length} />
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-6">
               {umsMembers.map((m, i) => (
-                <div key={m.name} className="animate-fade-up" style={{ animationDelay: `${160 + i * 45}ms` }}>
+                <div key={m.name} className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)] animate-fade-up" style={{ animationDelay: `${160 + i * 45}ms` }}>
                   <PersonCard person={m} index={i} />
                 </div>
               ))}

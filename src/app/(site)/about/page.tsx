@@ -60,8 +60,12 @@ export default function AboutPage() {
 
           <div>
             <h3 className="text-xs font-bold uppercase tracking-widest text-primary-strong mb-3">{id ? 'Anggota' : 'Members'}</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
-              {umsMembers.map((m, i) => <PersonCard key={m.name} person={m} index={i} />)}
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-6">
+              {umsMembers.map((m, i) => (
+                <div key={m.name} className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)]">
+                  <PersonCard person={m} index={i} />
+                </div>
+              ))}
             </div>
           </div>
 
