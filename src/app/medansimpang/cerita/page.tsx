@@ -62,8 +62,18 @@ const newsItems = [
     fallbackImage: '/images/locations/smp-sma-kalam-kudus/gallery-1.jpg',
   },
   {
+    source: 'Analisa Daily',
+    date: '7 Agustus 2026',
+    title: "Siswa SMPN 7 Medan Diajak Menelusuri Jejak Warisan Budaya Lewat 'Medan Simpang' Heritage Trails",
+    descriptionId: 'Sebanyak 40 siswa SMP Negeri 7 Medan diajak mengenal sejarah, arsitektur, budaya, dan identitas kota melalui Medan Simpang Heritage Trails.',
+    descriptionEn: 'Forty SMP Negeri 7 Medan students explored the city’s history, architecture, culture, and identity through the Medan Simpang Heritage Trails.',
+    href: 'https://analisadaily.com/berita/baca/2026/08/07/1076333/siswa-smpn-7-medan-diajak-menelusuri-jejak-warisan-budaya-lewat-medan-simpang-heritage-trails/',
+    image: '/images/medan-simpang-smpn7-7-agustus-2026.jpg',
+    fallbackImage: '/images/locations/smp-negeri-7-medan/thumbnail.jpg',
+  },
+  {
     source: 'Fakultas Teknik USU',
-    date: 'Agustus 2026',
+    date: '7 Agustus 2026',
     title: 'Tim Pengabdian Lintas Disiplin FT USU Ajak Siswa SMPN 7 Medan Jelajahi Warisan Kota melalui Medan Simpang',
     descriptionId: 'Kolaborasi lintas disiplin yang mengajak siswa SMPN 7 Medan mengenali warisan kota melalui rute dan pengalaman Medan Simpang.',
     descriptionEn: 'A cross-disciplinary collaboration inviting SMPN 7 Medan students to discover urban heritage through the Medan Simpang routes and experience.',
@@ -96,7 +106,7 @@ function SectionTitle({
 }
 
 function NewsThumbnail({ src, fallback, alt }: { src: string; fallback: string; alt: string }) {
-  const [imageSrc, setImageSrc] = React.useState(src);
+  const [imageSrc, setImageSrc] = React.useState(assetPath(src));
 
   return (
     <img

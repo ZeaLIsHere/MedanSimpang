@@ -1,133 +1,184 @@
 'use client';
-/* eslint-disable @next/next/no-img-element -- raw local images are reliable in the static Hostinger export */
 
-import React from 'react';
-import { ArrowRight, Clock } from 'lucide-react';
+import Image from 'next/image';
+import { ArrowUpRight, BookOpen, FileText, Play, Users } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { assetPath } from '@/lib/paths';
 
-interface StoryTeaser {
-  category: { id: string; en: string };
-  title: { id: string; en: string };
-  excerpt: { id: string; en: string };
-  image: string;
-}
-
-const STORIES: StoryTeaser[] = [
-  {
-    category: { id: 'Bentuk Kota', en: 'Urban Form' },
-    title: { id: 'Membaca Tata Bahasa Kota', en: "Reading the City's Grammar" },
-    excerpt: {
-      id: 'Bagaimana pola jalan, ukuran blok, dan garis kaveling menyimpan jejak sejarah sebuah lingkungan.',
-      en: "How street patterns, block sizes, and plot lines quietly record a neighbourhood's history.",
-    },
-    image: '/images/frontpage.webp',
-  },
-  {
-    category: { id: 'Masyarakat', en: 'Society' },
-    title: { id: 'Ruang, Memori & Komunitas', en: 'Space, Memory & Community' },
-    excerpt: {
-      id: 'Ritual sehari-hari dan memori bersama meninggalkan bekas pada lingkungan binaan di sekitar kita.',
-      en: 'Everyday rituals and shared memory leave their mark on the built environment around us.',
-    },
-    image: '/images/silalas.webp',
-  },
-  {
-    category: { id: 'Morfologi', en: 'Morphology' },
-    title: { id: 'Ketika Bentuk Bertemu Masyarakat', en: 'When Form Meets Society' },
-    excerpt: {
-      id: 'Perubahan sosial perlahan menulis ulang bentuk jalan, blok, dan ruang publik sebuah kota.',
-      en: "Social change slowly rewrites the shape of a city's streets, blocks, and public spaces.",
-    },
-    image: '/images/cover-trail-2.webp',
-  },
-  {
-    category: { id: 'Lapangan', en: 'Fieldwork' },
-    title: { id: 'Menyusuri Kota Sehari-hari', en: 'Walking the Everyday City' },
-    excerpt: {
-      id: 'Catatan lapangan tentang bagaimana kehidupan urban terbentuk di jalan-jalan yang biasa kita lewati.',
-      en: 'Field notes on how urban life takes shape along the ordinary streets we pass every day.',
-    },
-    image: '/images/cover-trail-3.webp',
-  },
-];
-
-function Status({ id, inverted = false }: { id: boolean; inverted?: boolean }) {
-  return (
-    <span className={`inline-flex items-center gap-1.5 text-xs font-semibold ${inverted ? 'text-white/75' : 'text-accent/70'}`}>
-      <Clock className={`h-3.5 w-3.5 ${inverted ? 'text-primary-light' : 'text-secondary'}`} />
-      {id ? 'Dalam persiapan' : 'In preparation'}
-    </span>
-  );
-}
+const ARTICLE_URL = 'https://www.iplbijournals.id/index.php/jlbi/article/view/429/332';
+const VIDEO_URL = 'https://www.youtube.com/watch?v=YjoI0tpAdoc';
+const RAJA_BILAH_STORY_URL = 'https://ft.usu.ac.id/id/berita/pengabdian-kepada-masyarakat-abdimas-revitalisasi-rumah-besar-raja-bilah';
+const DECREE_URL = '/documents/equity-project-usu-2023.pdf';
 
 export default function StoriesPage() {
   const { language } = useLanguage();
   const id = language === 'id';
-  const pick = (value: { id: string; en: string }) => (id ? value.id : value.en);
-  const [featured, ...remaining] = STORIES;
 
   return (
-    <section className="overflow-x-hidden pb-20 pt-28 lg:pb-28 lg:pt-34">
-      <div className="mx-auto max-w-7xl px-6 lg:px-12">
-        <header className="grid gap-6 border-b border-bone/70 pb-10 lg:grid-cols-[0.75fr_1.25fr] lg:items-end lg:gap-16 lg:pb-12">
-          <h1 className="text-balance font-serif text-5xl font-black tracking-[-0.03em] text-accent sm:text-6xl lg:text-7xl">
+    <section className="pb-20 pt-28 lg:pb-28 lg:pt-32">
+      <div className="mx-auto w-full max-w-7xl px-6 lg:px-12">
+        <header>
+          <h1 className="font-serif text-5xl font-black tracking-[-0.03em] text-accent sm:text-6xl">
             {id ? 'Cerita' : 'Stories'}
           </h1>
-          <p className="max-w-3xl text-pretty text-base font-medium leading-relaxed text-accent/85 sm:text-lg">
+          <p className="mt-2 max-w-3xl text-base font-medium leading-relaxed text-accent/80 sm:text-lg">
             {id
-              ? 'Catatan lapangan, esai, dan pengamatan tentang bagaimana bentuk kota dan masyarakat saling membentuk. Tulisan pertama kami sedang dipersiapkan.'
-              : 'Field notes, essays, and observations on how urban form and society shape one another. Our first pieces are now being prepared.'}
+              ? 'Jejak penelitian, publikasi, dan kolaborasi Urban Morphology and Society.'
+              : 'Research, publications, and collaborations by Urban Morphology and Society.'}
           </p>
         </header>
 
-        <div className="mt-10 grid gap-8 lg:grid-cols-[1.12fr_0.88fr] lg:gap-10">
-          <article className="group min-w-0 overflow-hidden rounded-2xl bg-accent text-white">
-            <div className="relative aspect-[16/10] overflow-hidden">
-              <img
-                src={assetPath(featured.image)}
-                alt={pick(featured.title)}
-                className="absolute inset-0 h-full w-full object-cover opacity-70 transition-transform duration-500 group-hover:scale-[1.025]"
+        <div className="mt-10 grid items-stretch gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-bone/70 bg-white shadow-[0_4px_8px_rgba(38,70,83,0.08)] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(38,70,83,0.12)] motion-reduce:transition-none">
+            <a
+              href={ARTICLE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative block aspect-[4/3] overflow-hidden bg-accent focus-visible:outline-2 focus-visible:outline-offset-[-3px] focus-visible:outline-secondary"
+              aria-label={id ? 'Baca artikel ilmiah tentang kampung Melayu di Medan' : 'Read the journal article about Malay kampung in Medan'}
+            >
+              <Image
+                src="/images/frontpage.webp"
+                alt={id ? 'Peta Kota Medan sebagai konteks penelitian morfologi kota' : 'Map of Medan as the context for urban morphology research'}
+                fill
+                priority
+                className="object-cover opacity-80 transition-transform duration-500 group-hover:scale-[1.025] motion-reduce:transition-none"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
-              <div className="absolute inset-0 bg-linear-to-t from-accent via-accent/15 to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
-                <p className="text-xs font-bold uppercase tracking-[0.16em] text-primary-light">{pick(featured.category)}</p>
-                <h2 className="mt-3 max-w-xl break-words font-serif text-2xl font-bold leading-tight sm:text-4xl">
-                  {pick(featured.title)}
-                </h2>
-              </div>
-            </div>
-            <div className="p-6 sm:p-8">
-              <p className="max-w-2xl text-sm leading-relaxed text-white/80 sm:text-base">{pick(featured.excerpt)}</p>
-              <div className="mt-6 flex items-center justify-between gap-4 border-t border-white/15 pt-5">
-                <Status id={id} inverted />
-                <ArrowRight className="h-5 w-5 text-primary-light" aria-hidden="true" />
-              </div>
+              <span className="absolute inset-0 bg-linear-to-t from-accent/75 via-accent/15 to-transparent" aria-hidden="true" />
+              <span className="absolute bottom-5 left-5 inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.1em] text-white backdrop-blur-sm">
+                <BookOpen className="h-4 w-4" aria-hidden="true" />
+                {id ? 'Artikel jurnal · 2025' : 'Journal article · 2025'}
+              </span>
+            </a>
+
+            <div className="flex grow flex-col p-6 sm:p-7">
+              <h2 className="text-balance font-serif text-2xl font-black leading-tight text-accent">
+                The Change and Continuity in the Morphology of Traditional Malay Kampung
+              </h2>
+              <p className="mt-4 grow text-sm leading-relaxed text-accent/80 sm:text-base">
+                {id
+                  ? 'Kajian perubahan jalan, bangunan, dan ruang terbuka kampung Melayu tradisional di Medan dari 1913 hingga 2024.'
+                  : 'A study of changes to streets, buildings, and open spaces in Medan’s traditional Malay kampung from 1913 to 2024.'}
+              </p>
+              <p className="mt-5 text-xs font-semibold leading-relaxed text-accent/60">
+                Sri Elfina Panjaitan · Salmina Wati Ginting · Dwi Lindarto Hadinugroho
+              </p>
+              <a
+                href={ARTICLE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-5 inline-flex min-h-11 items-center justify-between gap-4 border-t border-bone pt-5 font-bold text-primary-strong transition-colors hover:text-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+              >
+                {id ? 'Baca artikel' : 'Read article'}
+                <ArrowUpRight className="h-5 w-5 shrink-0 transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
+              </a>
             </div>
           </article>
 
-          <div className="divide-y divide-bone/70 border-y border-bone/70">
-            {remaining.map((story) => (
-              <article key={story.title.en} className="group grid min-w-0 gap-5 py-6 sm:grid-cols-[180px_1fr] sm:items-center lg:grid-cols-[160px_1fr] xl:grid-cols-[190px_1fr]">
-                <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-bone">
-                  <img
-                    src={assetPath(story.image)}
-                    alt={pick(story.title)}
-                    loading="lazy"
-                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.035]"
-                  />
+          <article className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-bone/70 bg-white shadow-[0_4px_8px_rgba(38,70,83,0.08)] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(38,70,83,0.12)] motion-reduce:transition-none">
+            <div className="relative flex aspect-[4/3] items-end overflow-hidden bg-bone/65 p-6 sm:p-7">
+              <div className="absolute -right-16 -top-20 h-64 w-64 rounded-full border border-secondary/15" aria-hidden="true" />
+              <div className="absolute -right-4 -top-8 h-40 w-40 rounded-full border border-secondary/20" aria-hidden="true" />
+              <div className="relative">
+                <span className="grid h-12 w-12 place-items-center rounded-xl bg-secondary text-white">
+                  <Users className="h-6 w-6" aria-hidden="true" />
+                </span>
+                <p className="mt-5 text-xs font-bold uppercase tracking-[0.1em] text-primary-strong">
+                  Equity Project USU · 2023
+                </p>
+              </div>
+            </div>
+
+            <div className="flex grow flex-col p-6 sm:p-7">
+              <h2 className="text-balance font-serif text-2xl font-black leading-tight text-accent">
+                The Morphology of Medan Multi-Ethnics
+              </h2>
+              <p className="mt-4 grow text-sm leading-relaxed text-accent/80 sm:text-base">
+                {id
+                  ? 'Proposal kluster keilmuan tentang konservasi, modifikasi, dan perubahan karakter kawasan multi-etnis Kota Medan.'
+                  : 'A scientific-cluster proposal on conservation, modification, and change in Medan’s multi-ethnic neighbourhoods.'}
+              </p>
+              <dl className="mt-5 grid gap-3 border-t border-bone pt-4 text-xs sm:grid-cols-2">
+                <div>
+                  <dt className="text-accent/55">{id ? 'Ketua peneliti' : 'Lead researcher'}</dt>
+                  <dd className="mt-1 font-bold text-accent">Salmina Wati Ginting</dd>
                 </div>
-                <div className="min-w-0">
-                  <p className="text-xs font-bold uppercase tracking-[0.14em] text-secondary">{pick(story.category)}</p>
-                  <h2 className="mt-2 text-balance font-serif text-xl font-bold leading-snug text-accent sm:text-2xl">
-                    {pick(story.title)}
-                  </h2>
-                  <p className="mt-2 text-sm leading-relaxed text-accent/75">{pick(story.excerpt)}</p>
-                  <div className="mt-4"><Status id={id} /></div>
+                <div>
+                  <dt className="text-accent/55">{id ? 'Mitra' : 'Partner'}</dt>
+                  <dd className="mt-1 font-bold text-accent">Ulrike Herbig · TU Wien</dd>
                 </div>
-              </article>
-            ))}
-          </div>
+              </dl>
+              <a
+                href={assetPath(DECREE_URL)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-5 inline-flex min-h-11 items-center justify-between gap-4 border-t border-bone pt-5 font-bold text-primary-strong transition-colors hover:text-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+              >
+                <span className="inline-flex items-center gap-2">
+                  <FileText className="h-5 w-5" aria-hidden="true" />
+                  {id ? 'Lihat keputusan USU' : 'View USU decree'}
+                </span>
+                <ArrowUpRight className="h-5 w-5 shrink-0 transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
+              </a>
+            </div>
+          </article>
+
+          <article className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-bone/70 bg-white shadow-[0_4px_8px_rgba(38,70,83,0.08)] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(38,70,83,0.12)] motion-reduce:transition-none">
+            <a
+              href={VIDEO_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative block aspect-[4/3] overflow-hidden bg-accent focus-visible:outline-2 focus-visible:outline-offset-[-3px] focus-visible:outline-secondary"
+              aria-label={id ? 'Tonton video revitalisasi Rumah Besar Raja Bilah' : 'Watch the Rumah Besar Raja Bilah revitalisation video'}
+            >
+              <Image
+                src="/images/community-service-malaysia-2025.jpg"
+                alt={id ? 'Tim program pengabdian internasional di Rumah Besar Raja Bilah' : 'International community service team at Rumah Besar Raja Bilah'}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-[1.025] motion-reduce:transition-none"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+              <span className="absolute inset-0 bg-linear-to-t from-accent/55 via-transparent to-transparent" aria-hidden="true" />
+              <span className="absolute bottom-5 left-5 grid h-12 w-12 place-items-center rounded-full bg-primary text-accent shadow-md">
+                <Play className="ml-0.5 h-5 w-5 fill-current" aria-hidden="true" />
+              </span>
+            </a>
+
+            <div className="flex grow flex-col p-6 sm:p-7">
+              <p className="text-xs font-bold uppercase tracking-[0.1em] text-secondary">
+                {id ? 'Pengabdian internasional · 2025' : 'International community service · 2025'}
+              </p>
+              <h2 className="mt-3 text-balance font-serif text-2xl font-black leading-tight text-accent">
+                {id ? 'Revitalisasi Rumah Besar Raja Bilah' : 'Revitalising Rumah Besar Raja Bilah'}
+              </h2>
+              <p className="mt-4 grow text-sm leading-relaxed text-accent/80 sm:text-base">
+                {id
+                  ? 'Kolaborasi USU, UiTM, dan Perak Heritage Society untuk menghubungkan kembali sejarah Indonesia–Malaysia.'
+                  : 'A collaboration between USU, UiTM, and the Perak Heritage Society reconnecting Indonesian–Malaysian history.'}
+              </p>
+              <div className="mt-5 flex min-h-11 items-center justify-between gap-4 border-t border-bone pt-5">
+                <a
+                  href={RAJA_BILAH_STORY_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-11 items-center gap-2 font-bold text-primary-strong transition-colors hover:text-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+                >
+                  {id ? 'Baca cerita' : 'Read story'}
+                  <ArrowUpRight className="h-5 w-5" aria-hidden="true" />
+                </a>
+                <a
+                  href={VIDEO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-accent text-white transition-colors hover:bg-secondary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+                  aria-label={id ? 'Tonton video' : 'Watch video'}
+                >
+                  <Play className="ml-0.5 h-4 w-4 fill-current" aria-hidden="true" />
+                </a>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>

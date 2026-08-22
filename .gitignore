@@ -20,6 +20,9 @@
 # production
 /build
 
+# standalone realtime quiz repository (deployed separately to Railway)
+/sosialisasi-smp/
+
 # misc
 .DS_Store
 *.pem

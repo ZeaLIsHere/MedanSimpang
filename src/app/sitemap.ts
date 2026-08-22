@@ -5,6 +5,7 @@ import {
   getLocationsForWalk,
   getAllCerita,
 } from '@/data/db';
+import { RESEARCH_PROJECTS } from '@/data/researchProjects';
 
 const BASE_URL = 'https://urbanmorphsoc.com/medansimpang';
 
@@ -53,6 +54,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    ...RESEARCH_PROJECTS.map((project) => ({
+      url: `https://urbanmorphsoc.com/projects/${project.slug}/`,
+      lastModified: contentUpdatedAt,
+      changeFrequency: 'monthly' as const,
+      priority: 0.75,
+    })),
     ...staticPaths.map((p) => ({
       url: `${BASE_URL}${p}/`,
       lastModified: contentUpdatedAt,
