@@ -7,16 +7,12 @@
     {
       "binding": "DB",
       "database_name": "urbanmorphsoc-analytics",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "6ea8a878-28dc-4dc8-9922-64943067f8a5",
       "migrations_dir": "migrations"
     }
   ],
-  "routes": [
-    {
-      "pattern": "urbanmorphsoc.com/api/visitors*",
-      "zone_name": "urbanmorphsoc.com"
-    }
-  ],
+  "workers_dev": true,
+  "preview_urls": false,
   "vars": {
     "ALLOWED_ORIGINS": "https://urbanmorphsoc.com,https://www.urbanmorphsoc.com,http://localhost:3000"
   }

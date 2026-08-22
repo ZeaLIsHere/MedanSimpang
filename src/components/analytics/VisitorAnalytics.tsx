@@ -18,7 +18,8 @@ type VisitorStats = {
 };
 
 const analyticsEndpoint =
-  process.env.NEXT_PUBLIC_VISITOR_ANALYTICS_ENDPOINT?.trim() || '/api/visitors';
+  process.env.NEXT_PUBLIC_VISITOR_ANALYTICS_ENDPOINT?.trim() ||
+  'https://urbanmorphsoc-visitor-analytics.urbanmorphsoc.workers.dev/api/visitors';
 
 const VISITOR_ID_KEY = 'ums-visitor-id-v1';
 const REFRESH_INTERVAL_MS = 15_000;

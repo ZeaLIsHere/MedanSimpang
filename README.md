@@ -105,24 +105,16 @@ Tanpa token tersebut, website tetap berjalan tetapi tidak mengirimkan data ke da
 
 ### Mengaktifkan statistik publik
 
-Statistik publik membutuhkan domain `urbanmorphsoc.com` aktif di Cloudflare dan DNS berstatus **Proxied**.
+Statistik publik sudah menggunakan Worker berikut:
 
-1. Dari folder `cloudflare/visitor-analytics`, buat database:
+`https://urbanmorphsoc-visitor-analytics.urbanmorphsoc.workers.dev/api/visitors`
 
-   ```bash
-   npx wrangler d1 create urbanmorphsoc-analytics
-   ```
-
-2. Salin `database_id` hasil perintah ke `wrangler.jsonc`.
-3. Terapkan tabel dan deploy Worker:
+Database D1 `urbanmorphsoc-analytics` menyimpan satu identitas browser per hari beserta kode negaranya. Untuk menerapkan migrasi atau memperbarui Worker dari folder `cloudflare/visitor-analytics`, jalankan:
 
    ```bash
    npx wrangler d1 migrations apply urbanmorphsoc-analytics --remote
    npx wrangler deploy
    ```
-
-4. Pastikan route Worker adalah `urbanmorphsoc.com/api/visitors*`.
-5. Build ulang website dan unggah isi folder `out` ke `public_html` Hostinger.
 
 Panel tidak menggunakan angka contoh. Jika Worker atau D1 belum aktif, homepage menampilkan pesan bahwa statistik belum terhubung.
 
