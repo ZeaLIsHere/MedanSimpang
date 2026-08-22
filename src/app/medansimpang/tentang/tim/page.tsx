@@ -29,6 +29,16 @@ function SectionHeading({ label, count }: { label: string; count?: number }) {
 export default function TimPage() {
   const { language } = useLanguage();
   const id = language === 'id';
+  const collaborator = umsMembers.find((member) => member.name === 'Prof. Johannes Widodo');
+  const medanSimpangMembers = umsMembers.filter((member) =>
+    ['Ryandika Afdila', 'Nurrahmadayeni'].includes(member.name)
+  );
+  const projectLeads = [
+    { ...umsHead, role: id ? 'Ketua' : 'Head' },
+    ...(collaborator
+      ? [{ ...collaborator, role: id ? 'Kolaborator' : 'Collaborator' }]
+      : []),
+  ];
 
   const breadcrumbsItems = [
     { label: language === 'id' ? 'Tentang' : 'About' },
@@ -63,21 +73,21 @@ export default function TimPage() {
             </p>
           </div>
 
-          {/* Head */}
-          <div className="space-y-4 animate-fade-up flex flex-col items-center" style={{ animationDelay: '60ms' }}>
-            <div className="w-full">
-              <SectionHeading label={id ? 'Ketua' : 'Head'} />
-            </div>
-            <div className="w-full max-w-xs sm:max-w-md">
-              <PersonCard person={umsHead} featured />
+          {/* Project leadership */}
+          <div className="space-y-4 animate-fade-up" style={{ animationDelay: '60ms' }}>
+            <SectionHeading label={id ? 'Ketua & Kolaborator' : 'Head & Collaborator'} />
+            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
+              {projectLeads.map((person, index) => (
+                <PersonCard key={person.name} person={person} index={index} featured />
+              ))}
             </div>
           </div>
 
           {/* Members */}
           <div className="mt-12 space-y-3 animate-fade-up" style={{ animationDelay: '120ms' }}>
-            <SectionHeading label={id ? 'Anggota' : 'Members'} count={umsMembers.length} />
+            <SectionHeading label={id ? 'Anggota' : 'Members'} count={medanSimpangMembers.length} />
             <div className="flex flex-wrap justify-center gap-3 sm:gap-6">
-              {umsMembers.map((m, i) => (
+              {medanSimpangMembers.map((m, i) => (
                 <div key={m.name} className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)] animate-fade-up" style={{ animationDelay: `${160 + i * 45}ms` }}>
                   <PersonCard person={m} index={i} />
                 </div>

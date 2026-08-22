@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
+import CloudflareWebAnalytics from "@/components/analytics/CloudflareWebAnalytics";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -44,6 +45,7 @@ export default function RootLayout({
         <LanguageProvider>
           {children}
         </LanguageProvider>
+        <CloudflareWebAnalytics />
       </body>
     </html>
   );
