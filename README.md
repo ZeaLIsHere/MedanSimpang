@@ -79,3 +79,23 @@ Untuk membuat bundel kompilasi yang dioptimalkan untuk performa produksi, jalank
    ```
 
 Proyek akan berjalan menggunakan build statis yang telah dikompresi secara optimal.
+
+---
+
+## Statistik Pengunjung
+
+Website menggunakan Cloudflare Web Analytics untuk mencatat jumlah kunjungan, halaman yang dibuka, jenis perangkat, dan negara asal pengunjung. Statistik tidak ditampilkan kepada pengunjung umum; pengelola melihatnya melalui dashboard Cloudflare.
+
+1. Buka [Cloudflare Web Analytics](https://dash.cloudflare.com/?to=/:account/web-analytics) dan pilih **Add a site**.
+2. Masukkan hostname `urbanmorphsoc.com`.
+3. Salin nilai `token` dari JavaScript snippet yang diberikan Cloudflare.
+4. Buat file `.env.local` di folder utama project:
+
+   ```env
+   NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN=TOKEN_DARI_CLOUDFLARE
+   ```
+
+5. Jalankan ulang `npm run build`, kemudian unggah isi folder `out` ke Hostinger.
+6. Buka kembali dashboard Cloudflare Web Analytics. Gunakan rentang tanggal untuk kunjungan harian dan filter **Country** untuk melihat negara asal pengunjung.
+
+Tanpa token tersebut, website tetap berjalan tetapi tidak mengirimkan data analytics.
