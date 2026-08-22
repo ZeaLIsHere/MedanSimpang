@@ -12,7 +12,7 @@ export default function PerjalananPage() {
 
   const breadcrumbsItems = [
     { label: language === 'id' ? 'Tentang' : 'About' },
-    { label: language === 'id' ? 'Perjalanan Kami' : 'Our Journey' },
+    { label: language === 'id' ? 'Sejarah' : 'History' },
   ];
 
   const milestones = [
@@ -58,7 +58,7 @@ export default function PerjalananPage() {
               History
             </span>
             <h1 className="font-serif text-4xl sm:text-5xl font-black text-accent">
-              {language === 'id' ? 'Perjalanan Kami' : 'Our Journey'}
+              {language === 'id' ? 'Sejarah Medan Simpang' : 'The History of Medan Simpang'}
             </h1>
             <p className="text-base sm:text-lg text-text-muted font-light max-w-2xl mx-auto leading-relaxed">
               {language === 'id'

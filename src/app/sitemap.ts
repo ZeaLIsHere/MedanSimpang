@@ -19,9 +19,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '',
     '/cerita',
     '/tentang/visi',
-    '/tentang/mitra',
+    '/tentang/sejarah',
+    '/tentang/komunitas',
     '/tentang/tim',
-    '/tentang/perjalanan',
     '/tentang/metodologi',
   ];
 

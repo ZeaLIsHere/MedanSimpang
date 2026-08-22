@@ -42,10 +42,9 @@ export default function Footer() {
 
   const aboutSubLinks = [
     { label: language === 'id' ? 'Visi Kami' : 'Our Vision', path: '/medansimpang/tentang/visi' },
-    { label: language === 'id' ? 'Mitra' : 'Partners', path: '/medansimpang/tentang/mitra' },
+    { label: language === 'id' ? 'Sejarah' : 'History', path: '/medansimpang/tentang/sejarah' },
+    { label: language === 'id' ? 'Komunitas' : 'Community', path: '/medansimpang/tentang/komunitas' },
     { label: language === 'id' ? 'Tim' : 'Our Team', path: '/medansimpang/tentang/tim' },
-    { label: language === 'id' ? 'Perjalanan' : 'Our Journey', path: '/medansimpang/tentang/perjalanan' },
-    { label: language === 'id' ? 'Metodologi' : 'Methodology', path: '/medansimpang/tentang/metodologi' },
   ];
 
   return (
@@ -111,6 +110,12 @@ export default function Footer() {
 
           {/* Column 3: Sitemap - Tentang & Kontak */}
           <div>
+            <Link
+              href="/medansimpang/cerita"
+              className="mb-5 block font-serif text-lg font-bold text-primary-light transition-colors hover:text-white"
+            >
+              {translations.stories}
+            </Link>
             <h4 className="font-serif text-lg font-bold text-primary-light mb-4">{translations.about}</h4>
             <ul className="space-y-2 text-sm font-light text-gray-300 mb-6">
               {aboutSubLinks.map((link, idx) => (

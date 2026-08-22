@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Menu, X, ChevronDown, Globe, ArrowLeft } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
-import { getAllKawasan, getAllCeritaCategories } from '@/data/db';
+import { getAllKawasan } from '@/data/db';
 
 export default function Header() {
   const { language, setLanguage } = useLanguage();
@@ -15,12 +15,10 @@ export default function Header() {
 
   // States to keep track of desktop rendered dropdowns for exit animation
   const [exploreRendered, setExploreRendered] = useState(false);
-  const [storiesRendered, setStoriesRendered] = useState(false);
   const [aboutRendered, setAboutRendered] = useState(false);
 
   const headerRef = useRef<HTMLDivElement>(null);
   const kawasanList = getAllKawasan();
-  const categories = getAllCeritaCategories();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,7 +61,6 @@ export default function Header() {
 
   const handleDropdownToggle = (menu: string) => {
     if (menu === 'explore') setExploreRendered(true);
-    if (menu === 'stories') setStoriesRendered(true);
     if (menu === 'about') setAboutRendered(true);
 
     if (activeDropdown === menu) {
@@ -78,15 +75,13 @@ export default function Header() {
     stories: language === 'id' ? 'Cerita' : 'Stories',
     academy: language === 'id' ? 'Akademi' : 'Academy',
     about: language === 'id' ? 'Tentang' : 'About',
-    allStories: language === 'id' ? 'Semua Cerita' : 'All Stories',
   };
 
   const aboutSubLinks = [
     { label: language === 'id' ? 'Visi Kami' : 'Our Vision', path: '/medansimpang/tentang/visi' },
-    { label: language === 'id' ? 'Mitra' : 'Partners', path: '/medansimpang/tentang/mitra' },
+    { label: language === 'id' ? 'Sejarah' : 'History', path: '/medansimpang/tentang/sejarah' },
+    { label: language === 'id' ? 'Komunitas' : 'Community', path: '/medansimpang/tentang/komunitas' },
     { label: language === 'id' ? 'Tim' : 'Our Team', path: '/medansimpang/tentang/tim' },
-    { label: language === 'id' ? 'Perjalanan' : 'Our Journey', path: '/medansimpang/tentang/perjalanan' },
-    { label: language === 'id' ? 'Metodologi' : 'Methodology', path: '/medansimpang/tentang/metodologi' },
   ];
 
   return (
@@ -165,43 +160,13 @@ export default function Header() {
                 )}
               </div>
 
-              {/* Cerita Dropdown */}
-              <div className="relative">
-                <button
-                  onClick={() => handleDropdownToggle('stories')}
-                  className="relative flex items-center text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
-                >
-                  {navTranslations.stories}
-                  <ChevronDown className={`ml-1 h-4 w-4 transition-transform duration-200 ${activeDropdown === 'stories' ? 'rotate-180' : ''}`} />
-                </button>
-                {storiesRendered && (
-                  <div
-                    className={`absolute left-0 mt-2 w-64 origin-top-left rounded-xl bg-white p-2 shadow-lg border border-bone/60 ring-1 ring-black/5 ${
-                      activeDropdown === 'stories'
-                        ? 'animate-dropdown-enter visible'
-                        : 'animate-dropdown-exit pointer-events-none'
-                    }`}
-                  >
-                    <Link
-                      href="/medansimpang/cerita"
-                      onClick={() => setActiveDropdown(null)}
-                      className="block rounded-lg px-4 py-2.5 text-sm font-bold text-accent hover:bg-bone/40 hover:text-secondary border-b border-bone/20 pb-2 mb-1"
-                    >
-                      {navTranslations.allStories}
-                    </Link>
-                    {categories.map((cat) => (
-                      <Link
-                        key={cat}
-                        href={`/medansimpang/cerita?kategori=${encodeURIComponent(cat.toLowerCase())}`}
-                        onClick={() => setActiveDropdown(null)}
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-text-main hover:bg-bone/40 hover:text-secondary transition-colors"
-                      >
-                        {cat}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
+              {/* Cerita is a standalone destination */}
+              <Link
+                href="/medansimpang/cerita"
+                className="relative text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+              >
+                {navTranslations.stories}
+              </Link>
 
               {/* Akademi (direct link placeholder) */}
               <Link
@@ -319,40 +284,15 @@ export default function Header() {
                 )}
               </div>
 
-              {/* Stories Section Accordion */}
+              {/* Stories (direct) */}
               <div className="border-b border-bone/40 py-2">
-                <button
-                  onClick={() => handleDropdownToggle('stories')}
-                  className="flex w-full min-h-[44px] items-center justify-between py-2 text-base font-bold text-accent active:text-secondary"
+                <Link
+                  href="/medansimpang/cerita"
+                  onClick={() => setIsOpen(false)}
+                  className="flex min-h-[44px] items-center py-2 text-base font-bold text-accent hover:text-secondary transition-colors"
                 >
-                  <span>{navTranslations.stories}</span>
-                  <ChevronDown
-                    className={`h-5 w-5 text-text-muted transition-transform duration-200 ${
-                      activeDropdown === 'stories' ? 'rotate-180 text-secondary' : ''
-                    }`}
-                  />
-                </button>
-                {activeDropdown === 'stories' && (
-                  <div className="mt-1 pl-4 pb-2 space-y-1 border-l-2 border-secondary/30 ml-2">
-                    <Link
-                      href="/medansimpang/cerita"
-                      onClick={() => setIsOpen(false)}
-                      className="flex items-center min-h-[44px] py-2 px-3 rounded-lg text-sm font-bold text-secondary hover:bg-bone/40 transition-colors"
-                    >
-                      {navTranslations.allStories}
-                    </Link>
-                    {categories.map((cat) => (
-                      <Link
-                        key={cat}
-                        href={`/medansimpang/cerita?kategori=${encodeURIComponent(cat.toLowerCase())}`}
-                        onClick={() => setIsOpen(false)}
-                        className="flex items-center min-h-[44px] py-2 px-3 rounded-lg text-sm font-semibold text-text-main hover:bg-bone/40 active:bg-secondary/10 hover:text-secondary transition-colors"
-                      >
-                        {cat}
-                      </Link>
-                    ))}
-                  </div>
-                )}
+                  {navTranslations.stories}
+                </Link>
               </div>
 
               {/* Academy (direct) */}
