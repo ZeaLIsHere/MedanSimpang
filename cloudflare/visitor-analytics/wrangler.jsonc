@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "urbanmorphsoc-visitor-analytics",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-22",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "urbanmorphsoc-analytics",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "routes": [
+    {
+      "pattern": "urbanmorphsoc.com/api/visitors*",
+      "zone_name": "urbanmorphsoc.com"
+    }
+  ],
+  "vars": {
+    "ALLOWED_ORIGINS": "https://urbanmorphsoc.com,https://www.urbanmorphsoc.com,http://localhost:3000"
+  }
+}

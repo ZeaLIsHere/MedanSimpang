@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { ArrowRight, BookOpen, Building2, FolderOpen, Info } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { umsDescriptionFor } from '@/data/ums';
+import VisitorAnalytics from '@/components/analytics/VisitorAnalytics';
 
 export default function Landing() {
   const { language } = useLanguage();
@@ -105,6 +106,8 @@ export default function Landing() {
           </div>
         </div>
       </section>
+
+      <VisitorAnalytics />
 
       <section className="border-y border-bone/60 bg-bone/25 py-14 sm:py-18">
         <div className="mx-auto max-w-7xl px-6 lg:px-12">

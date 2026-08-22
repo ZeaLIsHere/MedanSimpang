@@ -84,7 +84,10 @@ Proyek akan berjalan menggunakan build statis yang telah dikompresi secara optim
 
 ## Statistik Pengunjung
 
-Website menggunakan Cloudflare Web Analytics untuk mencatat jumlah kunjungan, halaman yang dibuka, jenis perangkat, dan negara asal pengunjung. Statistik tidak ditampilkan kepada pengunjung umum; pengelola melihatnya melalui dashboard Cloudflare.
+Website menggunakan dua lapisan analytics:
+
+- Cloudflare Web Analytics mencatat kunjungan, halaman, perangkat, dan negara untuk dashboard pengelola.
+- Worker `cloudflare/visitor-analytics` dan database D1 menyediakan jumlah pengunjung nyata serta negara asal yang ditampilkan di homepage. Satu browser dihitung sekali per hari dan panel diperbarui setiap 15 detik.
 
 1. Buka [Cloudflare Web Analytics](https://dash.cloudflare.com/?to=/:account/web-analytics) dan pilih **Add a site**.
 2. Masukkan hostname `urbanmorphsoc.com`.
@@ -98,4 +101,27 @@ Website menggunakan Cloudflare Web Analytics untuk mencatat jumlah kunjungan, ha
 5. Jalankan ulang `npm run build`, kemudian unggah isi folder `out` ke Hostinger.
 6. Buka kembali dashboard Cloudflare Web Analytics. Gunakan rentang tanggal untuk kunjungan harian dan filter **Country** untuk melihat negara asal pengunjung.
 
-Tanpa token tersebut, website tetap berjalan tetapi tidak mengirimkan data analytics.
+Tanpa token tersebut, website tetap berjalan tetapi tidak mengirimkan data ke dashboard Web Analytics.
+
+### Mengaktifkan statistik publik
+
+Statistik publik membutuhkan domain `urbanmorphsoc.com` aktif di Cloudflare dan DNS berstatus **Proxied**.
+
+1. Dari folder `cloudflare/visitor-analytics`, buat database:
+
+   ```bash
+   npx wrangler d1 create urbanmorphsoc-analytics
+   ```
+
+2. Salin `database_id` hasil perintah ke `wrangler.jsonc`.
+3. Terapkan tabel dan deploy Worker:
+
+   ```bash
+   npx wrangler d1 migrations apply urbanmorphsoc-analytics --remote
+   npx wrangler deploy
+   ```
+
+4. Pastikan route Worker adalah `urbanmorphsoc.com/api/visitors*`.
+5. Build ulang website dan unggah isi folder `out` ke `public_html` Hostinger.
+
+Panel tidak menggunakan angka contoh. Jika Worker atau D1 belum aktif, homepage menampilkan pesan bahwa statistik belum terhubung.
