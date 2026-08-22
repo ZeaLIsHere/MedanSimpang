@@ -79,3 +79,62 @@ Untuk membuat bundel kompilasi yang dioptimalkan untuk performa produksi, jalank
    ```
 
 Proyek akan berjalan menggunakan build statis yang telah dikompresi secara optimal.
+
+---
+
+## Statistik Pengunjung
+
+Website menggunakan dua lapisan analytics:
+
+- Cloudflare Web Analytics mencatat kunjungan, halaman, perangkat, dan negara untuk dashboard pengelola.
+- Worker `cloudflare/visitor-analytics` dan database D1 menyediakan jumlah pengunjung nyata serta negara asal yang ditampilkan di homepage. Satu browser dihitung sekali per hari dan panel diperbarui setiap 15 detik.
+
+1. Buka [Cloudflare Web Analytics](https://dash.cloudflare.com/?to=/:account/web-analytics) dan pilih **Add a site**.
+2. Masukkan hostname `urbanmorphsoc.com`.
+3. Salin nilai `token` dari JavaScript snippet yang diberikan Cloudflare.
+4. Buat file `.env.local` di folder utama project:
+
+   ```env
+   NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN=TOKEN_DARI_CLOUDFLARE
+   ```
+
+5. Jalankan ulang `npm run build`, kemudian unggah isi folder `out` ke Hostinger.
+6. Buka kembali dashboard Cloudflare Web Analytics. Gunakan rentang tanggal untuk kunjungan harian dan filter **Country** untuk melihat negara asal pengunjung.
+
+Tanpa token tersebut, website tetap berjalan tetapi tidak mengirimkan data ke dashboard Web Analytics.
+
+### Mengaktifkan statistik publik
+
+Statistik publik sudah menggunakan Worker berikut:
+
+`https://urbanmorphsoc-visitor-analytics.urbanmorphsoc.workers.dev/api/visitors`
+
+Database D1 `urbanmorphsoc-analytics` menyimpan satu identitas browser per hari beserta kode negaranya. Untuk menerapkan migrasi atau memperbarui Worker dari folder `cloudflare/visitor-analytics`, jalankan:
+
+   ```bash
+   npx wrangler d1 migrations apply urbanmorphsoc-analytics --remote
+   npx wrangler deploy
+   ```
+
+Panel tidak menggunakan angka contoh. Jika Worker atau D1 belum aktif, homepage menampilkan pesan bahwa statistik belum terhubung.
+
+---
+
+## Agar Situs Muncul di Google
+
+Kode situs sudah menyediakan `robots.txt`, `sitemap.xml`, canonical URL, metadata unik untuk rute dan lokasi, serta structured data. Agar Google mulai memprosesnya:
+
+1. Tambahkan **Domain property** `urbanmorphsoc.com` di Google Search Console dan selesaikan verifikasi DNS.
+2. Jika memakai verifikasi HTML tag, isi tokennya di `.env.local` (hanya nilai pada atribut `content`):
+
+   ```env
+   NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=TOKEN_DARI_GOOGLE
+   ```
+
+3. Build dan unggah ulang situs.
+4. Di menu **Sitemaps**, kirim `https://urbanmorphsoc.com/sitemap.xml`.
+5. Di **URL inspection**, periksa lalu minta pengindeksan untuk:
+   - `https://urbanmorphsoc.com/`
+   - `https://urbanmorphsoc.com/medansimpang/`
+
+Pengindeksan dan peringkat ditentukan Google sehingga tidak dapat dijamin langsung berada di posisi pertama. Pantau status halaman, kueri pencarian, dan impresi melalui Search Console.

@@ -3,68 +3,124 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, FolderOpen, BookOpen, Info } from 'lucide-react';
+import { ArrowRight, BookOpen, FolderOpen, Info } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { umsDescriptionFor } from '@/data/ums';
+import VisitorAnalytics from '@/components/analytics/VisitorAnalytics';
 
 export default function Landing() {
   const { language } = useLanguage();
   const id = language === 'id';
 
   const teasers = [
-    { href: '/projects', icon: <FolderOpen className="h-6 w-6 text-secondary" />, title: id ? 'Project' : 'Projects', body: id ? 'Karya dan inisiatif kami, mulai dari Medan Simpang.' : 'Our work and initiatives, starting with Medan Simpang.' },
-    { href: '/stories', icon: <BookOpen className="h-6 w-6 text-secondary" />, title: id ? 'Cerita' : 'Stories', body: id ? 'Kisah kota dari lapangan.' : 'City stories from the field.' },
-    { href: '/about', icon: <Info className="h-6 w-6 text-secondary" />, title: id ? 'Tentang' : 'About', body: id ? 'Tentang klaster riset & tim kami.' : 'About the research cluster & our team.' },
+    {
+      href: '/projects',
+      icon: FolderOpen,
+      title: id ? 'Project' : 'Projects',
+      body: id ? 'Karya dan inisiatif riset kami, dimulai dari Medan Simpang.' : 'Our research work and initiatives, beginning with Medan Simpang.',
+    },
+    {
+      href: '/stories',
+      icon: BookOpen,
+      title: id ? 'Cerita' : 'Stories',
+      body: id ? 'Catatan lapangan tentang kota, ruang, dan kehidupan masyarakat.' : 'Field notes on cities, spaces, and everyday social life.',
+    },
+    {
+      href: '/about',
+      icon: Info,
+      title: id ? 'Tentang' : 'About',
+      body: id ? 'Kenali klaster riset, anggota, dan jejaring kolaborasi kami.' : 'Meet our research cluster, members, and collaborative network.',
+    },
   ];
 
   return (
     <>
-      {/* Hero — frontpage.webp background, ~50vh */}
-      <section className="relative h-[50vh] min-h-90 flex items-end">
+      <section className="relative flex min-h-[540px] items-end overflow-hidden sm:min-h-[620px] lg:h-[72vh] lg:max-h-[760px]">
         <div className="absolute inset-0">
-          <Image src="/images/frontpage.webp" alt="" fill priority fetchPriority="high" className="object-cover" sizes="100vw" />
-          <div className="absolute inset-0 bg-linear-to-t from-accent/85 via-accent/45 to-accent/20" />
+          <Image
+            src="/images/frontpage.webp"
+            alt="Peta morfologi kawasan perkotaan"
+            fill
+            priority
+            fetchPriority="high"
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-accent/55" />
+          <div className="absolute inset-0 bg-linear-to-t from-accent/95 via-accent/35 to-transparent" />
         </div>
-        <div className="relative w-full px-6 lg:px-12 pb-10 lg:pb-14">
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tight leading-none break-words">
-            Urban<span className="text-primary-light">Morph</span>Soc
-          </h1>
-          <p className="mt-3 text-base sm:text-lg md:text-xl font-semibold text-white/90">Urban Morphology and Society</p>
-          <Link
-            href="/projects"
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-bold text-accent hover:bg-primary/90 hover:scale-[1.02] active:scale-[0.98] transition-all"
-          >
-            {id ? 'Lihat Project' : 'View Projects'}
-            <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-      </section>
 
-      {/* Intro — official UMS description (English) */}
-      <section className="py-16 lg:py-20">
-        <div className="w-full px-6 lg:px-12 max-w-3xl">
-          <p className="text-base sm:text-lg font-medium text-accent/90 leading-relaxed">{umsDescriptionFor(language)}</p>
-          <Link href="/about" className="mt-6 inline-flex items-center gap-1.5 text-sm font-bold text-secondary hover:gap-2.5 transition-all">
-            {id ? 'Selengkapnya tentang kami' : 'Learn more about us'}
-            <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-      </section>
-
-      {/* Teaser cards */}
-      <section className="pb-20">
-        <div className="w-full px-6 lg:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl">
-            {teasers.map((tsr) => (
-              <Link key={tsr.href} href={tsr.href} className="group rounded-2xl border border-bone/60 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-secondary/10">{tsr.icon}</div>
-                <h3 className="font-serif text-lg font-bold text-accent">{tsr.title}</h3>
-                <p className="mt-2 text-sm text-accent/80 leading-relaxed">{tsr.body}</p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-primary-strong group-hover:gap-2.5 transition-all">
-                  {id ? 'Buka' : 'Open'}<ArrowRight className="h-4 w-4" />
-                </span>
+        <div className="relative mx-auto w-full max-w-7xl px-6 pb-12 sm:pb-16 lg:px-12 lg:pb-20">
+          <div className="max-w-4xl">
+            <h1 className="max-w-full break-words font-serif text-5xl font-black leading-[0.95] tracking-[-0.035em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
+              <span className="block sm:inline">Urban </span>
+              <span className="block text-primary-light sm:inline">Morphology</span>
+              <span className="block">and Society</span>
+            </h1>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link
+                href="/projects"
+                className="inline-flex min-h-11 items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-bold text-accent transition-all duration-200 hover:bg-primary-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-accent active:scale-[0.98]"
+              >
+                {id ? 'Jelajahi project' : 'Explore projects'}
+                <ArrowRight className="h-4 w-4" />
               </Link>
-            ))}
+              <Link
+                href="/about"
+                className="inline-flex min-h-11 items-center rounded-full border border-white/45 px-6 py-3 text-sm font-bold text-white transition-colors hover:border-white hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              >
+                {id ? 'Tentang kami' : 'About us'}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-18 sm:py-22 lg:py-26">
+        <div className="mx-auto grid max-w-7xl gap-8 px-6 lg:grid-cols-[0.78fr_1.22fr] lg:gap-18 lg:px-12">
+          <div className="min-w-0">
+            <h2 className="text-balance font-serif text-3xl font-black leading-tight tracking-[-0.025em] text-accent sm:text-4xl lg:text-5xl">
+              {id ? 'Kota selalu menyimpan jejak masyarakatnya.' : 'Every city carries the traces of its society.'}
+            </h2>
+          </div>
+          <div className="min-w-0 lg:pt-2">
+            <p className="max-w-3xl text-pretty text-base font-medium leading-8 text-accent/90 sm:text-lg">
+              {umsDescriptionFor(language)}
+            </p>
+            <Link
+              href="/about"
+              className="group mt-7 inline-flex min-h-11 items-center gap-2 text-sm font-bold text-secondary transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-4"
+            >
+              {id ? 'Selengkapnya tentang kami' : 'Learn more about us'}
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <VisitorAnalytics />
+
+      <section className="border-y border-bone/60 bg-bone/25 py-14 sm:py-18">
+        <div className="mx-auto max-w-7xl px-6 lg:px-12">
+          <div className="grid gap-px overflow-hidden rounded-2xl border border-bone/70 bg-bone/70 md:grid-cols-3">
+            {teasers.map((teaser) => {
+              const Icon = teaser.icon;
+              return (
+                <Link
+                  key={teaser.href}
+                  href={teaser.href}
+                  className="group flex min-h-64 flex-col bg-white p-7 transition-colors duration-200 hover:bg-background focus-visible:relative focus-visible:z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary sm:p-8"
+                >
+                  <Icon className="h-7 w-7 text-secondary" />
+                  <h3 className="mt-8 font-serif text-2xl font-bold text-accent">{teaser.title}</h3>
+                  <p className="mt-3 max-w-sm text-sm leading-relaxed text-accent/80">{teaser.body}</p>
+                  <span className="mt-auto inline-flex items-center gap-2 pt-7 text-sm font-bold text-primary-strong">
+                    {id ? 'Buka halaman' : 'Open page'}
+                    <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

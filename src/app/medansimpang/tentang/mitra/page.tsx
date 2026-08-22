@@ -4,17 +4,11 @@ import React from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Image from 'next/image';
-import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { useLanguage } from '@/context/LanguageContext';
 import { Handshake } from 'lucide-react';
 
 export default function MitraPage() {
   const { language } = useLanguage();
-
-  const breadcrumbsItems = [
-    { label: language === 'id' ? 'Tentang' : 'About' },
-    { label: language === 'id' ? 'Mitra & Kontributor' : 'Partners & Contributors' },
-  ];
 
   const partners = [
     {
@@ -55,13 +49,7 @@ export default function MitraPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="grow pt-32 pb-16">
-        <div className="bg-bone/30 border-b border-bone/40 py-3 mb-8">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <Breadcrumbs items={breadcrumbsItems} />
-          </div>
-        </div>
-
+      <main className="grow pt-40 pb-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center space-y-4 mb-12">
@@ -70,12 +58,12 @@ export default function MitraPage() {
               Collaboration
             </span>
             <h1 className="font-serif text-4xl sm:text-5xl font-black text-accent">
-              {language === 'id' ? 'Mitra & Kontributor' : 'Partners & Contributors'}
+              {language === 'id' ? 'Komunitas Medan Simpang' : 'Medan Simpang Community'}
             </h1>
             <p className="text-base sm:text-lg text-text-muted font-light max-w-2xl mx-auto leading-relaxed">
               {language === 'id'
-                ? 'Kami bekerja sama dengan bisnis lokal legendaris, sejarawan independen, dan instansi kota untuk menyajikan peta rute yang akurat dan berdampak nyata.'
-                : 'We collaborate with legendary local businesses, independent historians, and city bodies to bring you highly accurate and impactful trail guides.'}
+                ? 'Orang, kelompok, sekolah, dan pelaku usaha lokal yang ikut menghidupkan perjalanan Medan Simpang.'
+                : 'The people, groups, schools, and local businesses who bring the Medan Simpang journey to life.'}
             </p>
           </div>
 

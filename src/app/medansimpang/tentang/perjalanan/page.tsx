@@ -3,17 +3,11 @@
 import React from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { useLanguage } from '@/context/LanguageContext';
 import { Compass, Calendar } from 'lucide-react';
 
 export default function PerjalananPage() {
   const { language } = useLanguage();
-
-  const breadcrumbsItems = [
-    { label: language === 'id' ? 'Tentang' : 'About' },
-    { label: language === 'id' ? 'Perjalanan Kami' : 'Our Journey' },
-  ];
 
   const milestones = [
     {
@@ -43,13 +37,7 @@ export default function PerjalananPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="grow pt-32 pb-16">
-        <div className="bg-bone/30 border-b border-bone/40 py-3 mb-8">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <Breadcrumbs items={breadcrumbsItems} />
-          </div>
-        </div>
-
+      <main className="grow pt-40 pb-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center space-y-4 mb-12">
@@ -58,7 +46,7 @@ export default function PerjalananPage() {
               History
             </span>
             <h1 className="font-serif text-4xl sm:text-5xl font-black text-accent">
-              {language === 'id' ? 'Perjalanan Kami' : 'Our Journey'}
+              {language === 'id' ? 'Sejarah Medan Simpang' : 'The History of Medan Simpang'}
             </h1>
             <p className="text-base sm:text-lg text-text-muted font-light max-w-2xl mx-auto leading-relaxed">
               {language === 'id'

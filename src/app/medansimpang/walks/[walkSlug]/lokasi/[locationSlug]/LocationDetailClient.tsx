@@ -77,10 +77,10 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
 
-      <main className="grow pt-32 pb-16">
+      <main className="grow pb-16 pt-23">
         {/* Sub-header Navigation */}
         <div className="bg-bone/30 border-b border-bone/40 py-4">
-          <div className="w-full px-6 lg:px-12 flex items-center">
+          <div className="mx-auto flex w-full max-w-7xl items-center px-4 sm:px-6 lg:px-10">
             <Link
               href={`/medansimpang/walks/${walkSlug}`}
               className="inline-flex items-center text-sm font-bold text-accent hover:text-secondary transition-colors"
@@ -92,19 +92,19 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
         </div>
 
         {/* Full-width split layout: carousel (left) + info (right) */}
-        <div className="w-full px-4 sm:px-6 lg:px-12 mt-6 sm:mt-8 pb-20 sm:pb-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+        <div className="mx-auto mt-5 w-full max-w-7xl px-4 pb-20 sm:mt-7 sm:px-6 sm:pb-0 lg:px-10">
+          <div className="grid min-w-0 grid-cols-1 items-start gap-7 lg:grid-cols-[minmax(0,1.08fr)_minmax(340px,0.92fr)] lg:gap-10">
 
             {/* LEFT: Single-frame image carousel (sticky window) */}
-            <div className="lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px]">
-              <div className="relative w-full h-[320px] sm:h-[480px] lg:h-[calc(100vh-160px)] rounded-2xl overflow-hidden bg-bone border border-bone/60 shadow-md group">
+            <div className="min-w-0 lg:sticky lg:top-[104px]">
+              <div className="group relative h-64 w-full overflow-hidden rounded-xl bg-bone sm:h-96 lg:h-[min(64vh,600px)]">
                 <LocationMedia
                   key={safeIndex}
                   imageUrl={images[safeIndex]}
-                  name={`${name} — ${safeIndex + 1}`}
+                  name={`${name}, foto ${safeIndex + 1} dalam rute ${walkTitle}`}
                   latitude={location.latitude}
                   longitude={location.longitude}
-                  priority
+                  priority={safeIndex === 0}
                   interactive
                   imageClassName="object-cover animate-fade-in"
                   sizes="(max-width: 1024px) 100vw, 60vw"
@@ -147,26 +147,38 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
                       {safeIndex + 1} / {images.length}
                     </div>
 
-                    {/* Dots */}
-                    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 rounded-full bg-black/25 px-3 py-1.5 backdrop-blur-sm">
-                      {images.map((_, idx) => (
-                        <button
-                          key={idx}
-                          onClick={() => setActiveImage(idx)}
-                          aria-label={`Foto ${idx + 1}`}
-                          className={`h-2 rounded-full transition-all ${
-                            idx === safeIndex ? 'w-5 bg-white' : 'w-2 bg-white/55 hover:bg-white/80'
-                          }`}
-                        />
-                      ))}
-                    </div>
                   </>
                 )}
               </div>
+
+              {images.length > 1 && (
+                <div className="no-scrollbar mt-3 flex gap-2 overflow-x-auto pb-1" aria-label={language === 'id' ? 'Pilihan foto lokasi' : 'Location photo choices'}>
+                  {images.map((image, idx) => (
+                    <button
+                      key={image}
+                      type="button"
+                      onClick={() => setActiveImage(idx)}
+                      aria-label={`${language === 'id' ? 'Tampilkan foto' : 'Show photo'} ${idx + 1}`}
+                      aria-pressed={idx === safeIndex}
+                      className={`relative h-14 w-18 shrink-0 overflow-hidden rounded-lg border-2 transition-colors sm:h-16 sm:w-22 ${
+                        idx === safeIndex ? 'border-secondary' : 'border-transparent hover:border-primary'
+                      }`}
+                    >
+                      <LocationMedia
+                        imageUrl={image}
+                        name={`${name}, thumbnail ${idx + 1}`}
+                        latitude={location.latitude}
+                        longitude={location.longitude}
+                        sizes="88px"
+                      />
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
 
             {/* RIGHT: Location info & content */}
-            <div className="lg:col-span-5 xl:col-span-5 space-y-8">
+            <div className="min-w-0 space-y-7">
               {/* Title block */}
               <header className="space-y-3">
                 <h1 className="font-serif text-3xl sm:text-4xl font-black tracking-tight text-accent leading-tight">
@@ -178,7 +190,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
               </header>
 
               {/* Quick info: address + hours */}
-              <div className="bg-bone/25 rounded-2xl border border-bone/50 p-5 sm:p-6 space-y-5">
+              <div className="space-y-5 rounded-xl border border-bone/70 bg-bone/35 p-5 sm:p-6">
                 <div className="space-y-1.5">
                   <span className="text-[10px] uppercase font-bold tracking-wider text-text-muted flex items-center gap-1.5">
                     <MapPin className="w-4 h-4 text-secondary" />
@@ -275,7 +287,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
                   </span>
                   <Link
                     href={`/medansimpang/walks/${walkSlug}/lokasi/${nextLocation.slug}`}
-                    className="group flex items-center justify-between p-4 sm:p-5 rounded-2xl bg-white border border-bone hover:border-secondary/40 shadow-sm hover:shadow-md transition-all duration-300 min-h-[60px]"
+                    className="group flex min-h-15 items-center justify-between rounded-xl border border-bone bg-white p-4 transition-colors hover:border-secondary/50 sm:p-5"
                   >
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 rounded-full bg-accent/10 text-accent font-bold flex items-center justify-center group-hover:bg-secondary group-hover:text-white transition-colors duration-300 flex-shrink-0">
@@ -304,7 +316,7 @@ export default function LocationDetail({ walkSlug, locationSlug }: { walkSlug: s
       </main>
 
       {/* Sticky Mobile Quick Action Bar */}
-      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-bone/60 p-3 shadow-2xl">
+      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-bone bg-white/95 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-md sm:hidden">
         <div className="flex items-center gap-2">
           <a
             href={location.googleMapsUrl}

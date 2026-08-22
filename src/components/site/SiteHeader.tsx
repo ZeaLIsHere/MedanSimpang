@@ -51,7 +51,7 @@ export default function SiteHeader() {
         <div className="flex h-14 items-center justify-between gap-4">
           <Link
             href="/"
-            className="font-serif text-sm sm:text-base lg:text-lg font-black tracking-tight text-accent leading-tight max-w-[60%] lg:max-w-none"
+            className="max-w-[58%] truncate whitespace-nowrap font-serif text-xs font-black leading-tight tracking-tight text-accent sm:text-base lg:max-w-none lg:text-lg"
           >
             Urban Morphology <span className="text-primary-strong">and Society</span>
           </Link>
@@ -79,7 +79,7 @@ export default function SiteHeader() {
             </button>
           </nav>
 
-          <div className="flex items-center space-x-2 lg:hidden">
+          <div className="flex shrink-0 items-center space-x-2 lg:hidden">
             <button
               onClick={toggleLang}
               className="flex items-center rounded-lg border border-bone px-2.5 py-1 text-xs font-bold text-accent hover:bg-bone/30 transition-colors uppercase tracking-wider"
