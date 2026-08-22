@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static routes
   const staticPaths = [
     '',
+    '/academy',
     '/cerita',
     '/tentang/visi',
     '/tentang/sejarah',

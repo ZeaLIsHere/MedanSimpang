@@ -4,17 +4,11 @@ import React from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Image from 'next/image';
-import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { useLanguage } from '@/context/LanguageContext';
 import { Handshake } from 'lucide-react';
 
 export default function MitraPage() {
   const { language } = useLanguage();
-
-  const breadcrumbsItems = [
-    { label: language === 'id' ? 'Tentang' : 'About' },
-    { label: language === 'id' ? 'Komunitas' : 'Community' },
-  ];
 
   const partners = [
     {
@@ -55,13 +49,7 @@ export default function MitraPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="grow pt-32 pb-16">
-        <div className="bg-bone/30 border-b border-bone/40 py-3 mb-8">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <Breadcrumbs items={breadcrumbsItems} />
-          </div>
-        </div>
-
+      <main className="grow pt-40 pb-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center space-y-4 mb-12">

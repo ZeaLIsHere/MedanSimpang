@@ -168,9 +168,9 @@ export default function Header() {
                 {navTranslations.stories}
               </Link>
 
-              {/* Akademi (direct link placeholder) */}
+              {/* Akademi */}
               <Link
-                href="/medansimpang/tentang/metodologi"
+                href="/medansimpang/academy"
                 className="relative text-sm font-semibold text-accent hover:text-secondary transition-colors py-2 after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
               >
                 {navTranslations.academy}
@@ -298,7 +298,7 @@ export default function Header() {
               {/* Academy (direct) */}
               <div className="border-b border-bone/40 py-2">
                 <Link
-                  href="/medansimpang/tentang/metodologi"
+                  href="/medansimpang/academy"
                   onClick={() => setIsOpen(false)}
                   className="flex items-center min-h-[44px] py-2 text-base font-bold text-accent hover:text-secondary transition-colors"
                 >

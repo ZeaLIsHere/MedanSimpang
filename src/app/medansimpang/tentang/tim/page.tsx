@@ -3,7 +3,6 @@
 import React from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { useLanguage } from '@/context/LanguageContext';
 import { Users } from 'lucide-react';
 import { umsHead, umsMembers, umsStudents } from '@/data/ums';
@@ -40,22 +39,11 @@ export default function TimPage() {
       : []),
   ];
 
-  const breadcrumbsItems = [
-    { label: language === 'id' ? 'Tentang' : 'About' },
-    { label: language === 'id' ? 'Tim Kami' : 'Our Team' },
-  ];
-
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
 
-      <main className="grow pt-32 pb-20">
-        <div className="bg-bone/30 border-b border-bone/40 py-3 mb-10">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <Breadcrumbs items={breadcrumbsItems} />
-          </div>
-        </div>
-
+      <main className="grow pt-40 pb-20">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center space-y-4 mb-14 animate-fade-up">

@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, Gamepad2 } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function ProjectsPage() {
@@ -38,13 +38,6 @@ export default function ProjectsPage() {
               >
                 {id ? 'Jelajahi' : 'Explore'}
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-              </Link>
-              <Link
-                href="/medansimpang/game"
-                className="inline-flex min-h-11 items-center gap-2 rounded-lg bg-secondary px-4 py-2.5 text-sm font-bold text-white transition-colors hover:bg-isee focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
-              >
-                <Gamepad2 className="h-4 w-4" />
-                {id ? 'Main Game' : 'Play Game'}
               </Link>
             </div>
           </div>

@@ -100,12 +100,12 @@ export default function KawasanDetail({ slug }: { slug: string }) {
       <Header />
 
       {/* Main scrollable grid container — same pattern as Homepage */}
-      <main className="grow pb-24 pt-26 sm:pt-28 lg:pb-16">
-        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10">
-          <div className="grid min-w-0 grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-10">
+      <main className="grow pb-24 pt-32 lg:pb-16">
+        <div className="w-full px-4 sm:px-6 lg:px-12">
+          <div className="grid min-w-0 grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-12">
             
             {/* Left Column: Kawasan Info & Walks List (5/12) */}
-            <div className={`min-w-0 space-y-7 ${mobileView === 'map' ? 'hidden lg:block' : 'block'}`}>
+            <div className={`min-w-0 space-y-8 lg:col-span-5 ${mobileView === 'map' ? 'hidden lg:block' : 'block'}`}>
               {/* Breadcrumbs */}
               <Breadcrumbs items={breadcrumbsItems} />
 
@@ -136,7 +136,7 @@ export default function KawasanDetail({ slug }: { slug: string }) {
                 </div>
                 
                 {/* List of walks - 2 columns on tablet/desktop */}
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   {walks.map((walk) => (
                     <div 
                       key={walk.slug}
@@ -151,8 +151,8 @@ export default function KawasanDetail({ slug }: { slug: string }) {
             </div>
 
             {/* Right Column: Sticky Window Map (7/12) — same as Homepage */}
-            <div className={`min-w-0 w-full overflow-hidden rounded-xl bg-bone/35 lg:sticky lg:top-[104px] ${
-              mobileView === 'map' ? 'block h-[calc(100dvh-154px)]' : 'hidden lg:block lg:h-[calc(100vh-124px)]'
+            <div className={`min-w-0 w-full overflow-hidden rounded-xl bg-bone/35 shadow-md lg:col-span-7 lg:sticky lg:top-[120px] ${
+              mobileView === 'map' ? 'block h-[calc(100dvh-154px)]' : 'hidden lg:block lg:h-[calc(100vh-140px)]'
             }`}>
               {shouldRenderMap ? (
                 <MedanMap
@@ -160,7 +160,7 @@ export default function KawasanDetail({ slug }: { slug: string }) {
                   routes={activeRoutes}
                   centerLat={centerLat}
                   centerLng={centerLng}
-                  zoom={16.5}
+                  zoom={15.5}
                   activePinId={activeWalkSlug}
                   onPinClick={(slug) => setActiveWalkSlug(slug)}
                   language={language}

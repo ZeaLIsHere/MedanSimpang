@@ -9,7 +9,6 @@ import { assetPath } from '@/lib/paths';
 import {
   ArrowUpRight,
   Clock3,
-  Film,
   Newspaper,
   Play,
   Presentation,
@@ -118,22 +117,11 @@ export default function CeritaListing() {
       <Header />
 
       <main className="grow pb-20 pt-32">
-        <section className="border-b border-bone/50 bg-bone/20 py-14 sm:py-18">
-          <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-end lg:px-8">
-            <div>
-              <span className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/15 px-3 py-1 text-xs font-bold uppercase tracking-[0.16em] text-primary-strong">
-                <Film className="h-4 w-4" />
-                {id ? 'Cerita / Media' : 'Stories / Media'}
-              </span>
-              <h1 className="mt-5 max-w-3xl font-serif text-4xl font-black leading-tight tracking-tight text-accent sm:text-5xl lg:text-6xl">
-                {id ? 'Cerita Medan Simpang dalam gambar dan suara' : 'Medan Simpang stories in pictures and sound'}
-              </h1>
-            </div>
-            <p className="max-w-xl text-base font-light leading-relaxed text-text-muted sm:text-lg lg:pb-1">
-              {id
-                ? 'Saksikan presentasi, video pendek, dan liputan media yang merekam perjalanan kami dalam membaca Kota Medan dari level mata.'
-                : 'Watch presentations, short videos, and media coverage documenting our journey of reading Medan at eye level.'}
-            </p>
+        <section className="border-b border-bone/50 bg-bone/20 py-12 sm:py-14">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <h1 className="max-w-4xl font-serif text-4xl font-black leading-tight tracking-tight text-accent sm:text-5xl lg:text-6xl">
+              {id ? 'Cerita Medan Simpang dalam gambar dan suara' : 'Medan Simpang stories in pictures and sound'}
+            </h1>
           </div>
         </section>
 
