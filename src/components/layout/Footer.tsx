@@ -49,7 +49,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-accent text-white border-t border-bone/10">
-      <div className="w-full px-6 py-12 lg:px-12 lg:py-16">
+      <div className="mx-auto w-full max-w-7xl px-6 py-12 lg:px-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 pb-8 border-b border-bone/10">
           
           {/* Column 1: Brand & Mission */}

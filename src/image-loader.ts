@@ -2,7 +2,12 @@
 // next/image dgn unoptimized TIDAK menambah basePath ke src lokal, sehingga
 // gambar 404 saat aplikasi dilayani di sub-path (mis. /medansimpang).
 // Loader ini menambah basePath tanpa mengoptimasi ulang (URL apa adanya).
+import imageManifest from './data/image-manifest.json';
+
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+type ImageVariant = { width: number; url: string };
+const responsiveImages = imageManifest as Record<string, ImageVariant[]>;
 
 export default function imageLoader({ src, width, quality }: { src: string; width: number; quality?: number }): string {
   if (src.startsWith('data:')) return src;
@@ -20,5 +25,15 @@ export default function imageLoader({ src, width, quality }: { src: string; widt
   }
 
   const clean = src.startsWith('/') ? src : `/${src}`;
+  const variants = responsiveImages[clean];
+  if (variants?.length) {
+    const selected = variants.reduce((closest, variant) =>
+      Math.abs(variant.width - width) < Math.abs(closest.width - width)
+        ? variant
+        : closest
+    );
+    if (selected) return `${BASE_PATH}${selected.url}`;
+  }
+
   return `${BASE_PATH}${clean}?w=${width}${quality ? `&q=${quality}` : ''}`;
 }

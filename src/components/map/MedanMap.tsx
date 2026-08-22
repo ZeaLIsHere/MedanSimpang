@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { CategoryType } from '@/types';
 import { assetPath } from '@/lib/paths';
+import imageLoader from '@/image-loader';
 import 'leaflet/dist/leaflet.css';
 
 export interface MapPinData {
@@ -92,7 +93,6 @@ export default function MedanMap({
 
     const htmlContent = `
       <div class="relative flex items-center justify-center" role="button" tabindex="0" aria-label="${label}">
-        <span class="absolute inline-flex h-8 w-8 rounded-full opacity-40 animate-ping" style="background-color: ${color};"></span>
         <div class="relative flex items-center justify-center w-8 h-8 rounded-full border-2 border-white shadow-md text-white" style="background-color: ${color};">
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${svg}</svg>
         </div>
@@ -117,7 +117,7 @@ export default function MedanMap({
 
     if (!mapRef.current) {
       mapRef.current = L.map(mapContainerRef.current, {
-        scrollWheelZoom: true,
+        scrollWheelZoom: false,
         touchZoom: true,
         dragging: true,
       }).setView([centerLat, centerLng], zoom);
@@ -182,11 +182,15 @@ export default function MedanMap({
     pins.forEach((pin) => {
       const popupData = pin.popupData;
       
+      const popupImageUrl = popupData.imageUrl
+        ? imageLoader({ src: popupData.imageUrl, width: 384, quality: 76 })
+        : '';
+
       const popupHtml = `
         <div class="w-48 font-sans" style="margin: -4px -4px;">
           ${popupData.imageUrl ? `
             <div style="height: 100px; width: 100%; overflow: hidden; border-radius: 8px 8px 0 0; background-color: #F4F1DE; margin-bottom: 8px;">
-              <img src="${assetPath(popupData.imageUrl)}" style="width: 100%; height: 100%; object-fit: cover;" />
+              <img src="${popupImageUrl}" alt="${popupData.title}" width="384" height="200" loading="lazy" decoding="async" style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
           ` : ''}
           <div style="padding: ${popupData.imageUrl ? '0 10px 10px 10px' : '10px'};">

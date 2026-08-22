@@ -137,6 +137,51 @@ export default function CeritaListing() {
           </div>
         </section>
 
+        <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
+          <SectionTitle
+            eyebrow={<><Newspaper className="h-4 w-4" /> {id ? 'Liputan media' : 'Media coverage'}</>}
+            title={id ? 'Medan Simpang dalam berita' : 'Medan Simpang in the news'}
+            description={id
+              ? 'Ikuti liputan kegiatan kami melalui media dan kanal resmi Universitas Sumatera Utara.'
+              : 'Read coverage of our activities through the media and official Universitas Sumatera Utara channels.'}
+          />
+
+          <div className="grid gap-6 lg:grid-cols-2">
+            {newsItems.map((news) => (
+              <a
+                key={news.href}
+                href={news.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group overflow-hidden rounded-xl border border-bone/70 bg-white transition-all duration-300 hover:-translate-y-0.5 hover:border-secondary/35 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-4"
+              >
+                <div className="relative aspect-[16/9] overflow-hidden bg-bone">
+                  <NewsThumbnail
+                    src={news.image}
+                    fallback={news.fallbackImage}
+                    alt={news.title}
+                  />
+                </div>
+                <div className="p-5 sm:p-6">
+                  <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-bold uppercase tracking-wider">
+                    <span className="text-secondary">{news.source}</span>
+                    <span aria-hidden className="h-1 w-1 rounded-full bg-primary" />
+                    <span className="text-text-muted">{news.date}</span>
+                  </div>
+                  <h3 className="text-balance font-serif text-xl font-bold leading-snug text-accent sm:text-2xl">{news.title}</h3>
+                  <p className="mt-3 text-sm font-light leading-relaxed text-text-muted">
+                    {id ? news.descriptionId : news.descriptionEn}
+                  </p>
+                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-primary-strong">
+                    {id ? 'Baca berita' : 'Read article'}
+                    <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+
         <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <SectionTitle
             eyebrow={<><Presentation className="h-4 w-4" /> {id ? 'Video presentasi' : 'Presentation videos'}</>}
@@ -213,50 +258,6 @@ export default function CeritaListing() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-          <SectionTitle
-            eyebrow={<><Newspaper className="h-4 w-4" /> {id ? 'Liputan media' : 'Media coverage'}</>}
-            title={id ? 'Medan Simpang dalam berita' : 'Medan Simpang in the news'}
-            description={id
-              ? 'Ikuti liputan kegiatan kami melalui media dan kanal resmi Universitas Sumatera Utara.'
-              : 'Read coverage of our activities through the media and official Universitas Sumatera Utara channels.'}
-          />
-
-          <div className="grid gap-6 lg:grid-cols-2">
-            {newsItems.map((news) => (
-              <a
-                key={news.href}
-                href={news.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group overflow-hidden rounded-3xl border border-bone/70 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-secondary/35 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-4"
-              >
-                <div className="relative aspect-[16/9] overflow-hidden bg-bone">
-                  <NewsThumbnail
-                    src={news.image}
-                    fallback={news.fallbackImage}
-                    alt={news.title}
-                  />
-                </div>
-                <div className="p-6 sm:p-7">
-                  <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-bold uppercase tracking-wider">
-                    <span className="text-secondary">{news.source}</span>
-                    <span aria-hidden className="h-1 w-1 rounded-full bg-primary" />
-                    <span className="text-text-muted">{news.date}</span>
-                  </div>
-                  <h3 className="font-serif text-xl font-bold leading-snug text-accent sm:text-2xl">{news.title}</h3>
-                  <p className="mt-3 text-sm font-light leading-relaxed text-text-muted">
-                    {id ? news.descriptionId : news.descriptionEn}
-                  </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-primary-strong">
-                    {id ? 'Baca berita' : 'Read article'}
-                    <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-                  </span>
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
       </main>
 
       <Footer />

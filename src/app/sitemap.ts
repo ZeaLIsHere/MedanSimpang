@@ -12,7 +12,9 @@ const BASE_URL = 'https://urbanmorphsoc.com/medansimpang';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Tanggal konten nyata lebih dapat dipercaya crawler daripada waktu build
+  // yang berubah setiap kali situs diekspor ulang.
+  const contentUpdatedAt = new Date('2026-08-22');
 
   // Static routes
   const staticPaths = [
@@ -28,31 +30,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [
     {
       url: 'https://urbanmorphsoc.com/',
-      lastModified: now,
+      lastModified: contentUpdatedAt,
       changeFrequency: 'monthly',
       priority: 1,
     },
     {
       url: 'https://urbanmorphsoc.com/projects/',
-      lastModified: now,
+      lastModified: contentUpdatedAt,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: 'https://urbanmorphsoc.com/stories/',
-      lastModified: now,
+      lastModified: contentUpdatedAt,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: 'https://urbanmorphsoc.com/about/',
-      lastModified: now,
+      lastModified: contentUpdatedAt,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     ...staticPaths.map((p) => ({
       url: `${BASE_URL}${p}/`,
-      lastModified: now,
+      lastModified: contentUpdatedAt,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     })),
@@ -62,7 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const k of getAllKawasan()) {
     entries.push({
       url: `${BASE_URL}/${k.slug}/`,
-      lastModified: now,
+      lastModified: contentUpdatedAt,
       changeFrequency: 'monthly',
       priority: 0.8,
     });
@@ -72,14 +74,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const w of getAllWalks()) {
     entries.push({
       url: `${BASE_URL}/walks/${w.slug}/`,
-      lastModified: now,
+      lastModified: contentUpdatedAt,
       changeFrequency: 'monthly',
       priority: 0.8,
     });
     for (const loc of getLocationsForWalk(w.slug)) {
       entries.push({
         url: `${BASE_URL}/walks/${w.slug}/lokasi/${loc.slug}/`,
-        lastModified: now,
+        lastModified: contentUpdatedAt,
         changeFrequency: 'monthly',
         priority: 0.6,
       });

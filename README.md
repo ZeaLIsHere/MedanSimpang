@@ -125,3 +125,24 @@ Statistik publik membutuhkan domain `urbanmorphsoc.com` aktif di Cloudflare dan 
 5. Build ulang website dan unggah isi folder `out` ke `public_html` Hostinger.
 
 Panel tidak menggunakan angka contoh. Jika Worker atau D1 belum aktif, homepage menampilkan pesan bahwa statistik belum terhubung.
+
+---
+
+## Agar Situs Muncul di Google
+
+Kode situs sudah menyediakan `robots.txt`, `sitemap.xml`, canonical URL, metadata unik untuk rute dan lokasi, serta structured data. Agar Google mulai memprosesnya:
+
+1. Tambahkan **Domain property** `urbanmorphsoc.com` di Google Search Console dan selesaikan verifikasi DNS.
+2. Jika memakai verifikasi HTML tag, isi tokennya di `.env.local` (hanya nilai pada atribut `content`):
+
+   ```env
+   NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=TOKEN_DARI_GOOGLE
+   ```
+
+3. Build dan unggah ulang situs.
+4. Di menu **Sitemaps**, kirim `https://urbanmorphsoc.com/sitemap.xml`.
+5. Di **URL inspection**, periksa lalu minta pengindeksan untuk:
+   - `https://urbanmorphsoc.com/`
+   - `https://urbanmorphsoc.com/medansimpang/`
+
+Pengindeksan dan peringkat ditentukan Google sehingga tidak dapat dijamin langsung berada di posisi pertama. Pantau status halaman, kueri pencarian, dan impresi melalui Search Console.

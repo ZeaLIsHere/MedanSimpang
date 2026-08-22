@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, BookOpen, Building2, FolderOpen, Info } from 'lucide-react';
+import { ArrowRight, BookOpen, FolderOpen, Info } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { umsDescriptionFor } from '@/data/ums';
 import VisitorAnalytics from '@/components/analytics/VisitorAnalytics';
@@ -52,20 +52,11 @@ export default function Landing() {
 
         <div className="relative mx-auto w-full max-w-7xl px-6 pb-12 sm:pb-16 lg:px-12 lg:pb-20">
           <div className="max-w-4xl">
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/30 bg-accent/30 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-sm">
-              <Building2 className="h-4 w-4 text-primary-light" />
-              {id ? 'Klaster riset · Universitas Sumatera Utara' : 'Research cluster · Universitas Sumatera Utara'}
-            </div>
             <h1 className="max-w-full break-words font-serif text-5xl font-black leading-[0.95] tracking-[-0.035em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
               <span className="block sm:inline">Urban </span>
               <span className="block text-primary-light sm:inline">Morphology</span>
               <span className="block">and Society</span>
             </h1>
-            <p className="mt-5 max-w-2xl text-base font-medium leading-relaxed text-white/90 sm:text-lg">
-              {id
-                ? 'Memahami hubungan yang terus berubah antara ruang, bentuk kota, dan kehidupan masyarakat.'
-                : 'Understanding the evolving relationship between space, urban form, and social life.'}
-            </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 href="/projects"

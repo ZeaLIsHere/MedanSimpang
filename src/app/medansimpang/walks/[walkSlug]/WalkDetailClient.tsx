@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Clock, Navigation, MapPin, Download, ArrowLeft, Eye, Utensils, Coffee, Compass, LayoutGrid, Map, List } from 'lucide-react';
+import { Clock, Navigation, MapPin, Download, ArrowLeft, ArrowRight, Eye, Utensils, Coffee, Compass, LayoutGrid, Map, List } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
@@ -14,14 +14,17 @@ import { getWalkBySlug, getKawasanBySlug, getLocationsForWalk, getWalksForKawasa
 import { useLanguage } from '@/context/LanguageContext';
 import { CategoryType } from '@/types';
 import { assetPath } from '@/lib/paths';
+import useMediaQuery from '@/hooks/useMediaQuery';
+import useConstrainedNetwork from '@/hooks/useConstrainedNetwork';
+import DeferredMapNotice from '@/components/map/DeferredMapNotice';
 
 // Dynamically import map client-side to prevent SSR window reference error
 const MedanMap = dynamic(() => import('@/components/map/MedanMap'), {
   ssr: false,
   loading: () => (
-    <div className="h-full w-full bg-bone/35 animate-pulse flex flex-col items-center justify-center text-text-muted border-l border-bone/60">
-      <MapPin className="h-8 w-8 text-primary animate-bounce mb-2" />
-      <span className="text-sm font-semibold tracking-wider">Memuat Peta Interaktif...</span>
+    <div className="flex h-full w-full flex-col items-center justify-center bg-bone/35 text-accent/70">
+      <MapPin className="mb-2 h-7 w-7 text-primary-strong" />
+      <span className="text-sm font-semibold">Memuat peta…</span>
     </div>
   ),
 });
@@ -32,6 +35,10 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
   const [activeLocationSlug, setActiveLocationSlug] = useState<string | undefined>(undefined);
   // Mobile view mode: 'list' (default) or 'map'
   const [mobileView, setMobileView] = useState<'list' | 'map'>('list');
+  const [mapRequested, setMapRequested] = useState(false);
+  const isDesktop = useMediaQuery('(min-width: 1024px)');
+  const isConstrainedNetwork = useConstrainedNetwork();
+  const shouldRenderMap = mobileView === 'map' || (isDesktop && (!isConstrainedNetwork || mapRequested));
 
   const walk = getWalkBySlug(walkSlug);
 
@@ -111,12 +118,12 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
       <Header />
 
       {/* Main scrollable grid container — same pattern as Homepage */}
-      <main className="grow pt-28 sm:pt-32 pb-24 lg:pb-16">
-        <div className="w-full px-4 sm:px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+      <main className="grow pb-24 pt-26 sm:pt-28 lg:pb-16">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10">
+          <div className="grid min-w-0 grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-10">
             
             {/* Left Column: Walk Content (5/12) */}
-            <div className={`lg:col-span-5 xl:col-span-5 space-y-8 ${mobileView === 'map' ? 'hidden lg:block' : 'block'}`}>
+            <div className={`min-w-0 space-y-7 ${mobileView === 'map' ? 'hidden lg:block' : 'block'}`}>
               {/* Breadcrumbs */}
               <Breadcrumbs items={breadcrumbsItems} />
 
@@ -139,7 +146,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
               </div>
 
               {/* Info Strip (compact horizontal) */}
-              <div className="flex flex-wrap items-center gap-3 sm:gap-4 bg-white border border-bone/50 rounded-xl px-4 py-3 shadow-sm text-center">
+              <div className="flex flex-wrap items-center gap-3 rounded-xl border border-bone/70 bg-white px-4 py-3 text-center sm:gap-4">
                 <div className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-secondary" />
                   <span className="text-xs font-bold text-accent">{durationText}</span>
@@ -197,31 +204,31 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                   {language === 'id' ? 'Urutan Titik Singgah' : 'List of Stops'}
                 </h3>
                 
-                <div className="space-y-4">
+                <div className="content-auto space-y-3">
                   {filteredLocations.map((loc) => {
                     const name = language === 'id' ? loc.name_id : loc.name_en;
                     const subtitle = language === 'id' ? loc.shortDescription_id : loc.shortDescription_en;
                     const isHovered = activeLocationSlug === loc.slug;
                     
                     return (
-                      <div
+                      <Link
                         key={loc.slug}
+                        href={`/medansimpang/walks/${walkSlug}/lokasi/${loc.slug}`}
                         onMouseEnter={() => setActiveLocationSlug(loc.slug)}
                         onMouseLeave={() => setActiveLocationSlug(undefined)}
-                        className={`flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-white p-4 rounded-xl border transition-all duration-300 ${
+                        className={`group grid min-w-0 grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 rounded-xl border bg-white p-3 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary ${
                           isHovered
-                            ? 'border-secondary/70 ring-2 ring-secondary/15 shadow-md scale-[1.01]'
-                            : 'border-bone/60 shadow-sm'
+                            ? 'border-secondary/70 bg-secondary/5'
+                            : 'border-bone/70 hover:border-secondary/45'
                         }`}
                       >
-                        {/* Stop number and location preview */}
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-2.5">
                           <div className={`w-8 h-8 rounded-full font-bold text-xs flex items-center justify-center flex-shrink-0 transition-colors duration-300 ${
                             isHovered ? 'bg-secondary text-white' : 'bg-accent text-white'
                           }`}>
                             {loc.order}
                           </div>
-                          <div className="relative w-20 h-16 rounded-lg overflow-hidden bg-bone flex-shrink-0 border border-bone">
+                          <div className="relative h-14 w-16 shrink-0 overflow-hidden rounded-lg bg-bone sm:h-16 sm:w-20">
                             <LocationMedia
                               imageUrl={loc.thumbnail}
                               name={name}
@@ -233,32 +240,21 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
                         </div>
 
                         {/* Location Details */}
-                        <div className="flex-1 space-y-1">
+                        <div className="min-w-0 space-y-1">
                           <div className="flex flex-wrap items-center gap-2">
-                            <h4 className={`font-serif font-bold text-sm md:text-base transition-colors duration-300 ${
+                            <h4 className={`min-w-0 font-serif text-sm font-bold leading-snug transition-colors duration-300 md:text-base ${
                               isHovered ? 'text-secondary' : 'text-accent'
                             }`}>
                               {name}
                             </h4>
                             <Badge category={loc.category} lang={language} />
                           </div>
-                          <p className="text-xs text-text-muted font-light leading-relaxed">
+                          <p className="line-clamp-2 text-xs leading-relaxed text-accent/70">
                             {subtitle}
                           </p>
                         </div>
-
-                        {/* Detail Link button */}
-                        <Link
-                          href={`/medansimpang/walks/${walkSlug}/lokasi/${loc.slug}`}
-                          className={`w-full sm:w-auto text-center px-3 py-2 text-xs font-bold rounded-lg transition-colors uppercase tracking-wider ${
-                            isHovered 
-                              ? 'bg-secondary text-white border border-secondary'
-                              : 'bg-bone/40 border border-bone/70 text-accent hover:bg-secondary hover:text-white'
-                          }`}
-                        >
-                          {language === 'id' ? 'Detail' : 'Explore'} &rarr;
-                        </Link>
-                      </div>
+                        <ArrowRight className="h-5 w-5 shrink-0 text-primary-strong transition-transform group-hover:translate-x-1" aria-hidden="true" />
+                      </Link>
                     );
                   })}
                   {filteredLocations.length === 0 && (
@@ -272,7 +268,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
               </div>
 
               {/* Download Map Card */}
-              <div className="bg-white rounded-2xl border border-bone/60 shadow-sm p-6 space-y-4">
+              <div className="space-y-4 rounded-xl border border-bone/70 bg-white p-5">
                 <h3 className="font-serif text-lg font-bold text-accent">
                   {language === 'id' ? 'Unduh Peta Offline' : 'Download Offline Map'}
                 </h3>
@@ -338,19 +334,23 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
             </div>
 
             {/* Right Column: Sticky Window Map (7/12) — same as Homepage */}
-            <div className={`lg:col-span-7 xl:col-span-7 lg:sticky lg:top-[100px] w-full rounded-2xl overflow-hidden shadow-md ${
-              mobileView === 'map' ? 'block h-[calc(100vh-170px)]' : 'hidden lg:block h-[380px] sm:h-[450px] lg:h-[calc(100vh-140px)]'
+            <div className={`min-w-0 w-full overflow-hidden rounded-xl bg-bone/35 lg:sticky lg:top-[104px] ${
+              mobileView === 'map' ? 'block h-[calc(100dvh-154px)]' : 'hidden lg:block lg:h-[calc(100vh-124px)]'
             }`}>
-              <MedanMap
-                pins={mapPins}
-                routes={walk.route ? [{ coordinates: walk.route }] : undefined}
-                language={language}
-                centerLat={walk.latitude || 3.589882}
-                centerLng={walk.longitude || 98.677843}
-                zoom={15}
-                activePinId={activeLocationSlug}
-                onPinClick={(slug) => setActiveLocationSlug(slug)}
-              />
+              {shouldRenderMap ? (
+                <MedanMap
+                  pins={mapPins}
+                  routes={walk.route ? [{ coordinates: walk.route }] : undefined}
+                  language={language}
+                  centerLat={walk.latitude || 3.589882}
+                  centerLng={walk.longitude || 98.677843}
+                  zoom={16.5}
+                  activePinId={activeLocationSlug}
+                  onPinClick={(slug) => setActiveLocationSlug(slug)}
+                />
+              ) : (
+                <DeferredMapNotice language={language} onLoad={() => setMapRequested(true)} />
+              )}
             </div>
 
           </div>
@@ -358,11 +358,11 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
       </main>
 
       {/* Floating Mobile View Switcher */}
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 lg:hidden">
-        <div className="bg-accent/95 backdrop-blur-md text-white p-1 rounded-full shadow-2xl border border-white/20 flex items-center gap-1">
+      <div className="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] left-1/2 z-40 -translate-x-1/2 lg:hidden">
+        <div className="flex items-center gap-1 rounded-full bg-accent p-1 text-white shadow-md">
           <button
             onClick={() => setMobileView('list')}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold transition-all ${
+            className={`flex min-h-11 items-center gap-1.5 rounded-full px-4 py-2 text-xs font-bold transition-colors ${
               mobileView === 'list' ? 'bg-primary text-accent shadow-sm' : 'text-white/80 hover:text-white'
             }`}
           >
@@ -371,7 +371,7 @@ export default function WalkDetail({ walkSlug }: { walkSlug: string }) {
           </button>
           <button
             onClick={() => setMobileView('map')}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold transition-all ${
+            className={`flex min-h-11 items-center gap-1.5 rounded-full px-4 py-2 text-xs font-bold transition-colors ${
               mobileView === 'map' ? 'bg-primary text-accent shadow-sm' : 'text-white/80 hover:text-white'
             }`}
           >
