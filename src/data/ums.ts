@@ -39,7 +39,7 @@ export const umsHead: Person = {
 };
 
 export const umsMembers: Person[] = [
-  { name: 'Prof. Johannes Widodo', photo: '/images/new-images/foto-dosen/Prof-Johannes-Widodo.jpeg', affiliation: 'National University of Singapore' },
+  { name: 'Prof. Johannes Widodo', photo: '/images/new-images/foto-dosen/Prof-Johannes-Widodo.webp', affiliation: 'National University of Singapore' },
   { name: 'Dr. Ulrike Herbig', photo: '/images/new-images/foto-dosen/Dr-Urlike-herbig.webp', link: 'https://gcd.tuwien.ac.at/ulrike-herbig', affiliation: 'TU Wien' },
   { name: 'Dr. Isnen Fitri', photo: '/images/new-images/foto-dosen/IsnenFitri.webp', link: 'https://ft.usu.ac.id/id/dosen/isnen-fitri/', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Dr. Wahyuni Zahrah', photo: '/images/new-images/foto-dosen/ArWahyuniZahrah.webp', link: 'https://ft.usu.ac.id/id/dosen/wahyuni-zahrah', affiliation: 'Universitas Sumatera Utara' },
@@ -51,7 +51,7 @@ export const umsMembers: Person[] = [
 ];
 
 export const umsStudents: Person[] = [
-  { name: 'Muhammad Gilby', photo: '/images/new-images/foto-mahasiswa/Gilby.PNG', affiliation: 'Universitas Sumatera Utara' },
+  { name: 'Muhammad Gilby', photo: '/images/new-images/foto-mahasiswa/Gilby.webp', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Nurhidayah Munthe', photo: '/images/new-images/foto-mahasiswa/Nurhidayah.webp', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Tariq Rahmadari', photo: '/images/new-images/foto-mahasiswa/TariqRahmadari.webp', affiliation: 'Universitas Sumatera Utara' },
   { name: 'Blessly Silaban', photo: '/images/new-images/foto-mahasiswa/BlesslySilaban.webp', affiliation: 'Universitas Sumatera Utara' },

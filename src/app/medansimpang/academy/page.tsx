@@ -35,7 +35,7 @@ export default function AcademyPage() {
           >
             <div className="relative min-h-72 overflow-hidden sm:min-h-96 lg:min-h-105">
               <Image
-                src="/images/locations/smp-negeri-7-medan/gallery-4.jpg"
+                src="/images/locations/smp-negeri-7-medan/gallery-4.webp"
                 alt={id ? 'Halaman SMP Negeri 7 Medan' : 'The courtyard of SMP Negeri 7 Medan'}
                 fill
                 priority

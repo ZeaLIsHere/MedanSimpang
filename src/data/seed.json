@@ -20,7 +20,7 @@
       "title_en": "Trail 1 Deli Riverside",
       "slug": "trails-1-deli-riverside",
       "neighbourhoodSlug": "silalas",
-      "heroImage": "/images/locations/deli-riverview/gallery-1.jpg",
+      "heroImage": "/images/locations/deli-riverview/gallery-1.webp",
       "description_id": "Rute utama menyusuri tepian Sungai Deli, dari Jl. Guru Patimpus hingga Jl. Sei Deli. Sepanjang jalur ini Anda akan singgah di kedai kopi, warung legendaris, rumah adat, jembatan kereta api tua, hingga masjid bersejarah yang menghidupkan kampung riverside Silalas.",
       "description_en": "The main route along the banks of the Deli River, from Jl. Guru Patimpus to Jl. Sei Deli. Along the way you will stop at coffee shops, legendary eateries, a traditional house, an old railway bridge, and a historic mosque that bring the Silalas riverside kampung to life.",
       "durationMinutes": 60,
@@ -31,7 +31,7 @@
       "latitude": 3.6005,
       "longitude": 98.6706,
       "lastUpdated": "Agustus 2026",
-      "downloadableMapImage": "/images/locations/deli-riverview/gallery-2.jpg",
+      "downloadableMapImage": "/images/locations/deli-riverview/gallery-2.webp",
       "locationSlugs": [
         "rumah-qohwah",
         "the-promised-cafe",
@@ -1580,7 +1580,7 @@
       "title_en": "Trail 4 Silalas Old Mosque",
       "slug": "trails-4-cemetery-mosque",
       "neighbourhoodSlug": "silalas",
-      "heroImage": "/images/locations/masjid-jami-silalas/gallery-1.jpg",
+      "heroImage": "/images/locations/masjid-jami-silalas/gallery-1.webp",
       "description_id": "Rute yang menghubungkan ruang hijau pemakaman tua dan masjid bersejarah di kawasan Silalas. Data titik singgah dan dokumentasi rute ini akan segera ditambahkan.",
       "description_en": "A route connecting the green space of an old cemetery and a historic mosque in the Silalas area. Stop data and route documentation for this trail will be added soon.",
       "durationMinutes": 35,
@@ -1591,7 +1591,7 @@
       "latitude": 3.59323,
       "longitude": 98.67176,
       "lastUpdated": "Juli 2026",
-      "downloadableMapImage": "/images/locations/masjid-jami-silalas/gallery-1.jpg",
+      "downloadableMapImage": "/images/locations/masjid-jami-silalas/gallery-1.webp",
       "locationSlugs": [
         "masjid-jami-silalas",
         "perkuburan-sei-deli-1",
@@ -1781,7 +1781,7 @@
       "title_en": "Trail 5 Kampung and Green Cemetery",
       "slug": "trails-5-kampung-cemetery",
       "neighbourhoodSlug": "silalas",
-      "heroImage": "/images/locations/sdn-060837/gallery-1.jpg",
+      "heroImage": "/images/locations/sdn-060837/gallery-1.webp",
       "description_id": "Rute menyusuri kampung tepi Sungai Deli dan ruang hijau pemakaman tua di sisi selatan Silalas.",
       "description_en": "A route through the riverside kampung along the Deli River and the green space of old cemeteries on the southern edge of Silalas.",
       "durationMinutes": 35,
@@ -1792,7 +1792,7 @@
       "latitude": 3.5917,
       "longitude": 98.672572,
       "lastUpdated": "Juli 2026",
-      "downloadableMapImage": "/images/locations/sdn-060837/gallery-1.jpg",
+      "downloadableMapImage": "/images/locations/sdn-060837/gallery-1.webp",
       "locationSlugs": [
         "sdn-060837",
         "perkuburan-sei-deli-3",
@@ -1904,7 +1904,7 @@
       "title_en": "Trail 6 Jl. H. Adam Malik Corridor",
       "slug": "trails-6-adam-malik-corridor",
       "neighbourhoodSlug": "silalas",
-      "heroImage": "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.png",
+      "heroImage": "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.webp",
       "description_id": "Rute menyusuri koridor Jl. H. Adam Malik di sisi barat Silalas, dari area Graha Putra Mandiri menuju Sekip. Jalur ini melewati deretan bangunan komersial, rumah-rumah tua, kelenteng, dan sekolah bersejarah yang mencerminkan keragaman budaya kawasan.",
       "description_en": "A route along the Jl. H. Adam Malik corridor on the western side of Silalas, from the Graha Putra Mandiri area toward Sekip. The trail passes rows of commercial buildings, old houses, a Chinese temple, and a historic school reflecting the cultural diversity of the area.",
       "durationMinutes": 40,
@@ -1915,7 +1915,7 @@
       "latitude": 3.5978,
       "longitude": 98.6691,
       "lastUpdated": "Agustus 2026",
-      "downloadableMapImage": "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.jpg",
+      "downloadableMapImage": "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.webp",
       "locationSlugs": [
         "rumah-panggung-graha-putra-mandiri",
         "regale-convention-centre",
@@ -2197,15 +2197,15 @@
       "slug": "rumah-qohwah",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iDrink",
-      "thumbnail": "/images/locations/rumah-qohwah/thumbnail.jpg",
+      "thumbnail": "/images/locations/rumah-qohwah/thumbnail.webp",
       "gallery": [
-        "/images/locations/rumah-qohwah/gallery-1.jpg",
-        "/images/locations/rumah-qohwah/gallery-2.jpg",
-        "/images/locations/rumah-qohwah/gallery-3.jpg",
-        "/images/locations/rumah-qohwah/gallery-4.jpg",
-        "/images/locations/rumah-qohwah/gallery-5.jpg",
-        "/images/locations/rumah-qohwah/gallery-6.jpg",
-        "/images/locations/rumah-qohwah/gallery-7.jpg"
+        "/images/locations/rumah-qohwah/gallery-1.webp",
+        "/images/locations/rumah-qohwah/gallery-2.webp",
+        "/images/locations/rumah-qohwah/gallery-3.webp",
+        "/images/locations/rumah-qohwah/gallery-4.webp",
+        "/images/locations/rumah-qohwah/gallery-5.webp",
+        "/images/locations/rumah-qohwah/gallery-6.webp",
+        "/images/locations/rumah-qohwah/gallery-7.webp"
       ],
       "shortDescription_id": "Kedai kopi bernuansa khas yang menjadi titik awal penjelajahan rute ini.",
       "shortDescription_en": "A characterful coffee house marking the start of this trail.",
@@ -2230,12 +2230,12 @@
       "slug": "deli-riverview",
       "walkSlug": "trails-3-malay-house",
       "category": "iSurprise",
-      "thumbnail": "/images/locations/deli-riverview/thumbnail.jpg",
+      "thumbnail": "/images/locations/deli-riverview/thumbnail.webp",
       "gallery": [
-        "/images/locations/deli-riverview/gallery-1.jpg",
-        "/images/locations/deli-riverview/gallery-2.jpg",
-        "/images/locations/deli-riverview/gallery-3.jpg",
-        "/images/locations/deli-riverview/gallery-4.jpg"
+        "/images/locations/deli-riverview/gallery-1.webp",
+        "/images/locations/deli-riverview/gallery-2.webp",
+        "/images/locations/deli-riverview/gallery-3.webp",
+        "/images/locations/deli-riverview/gallery-4.webp"
       ],
       "shortDescription_id": "Titik pandang menghadap Sungai Deli yang menjadi urat nadi Kota Medan.",
       "shortDescription_en": "A viewpoint overlooking the Deli River, the lifeline of Medan.",
@@ -2260,11 +2260,11 @@
       "slug": "rumah-adat-toba",
       "walkSlug": "trails-3-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rumah-adat-toba/thumbnail.jpg",
+      "thumbnail": "/images/locations/rumah-adat-toba/thumbnail.webp",
       "gallery": [
-        "/images/locations/rumah-adat-toba/gallery-1.jpg",
-        "/images/locations/rumah-adat-toba/gallery-2.jpg",
-        "/images/locations/rumah-adat-toba/gallery-3.jpg"
+        "/images/locations/rumah-adat-toba/gallery-1.webp",
+        "/images/locations/rumah-adat-toba/gallery-2.webp",
+        "/images/locations/rumah-adat-toba/gallery-3.webp"
       ],
       "shortDescription_id": "Rumah adat Batak Toba dengan arsitektur tradisional yang khas.",
       "shortDescription_en": "A traditional Batak Toba house with distinctive vernacular architecture.",
@@ -2289,10 +2289,10 @@
       "slug": "steves-coffee",
       "walkSlug": "trails-3-malay-house",
       "category": "iDrink",
-      "thumbnail": "/images/locations/steves-coffee/thumbnail.jpg",
+      "thumbnail": "/images/locations/steves-coffee/thumbnail.webp",
       "gallery": [
-        "/images/locations/steves-coffee/gallery-1.jpg",
-        "/images/locations/steves-coffee/gallery-2.jpg"
+        "/images/locations/steves-coffee/gallery-1.webp",
+        "/images/locations/steves-coffee/gallery-2.webp"
       ],
       "shortDescription_id": "Kedai kopi modern untuk rehat sejenak di tengah rute.",
       "shortDescription_en": "A modern coffee spot for a mid-trail break.",
@@ -2319,14 +2319,14 @@
       "slug": "bakso-mie-ayam-panorama",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iEat",
-      "thumbnail": "/images/locations/bakso-mie-ayam-panorama/thumbnail.jpg",
+      "thumbnail": "/images/locations/bakso-mie-ayam-panorama/thumbnail.webp",
       "gallery": [
-        "/images/locations/bakso-mie-ayam-panorama/gallery-1.jpg",
-        "/images/locations/bakso-mie-ayam-panorama/gallery-2.jpg",
-        "/images/locations/bakso-mie-ayam-panorama/gallery-3.jpg",
-        "/images/locations/bakso-mie-ayam-panorama/gallery-4.jpg",
-        "/images/locations/bakso-mie-ayam-panorama/gallery-5.jpg",
-        "/images/locations/bakso-mie-ayam-panorama/gallery-6.jpg"
+        "/images/locations/bakso-mie-ayam-panorama/gallery-1.webp",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-2.webp",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-3.webp",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-4.webp",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-5.webp",
+        "/images/locations/bakso-mie-ayam-panorama/gallery-6.webp"
       ],
       "shortDescription_id": "Warung bakso dan mie ayam favorit warga setempat.",
       "shortDescription_en": "A local favourite for meatball soup and chicken noodles.",
@@ -2351,12 +2351,12 @@
       "slug": "mie-ayam-bakso-solo",
       "walkSlug": "trails-2-malay-house",
       "category": "iEat",
-      "thumbnail": "/images/locations/mie-ayam-bakso-solo/thumbnail.jpg",
+      "thumbnail": "/images/locations/mie-ayam-bakso-solo/thumbnail.webp",
       "gallery": [
-        "/images/locations/mie-ayam-bakso-solo/gallery-1.jpg",
-        "/images/locations/mie-ayam-bakso-solo/gallery-2.jpg",
-        "/images/locations/mie-ayam-bakso-solo/gallery-3.jpg",
-        "/images/locations/mie-ayam-bakso-solo/gallery-4.jpg"
+        "/images/locations/mie-ayam-bakso-solo/gallery-1.webp",
+        "/images/locations/mie-ayam-bakso-solo/gallery-2.webp",
+        "/images/locations/mie-ayam-bakso-solo/gallery-3.webp",
+        "/images/locations/mie-ayam-bakso-solo/gallery-4.webp"
       ],
       "shortDescription_id": "Sajian mie ayam dan bakso bercita rasa khas Solo.",
       "shortDescription_en": "Solo-style chicken noodles and meatball soup.",
@@ -2381,13 +2381,13 @@
       "slug": "rel-kereta-api",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSurprise",
-      "thumbnail": "/images/locations/rel-kereta-api/thumbnail.jpg",
+      "thumbnail": "/images/locations/rel-kereta-api/thumbnail.webp",
       "gallery": [
-        "/images/locations/rel-kereta-api/gallery-1.jpg",
-        "/images/locations/rel-kereta-api/gallery-2.jpg",
-        "/images/locations/rel-kereta-api/gallery-3.jpg",
-        "/images/locations/rel-kereta-api/gallery-4.jpg",
-        "/images/locations/rel-kereta-api/gallery-5.jpg"
+        "/images/locations/rel-kereta-api/gallery-1.webp",
+        "/images/locations/rel-kereta-api/gallery-2.webp",
+        "/images/locations/rel-kereta-api/gallery-3.webp",
+        "/images/locations/rel-kereta-api/gallery-4.webp",
+        "/images/locations/rel-kereta-api/gallery-5.webp"
       ],
       "shortDescription_id": "Jembatan rel kereta api tua yang melintang di atas Sungai Deli.",
       "shortDescription_en": "An old railway bridge spanning the Deli River.",
@@ -2412,12 +2412,12 @@
       "slug": "ra-asasil-islam",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/locations/ra-asasil-islam/thumbnail.jpg",
+      "thumbnail": "/images/locations/ra-asasil-islam/thumbnail.webp",
       "gallery": [
-        "/images/locations/ra-asasil-islam/gallery-1.jpg",
-        "/images/locations/ra-asasil-islam/gallery-2.jpg",
-        "/images/locations/ra-asasil-islam/gallery-3.jpg",
-        "/images/locations/ra-asasil-islam/gallery-4.jpg"
+        "/images/locations/ra-asasil-islam/gallery-1.webp",
+        "/images/locations/ra-asasil-islam/gallery-2.webp",
+        "/images/locations/ra-asasil-islam/gallery-3.webp",
+        "/images/locations/ra-asasil-islam/gallery-4.webp"
       ],
       "shortDescription_id": "Taman kanak-kanak bernuansa keislaman yang menjadi penanda kampung.",
       "shortDescription_en": "An Islamic kindergarten that marks the neighbourhood.",
@@ -2442,12 +2442,12 @@
       "slug": "toko-kipas",
       "walkSlug": "trails-2-malay-house",
       "category": "iSurprise",
-      "thumbnail": "/images/locations/toko-kipas/thumbnail.jpg",
+      "thumbnail": "/images/locations/toko-kipas/thumbnail.webp",
       "gallery": [
-        "/images/locations/toko-kipas/gallery-1.jpg",
-        "/images/locations/toko-kipas/gallery-2.jpg",
-        "/images/locations/toko-kipas/gallery-3.jpg",
-        "/images/locations/toko-kipas/gallery-4.jpg"
+        "/images/locations/toko-kipas/gallery-1.webp",
+        "/images/locations/toko-kipas/gallery-2.webp",
+        "/images/locations/toko-kipas/gallery-3.webp",
+        "/images/locations/toko-kipas/gallery-4.webp"
       ],
       "shortDescription_id": "Toko lawas yang menyimpan cerita perdagangan tempo dulu.",
       "shortDescription_en": "An old shop holding stories of bygone trade.",
@@ -2472,15 +2472,15 @@
       "slug": "dapur-sedap-wangi",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iEat",
-      "thumbnail": "/images/locations/dapur-sedap-wangi/thumbnail.jpg",
+      "thumbnail": "/images/locations/dapur-sedap-wangi/thumbnail.webp",
       "gallery": [
-        "/images/locations/dapur-sedap-wangi/gallery-1.jpg",
-        "/images/locations/dapur-sedap-wangi/gallery-2.jpg",
-        "/images/locations/dapur-sedap-wangi/gallery-3.jpg",
-        "/images/locations/dapur-sedap-wangi/gallery-4.jpg",
-        "/images/locations/dapur-sedap-wangi/gallery-5.jpg",
-        "/images/locations/dapur-sedap-wangi/gallery-6.jpg",
-        "/images/locations/dapur-sedap-wangi/gallery-7.jpg"
+        "/images/locations/dapur-sedap-wangi/gallery-1.webp",
+        "/images/locations/dapur-sedap-wangi/gallery-2.webp",
+        "/images/locations/dapur-sedap-wangi/gallery-3.webp",
+        "/images/locations/dapur-sedap-wangi/gallery-4.webp",
+        "/images/locations/dapur-sedap-wangi/gallery-5.webp",
+        "/images/locations/dapur-sedap-wangi/gallery-6.webp",
+        "/images/locations/dapur-sedap-wangi/gallery-7.webp"
       ],
       "shortDescription_id": "Rumah makan dengan aneka masakan rumahan.",
       "shortDescription_en": "An eatery serving a variety of home-style dishes.",
@@ -2505,9 +2505,9 @@
       "slug": "pos-ronda",
       "walkSlug": "trails-2-malay-house",
       "category": "iSurprise",
-      "thumbnail": "/images/locations/pos-ronda/thumbnail.jpg",
+      "thumbnail": "/images/locations/pos-ronda/thumbnail.webp",
       "gallery": [
-        "/images/locations/pos-ronda/gallery-1.jpg"
+        "/images/locations/pos-ronda/gallery-1.webp"
       ],
       "shortDescription_id": "Pos ronda warga, simbol kebersamaan lingkungan.",
       "shortDescription_en": "A neighbourhood watch post, a symbol of community spirit.",
@@ -2532,15 +2532,15 @@
       "slug": "bamboo-bali-cafe",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iDrink",
-      "thumbnail": "/images/locations/bamboo-bali-cafe/thumbnail.jpg",
+      "thumbnail": "/images/locations/bamboo-bali-cafe/thumbnail.webp",
       "gallery": [
-        "/images/locations/bamboo-bali-cafe/gallery-1.jpg",
-        "/images/locations/bamboo-bali-cafe/gallery-2.jpg",
-        "/images/locations/bamboo-bali-cafe/gallery-3.jpg",
-        "/images/locations/bamboo-bali-cafe/gallery-4.jpg",
-        "/images/locations/bamboo-bali-cafe/gallery-5.jpg",
-        "/images/locations/bamboo-bali-cafe/gallery-6.jpg",
-        "/images/locations/bamboo-bali-cafe/gallery-7.jpg"
+        "/images/locations/bamboo-bali-cafe/gallery-1.webp",
+        "/images/locations/bamboo-bali-cafe/gallery-2.webp",
+        "/images/locations/bamboo-bali-cafe/gallery-3.webp",
+        "/images/locations/bamboo-bali-cafe/gallery-4.webp",
+        "/images/locations/bamboo-bali-cafe/gallery-5.webp",
+        "/images/locations/bamboo-bali-cafe/gallery-6.webp",
+        "/images/locations/bamboo-bali-cafe/gallery-7.webp"
       ],
       "shortDescription_id": "Kafe bernuansa bambu Bali untuk bersantai di ujung rute.",
       "shortDescription_en": "A Balinese bamboo-themed cafe to unwind at the end of the trail.",
@@ -2565,11 +2565,11 @@
       "slug": "masjid-haji-maraset",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/locations/masjid-haji-maraset/thumbnail.jpg",
+      "thumbnail": "/images/locations/masjid-haji-maraset/thumbnail.webp",
       "gallery": [
-        "/images/locations/masjid-haji-maraset/gallery-1.jpg",
-        "/images/locations/masjid-haji-maraset/gallery-2.jpg",
-        "/images/locations/masjid-haji-maraset/gallery-3.jpg"
+        "/images/locations/masjid-haji-maraset/gallery-1.webp",
+        "/images/locations/masjid-haji-maraset/gallery-2.webp",
+        "/images/locations/masjid-haji-maraset/gallery-3.webp"
       ],
       "shortDescription_id": "Masjid bersejarah yang menjadi penanda kawasan.",
       "shortDescription_en": "A historic mosque marking the neighbourhood.",
@@ -2594,15 +2594,15 @@
       "slug": "florist",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSurprise",
-      "thumbnail": "/images/locations/florist/thumbnail.jpg",
+      "thumbnail": "/images/locations/florist/thumbnail.webp",
       "gallery": [
-        "/images/locations/florist/gallery-1.jpg",
-        "/images/locations/florist/gallery-2.jpg",
-        "/images/locations/florist/gallery-3.jpg",
-        "/images/locations/florist/gallery-4.jpg",
-        "/images/locations/florist/gallery-5.jpg",
-        "/images/locations/florist/gallery-6.jpg",
-        "/images/locations/florist/gallery-7.jpg"
+        "/images/locations/florist/gallery-1.webp",
+        "/images/locations/florist/gallery-2.webp",
+        "/images/locations/florist/gallery-3.webp",
+        "/images/locations/florist/gallery-4.webp",
+        "/images/locations/florist/gallery-5.webp",
+        "/images/locations/florist/gallery-6.webp",
+        "/images/locations/florist/gallery-7.webp"
       ],
       "shortDescription_id": "Kios bunga yang mewarnai sudut kawasan.",
       "shortDescription_en": "A florist adding colour to the corner of the neighbourhood.",
@@ -2627,13 +2627,13 @@
       "slug": "warung-bunda-long",
       "walkSlug": "trails-2-malay-house",
       "category": "iEat",
-      "thumbnail": "/images/locations/warung-bunda-long/thumbnail.jpg",
+      "thumbnail": "/images/locations/warung-bunda-long/thumbnail.webp",
       "gallery": [
-        "/images/locations/warung-bunda-long/gallery-1.jpg",
-        "/images/locations/warung-bunda-long/gallery-2.jpg",
-        "/images/locations/warung-bunda-long/gallery-3.jpg",
-        "/images/locations/warung-bunda-long/gallery-4.jpg",
-        "/images/locations/warung-bunda-long/gallery-5.jpg"
+        "/images/locations/warung-bunda-long/gallery-1.webp",
+        "/images/locations/warung-bunda-long/gallery-2.webp",
+        "/images/locations/warung-bunda-long/gallery-3.webp",
+        "/images/locations/warung-bunda-long/gallery-4.webp",
+        "/images/locations/warung-bunda-long/gallery-5.webp"
       ],
       "shortDescription_id": "Warung rumahan dengan menu sehari-hari yang merakyat.",
       "shortDescription_en": "A homely warung serving everyday local fare.",
@@ -2658,9 +2658,9 @@
       "slug": "kantor-lurah-silalas",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iSee",
-      "thumbnail": "/images/locations/kantor-lurah-silalas/gallery-1.png",
+      "thumbnail": "/images/locations/kantor-lurah-silalas/gallery-1.webp",
       "gallery": [
-        "/images/locations/kantor-lurah-silalas/gallery-1.png"
+        "/images/locations/kantor-lurah-silalas/gallery-1.webp"
       ],
       "shortDescription_id": "Pusat pelayanan administrasi bagi masyarakat Kelurahan Silalas.",
       "shortDescription_en": "An administrative service centre for residents of Silalas Urban Village.",
@@ -2687,9 +2687,9 @@
       "slug": "masjid-al-muflihin",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/locations/masjid-al-muflihin/thumbnail.jpg",
+      "thumbnail": "/images/locations/masjid-al-muflihin/thumbnail.webp",
       "gallery": [
-        "/images/locations/masjid-al-muflihin/gallery-1.jpg"
+        "/images/locations/masjid-al-muflihin/gallery-1.webp"
       ],
       "shortDescription_id": "Masjid lingkungan yang melayani kegiatan ibadah masyarakat Silalas.",
       "shortDescription_en": "A neighbourhood mosque serving the worship activities of the Silalas community.",
@@ -2714,10 +2714,10 @@
       "slug": "pohon-besar-sei-deli",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/locations/pohon-besar-sei-deli/thumbnail.jpg",
+      "thumbnail": "/images/locations/pohon-besar-sei-deli/thumbnail.webp",
       "gallery": [
-        "/images/locations/pohon-besar-sei-deli/gallery-1.jpg",
-        "/images/locations/pohon-besar-sei-deli/gallery-2.jpg"
+        "/images/locations/pohon-besar-sei-deli/gallery-1.webp",
+        "/images/locations/pohon-besar-sei-deli/gallery-2.webp"
       ],
       "shortDescription_id": "Pohon peneduh yang menjadi penanda alami di sepanjang Jl. Sei Deli.",
       "shortDescription_en": "A shade tree that serves as a natural landmark along Jl. Sei Deli.",
@@ -2742,14 +2742,14 @@
       "slug": "jajanan-viral-nangka",
       "walkSlug": "trails-2-malay-house",
       "category": "iEat",
-      "thumbnail": "/images/locations/jajanan-viral-nangka/thumbnail.jpg",
+      "thumbnail": "/images/locations/jajanan-viral-nangka/thumbnail.webp",
       "gallery": [
-        "/images/locations/jajanan-viral-nangka/gallery-1.jpg",
-        "/images/locations/jajanan-viral-nangka/gallery-2.jpg",
-        "/images/locations/jajanan-viral-nangka/gallery-3.jpg",
-        "/images/locations/jajanan-viral-nangka/gallery-4.jpg",
-        "/images/locations/jajanan-viral-nangka/gallery-5.jpg",
-        "/images/locations/jajanan-viral-nangka/gallery-6.jpg"
+        "/images/locations/jajanan-viral-nangka/gallery-1.webp",
+        "/images/locations/jajanan-viral-nangka/gallery-2.webp",
+        "/images/locations/jajanan-viral-nangka/gallery-3.webp",
+        "/images/locations/jajanan-viral-nangka/gallery-4.webp",
+        "/images/locations/jajanan-viral-nangka/gallery-5.webp",
+        "/images/locations/jajanan-viral-nangka/gallery-6.webp"
       ],
       "shortDescription_id": "Warung kuliner di Jl. Nangka yang menawarkan makanan, jajanan populer, dan minuman.",
       "shortDescription_en": "A food stall on Jl. Nangka offering meals, popular snacks, and drinks.",
@@ -2774,12 +2774,12 @@
       "slug": "kelenteng-jit-sien",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/kelenteng-jit-sien/thumbnail.jpg",
+      "thumbnail": "/images/locations/kelenteng-jit-sien/thumbnail.webp",
       "gallery": [
-        "/images/locations/kelenteng-jit-sien/gallery-1.jpg",
-        "/images/locations/kelenteng-jit-sien/gallery-2.jpg",
-        "/images/locations/kelenteng-jit-sien/gallery-3.jpg",
-        "/images/locations/kelenteng-jit-sien/gallery-4.jpg"
+        "/images/locations/kelenteng-jit-sien/gallery-1.webp",
+        "/images/locations/kelenteng-jit-sien/gallery-2.webp",
+        "/images/locations/kelenteng-jit-sien/gallery-3.webp",
+        "/images/locations/kelenteng-jit-sien/gallery-4.webp"
       ],
       "shortDescription_id": "Tempat ibadah Tionghoa di koridor Jl. H. Adam Malik yang mewarnai keberagaman kawasan.",
       "shortDescription_en": "A Chinese place of worship along Jl. H. Adam Malik that reflects the area's diversity.",
@@ -2804,13 +2804,13 @@
       "slug": "smp-negeri-7-medan",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/smp-negeri-7-medan/thumbnail.jpg",
+      "thumbnail": "/images/locations/smp-negeri-7-medan/thumbnail.webp",
       "gallery": [
-        "/images/locations/smp-negeri-7-medan/gallery-1.jpg",
-        "/images/locations/smp-negeri-7-medan/gallery-2.jpg",
-        "/images/locations/smp-negeri-7-medan/gallery-3.jpg",
-        "/images/locations/smp-negeri-7-medan/gallery-4.jpg",
-        "/images/locations/smp-negeri-7-medan/gallery-5.jpg"
+        "/images/locations/smp-negeri-7-medan/gallery-1.webp",
+        "/images/locations/smp-negeri-7-medan/gallery-2.webp",
+        "/images/locations/smp-negeri-7-medan/gallery-3.webp",
+        "/images/locations/smp-negeri-7-medan/gallery-4.webp",
+        "/images/locations/smp-negeri-7-medan/gallery-5.webp"
       ],
       "shortDescription_id": "Sekolah menengah negeri di Jl. H. Adam Malik dan salah satu fasilitas pendidikan di Silalas.",
       "shortDescription_en": "A public secondary school on Jl. H. Adam Malik and an educational facility in Silalas.",
@@ -2837,15 +2837,15 @@
       "slug": "jl-kemiri",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/locations/jl-kemiri/thumbnail.jpg",
+      "thumbnail": "/images/locations/jl-kemiri/thumbnail.webp",
       "gallery": [
-        "/images/locations/jl-kemiri/gallery-1.jpg",
-        "/images/locations/jl-kemiri/gallery-2.jpg",
-        "/images/locations/jl-kemiri/gallery-3.jpg",
-        "/images/locations/jl-kemiri/gallery-4.jpg",
-        "/images/locations/jl-kemiri/gallery-5.jpg",
-        "/images/locations/jl-kemiri/gallery-6.jpg",
-        "/images/locations/jl-kemiri/gallery-7.jpg"
+        "/images/locations/jl-kemiri/gallery-1.webp",
+        "/images/locations/jl-kemiri/gallery-2.webp",
+        "/images/locations/jl-kemiri/gallery-3.webp",
+        "/images/locations/jl-kemiri/gallery-4.webp",
+        "/images/locations/jl-kemiri/gallery-5.webp",
+        "/images/locations/jl-kemiri/gallery-6.webp",
+        "/images/locations/jl-kemiri/gallery-7.webp"
       ],
       "shortDescription_id": "Ruas jalan permukiman yang memperlihatkan aktivitas keseharian warga Silalas.",
       "shortDescription_en": "A residential street that reveals the everyday activities of Silalas residents.",
@@ -2870,12 +2870,12 @@
       "slug": "masjid-jami-silalas",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iSee",
-      "thumbnail": "/images/locations/masjid-jami-silalas/thumbnail.jpg",
+      "thumbnail": "/images/locations/masjid-jami-silalas/thumbnail.webp",
       "gallery": [
-        "/images/locations/masjid-jami-silalas/gallery-1.jpg",
-        "/images/locations/masjid-jami-silalas/gallery-2.jpg",
-        "/images/locations/masjid-jami-silalas/gallery-3.jpg",
-        "/images/locations/masjid-jami-silalas/gallery-4.jpg"
+        "/images/locations/masjid-jami-silalas/gallery-1.webp",
+        "/images/locations/masjid-jami-silalas/gallery-2.webp",
+        "/images/locations/masjid-jami-silalas/gallery-3.webp",
+        "/images/locations/masjid-jami-silalas/gallery-4.webp"
       ],
       "shortDescription_id": "Masjid di Jl. Sei Deli yang menjadi bagian penting kehidupan masyarakat Silalas.",
       "shortDescription_en": "A mosque on Jl. Sei Deli that forms an important part of community life in Silalas.",
@@ -2900,15 +2900,15 @@
       "slug": "perkuburan-sei-deli-1",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iSee",
-      "thumbnail": "/images/locations/perkuburan-sei-deli-1/thumbnail.jpg",
+      "thumbnail": "/images/locations/perkuburan-sei-deli-1/thumbnail.webp",
       "gallery": [
-        "/images/locations/perkuburan-sei-deli-1/gallery-1.jpg",
-        "/images/locations/perkuburan-sei-deli-1/gallery-2.jpg",
-        "/images/locations/perkuburan-sei-deli-1/gallery-3.jpg",
-        "/images/locations/perkuburan-sei-deli-1/gallery-4.jpg",
-        "/images/locations/perkuburan-sei-deli-1/gallery-5.jpg",
-        "/images/locations/perkuburan-sei-deli-1/gallery-6.jpg",
-        "/images/locations/perkuburan-sei-deli-1/gallery-7.jpg"
+        "/images/locations/perkuburan-sei-deli-1/gallery-1.webp",
+        "/images/locations/perkuburan-sei-deli-1/gallery-2.webp",
+        "/images/locations/perkuburan-sei-deli-1/gallery-3.webp",
+        "/images/locations/perkuburan-sei-deli-1/gallery-4.webp",
+        "/images/locations/perkuburan-sei-deli-1/gallery-5.webp",
+        "/images/locations/perkuburan-sei-deli-1/gallery-6.webp",
+        "/images/locations/perkuburan-sei-deli-1/gallery-7.webp"
       ],
       "shortDescription_id": "Area pemakaman di Jl. Sei Deli yang berada dekat Masjid Jami' Silalas.",
       "shortDescription_en": "A burial ground on Jl. Sei Deli located near the Silalas Jami Mosque.",
@@ -2933,15 +2933,15 @@
       "slug": "perkuburan-sei-deli-2",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iSee",
-      "thumbnail": "/images/locations/perkuburan-sei-deli-2/thumbnail.jpg",
+      "thumbnail": "/images/locations/perkuburan-sei-deli-2/thumbnail.webp",
       "gallery": [
-        "/images/locations/perkuburan-sei-deli-2/gallery-1.jpg",
-        "/images/locations/perkuburan-sei-deli-2/gallery-2.jpg",
-        "/images/locations/perkuburan-sei-deli-2/gallery-3.jpg",
-        "/images/locations/perkuburan-sei-deli-2/gallery-4.jpg",
-        "/images/locations/perkuburan-sei-deli-2/gallery-5.jpg",
-        "/images/locations/perkuburan-sei-deli-2/gallery-6.jpg",
-        "/images/locations/perkuburan-sei-deli-2/gallery-7.jpg"
+        "/images/locations/perkuburan-sei-deli-2/gallery-1.webp",
+        "/images/locations/perkuburan-sei-deli-2/gallery-2.webp",
+        "/images/locations/perkuburan-sei-deli-2/gallery-3.webp",
+        "/images/locations/perkuburan-sei-deli-2/gallery-4.webp",
+        "/images/locations/perkuburan-sei-deli-2/gallery-5.webp",
+        "/images/locations/perkuburan-sei-deli-2/gallery-6.webp",
+        "/images/locations/perkuburan-sei-deli-2/gallery-7.webp"
       ],
       "shortDescription_id": "Area pemakaman masyarakat yang berada di sekitar kawasan Sungai Deli.",
       "shortDescription_en": "A community burial ground located near the Deli River area.",
@@ -2966,13 +2966,13 @@
       "slug": "sdn-060837",
       "walkSlug": "trails-5-kampung-cemetery",
       "category": "iSee",
-      "thumbnail": "/images/locations/sdn-060837/thumbnail.jpg",
+      "thumbnail": "/images/locations/sdn-060837/thumbnail.webp",
       "gallery": [
-        "/images/locations/sdn-060837/gallery-1.jpg",
-        "/images/locations/sdn-060837/gallery-2.jpg",
-        "/images/locations/sdn-060837/gallery-3.jpg",
-        "/images/locations/sdn-060837/gallery-4.jpg",
-        "/images/locations/sdn-060837/gallery-5.jpg"
+        "/images/locations/sdn-060837/gallery-1.webp",
+        "/images/locations/sdn-060837/gallery-2.webp",
+        "/images/locations/sdn-060837/gallery-3.webp",
+        "/images/locations/sdn-060837/gallery-4.webp",
+        "/images/locations/sdn-060837/gallery-5.webp"
       ],
       "shortDescription_id": "Sekolah dasar negeri di Jl. Sei Deli yang melayani pendidikan anak-anak di kawasan Silalas.",
       "shortDescription_en": "A public primary school on Jl. Sei Deli serving children in the Silalas area.",
@@ -2999,15 +2999,15 @@
       "slug": "perkuburan-sei-deli-3",
       "walkSlug": "trails-5-kampung-cemetery",
       "category": "iSee",
-      "thumbnail": "/images/locations/perkuburan-sei-deli-3/thumbnail.jpg",
+      "thumbnail": "/images/locations/perkuburan-sei-deli-3/thumbnail.webp",
       "gallery": [
-        "/images/locations/perkuburan-sei-deli-3/gallery-1.jpg",
-        "/images/locations/perkuburan-sei-deli-3/gallery-2.jpg",
-        "/images/locations/perkuburan-sei-deli-3/gallery-3.jpg",
-        "/images/locations/perkuburan-sei-deli-3/gallery-4.jpg",
-        "/images/locations/perkuburan-sei-deli-3/gallery-5.jpg",
-        "/images/locations/perkuburan-sei-deli-3/gallery-6.jpg",
-        "/images/locations/perkuburan-sei-deli-3/gallery-7.jpg"
+        "/images/locations/perkuburan-sei-deli-3/gallery-1.webp",
+        "/images/locations/perkuburan-sei-deli-3/gallery-2.webp",
+        "/images/locations/perkuburan-sei-deli-3/gallery-3.webp",
+        "/images/locations/perkuburan-sei-deli-3/gallery-4.webp",
+        "/images/locations/perkuburan-sei-deli-3/gallery-5.webp",
+        "/images/locations/perkuburan-sei-deli-3/gallery-6.webp",
+        "/images/locations/perkuburan-sei-deli-3/gallery-7.webp"
       ],
       "shortDescription_id": "Area pemakaman masyarakat di Jl. Sei Deli yang menjadi bagian dari lanskap kampung Silalas.",
       "shortDescription_en": "A community burial ground on Jl. Sei Deli that forms part of the Silalas landscape.",
@@ -3032,15 +3032,15 @@
       "slug": "kampung-tepi-sungai-deli",
       "walkSlug": "trails-5-kampung-cemetery",
       "category": "iSee",
-      "thumbnail": "/images/locations/kampung-tepi-sungai-deli/thumbnail.jpg",
+      "thumbnail": "/images/locations/kampung-tepi-sungai-deli/thumbnail.webp",
       "gallery": [
-        "/images/locations/kampung-tepi-sungai-deli/gallery-1.jpg",
-        "/images/locations/kampung-tepi-sungai-deli/gallery-2.jpg",
-        "/images/locations/kampung-tepi-sungai-deli/gallery-3.jpg",
-        "/images/locations/kampung-tepi-sungai-deli/gallery-4.jpg",
-        "/images/locations/kampung-tepi-sungai-deli/gallery-5.jpg",
-        "/images/locations/kampung-tepi-sungai-deli/gallery-6.jpg",
-        "/images/locations/kampung-tepi-sungai-deli/gallery-7.jpg"
+        "/images/locations/kampung-tepi-sungai-deli/gallery-1.webp",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-2.webp",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-3.webp",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-4.webp",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-5.webp",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-6.webp",
+        "/images/locations/kampung-tepi-sungai-deli/gallery-7.webp"
       ],
       "shortDescription_id": "Permukiman di tepian Sungai Deli yang memperlihatkan hubungan warga dengan sungai dan lingkungannya.",
       "shortDescription_en": "A riverside settlement showing the relationship between residents, the Deli River, and their surroundings.",
@@ -3065,11 +3065,11 @@
       "slug": "universitas-ibbi",
       "walkSlug": "trails-5-kampung-cemetery",
       "category": "iSee",
-      "thumbnail": "/images/locations/universitas-ibbi/thumbnail.jpg",
+      "thumbnail": "/images/locations/universitas-ibbi/thumbnail.webp",
       "gallery": [
-        "/images/locations/universitas-ibbi/gallery-1.jpg",
-        "/images/locations/universitas-ibbi/gallery-2.jpg",
-        "/images/locations/universitas-ibbi/gallery-3.jpg"
+        "/images/locations/universitas-ibbi/gallery-1.webp",
+        "/images/locations/universitas-ibbi/gallery-2.webp",
+        "/images/locations/universitas-ibbi/gallery-3.webp"
       ],
       "shortDescription_id": "Bangunan kampus di Jl. Sei Deli yang menjadi salah satu penanda kawasan Silalas.",
       "shortDescription_en": "A campus building on Jl. Sei Deli that serves as one of the area's landmarks.",
@@ -3094,12 +3094,12 @@
       "slug": "bakso-moro-seneng",
       "walkSlug": "trails-5-kampung-cemetery",
       "category": "iEat",
-      "thumbnail": "/images/locations/bakso-moro-seneng/thumbnail.jpg",
+      "thumbnail": "/images/locations/bakso-moro-seneng/thumbnail.webp",
       "gallery": [
-        "/images/locations/bakso-moro-seneng/gallery-1.jpg",
-        "/images/locations/bakso-moro-seneng/gallery-2.jpg",
-        "/images/locations/bakso-moro-seneng/gallery-3.jpg",
-        "/images/locations/bakso-moro-seneng/gallery-4.jpg"
+        "/images/locations/bakso-moro-seneng/gallery-1.webp",
+        "/images/locations/bakso-moro-seneng/gallery-2.webp",
+        "/images/locations/bakso-moro-seneng/gallery-3.webp",
+        "/images/locations/bakso-moro-seneng/gallery-4.webp"
       ],
       "shortDescription_id": "Warung kuliner warga di Jl. Sei Deli dengan sajian bakso dan nasi goreng.",
       "shortDescription_en": "A local eatery on Jl. Sei Deli serving meatball soup and fried rice.",
@@ -3124,10 +3124,10 @@
       "slug": "rumah-makan-sinar-pagi",
       "walkSlug": "trails-5-kampung-cemetery",
       "category": "iEat",
-      "thumbnail": "/images/locations/rumah-makan-sinar-pagi/thumbnail.jpg",
+      "thumbnail": "/images/locations/rumah-makan-sinar-pagi/thumbnail.webp",
       "gallery": [
-        "/images/locations/rumah-makan-sinar-pagi/gallery-1.jpg",
-        "/images/locations/rumah-makan-sinar-pagi/gallery-2.jpg"
+        "/images/locations/rumah-makan-sinar-pagi/gallery-1.webp",
+        "/images/locations/rumah-makan-sinar-pagi/gallery-2.webp"
       ],
       "shortDescription_id": "Rumah makan di Jl. Sei Deli yang menawarkan aneka hidangan bagi warga dan pengunjung.",
       "shortDescription_en": "An eatery on Jl. Sei Deli offering a variety of dishes for residents and visitors.",
@@ -3154,15 +3154,15 @@
       "slug": "pertokoan-gatot-subroto",
       "walkSlug": "trails-5-kampung-cemetery",
       "category": "iSee",
-      "thumbnail": "/images/locations/pertokoan-gatot-subroto/thumbnail.jpg",
+      "thumbnail": "/images/locations/pertokoan-gatot-subroto/thumbnail.webp",
       "gallery": [
-        "/images/locations/pertokoan-gatot-subroto/gallery-1.jpg",
-        "/images/locations/pertokoan-gatot-subroto/gallery-2.jpg",
-        "/images/locations/pertokoan-gatot-subroto/gallery-3.jpg",
-        "/images/locations/pertokoan-gatot-subroto/gallery-4.jpg",
-        "/images/locations/pertokoan-gatot-subroto/gallery-5.jpg",
-        "/images/locations/pertokoan-gatot-subroto/gallery-6.jpg",
-        "/images/locations/pertokoan-gatot-subroto/gallery-7.jpg"
+        "/images/locations/pertokoan-gatot-subroto/gallery-1.webp",
+        "/images/locations/pertokoan-gatot-subroto/gallery-2.webp",
+        "/images/locations/pertokoan-gatot-subroto/gallery-3.webp",
+        "/images/locations/pertokoan-gatot-subroto/gallery-4.webp",
+        "/images/locations/pertokoan-gatot-subroto/gallery-5.webp",
+        "/images/locations/pertokoan-gatot-subroto/gallery-6.webp",
+        "/images/locations/pertokoan-gatot-subroto/gallery-7.webp"
       ],
       "shortDescription_id": "Deretan pertokoan di Jl. Jenderal Gatot Subroto yang mencerminkan aktivitas perdagangan kawasan.",
       "shortDescription_en": "A row of shops along Jl. Jenderal Gatot Subroto reflecting the area's commercial activity.",
@@ -3187,15 +3187,15 @@
       "slug": "tugu-gatot-subroto",
       "walkSlug": "trails-5-kampung-cemetery",
       "category": "iSee",
-      "thumbnail": "/images/locations/tugu-gatot-subroto/thumbnail.jpg",
+      "thumbnail": "/images/locations/tugu-gatot-subroto/thumbnail.webp",
       "gallery": [
-        "/images/locations/tugu-gatot-subroto/gallery-1.jpg",
-        "/images/locations/tugu-gatot-subroto/gallery-2.jpg",
-        "/images/locations/tugu-gatot-subroto/gallery-3.jpg",
-        "/images/locations/tugu-gatot-subroto/gallery-4.jpg",
-        "/images/locations/tugu-gatot-subroto/gallery-5.jpg",
-        "/images/locations/tugu-gatot-subroto/gallery-6.jpg",
-        "/images/locations/tugu-gatot-subroto/gallery-7.jpg"
+        "/images/locations/tugu-gatot-subroto/gallery-1.webp",
+        "/images/locations/tugu-gatot-subroto/gallery-2.webp",
+        "/images/locations/tugu-gatot-subroto/gallery-3.webp",
+        "/images/locations/tugu-gatot-subroto/gallery-4.webp",
+        "/images/locations/tugu-gatot-subroto/gallery-5.webp",
+        "/images/locations/tugu-gatot-subroto/gallery-6.webp",
+        "/images/locations/tugu-gatot-subroto/gallery-7.webp"
       ],
       "shortDescription_id": "Tugu penanda di simpang Jl. Jenderal Gatot Subroto dan Jl. Guru Patimpus.",
       "shortDescription_en": "A landmark at the junction of Jl. Jenderal Gatot Subroto and Jl. Guru Patimpus.",
@@ -3220,9 +3220,9 @@
       "name_en": "Gang Tumbuhan Jl. Cempedak",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/gang-tumbuhan-cempedak/gallery-1.png",
+      "thumbnail": "/images/locations/gang-tumbuhan-cempedak/gallery-1.webp",
       "gallery": [
-        "/images/locations/gang-tumbuhan-cempedak/gallery-1.png"
+        "/images/locations/gang-tumbuhan-cempedak/gallery-1.webp"
       ],
       "shortDescription_id": "Gang permukiman di Jl. Cempedak dengan suasana kampung dan deretan rumah warga.",
       "shortDescription_en": "A residential lane on Jl. Cempedak with a kampung atmosphere and rows of homes.",
@@ -3247,9 +3247,9 @@
       "name_en": "Shidoka Dojo",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/locations/shidoka-dojo/gallery-1.png",
+      "thumbnail": "/images/locations/shidoka-dojo/gallery-1.webp",
       "gallery": [
-        "/images/locations/shidoka-dojo/gallery-1.png"
+        "/images/locations/shidoka-dojo/gallery-1.webp"
       ],
       "shortDescription_id": "Tempat latihan bela diri di Jl. Sei Deli yang menjadi bagian dari aktivitas komunitas setempat.",
       "shortDescription_en": "A martial arts training venue on Jl. Sei Deli that supports local community activities.",
@@ -3274,9 +3274,9 @@
       "name_en": "The Promised Cafe",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iDrink",
-      "thumbnail": "/images/locations/the-promised-cafe/gallery-1.png",
+      "thumbnail": "/images/locations/the-promised-cafe/gallery-1.webp",
       "gallery": [
-        "/images/locations/the-promised-cafe/gallery-1.png"
+        "/images/locations/the-promised-cafe/gallery-1.webp"
       ],
       "shortDescription_id": "Kafe di Jl. Sei Deli yang menjadi tempat singgah dan beristirahat sepanjang rute.",
       "shortDescription_en": "A cafe on Jl. Sei Deli offering a place to pause and rest along the trail.",
@@ -3301,10 +3301,10 @@
       "name_en": "Warung Makan Jl. Guru Patimpus",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iEat",
-      "thumbnail": "/images/locations/warung-makan-guru-patimpus/gallery-1.png",
+      "thumbnail": "/images/locations/warung-makan-guru-patimpus/gallery-1.webp",
       "gallery": [
-        "/images/locations/warung-makan-guru-patimpus/gallery-1.png",
-        "/images/locations/warung-makan-guru-patimpus/gallery-2.png"
+        "/images/locations/warung-makan-guru-patimpus/gallery-1.webp",
+        "/images/locations/warung-makan-guru-patimpus/gallery-2.webp"
       ],
       "shortDescription_id": "Warung makan sederhana di Jl. Guru Patimpus untuk bersantap selama menyusuri rute.",
       "shortDescription_en": "A simple eatery on Jl. Guru Patimpus for a meal while exploring the trail.",
@@ -3329,9 +3329,9 @@
       "name_en": "Jembatan Jl. Guru Patimpus",
       "walkSlug": "trails-4-cemetery-mosque",
       "category": "iSee",
-      "thumbnail": "/images/locations/jembatan-guru-patimpus/gallery-1.png",
+      "thumbnail": "/images/locations/jembatan-guru-patimpus/gallery-1.webp",
       "gallery": [
-        "/images/locations/jembatan-guru-patimpus/gallery-1.png"
+        "/images/locations/jembatan-guru-patimpus/gallery-1.webp"
       ],
       "shortDescription_id": "Jembatan penghubung di Jl. Guru Patimpus dengan pandangan ke Sungai Deli dan permukiman sekitarnya.",
       "shortDescription_en": "A connecting bridge on Jl. Guru Patimpus overlooking the Deli River and nearby neighbourhoods.",
@@ -3356,15 +3356,15 @@
       "slug": "rp1-rumah-panggung-rambutan",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp1-rumah-panggung-rambutan/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp1-rumah-panggung-rambutan/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.jpg",
-        "/images/locations/rp1-rumah-panggung-rambutan/gallery-2.jpg",
-        "/images/locations/rp1-rumah-panggung-rambutan/gallery-3.jpg",
-        "/images/locations/rp1-rumah-panggung-rambutan/gallery-4.jpg",
-        "/images/locations/rp1-rumah-panggung-rambutan/gallery-5.jpg",
-        "/images/locations/rp1-rumah-panggung-rambutan/gallery-6.jpg",
-        "/images/locations/rp1-rumah-panggung-rambutan/gallery-7.jpg"
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.webp",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-2.webp",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-3.webp",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-4.webp",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-5.webp",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-6.webp",
+        "/images/locations/rp1-rumah-panggung-rambutan/gallery-7.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3389,14 +3389,14 @@
       "slug": "rp2-rumah-tuan-guru-tohir",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp2-rumah-tuan-guru-tohir/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp2-rumah-tuan-guru-tohir/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-1.jpg",
-        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-2.jpg",
-        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-3.jpg",
-        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-4.jpg",
-        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-5.jpg",
-        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-6.jpg"
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-1.webp",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-2.webp",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-3.webp",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-4.webp",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-5.webp",
+        "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-6.webp"
       ],
       "shortDescription_id": "Kediaman Tuan Guru Tohir, salah satu rumah tetua kampung.",
       "shortDescription_en": "The home of Tuan Guru Tohir, one of the kampung elders' houses.",
@@ -3421,11 +3421,11 @@
       "slug": "rp3-rumah-panggung-nam-nam",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp3-rumah-panggung-nam-nam/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp3-rumah-panggung-nam-nam/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-1.jpg",
-        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-2.jpg",
-        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-3.jpg"
+        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-1.webp",
+        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-2.webp",
+        "/images/locations/rp3-rumah-panggung-nam-nam/gallery-3.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3450,10 +3450,10 @@
       "slug": "rp4-rumah-panggung-petai",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp4-rumah-panggung-petai/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp4-rumah-panggung-petai/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp4-rumah-panggung-petai/gallery-1.jpg",
-        "/images/locations/rp4-rumah-panggung-petai/gallery-2.jpg"
+        "/images/locations/rp4-rumah-panggung-petai/gallery-1.webp",
+        "/images/locations/rp4-rumah-panggung-petai/gallery-2.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3478,13 +3478,13 @@
       "slug": "rp5-rumah-panggung-langsat",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp5-rumah-panggung-langsat/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp5-rumah-panggung-langsat/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp5-rumah-panggung-langsat/gallery-1.jpg",
-        "/images/locations/rp5-rumah-panggung-langsat/gallery-2.jpg",
-        "/images/locations/rp5-rumah-panggung-langsat/gallery-3.jpg",
-        "/images/locations/rp5-rumah-panggung-langsat/gallery-4.jpg",
-        "/images/locations/rp5-rumah-panggung-langsat/gallery-5.jpg"
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-1.webp",
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-2.webp",
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-3.webp",
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-4.webp",
+        "/images/locations/rp5-rumah-panggung-langsat/gallery-5.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3509,10 +3509,10 @@
       "slug": "rp6-rumah-panggung-rambe",
       "walkSlug": "trails-3-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp6-rumah-panggung-rambe/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp6-rumah-panggung-rambe/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp6-rumah-panggung-rambe/gallery-1.jpg",
-        "/images/locations/rp6-rumah-panggung-rambe/gallery-2.jpg"
+        "/images/locations/rp6-rumah-panggung-rambe/gallery-1.webp",
+        "/images/locations/rp6-rumah-panggung-rambe/gallery-2.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3537,11 +3537,11 @@
       "slug": "rp7-rumah-panggung-pala",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp7-rumah-panggung-pala/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp7-rumah-panggung-pala/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp7-rumah-panggung-pala/gallery-1.jpg",
-        "/images/locations/rp7-rumah-panggung-pala/gallery-2.jpg",
-        "/images/locations/rp7-rumah-panggung-pala/gallery-3.jpg"
+        "/images/locations/rp7-rumah-panggung-pala/gallery-1.webp",
+        "/images/locations/rp7-rumah-panggung-pala/gallery-2.webp",
+        "/images/locations/rp7-rumah-panggung-pala/gallery-3.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3566,11 +3566,11 @@
       "slug": "rp8-warung-nasi-barkah",
       "walkSlug": "trails-3-malay-house",
       "category": "iEat",
-      "thumbnail": "/images/locations/rp8-warung-nasi-barkah/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp8-warung-nasi-barkah/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp8-warung-nasi-barkah/gallery-1.jpg",
-        "/images/locations/rp8-warung-nasi-barkah/gallery-2.jpg",
-        "/images/locations/rp8-warung-nasi-barkah/gallery-3.jpg"
+        "/images/locations/rp8-warung-nasi-barkah/gallery-1.webp",
+        "/images/locations/rp8-warung-nasi-barkah/gallery-2.webp",
+        "/images/locations/rp8-warung-nasi-barkah/gallery-3.webp"
       ],
       "shortDescription_id": "Warung nasi rumahan warga kampung Silalas.",
       "shortDescription_en": "A home-style rice eatery run by Silalas residents.",
@@ -3597,13 +3597,13 @@
       "slug": "rp9-rumah-panggung-nenas",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp9-rumah-panggung-nenas/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp9-rumah-panggung-nenas/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp9-rumah-panggung-nenas/gallery-1.jpg",
-        "/images/locations/rp9-rumah-panggung-nenas/gallery-2.jpg",
-        "/images/locations/rp9-rumah-panggung-nenas/gallery-3.jpg",
-        "/images/locations/rp9-rumah-panggung-nenas/gallery-4.jpg",
-        "/images/locations/rp9-rumah-panggung-nenas/gallery-5.jpg"
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-1.webp",
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-2.webp",
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-3.webp",
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-4.webp",
+        "/images/locations/rp9-rumah-panggung-nenas/gallery-5.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3628,15 +3628,15 @@
       "slug": "rp10-rumah-panggung-jambu",
       "walkSlug": "trails-3-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp10-rumah-panggung-jambu/thumbnail.jpg",
+      "thumbnail": "/images/locations/rp10-rumah-panggung-jambu/thumbnail.webp",
       "gallery": [
-        "/images/locations/rp10-rumah-panggung-jambu/gallery-1.jpg",
-        "/images/locations/rp10-rumah-panggung-jambu/gallery-2.jpg",
-        "/images/locations/rp10-rumah-panggung-jambu/gallery-3.jpg",
-        "/images/locations/rp10-rumah-panggung-jambu/gallery-4.jpg",
-        "/images/locations/rp10-rumah-panggung-jambu/gallery-5.jpg",
-        "/images/locations/rp10-rumah-panggung-jambu/gallery-6.jpg",
-        "/images/locations/rp10-rumah-panggung-jambu/gallery-7.jpg"
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-1.webp",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-2.webp",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-3.webp",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-4.webp",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-5.webp",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-6.webp",
+        "/images/locations/rp10-rumah-panggung-jambu/gallery-7.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3661,10 +3661,10 @@
       "slug": "rp11-rumah-panggung-nenas-2",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rp11-rumah-panggung-nenas-2/gallery-1.png",
+      "thumbnail": "/images/locations/rp11-rumah-panggung-nenas-2/gallery-1.webp",
       "gallery": [
-        "/images/locations/rp11-rumah-panggung-nenas-2/gallery-1.png",
-        "/images/locations/rp11-rumah-panggung-nenas-2/gallery-2.png"
+        "/images/locations/rp11-rumah-panggung-nenas-2/gallery-1.webp",
+        "/images/locations/rp11-rumah-panggung-nenas-2/gallery-2.webp"
       ],
       "shortDescription_id": "Rumah panggung kayu khas kampung Melayu di tepi Sungai Deli.",
       "shortDescription_en": "A traditional Malay wooden stilt house by the Deli River.",
@@ -3689,9 +3689,9 @@
       "slug": "rb1-rumah-sei-deli",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/locations/rb1-rumah-sei-deli/thumbnail.jpg",
+      "thumbnail": "/images/locations/rb1-rumah-sei-deli/thumbnail.webp",
       "gallery": [
-        "/images/locations/rb1-rumah-sei-deli/gallery-1.jpg"
+        "/images/locations/rb1-rumah-sei-deli/gallery-1.webp"
       ],
       "shortDescription_id": "Rumah warga bercorak lama di kampung Silalas.",
       "shortDescription_en": "An old-style resident's house in kampung Silalas.",
@@ -3716,10 +3716,10 @@
       "slug": "rb2-rumah-nenas",
       "walkSlug": "trails-2-malay-house",
       "category": "iSee",
-      "thumbnail": "/images/locations/rb2-rumah-nenas/gallery-1.png",
+      "thumbnail": "/images/locations/rb2-rumah-nenas/gallery-1.webp",
       "gallery": [
-        "/images/locations/rb2-rumah-nenas/gallery-1.png",
-        "/images/locations/rb2-rumah-nenas/gallery-2.png"
+        "/images/locations/rb2-rumah-nenas/gallery-1.webp",
+        "/images/locations/rb2-rumah-nenas/gallery-2.webp"
       ],
       "shortDescription_id": "Rumah warga bercorak lama di kampung Silalas.",
       "shortDescription_en": "An old-style resident's house in kampung Silalas.",
@@ -3744,9 +3744,9 @@
       "slug": "rb3-rumah-sei-deli-2",
       "walkSlug": "trails-1-deli-riverside",
       "category": "iSee",
-      "thumbnail": "/images/locations/rb3-rumah-sei-deli-2/gallery-1.png",
+      "thumbnail": "/images/locations/rb3-rumah-sei-deli-2/gallery-1.webp",
       "gallery": [
-        "/images/locations/rb3-rumah-sei-deli-2/gallery-1.png"
+        "/images/locations/rb3-rumah-sei-deli-2/gallery-1.webp"
       ],
       "shortDescription_id": "Rumah warga bercorak lama di kampung Silalas.",
       "shortDescription_en": "An old-style resident's house in kampung Silalas.",
@@ -3771,11 +3771,11 @@
       "slug": "rumah-panggung-graha-putra-mandiri",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.png",
+      "thumbnail": "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.webp",
       "gallery": [
-        "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.png",
-        "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-2.png",
-        "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-3.png"
+        "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.webp",
+        "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-2.webp",
+        "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-3.webp"
       ],
       "shortDescription_id": "Rumah panggung bersejarah di Jl. H. Adam Malik.",
       "shortDescription_en": "A historic stilt house on Jl. H. Adam Malik.",
@@ -3800,9 +3800,9 @@
       "slug": "regale-convention-centre",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/locations/regale-convention-centre/gallery-1.jpg",
+      "thumbnail": "/images/locations/regale-convention-centre/gallery-1.webp",
       "gallery": [
-        "/images/locations/regale-convention-centre/gallery-1.jpg"
+        "/images/locations/regale-convention-centre/gallery-1.webp"
       ],
       "shortDescription_id": "Gedung konvensi besar di koridor Jl. H. Adam Malik.",
       "shortDescription_en": "A large convention centre along the Jl. H. Adam Malik corridor.",
@@ -3827,10 +3827,10 @@
       "slug": "pt-dwi-pertiwi",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/locations/pt-dwi-pertiwi/gallery-1.png",
+      "thumbnail": "/images/locations/pt-dwi-pertiwi/gallery-1.webp",
       "gallery": [
-        "/images/locations/pt-dwi-pertiwi/gallery-1.png",
-        "/images/locations/pt-dwi-pertiwi/gallery-2.png"
+        "/images/locations/pt-dwi-pertiwi/gallery-1.webp",
+        "/images/locations/pt-dwi-pertiwi/gallery-2.webp"
       ],
       "shortDescription_id": "Bangunan bersejarah di koridor Jl. H. Adam Malik.",
       "shortDescription_en": "A heritage building along the Jl. H. Adam Malik corridor.",
@@ -3855,9 +3855,9 @@
       "slug": "rumah-belanda-adam-malik",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/locations/rumah-belanda-adam-malik/gallery-1.png",
+      "thumbnail": "/images/locations/rumah-belanda-adam-malik/gallery-1.webp",
       "gallery": [
-        "/images/locations/rumah-belanda-adam-malik/gallery-1.png"
+        "/images/locations/rumah-belanda-adam-malik/gallery-1.webp"
       ],
       "shortDescription_id": "Rumah bergaya kolonial Belanda di Jl. H. Adam Malik.",
       "shortDescription_en": "A Dutch colonial-style house on Jl. H. Adam Malik.",
@@ -3882,9 +3882,9 @@
       "slug": "smp-sma-kalam-kudus",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/locations/smp-sma-kalam-kudus/gallery-1.jpg",
+      "thumbnail": "/images/locations/smp-sma-kalam-kudus/gallery-1.webp",
       "gallery": [
-        "/images/locations/smp-sma-kalam-kudus/gallery-1.jpg"
+        "/images/locations/smp-sma-kalam-kudus/gallery-1.webp"
       ],
       "shortDescription_id": "Sekolah bersejarah di ujung koridor Jl. H. Adam Malik.",
       "shortDescription_en": "A historic school at the end of the Jl. H. Adam Malik corridor.",
@@ -3909,9 +3909,9 @@
       "slug": "gereja-kalam-kudus",
       "walkSlug": "trails-6-adam-malik-corridor",
       "category": "iSee",
-      "thumbnail": "/images/locations/gereja-kalam-kudus/gallery-1.jpg",
+      "thumbnail": "/images/locations/gereja-kalam-kudus/gallery-1.webp",
       "gallery": [
-        "/images/locations/gereja-kalam-kudus/gallery-1.jpg"
+        "/images/locations/gereja-kalam-kudus/gallery-1.webp"
       ],
       "shortDescription_id": "Gereja bersejarah di dekat SMP-SMA Kalam Kudus.",
       "shortDescription_en": "A historic church near the Kalam Kudus school.",
@@ -3936,7 +3936,7 @@
       "title_id": "Menyusuri Tepian Sungai Deli di Silalas",
       "title_en": "Walking the Deli Riverbanks in Silalas",
       "slug": "menyusuri-tepian-sungai-deli-silalas",
-      "coverImage": "/images/locations/deli-riverview/gallery-1.jpg",
+      "coverImage": "/images/locations/deli-riverview/gallery-1.webp",
       "excerpt_id": "Catatan perjalanan menyusuri kampung tepi Sungai Deli di Silalas, dari kedai kopi hingga rumah panggung Melayu.",
       "excerpt_en": "A travel note walking the Deli riverside kampung in Silalas, from coffee shops to Malay stilt houses.",
       "neighbourhoodSlug": "silalas",

@@ -133,7 +133,7 @@ export default function StoriesPage() {
               aria-label={id ? 'Tonton video revitalisasi Rumah Besar Raja Bilah' : 'Watch the Rumah Besar Raja Bilah revitalisation video'}
             >
               <Image
-                src="/images/community-service-malaysia-2025.jpg"
+                src="/images/community-service-malaysia-2025.webp"
                 alt={id ? 'Tim program pengabdian internasional di Rumah Besar Raja Bilah' : 'International community service team at Rumah Besar Raja Bilah'}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-[1.025] motion-reduce:transition-none"
