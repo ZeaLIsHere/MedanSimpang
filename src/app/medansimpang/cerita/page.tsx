@@ -46,7 +46,7 @@ const shortVideoSlots = [
   {
     titleId: 'Cerita dari perjalanan',
     titleEn: 'Stories from the walk',
-    image: '/images/locations/smp-negeri-7-medan/gallery-1.jpg',
+    image: '/images/locations/smp-negeri-7-medan/gallery-1.webp',
   },
 ];
 
@@ -58,18 +58,28 @@ const newsItems = [
     descriptionId: 'Kegiatan membaca kota bersama siswa SMP Kristen Kalam Kudus melalui pengamatan langsung terhadap ruang dan kehidupan perkotaan.',
     descriptionEn: 'An urban-reading activity with Kalam Kudus Christian Junior High School students through direct observation of city spaces and everyday life.',
     href: 'https://analisadaily.com/berita/baca/2026/08/22/1076850/tim-usu-dan-pakar-arsitektur-dunia-ajak-siswa-smp-kristen-kalam-kudus-membaca-kota/',
-    image: 'https://analisadaily.com/imagesfile/202608/20260822-121625_tim-usu-dan-pakar-arsitektur-dunia-ajak-siswa-smp-kristen-kalam-kudus-membaca-kota.jpeg',
-    fallbackImage: '/images/locations/smp-sma-kalam-kudus/gallery-1.jpg',
+    image: '/images/locations/smp-sma-kalam-kudus/gallery-1.webp',
+    fallbackImage: '/images/locations/smp-sma-kalam-kudus/gallery-1.webp',
+  },
+  {
+    source: 'Analisa Daily',
+    date: '7 Agustus 2026',
+    title: "Siswa SMPN 7 Medan Diajak Menelusuri Jejak Warisan Budaya Lewat 'Medan Simpang' Heritage Trails",
+    descriptionId: 'Sebanyak 40 siswa SMP Negeri 7 Medan diajak mengenal sejarah, arsitektur, budaya, dan identitas kota melalui Medan Simpang Heritage Trails.',
+    descriptionEn: 'Forty SMP Negeri 7 Medan students explored the city’s history, architecture, culture, and identity through the Medan Simpang Heritage Trails.',
+    href: 'https://analisadaily.com/berita/baca/2026/08/07/1076333/siswa-smpn-7-medan-diajak-menelusuri-jejak-warisan-budaya-lewat-medan-simpang-heritage-trails/',
+    image: '/images/medan-simpang-smpn7-7-agustus-2026.webp',
+    fallbackImage: '/images/locations/smp-negeri-7-medan/thumbnail.webp',
   },
   {
     source: 'Fakultas Teknik USU',
-    date: 'Agustus 2026',
+    date: '7 Agustus 2026',
     title: 'Tim Pengabdian Lintas Disiplin FT USU Ajak Siswa SMPN 7 Medan Jelajahi Warisan Kota melalui Medan Simpang',
     descriptionId: 'Kolaborasi lintas disiplin yang mengajak siswa SMPN 7 Medan mengenali warisan kota melalui rute dan pengalaman Medan Simpang.',
     descriptionEn: 'A cross-disciplinary collaboration inviting SMPN 7 Medan students to discover urban heritage through the Medan Simpang routes and experience.',
     href: 'https://ft.usu.ac.id/id/berita/tim-pengabdian-lintas-disiplin-ft-usu-ajak-siswa-smpn-7-medan-jelajahi-warisan-kota-melalui-medan-simpang',
     image: 'https://konten.usu.ac.id/storage/posts/Aug-2026/66856/WhatsApp%20Image%202026-08-11%20at%2018.11.48.webp',
-    fallbackImage: '/images/locations/smp-negeri-7-medan/thumbnail.jpg',
+    fallbackImage: '/images/locations/smp-negeri-7-medan/thumbnail.webp',
   },
 ];
 
@@ -96,7 +106,7 @@ function SectionTitle({
 }
 
 function NewsThumbnail({ src, fallback, alt }: { src: string; fallback: string; alt: string }) {
-  const [imageSrc, setImageSrc] = React.useState(src);
+  const [imageSrc, setImageSrc] = React.useState(assetPath(src));
 
   return (
     <img

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Cerita Kota, Ruang, dan Masyarakat',
-  description: 'Catatan lapangan dan cerita UrbanMorphSoc tentang bentuk kota, ruang, memori, dan kehidupan masyarakat.',
+  title: 'Cerita, Penelitian, dan Publikasi UrbanMorphSoc',
+  description: 'Jejak penelitian, publikasi ilmiah, dan kolaborasi Urban Morphology and Society tentang morfologi kota dan kehidupan masyarakat.',
   alternates: { canonical: 'https://urbanmorphsoc.com/stories/' },
 };
 

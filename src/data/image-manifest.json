@@ -1,4 +1,14 @@
 {
+  "/images/community-service-malaysia-2025.webp": [
+    {
+      "width": 480,
+      "url": "/images/_responsive/community-service-malaysia-2025-480.webp"
+    },
+    {
+      "width": 1280,
+      "url": "/images/_responsive/community-service-malaysia-2025-1280.webp"
+    }
+  ],
   "/images/cover-trail-2.webp": [
     {
       "width": 480,
@@ -29,7 +39,7 @@
       "url": "/images/_responsive/frontpage-1155.webp"
     }
   ],
-  "/images/locations/bakso-mie-ayam-panorama/gallery-1.jpg": [
+  "/images/locations/bakso-mie-ayam-panorama/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-1-480.webp"
@@ -39,7 +49,7 @@
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/bakso-mie-ayam-panorama/gallery-2.jpg": [
+  "/images/locations/bakso-mie-ayam-panorama/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-2-480.webp"
@@ -49,7 +59,7 @@
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/bakso-mie-ayam-panorama/gallery-3.jpg": [
+  "/images/locations/bakso-mie-ayam-panorama/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-3-480.webp"
@@ -59,7 +69,7 @@
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/bakso-mie-ayam-panorama/gallery-4.jpg": [
+  "/images/locations/bakso-mie-ayam-panorama/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-4-480.webp"
@@ -69,7 +79,7 @@
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/bakso-mie-ayam-panorama/gallery-5.jpg": [
+  "/images/locations/bakso-mie-ayam-panorama/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-5-480.webp"
@@ -79,7 +89,7 @@
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/bakso-mie-ayam-panorama/gallery-6.jpg": [
+  "/images/locations/bakso-mie-ayam-panorama/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-6-480.webp"
@@ -89,7 +99,7 @@
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/gallery-6-1200.webp"
     }
   ],
-  "/images/locations/bakso-mie-ayam-panorama/thumbnail.jpg": [
+  "/images/locations/bakso-mie-ayam-panorama/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/thumbnail-480.webp"
@@ -99,7 +109,7 @@
       "url": "/images/_responsive/locations/bakso-mie-ayam-panorama/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/bakso-moro-seneng/gallery-1.jpg": [
+  "/images/locations/bakso-moro-seneng/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-moro-seneng/gallery-1-480.webp"
@@ -109,7 +119,7 @@
       "url": "/images/_responsive/locations/bakso-moro-seneng/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/bakso-moro-seneng/gallery-2.jpg": [
+  "/images/locations/bakso-moro-seneng/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-moro-seneng/gallery-2-480.webp"
@@ -119,7 +129,7 @@
       "url": "/images/_responsive/locations/bakso-moro-seneng/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/bakso-moro-seneng/gallery-3.jpg": [
+  "/images/locations/bakso-moro-seneng/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-moro-seneng/gallery-3-480.webp"
@@ -129,7 +139,7 @@
       "url": "/images/_responsive/locations/bakso-moro-seneng/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/bakso-moro-seneng/gallery-4.jpg": [
+  "/images/locations/bakso-moro-seneng/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-moro-seneng/gallery-4-480.webp"
@@ -139,7 +149,7 @@
       "url": "/images/_responsive/locations/bakso-moro-seneng/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/bakso-moro-seneng/thumbnail.jpg": [
+  "/images/locations/bakso-moro-seneng/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bakso-moro-seneng/thumbnail-480.webp"
@@ -149,7 +159,7 @@
       "url": "/images/_responsive/locations/bakso-moro-seneng/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/bamboo-bali-cafe/gallery-1.jpg": [
+  "/images/locations/bamboo-bali-cafe/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-1-480.webp"
@@ -159,7 +169,7 @@
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/bamboo-bali-cafe/gallery-2.jpg": [
+  "/images/locations/bamboo-bali-cafe/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-2-480.webp"
@@ -169,7 +179,7 @@
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/bamboo-bali-cafe/gallery-3.jpg": [
+  "/images/locations/bamboo-bali-cafe/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-3-480.webp"
@@ -179,7 +189,7 @@
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/bamboo-bali-cafe/gallery-4.jpg": [
+  "/images/locations/bamboo-bali-cafe/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-4-480.webp"
@@ -189,7 +199,7 @@
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/bamboo-bali-cafe/gallery-5.jpg": [
+  "/images/locations/bamboo-bali-cafe/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-5-480.webp"
@@ -199,7 +209,7 @@
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/bamboo-bali-cafe/gallery-6.jpg": [
+  "/images/locations/bamboo-bali-cafe/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-6-480.webp"
@@ -209,7 +219,7 @@
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/bamboo-bali-cafe/gallery-7.jpg": [
+  "/images/locations/bamboo-bali-cafe/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-7-480.webp"
@@ -219,7 +229,7 @@
       "url": "/images/_responsive/locations/bamboo-bali-cafe/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/bamboo-bali-cafe/thumbnail.jpg": [
+  "/images/locations/bamboo-bali-cafe/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/bamboo-bali-cafe/thumbnail-480.webp"
@@ -229,7 +239,7 @@
       "url": "/images/_responsive/locations/bamboo-bali-cafe/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-1.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-1-480.webp"
@@ -239,7 +249,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-10.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-10.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-10-480.webp"
@@ -249,7 +259,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-10-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-11.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-11.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-11-480.webp"
@@ -259,7 +269,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-11-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-2.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-2-480.webp"
@@ -269,7 +279,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-3.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-3-480.webp"
@@ -279,7 +289,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-3-1200.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-4.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-4-480.webp"
@@ -289,7 +299,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-5.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-5-480.webp"
@@ -299,7 +309,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-6.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-6-480.webp"
@@ -309,7 +319,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-7.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-7-480.webp"
@@ -319,7 +329,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-8.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-8-480.webp"
@@ -329,7 +339,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-8-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/gallery-9.jpg": [
+  "/images/locations/dapur-sedap-wangi/gallery-9.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-9-480.webp"
@@ -339,7 +349,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/gallery-9-1440.webp"
     }
   ],
-  "/images/locations/dapur-sedap-wangi/thumbnail.jpg": [
+  "/images/locations/dapur-sedap-wangi/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/dapur-sedap-wangi/thumbnail-480.webp"
@@ -349,7 +359,7 @@
       "url": "/images/_responsive/locations/dapur-sedap-wangi/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/deli-riverview/gallery-1.jpg": [
+  "/images/locations/deli-riverview/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/deli-riverview/gallery-1-480.webp"
@@ -359,7 +369,7 @@
       "url": "/images/_responsive/locations/deli-riverview/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/deli-riverview/gallery-2.jpg": [
+  "/images/locations/deli-riverview/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/deli-riverview/gallery-2-480.webp"
@@ -369,7 +379,7 @@
       "url": "/images/_responsive/locations/deli-riverview/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/deli-riverview/gallery-3.jpg": [
+  "/images/locations/deli-riverview/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/deli-riverview/gallery-3-480.webp"
@@ -379,7 +389,7 @@
       "url": "/images/_responsive/locations/deli-riverview/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/deli-riverview/gallery-4.jpg": [
+  "/images/locations/deli-riverview/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/deli-riverview/gallery-4-480.webp"
@@ -389,7 +399,7 @@
       "url": "/images/_responsive/locations/deli-riverview/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/deli-riverview/thumbnail.jpg": [
+  "/images/locations/deli-riverview/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/deli-riverview/thumbnail-480.webp"
@@ -399,7 +409,7 @@
       "url": "/images/_responsive/locations/deli-riverview/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/florist/gallery-1.jpg": [
+  "/images/locations/florist/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/florist/gallery-1-480.webp"
@@ -409,7 +419,7 @@
       "url": "/images/_responsive/locations/florist/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/florist/gallery-2.jpg": [
+  "/images/locations/florist/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/florist/gallery-2-480.webp"
@@ -419,7 +429,7 @@
       "url": "/images/_responsive/locations/florist/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/florist/gallery-3.jpg": [
+  "/images/locations/florist/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/florist/gallery-3-480.webp"
@@ -429,7 +439,7 @@
       "url": "/images/_responsive/locations/florist/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/florist/gallery-4.jpg": [
+  "/images/locations/florist/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/florist/gallery-4-480.webp"
@@ -439,7 +449,7 @@
       "url": "/images/_responsive/locations/florist/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/florist/gallery-5.jpg": [
+  "/images/locations/florist/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/florist/gallery-5-480.webp"
@@ -449,7 +459,7 @@
       "url": "/images/_responsive/locations/florist/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/florist/gallery-6.jpg": [
+  "/images/locations/florist/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/florist/gallery-6-480.webp"
@@ -459,7 +469,7 @@
       "url": "/images/_responsive/locations/florist/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/florist/gallery-7.jpg": [
+  "/images/locations/florist/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/florist/gallery-7-480.webp"
@@ -469,7 +479,7 @@
       "url": "/images/_responsive/locations/florist/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/florist/thumbnail.jpg": [
+  "/images/locations/florist/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/florist/thumbnail-480.webp"
@@ -479,17 +489,7 @@
       "url": "/images/_responsive/locations/florist/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/gang-tumbuhan-cempedak/gallery-1.png": [
-    {
-      "width": 480,
-      "url": "/images/_responsive/locations/gang-tumbuhan-cempedak/gallery-1-480.webp"
-    },
-    {
-      "width": 813,
-      "url": "/images/_responsive/locations/gang-tumbuhan-cempedak/gallery-1-813.webp"
-    }
-  ],
-  "/images/locations/gereja-kalam-kudus/gallery-1.jpg": [
+  "/images/locations/gereja-kalam-kudus/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/gereja-kalam-kudus/gallery-1-480.webp"
@@ -499,7 +499,7 @@
       "url": "/images/_responsive/locations/gereja-kalam-kudus/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/jajanan-viral-nangka/gallery-1.jpg": [
+  "/images/locations/jajanan-viral-nangka/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-1-480.webp"
@@ -509,7 +509,7 @@
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/jajanan-viral-nangka/gallery-2.jpg": [
+  "/images/locations/jajanan-viral-nangka/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-2-480.webp"
@@ -519,7 +519,7 @@
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/jajanan-viral-nangka/gallery-3.jpg": [
+  "/images/locations/jajanan-viral-nangka/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-3-480.webp"
@@ -529,7 +529,7 @@
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/jajanan-viral-nangka/gallery-4.jpg": [
+  "/images/locations/jajanan-viral-nangka/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-4-480.webp"
@@ -539,7 +539,7 @@
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/jajanan-viral-nangka/gallery-5.jpg": [
+  "/images/locations/jajanan-viral-nangka/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-5-480.webp"
@@ -549,7 +549,7 @@
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/jajanan-viral-nangka/gallery-6.jpg": [
+  "/images/locations/jajanan-viral-nangka/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-6-480.webp"
@@ -559,7 +559,7 @@
       "url": "/images/_responsive/locations/jajanan-viral-nangka/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/jajanan-viral-nangka/thumbnail.jpg": [
+  "/images/locations/jajanan-viral-nangka/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jajanan-viral-nangka/thumbnail-480.webp"
@@ -569,7 +569,7 @@
       "url": "/images/_responsive/locations/jajanan-viral-nangka/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/jembatan-guru-patimpus/gallery-1.png": [
+  "/images/locations/jembatan-guru-patimpus/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jembatan-guru-patimpus/gallery-1-480.webp"
@@ -579,7 +579,7 @@
       "url": "/images/_responsive/locations/jembatan-guru-patimpus/gallery-1-1115.webp"
     }
   ],
-  "/images/locations/jl-kemiri/gallery-1.jpg": [
+  "/images/locations/jl-kemiri/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/gallery-1-480.webp"
@@ -589,7 +589,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/jl-kemiri/gallery-2.jpg": [
+  "/images/locations/jl-kemiri/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/gallery-2-480.webp"
@@ -599,7 +599,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/jl-kemiri/gallery-3.jpg": [
+  "/images/locations/jl-kemiri/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/gallery-3-480.webp"
@@ -609,7 +609,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/jl-kemiri/gallery-4.jpg": [
+  "/images/locations/jl-kemiri/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/gallery-4-480.webp"
@@ -619,7 +619,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/jl-kemiri/gallery-5.jpg": [
+  "/images/locations/jl-kemiri/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/gallery-5-480.webp"
@@ -629,7 +629,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/jl-kemiri/gallery-6.jpg": [
+  "/images/locations/jl-kemiri/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/gallery-6-480.webp"
@@ -639,7 +639,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/jl-kemiri/gallery-7.jpg": [
+  "/images/locations/jl-kemiri/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/gallery-7-480.webp"
@@ -649,7 +649,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/jl-kemiri/gallery-8.jpg": [
+  "/images/locations/jl-kemiri/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/gallery-8-480.webp"
@@ -659,7 +659,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/gallery-8-1440.webp"
     }
   ],
-  "/images/locations/jl-kemiri/thumbnail.jpg": [
+  "/images/locations/jl-kemiri/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/jl-kemiri/thumbnail-480.webp"
@@ -669,7 +669,7 @@
       "url": "/images/_responsive/locations/jl-kemiri/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-1.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-1-480.webp"
@@ -679,7 +679,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-10.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-10.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-10-480.webp"
@@ -689,7 +689,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-10-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-11.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-11.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-11-480.webp"
@@ -699,7 +699,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-11-1200.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-2.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-2-480.webp"
@@ -709,7 +709,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-3.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-3-480.webp"
@@ -719,7 +719,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-4.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-4-480.webp"
@@ -729,7 +729,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-5.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-5-480.webp"
@@ -739,7 +739,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-6.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-6-480.webp"
@@ -749,7 +749,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-7.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-7-480.webp"
@@ -759,7 +759,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-8.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-8-480.webp"
@@ -769,7 +769,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-8-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/gallery-9.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/gallery-9.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-9-480.webp"
@@ -779,7 +779,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/gallery-9-1440.webp"
     }
   ],
-  "/images/locations/kampung-tepi-sungai-deli/thumbnail.jpg": [
+  "/images/locations/kampung-tepi-sungai-deli/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/thumbnail-480.webp"
@@ -789,17 +789,7 @@
       "url": "/images/_responsive/locations/kampung-tepi-sungai-deli/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/kantor-lurah-silalas/gallery-1.png": [
-    {
-      "width": 480,
-      "url": "/images/_responsive/locations/kantor-lurah-silalas/gallery-1-480.webp"
-    },
-    {
-      "width": 922,
-      "url": "/images/_responsive/locations/kantor-lurah-silalas/gallery-1-922.webp"
-    }
-  ],
-  "/images/locations/kelenteng-jit-sien/gallery-1.jpg": [
+  "/images/locations/kelenteng-jit-sien/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kelenteng-jit-sien/gallery-1-480.webp"
@@ -809,7 +799,7 @@
       "url": "/images/_responsive/locations/kelenteng-jit-sien/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/kelenteng-jit-sien/gallery-2.jpg": [
+  "/images/locations/kelenteng-jit-sien/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kelenteng-jit-sien/gallery-2-480.webp"
@@ -819,7 +809,7 @@
       "url": "/images/_responsive/locations/kelenteng-jit-sien/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/kelenteng-jit-sien/gallery-3.jpg": [
+  "/images/locations/kelenteng-jit-sien/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kelenteng-jit-sien/gallery-3-480.webp"
@@ -829,7 +819,7 @@
       "url": "/images/_responsive/locations/kelenteng-jit-sien/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/kelenteng-jit-sien/gallery-4.jpg": [
+  "/images/locations/kelenteng-jit-sien/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kelenteng-jit-sien/gallery-4-480.webp"
@@ -839,7 +829,7 @@
       "url": "/images/_responsive/locations/kelenteng-jit-sien/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/kelenteng-jit-sien/thumbnail.jpg": [
+  "/images/locations/kelenteng-jit-sien/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/kelenteng-jit-sien/thumbnail-480.webp"
@@ -849,7 +839,7 @@
       "url": "/images/_responsive/locations/kelenteng-jit-sien/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/masjid-al-muflihin/gallery-1.jpg": [
+  "/images/locations/masjid-al-muflihin/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-al-muflihin/gallery-1-480.webp"
@@ -859,7 +849,7 @@
       "url": "/images/_responsive/locations/masjid-al-muflihin/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/masjid-al-muflihin/thumbnail.jpg": [
+  "/images/locations/masjid-al-muflihin/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-al-muflihin/thumbnail-480.webp"
@@ -869,7 +859,7 @@
       "url": "/images/_responsive/locations/masjid-al-muflihin/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/masjid-haji-maraset/gallery-1.jpg": [
+  "/images/locations/masjid-haji-maraset/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-haji-maraset/gallery-1-480.webp"
@@ -879,7 +869,7 @@
       "url": "/images/_responsive/locations/masjid-haji-maraset/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/masjid-haji-maraset/gallery-2.jpg": [
+  "/images/locations/masjid-haji-maraset/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-haji-maraset/gallery-2-480.webp"
@@ -889,7 +879,7 @@
       "url": "/images/_responsive/locations/masjid-haji-maraset/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/masjid-haji-maraset/gallery-3.jpg": [
+  "/images/locations/masjid-haji-maraset/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-haji-maraset/gallery-3-480.webp"
@@ -899,7 +889,7 @@
       "url": "/images/_responsive/locations/masjid-haji-maraset/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/masjid-haji-maraset/thumbnail.jpg": [
+  "/images/locations/masjid-haji-maraset/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-haji-maraset/thumbnail-480.webp"
@@ -909,7 +899,7 @@
       "url": "/images/_responsive/locations/masjid-haji-maraset/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/masjid-jami-silalas/gallery-1.jpg": [
+  "/images/locations/masjid-jami-silalas/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-jami-silalas/gallery-1-480.webp"
@@ -919,7 +909,7 @@
       "url": "/images/_responsive/locations/masjid-jami-silalas/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/masjid-jami-silalas/gallery-2.jpg": [
+  "/images/locations/masjid-jami-silalas/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-jami-silalas/gallery-2-480.webp"
@@ -929,7 +919,7 @@
       "url": "/images/_responsive/locations/masjid-jami-silalas/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/masjid-jami-silalas/gallery-3.jpg": [
+  "/images/locations/masjid-jami-silalas/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-jami-silalas/gallery-3-480.webp"
@@ -939,7 +929,7 @@
       "url": "/images/_responsive/locations/masjid-jami-silalas/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/masjid-jami-silalas/gallery-4.jpg": [
+  "/images/locations/masjid-jami-silalas/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-jami-silalas/gallery-4-480.webp"
@@ -949,7 +939,7 @@
       "url": "/images/_responsive/locations/masjid-jami-silalas/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/masjid-jami-silalas/thumbnail.jpg": [
+  "/images/locations/masjid-jami-silalas/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/masjid-jami-silalas/thumbnail-480.webp"
@@ -959,7 +949,7 @@
       "url": "/images/_responsive/locations/masjid-jami-silalas/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/mie-ayam-bakso-solo/gallery-1.jpg": [
+  "/images/locations/mie-ayam-bakso-solo/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/gallery-1-480.webp"
@@ -969,7 +959,7 @@
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/mie-ayam-bakso-solo/gallery-2.jpg": [
+  "/images/locations/mie-ayam-bakso-solo/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/gallery-2-480.webp"
@@ -979,7 +969,7 @@
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/mie-ayam-bakso-solo/gallery-3.jpg": [
+  "/images/locations/mie-ayam-bakso-solo/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/gallery-3-480.webp"
@@ -989,7 +979,7 @@
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/mie-ayam-bakso-solo/gallery-4.jpg": [
+  "/images/locations/mie-ayam-bakso-solo/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/gallery-4-480.webp"
@@ -999,7 +989,7 @@
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/mie-ayam-bakso-solo/thumbnail.jpg": [
+  "/images/locations/mie-ayam-bakso-solo/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/thumbnail-480.webp"
@@ -1009,7 +999,7 @@
       "url": "/images/_responsive/locations/mie-ayam-bakso-solo/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/gallery-1.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-1-480.webp"
@@ -1019,7 +1009,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/gallery-2.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-2-480.webp"
@@ -1029,7 +1019,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/gallery-3.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-3-480.webp"
@@ -1039,7 +1029,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/gallery-4.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-4-480.webp"
@@ -1049,7 +1039,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/gallery-5.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-5-480.webp"
@@ -1059,7 +1049,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/gallery-6.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-6-480.webp"
@@ -1069,7 +1059,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/gallery-7.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-7-480.webp"
@@ -1079,7 +1069,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/gallery-8.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-8-480.webp"
@@ -1089,7 +1079,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/gallery-8-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-1/thumbnail.jpg": [
+  "/images/locations/perkuburan-sei-deli-1/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/thumbnail-480.webp"
@@ -1099,7 +1089,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-1/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-1.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-1-480.webp"
@@ -1109,7 +1099,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-10.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-10.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-10-480.webp"
@@ -1119,7 +1109,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-10-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-2.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-2-480.webp"
@@ -1129,7 +1119,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-3.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-3-480.webp"
@@ -1139,7 +1129,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-4.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-4-480.webp"
@@ -1149,7 +1139,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-5.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-5-480.webp"
@@ -1159,7 +1149,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-6.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-6-480.webp"
@@ -1169,7 +1159,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-7.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-7-480.webp"
@@ -1179,7 +1169,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-8.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-8-480.webp"
@@ -1189,7 +1179,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-8-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/gallery-9.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/gallery-9.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-9-480.webp"
@@ -1199,7 +1189,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/gallery-9-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-2/thumbnail.jpg": [
+  "/images/locations/perkuburan-sei-deli-2/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/thumbnail-480.webp"
@@ -1209,7 +1199,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-2/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-1.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-1-480.webp"
@@ -1219,7 +1209,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-10.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-10.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-10-480.webp"
@@ -1229,7 +1219,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-10-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-11.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-11.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-11-480.webp"
@@ -1239,7 +1229,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-11-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-12.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-12.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-12-480.webp"
@@ -1249,7 +1239,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-12-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-13.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-13.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-13-480.webp"
@@ -1259,7 +1249,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-13-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-14.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-14.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-14-480.webp"
@@ -1269,7 +1259,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-14-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-2.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-2-480.webp"
@@ -1279,7 +1269,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-3.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-3-480.webp"
@@ -1289,7 +1279,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-4.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-4-480.webp"
@@ -1299,7 +1289,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-5.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-5-480.webp"
@@ -1309,7 +1299,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-6.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-6-480.webp"
@@ -1319,7 +1309,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-7.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-7-480.webp"
@@ -1329,7 +1319,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-8.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-8-480.webp"
@@ -1339,7 +1329,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-8-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/gallery-9.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/gallery-9.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-9-480.webp"
@@ -1349,7 +1339,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/gallery-9-1440.webp"
     }
   ],
-  "/images/locations/perkuburan-sei-deli-3/thumbnail.jpg": [
+  "/images/locations/perkuburan-sei-deli-3/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/thumbnail-480.webp"
@@ -1359,7 +1349,7 @@
       "url": "/images/_responsive/locations/perkuburan-sei-deli-3/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-1.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-1-480.webp"
@@ -1369,7 +1359,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-10.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-10.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-10-480.webp"
@@ -1379,7 +1369,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-10-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-11.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-11.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-11-480.webp"
@@ -1389,7 +1379,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-11-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-12.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-12.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-12-480.webp"
@@ -1399,7 +1389,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-12-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-2.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-2-480.webp"
@@ -1409,7 +1399,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-3.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-3-480.webp"
@@ -1419,7 +1409,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-4.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-4-480.webp"
@@ -1429,7 +1419,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-5.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-5-480.webp"
@@ -1439,7 +1429,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-6.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-6-480.webp"
@@ -1449,7 +1439,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-7.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-7-480.webp"
@@ -1459,7 +1449,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-8.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-8-480.webp"
@@ -1469,7 +1459,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-8-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/gallery-9.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/gallery-9.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-9-480.webp"
@@ -1479,7 +1469,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/gallery-9-1440.webp"
     }
   ],
-  "/images/locations/pertokoan-gatot-subroto/thumbnail.jpg": [
+  "/images/locations/pertokoan-gatot-subroto/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/thumbnail-480.webp"
@@ -1489,7 +1479,7 @@
       "url": "/images/_responsive/locations/pertokoan-gatot-subroto/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/pohon-besar-sei-deli/gallery-1.jpg": [
+  "/images/locations/pohon-besar-sei-deli/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pohon-besar-sei-deli/gallery-1-480.webp"
@@ -1499,7 +1489,7 @@
       "url": "/images/_responsive/locations/pohon-besar-sei-deli/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/pohon-besar-sei-deli/gallery-2.jpg": [
+  "/images/locations/pohon-besar-sei-deli/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pohon-besar-sei-deli/gallery-2-480.webp"
@@ -1509,7 +1499,7 @@
       "url": "/images/_responsive/locations/pohon-besar-sei-deli/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/pohon-besar-sei-deli/thumbnail.jpg": [
+  "/images/locations/pohon-besar-sei-deli/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pohon-besar-sei-deli/thumbnail-480.webp"
@@ -1519,7 +1509,7 @@
       "url": "/images/_responsive/locations/pohon-besar-sei-deli/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/pos-ronda/gallery-1.jpg": [
+  "/images/locations/pos-ronda/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pos-ronda/gallery-1-480.webp"
@@ -1529,7 +1519,7 @@
       "url": "/images/_responsive/locations/pos-ronda/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/pos-ronda/thumbnail.jpg": [
+  "/images/locations/pos-ronda/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pos-ronda/thumbnail-480.webp"
@@ -1539,7 +1529,7 @@
       "url": "/images/_responsive/locations/pos-ronda/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/pt-dwi-pertiwi/gallery-1.png": [
+  "/images/locations/pt-dwi-pertiwi/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/pt-dwi-pertiwi/gallery-1-480.webp"
@@ -1549,17 +1539,7 @@
       "url": "/images/_responsive/locations/pt-dwi-pertiwi/gallery-1-1137.webp"
     }
   ],
-  "/images/locations/pt-dwi-pertiwi/gallery-2.png": [
-    {
-      "width": 480,
-      "url": "/images/_responsive/locations/pt-dwi-pertiwi/gallery-2-480.webp"
-    },
-    {
-      "width": 850,
-      "url": "/images/_responsive/locations/pt-dwi-pertiwi/gallery-2-850.webp"
-    }
-  ],
-  "/images/locations/ra-asasil-islam/gallery-1.jpg": [
+  "/images/locations/ra-asasil-islam/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/ra-asasil-islam/gallery-1-480.webp"
@@ -1569,7 +1549,7 @@
       "url": "/images/_responsive/locations/ra-asasil-islam/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/ra-asasil-islam/gallery-2.jpg": [
+  "/images/locations/ra-asasil-islam/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/ra-asasil-islam/gallery-2-480.webp"
@@ -1579,7 +1559,7 @@
       "url": "/images/_responsive/locations/ra-asasil-islam/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/ra-asasil-islam/gallery-3.jpg": [
+  "/images/locations/ra-asasil-islam/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/ra-asasil-islam/gallery-3-480.webp"
@@ -1589,7 +1569,7 @@
       "url": "/images/_responsive/locations/ra-asasil-islam/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/ra-asasil-islam/gallery-4.jpg": [
+  "/images/locations/ra-asasil-islam/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/ra-asasil-islam/gallery-4-480.webp"
@@ -1599,7 +1579,7 @@
       "url": "/images/_responsive/locations/ra-asasil-islam/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/ra-asasil-islam/thumbnail.jpg": [
+  "/images/locations/ra-asasil-islam/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/ra-asasil-islam/thumbnail-480.webp"
@@ -1609,7 +1589,7 @@
       "url": "/images/_responsive/locations/ra-asasil-islam/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/rb1-rumah-sei-deli/gallery-1.jpg": [
+  "/images/locations/rb1-rumah-sei-deli/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rb1-rumah-sei-deli/gallery-1-480.webp"
@@ -1619,7 +1599,7 @@
       "url": "/images/_responsive/locations/rb1-rumah-sei-deli/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rb2-rumah-nenas/gallery-1.png": [
+  "/images/locations/rb2-rumah-nenas/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rb2-rumah-nenas/gallery-1-480.webp"
@@ -1629,7 +1609,7 @@
       "url": "/images/_responsive/locations/rb2-rumah-nenas/gallery-1-1045.webp"
     }
   ],
-  "/images/locations/rb2-rumah-nenas/gallery-2.png": [
+  "/images/locations/rb2-rumah-nenas/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rb2-rumah-nenas/gallery-2-480.webp"
@@ -1639,17 +1619,7 @@
       "url": "/images/_responsive/locations/rb2-rumah-nenas/gallery-2-1015.webp"
     }
   ],
-  "/images/locations/rb3-rumah-sei-deli-2/gallery-1.png": [
-    {
-      "width": 480,
-      "url": "/images/_responsive/locations/rb3-rumah-sei-deli-2/gallery-1-480.webp"
-    },
-    {
-      "width": 861,
-      "url": "/images/_responsive/locations/rb3-rumah-sei-deli-2/gallery-1-861.webp"
-    }
-  ],
-  "/images/locations/regale-convention-centre/gallery-1.jpg": [
+  "/images/locations/regale-convention-centre/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/regale-convention-centre/gallery-1-480.webp"
@@ -1659,7 +1629,7 @@
       "url": "/images/_responsive/locations/regale-convention-centre/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rel-kereta-api/gallery-1.jpg": [
+  "/images/locations/rel-kereta-api/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-1-480.webp"
@@ -1669,7 +1639,7 @@
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rel-kereta-api/gallery-2.jpg": [
+  "/images/locations/rel-kereta-api/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-2-480.webp"
@@ -1679,7 +1649,7 @@
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rel-kereta-api/gallery-3.jpg": [
+  "/images/locations/rel-kereta-api/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-3-480.webp"
@@ -1689,7 +1659,7 @@
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rel-kereta-api/gallery-4.jpg": [
+  "/images/locations/rel-kereta-api/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-4-480.webp"
@@ -1699,7 +1669,7 @@
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/rel-kereta-api/gallery-5.jpg": [
+  "/images/locations/rel-kereta-api/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-5-480.webp"
@@ -1709,7 +1679,7 @@
       "url": "/images/_responsive/locations/rel-kereta-api/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/rel-kereta-api/thumbnail.jpg": [
+  "/images/locations/rel-kereta-api/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rel-kereta-api/thumbnail-480.webp"
@@ -1719,7 +1689,7 @@
       "url": "/images/_responsive/locations/rel-kereta-api/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.jpg": [
+  "/images/locations/rp1-rumah-panggung-rambutan/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-1-480.webp"
@@ -1729,7 +1699,7 @@
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp1-rumah-panggung-rambutan/gallery-2.jpg": [
+  "/images/locations/rp1-rumah-panggung-rambutan/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-2-480.webp"
@@ -1739,7 +1709,7 @@
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rp1-rumah-panggung-rambutan/gallery-3.jpg": [
+  "/images/locations/rp1-rumah-panggung-rambutan/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-3-480.webp"
@@ -1749,7 +1719,7 @@
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rp1-rumah-panggung-rambutan/gallery-4.jpg": [
+  "/images/locations/rp1-rumah-panggung-rambutan/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-4-480.webp"
@@ -1759,7 +1729,7 @@
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/rp1-rumah-panggung-rambutan/gallery-5.jpg": [
+  "/images/locations/rp1-rumah-panggung-rambutan/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-5-480.webp"
@@ -1769,7 +1739,7 @@
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/rp1-rumah-panggung-rambutan/gallery-6.jpg": [
+  "/images/locations/rp1-rumah-panggung-rambutan/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-6-480.webp"
@@ -1779,7 +1749,7 @@
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/rp1-rumah-panggung-rambutan/gallery-7.jpg": [
+  "/images/locations/rp1-rumah-panggung-rambutan/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-7-480.webp"
@@ -1789,7 +1759,7 @@
       "url": "/images/_responsive/locations/rp1-rumah-panggung-rambutan/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-1.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-1-480.webp"
@@ -1799,7 +1769,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-10.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-10.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-10-480.webp"
@@ -1809,7 +1779,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-10-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-11.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-11.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-11-480.webp"
@@ -1819,7 +1789,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-11-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-12.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-12.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-12-480.webp"
@@ -1829,7 +1799,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-12-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-13.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-13.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-13-480.webp"
@@ -1839,7 +1809,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-13-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-14.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-14.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-14-480.webp"
@@ -1849,7 +1819,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-14-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-15.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-15.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-15-480.webp"
@@ -1859,7 +1829,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-15-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-16.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-16.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-16-480.webp"
@@ -1869,7 +1839,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-16-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-17.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-17.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-17-480.webp"
@@ -1879,7 +1849,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-17-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-18.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-18.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-18-480.webp"
@@ -1889,7 +1859,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-18-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-19.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-19.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-19-480.webp"
@@ -1899,7 +1869,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-19-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-2.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-2-480.webp"
@@ -1909,7 +1879,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-2-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-20.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-20.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-20-480.webp"
@@ -1919,7 +1889,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-20-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-21.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-21.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-21-480.webp"
@@ -1929,7 +1899,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-21-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-3.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-3-480.webp"
@@ -1939,7 +1909,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-3-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-4.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-4-480.webp"
@@ -1949,7 +1919,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-5.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-5-480.webp"
@@ -1959,7 +1929,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-5-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-6.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-6-480.webp"
@@ -1969,7 +1939,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-6-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-7.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-7-480.webp"
@@ -1979,7 +1949,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-7-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-8.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-8-480.webp"
@@ -1989,7 +1959,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-8-1200.webp"
     }
   ],
-  "/images/locations/rp10-rumah-panggung-jambu/gallery-9.jpg": [
+  "/images/locations/rp10-rumah-panggung-jambu/gallery-9.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-9-480.webp"
@@ -1999,7 +1969,7 @@
       "url": "/images/_responsive/locations/rp10-rumah-panggung-jambu/gallery-9-1200.webp"
     }
   ],
-  "/images/locations/rp11-rumah-panggung-nenas-2/gallery-1.png": [
+  "/images/locations/rp11-rumah-panggung-nenas-2/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp11-rumah-panggung-nenas-2/gallery-1-480.webp"
@@ -2009,7 +1979,7 @@
       "url": "/images/_responsive/locations/rp11-rumah-panggung-nenas-2/gallery-1-1248.webp"
     }
   ],
-  "/images/locations/rp11-rumah-panggung-nenas-2/gallery-2.png": [
+  "/images/locations/rp11-rumah-panggung-nenas-2/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp11-rumah-panggung-nenas-2/gallery-2-480.webp"
@@ -2019,7 +1989,7 @@
       "url": "/images/_responsive/locations/rp11-rumah-panggung-nenas-2/gallery-2-1021.webp"
     }
   ],
-  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-1.jpg": [
+  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-1-480.webp"
@@ -2029,7 +1999,7 @@
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-2.jpg": [
+  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-2-480.webp"
@@ -2039,7 +2009,7 @@
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-3.jpg": [
+  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-3-480.webp"
@@ -2049,7 +2019,7 @@
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-4.jpg": [
+  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-4-480.webp"
@@ -2059,7 +2029,7 @@
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-5.jpg": [
+  "/images/locations/rp2-rumah-tuan-guru-tohir/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-5-480.webp"
@@ -2069,7 +2039,7 @@
       "url": "/images/_responsive/locations/rp2-rumah-tuan-guru-tohir/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/rp3-rumah-panggung-nam-nam/gallery-1.jpg": [
+  "/images/locations/rp3-rumah-panggung-nam-nam/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp3-rumah-panggung-nam-nam/gallery-1-480.webp"
@@ -2079,7 +2049,7 @@
       "url": "/images/_responsive/locations/rp3-rumah-panggung-nam-nam/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp3-rumah-panggung-nam-nam/gallery-2.jpg": [
+  "/images/locations/rp3-rumah-panggung-nam-nam/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp3-rumah-panggung-nam-nam/gallery-2-480.webp"
@@ -2089,7 +2059,7 @@
       "url": "/images/_responsive/locations/rp3-rumah-panggung-nam-nam/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rp3-rumah-panggung-nam-nam/gallery-3.jpg": [
+  "/images/locations/rp3-rumah-panggung-nam-nam/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp3-rumah-panggung-nam-nam/gallery-3-480.webp"
@@ -2099,7 +2069,7 @@
       "url": "/images/_responsive/locations/rp3-rumah-panggung-nam-nam/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rp4-rumah-panggung-petai/gallery-1.jpg": [
+  "/images/locations/rp4-rumah-panggung-petai/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp4-rumah-panggung-petai/gallery-1-480.webp"
@@ -2109,7 +2079,7 @@
       "url": "/images/_responsive/locations/rp4-rumah-panggung-petai/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp4-rumah-panggung-petai/gallery-2.jpg": [
+  "/images/locations/rp4-rumah-panggung-petai/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp4-rumah-panggung-petai/gallery-2-480.webp"
@@ -2119,7 +2089,7 @@
       "url": "/images/_responsive/locations/rp4-rumah-panggung-petai/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rp5-rumah-panggung-langsat/gallery-1.jpg": [
+  "/images/locations/rp5-rumah-panggung-langsat/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-1-480.webp"
@@ -2129,7 +2099,7 @@
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp5-rumah-panggung-langsat/gallery-2.jpg": [
+  "/images/locations/rp5-rumah-panggung-langsat/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-2-480.webp"
@@ -2139,7 +2109,7 @@
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rp5-rumah-panggung-langsat/gallery-3.jpg": [
+  "/images/locations/rp5-rumah-panggung-langsat/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-3-480.webp"
@@ -2149,7 +2119,7 @@
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rp5-rumah-panggung-langsat/gallery-4.jpg": [
+  "/images/locations/rp5-rumah-panggung-langsat/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-4-480.webp"
@@ -2159,7 +2129,7 @@
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/rp5-rumah-panggung-langsat/gallery-5.jpg": [
+  "/images/locations/rp5-rumah-panggung-langsat/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-5-480.webp"
@@ -2169,7 +2139,7 @@
       "url": "/images/_responsive/locations/rp5-rumah-panggung-langsat/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/rp6-rumah-panggung-rambe/gallery-1.jpg": [
+  "/images/locations/rp6-rumah-panggung-rambe/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp6-rumah-panggung-rambe/gallery-1-480.webp"
@@ -2179,7 +2149,7 @@
       "url": "/images/_responsive/locations/rp6-rumah-panggung-rambe/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp7-rumah-panggung-pala/gallery-1.jpg": [
+  "/images/locations/rp7-rumah-panggung-pala/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp7-rumah-panggung-pala/gallery-1-480.webp"
@@ -2189,7 +2159,7 @@
       "url": "/images/_responsive/locations/rp7-rumah-panggung-pala/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp7-rumah-panggung-pala/gallery-2.jpg": [
+  "/images/locations/rp7-rumah-panggung-pala/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp7-rumah-panggung-pala/gallery-2-480.webp"
@@ -2199,7 +2169,7 @@
       "url": "/images/_responsive/locations/rp7-rumah-panggung-pala/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rp7-rumah-panggung-pala/gallery-3.jpg": [
+  "/images/locations/rp7-rumah-panggung-pala/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp7-rumah-panggung-pala/gallery-3-480.webp"
@@ -2209,7 +2179,7 @@
       "url": "/images/_responsive/locations/rp7-rumah-panggung-pala/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rp8-warung-nasi-barkah/gallery-1.jpg": [
+  "/images/locations/rp8-warung-nasi-barkah/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp8-warung-nasi-barkah/gallery-1-480.webp"
@@ -2219,7 +2189,7 @@
       "url": "/images/_responsive/locations/rp8-warung-nasi-barkah/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp8-warung-nasi-barkah/gallery-2.jpg": [
+  "/images/locations/rp8-warung-nasi-barkah/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp8-warung-nasi-barkah/gallery-2-480.webp"
@@ -2229,7 +2199,7 @@
       "url": "/images/_responsive/locations/rp8-warung-nasi-barkah/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rp8-warung-nasi-barkah/gallery-3.jpg": [
+  "/images/locations/rp8-warung-nasi-barkah/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp8-warung-nasi-barkah/gallery-3-480.webp"
@@ -2239,7 +2209,7 @@
       "url": "/images/_responsive/locations/rp8-warung-nasi-barkah/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rp9-rumah-panggung-nenas/gallery-1.jpg": [
+  "/images/locations/rp9-rumah-panggung-nenas/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-1-480.webp"
@@ -2249,7 +2219,7 @@
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rp9-rumah-panggung-nenas/gallery-2.jpg": [
+  "/images/locations/rp9-rumah-panggung-nenas/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-2-480.webp"
@@ -2259,7 +2229,7 @@
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rp9-rumah-panggung-nenas/gallery-3.jpg": [
+  "/images/locations/rp9-rumah-panggung-nenas/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-3-480.webp"
@@ -2269,7 +2239,7 @@
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rp9-rumah-panggung-nenas/gallery-4.jpg": [
+  "/images/locations/rp9-rumah-panggung-nenas/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-4-480.webp"
@@ -2279,7 +2249,7 @@
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/rp9-rumah-panggung-nenas/gallery-5.jpg": [
+  "/images/locations/rp9-rumah-panggung-nenas/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-5-480.webp"
@@ -2289,7 +2259,7 @@
       "url": "/images/_responsive/locations/rp9-rumah-panggung-nenas/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/rumah-adat-toba/gallery-1.jpg": [
+  "/images/locations/rumah-adat-toba/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-adat-toba/gallery-1-480.webp"
@@ -2299,7 +2269,7 @@
       "url": "/images/_responsive/locations/rumah-adat-toba/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rumah-adat-toba/gallery-2.jpg": [
+  "/images/locations/rumah-adat-toba/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-adat-toba/gallery-2-480.webp"
@@ -2309,7 +2279,7 @@
       "url": "/images/_responsive/locations/rumah-adat-toba/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rumah-adat-toba/gallery-3.jpg": [
+  "/images/locations/rumah-adat-toba/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-adat-toba/gallery-3-480.webp"
@@ -2319,7 +2289,7 @@
       "url": "/images/_responsive/locations/rumah-adat-toba/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rumah-adat-toba/thumbnail.jpg": [
+  "/images/locations/rumah-adat-toba/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-adat-toba/thumbnail-480.webp"
@@ -2329,17 +2299,7 @@
       "url": "/images/_responsive/locations/rumah-adat-toba/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/rumah-belanda-adam-malik/gallery-1.png": [
-    {
-      "width": 480,
-      "url": "/images/_responsive/locations/rumah-belanda-adam-malik/gallery-1-480.webp"
-    },
-    {
-      "width": 758,
-      "url": "/images/_responsive/locations/rumah-belanda-adam-malik/gallery-1-758.webp"
-    }
-  ],
-  "/images/locations/rumah-makan-sinar-pagi/gallery-1.jpg": [
+  "/images/locations/rumah-makan-sinar-pagi/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-makan-sinar-pagi/gallery-1-480.webp"
@@ -2349,7 +2309,7 @@
       "url": "/images/_responsive/locations/rumah-makan-sinar-pagi/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rumah-makan-sinar-pagi/gallery-2.jpg": [
+  "/images/locations/rumah-makan-sinar-pagi/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-makan-sinar-pagi/gallery-2-480.webp"
@@ -2359,7 +2319,7 @@
       "url": "/images/_responsive/locations/rumah-makan-sinar-pagi/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rumah-makan-sinar-pagi/thumbnail.jpg": [
+  "/images/locations/rumah-makan-sinar-pagi/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-makan-sinar-pagi/thumbnail-480.webp"
@@ -2369,17 +2329,7 @@
       "url": "/images/_responsive/locations/rumah-makan-sinar-pagi/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-1.png": [
-    {
-      "width": 480,
-      "url": "/images/_responsive/locations/rumah-panggung-graha-putra-mandiri/gallery-1-480.webp"
-    },
-    {
-      "width": 765,
-      "url": "/images/_responsive/locations/rumah-panggung-graha-putra-mandiri/gallery-1-765.webp"
-    }
-  ],
-  "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-2.png": [
+  "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-panggung-graha-putra-mandiri/gallery-2-480.webp"
@@ -2389,7 +2339,7 @@
       "url": "/images/_responsive/locations/rumah-panggung-graha-putra-mandiri/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-3.png": [
+  "/images/locations/rumah-panggung-graha-putra-mandiri/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-panggung-graha-putra-mandiri/gallery-3-480.webp"
@@ -2399,7 +2349,7 @@
       "url": "/images/_responsive/locations/rumah-panggung-graha-putra-mandiri/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.png": [
+  "/images/locations/rumah-panggung-graha-putra-mandiri/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-panggung-graha-putra-mandiri/thumbnail-480.webp"
@@ -2409,7 +2359,7 @@
       "url": "/images/_responsive/locations/rumah-panggung-graha-putra-mandiri/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/rumah-qohwah/gallery-1.jpg": [
+  "/images/locations/rumah-qohwah/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-1-480.webp"
@@ -2419,7 +2369,7 @@
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/rumah-qohwah/gallery-2.jpg": [
+  "/images/locations/rumah-qohwah/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-2-480.webp"
@@ -2429,7 +2379,7 @@
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/rumah-qohwah/gallery-3.jpg": [
+  "/images/locations/rumah-qohwah/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-3-480.webp"
@@ -2439,7 +2389,7 @@
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/rumah-qohwah/gallery-4.jpg": [
+  "/images/locations/rumah-qohwah/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-4-480.webp"
@@ -2449,7 +2399,7 @@
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/rumah-qohwah/gallery-5.jpg": [
+  "/images/locations/rumah-qohwah/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-5-480.webp"
@@ -2459,7 +2409,7 @@
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/rumah-qohwah/gallery-6.jpg": [
+  "/images/locations/rumah-qohwah/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-6-480.webp"
@@ -2469,7 +2419,7 @@
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/rumah-qohwah/gallery-7.jpg": [
+  "/images/locations/rumah-qohwah/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-7-480.webp"
@@ -2479,7 +2429,7 @@
       "url": "/images/_responsive/locations/rumah-qohwah/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/rumah-qohwah/thumbnail.jpg": [
+  "/images/locations/rumah-qohwah/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/rumah-qohwah/thumbnail-480.webp"
@@ -2489,7 +2439,7 @@
       "url": "/images/_responsive/locations/rumah-qohwah/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/sdn-060837/gallery-1.jpg": [
+  "/images/locations/sdn-060837/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/sdn-060837/gallery-1-480.webp"
@@ -2499,7 +2449,7 @@
       "url": "/images/_responsive/locations/sdn-060837/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/sdn-060837/gallery-2.jpg": [
+  "/images/locations/sdn-060837/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/sdn-060837/gallery-2-480.webp"
@@ -2509,7 +2459,7 @@
       "url": "/images/_responsive/locations/sdn-060837/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/sdn-060837/gallery-3.jpg": [
+  "/images/locations/sdn-060837/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/sdn-060837/gallery-3-480.webp"
@@ -2519,7 +2469,7 @@
       "url": "/images/_responsive/locations/sdn-060837/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/sdn-060837/gallery-4.jpg": [
+  "/images/locations/sdn-060837/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/sdn-060837/gallery-4-480.webp"
@@ -2529,7 +2479,7 @@
       "url": "/images/_responsive/locations/sdn-060837/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/sdn-060837/gallery-5.jpg": [
+  "/images/locations/sdn-060837/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/sdn-060837/gallery-5-480.webp"
@@ -2539,7 +2489,7 @@
       "url": "/images/_responsive/locations/sdn-060837/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/sdn-060837/thumbnail.jpg": [
+  "/images/locations/sdn-060837/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/sdn-060837/thumbnail-480.webp"
@@ -2549,7 +2499,7 @@
       "url": "/images/_responsive/locations/sdn-060837/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/shidoka-dojo/gallery-1.png": [
+  "/images/locations/shidoka-dojo/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/shidoka-dojo/gallery-1-480.webp"
@@ -2559,7 +2509,7 @@
       "url": "/images/_responsive/locations/shidoka-dojo/gallery-1-1016.webp"
     }
   ],
-  "/images/locations/smp-negeri-7-medan/gallery-1.jpg": [
+  "/images/locations/smp-negeri-7-medan/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-1-480.webp"
@@ -2569,7 +2519,7 @@
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/smp-negeri-7-medan/gallery-2.jpg": [
+  "/images/locations/smp-negeri-7-medan/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-2-480.webp"
@@ -2579,7 +2529,7 @@
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/smp-negeri-7-medan/gallery-3.jpg": [
+  "/images/locations/smp-negeri-7-medan/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-3-480.webp"
@@ -2589,7 +2539,7 @@
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/smp-negeri-7-medan/gallery-4.jpg": [
+  "/images/locations/smp-negeri-7-medan/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-4-480.webp"
@@ -2599,7 +2549,7 @@
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/smp-negeri-7-medan/gallery-5.jpg": [
+  "/images/locations/smp-negeri-7-medan/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-5-480.webp"
@@ -2609,7 +2559,7 @@
       "url": "/images/_responsive/locations/smp-negeri-7-medan/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/smp-negeri-7-medan/thumbnail.jpg": [
+  "/images/locations/smp-negeri-7-medan/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/smp-negeri-7-medan/thumbnail-480.webp"
@@ -2619,7 +2569,7 @@
       "url": "/images/_responsive/locations/smp-negeri-7-medan/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/smp-sma-kalam-kudus/gallery-1.jpg": [
+  "/images/locations/smp-sma-kalam-kudus/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/smp-sma-kalam-kudus/gallery-1-480.webp"
@@ -2629,7 +2579,7 @@
       "url": "/images/_responsive/locations/smp-sma-kalam-kudus/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/steves-coffee/gallery-1.jpg": [
+  "/images/locations/steves-coffee/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/steves-coffee/gallery-1-480.webp"
@@ -2639,7 +2589,7 @@
       "url": "/images/_responsive/locations/steves-coffee/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/steves-coffee/gallery-2.jpg": [
+  "/images/locations/steves-coffee/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/steves-coffee/gallery-2-480.webp"
@@ -2649,7 +2599,7 @@
       "url": "/images/_responsive/locations/steves-coffee/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/steves-coffee/thumbnail.jpg": [
+  "/images/locations/steves-coffee/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/steves-coffee/thumbnail-480.webp"
@@ -2659,7 +2609,7 @@
       "url": "/images/_responsive/locations/steves-coffee/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/the-promised-cafe/gallery-1.png": [
+  "/images/locations/the-promised-cafe/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/the-promised-cafe/gallery-1-480.webp"
@@ -2669,7 +2619,7 @@
       "url": "/images/_responsive/locations/the-promised-cafe/gallery-1-1429.webp"
     }
   ],
-  "/images/locations/toko-kipas/gallery-1.jpg": [
+  "/images/locations/toko-kipas/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/toko-kipas/gallery-1-480.webp"
@@ -2679,7 +2629,7 @@
       "url": "/images/_responsive/locations/toko-kipas/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/toko-kipas/gallery-2.jpg": [
+  "/images/locations/toko-kipas/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/toko-kipas/gallery-2-480.webp"
@@ -2689,7 +2639,7 @@
       "url": "/images/_responsive/locations/toko-kipas/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/toko-kipas/gallery-3.jpg": [
+  "/images/locations/toko-kipas/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/toko-kipas/gallery-3-480.webp"
@@ -2699,7 +2649,7 @@
       "url": "/images/_responsive/locations/toko-kipas/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/toko-kipas/gallery-4.jpg": [
+  "/images/locations/toko-kipas/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/toko-kipas/gallery-4-480.webp"
@@ -2709,7 +2659,7 @@
       "url": "/images/_responsive/locations/toko-kipas/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/toko-kipas/thumbnail.jpg": [
+  "/images/locations/toko-kipas/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/toko-kipas/thumbnail-480.webp"
@@ -2719,7 +2669,7 @@
       "url": "/images/_responsive/locations/toko-kipas/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-1.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-1-480.webp"
@@ -2729,7 +2679,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-10.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-10.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-10-480.webp"
@@ -2739,7 +2689,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-10-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-2.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-2-480.webp"
@@ -2749,7 +2699,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-3.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-3-480.webp"
@@ -2759,7 +2709,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-4.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-4-480.webp"
@@ -2769,7 +2719,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-5.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-5-480.webp"
@@ -2779,7 +2729,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-6.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-6.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-6-480.webp"
@@ -2789,7 +2739,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-6-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-7.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-7.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-7-480.webp"
@@ -2799,7 +2749,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-7-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-8.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-8.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-8-480.webp"
@@ -2809,7 +2759,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-8-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/gallery-9.jpg": [
+  "/images/locations/tugu-gatot-subroto/gallery-9.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-9-480.webp"
@@ -2819,7 +2769,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/gallery-9-1440.webp"
     }
   ],
-  "/images/locations/tugu-gatot-subroto/thumbnail.jpg": [
+  "/images/locations/tugu-gatot-subroto/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/tugu-gatot-subroto/thumbnail-480.webp"
@@ -2829,7 +2779,7 @@
       "url": "/images/_responsive/locations/tugu-gatot-subroto/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/universitas-ibbi/gallery-1.jpg": [
+  "/images/locations/universitas-ibbi/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/universitas-ibbi/gallery-1-480.webp"
@@ -2839,7 +2789,7 @@
       "url": "/images/_responsive/locations/universitas-ibbi/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/universitas-ibbi/gallery-2.jpg": [
+  "/images/locations/universitas-ibbi/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/universitas-ibbi/gallery-2-480.webp"
@@ -2849,7 +2799,7 @@
       "url": "/images/_responsive/locations/universitas-ibbi/gallery-2-1200.webp"
     }
   ],
-  "/images/locations/universitas-ibbi/gallery-3.jpg": [
+  "/images/locations/universitas-ibbi/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/universitas-ibbi/gallery-3-480.webp"
@@ -2859,7 +2809,7 @@
       "url": "/images/_responsive/locations/universitas-ibbi/gallery-3-1200.webp"
     }
   ],
-  "/images/locations/universitas-ibbi/thumbnail.jpg": [
+  "/images/locations/universitas-ibbi/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/universitas-ibbi/thumbnail-480.webp"
@@ -2869,7 +2819,7 @@
       "url": "/images/_responsive/locations/universitas-ibbi/thumbnail-1200.webp"
     }
   ],
-  "/images/locations/warung-bunda-long/gallery-1.jpg": [
+  "/images/locations/warung-bunda-long/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-1-480.webp"
@@ -2879,7 +2829,7 @@
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-1-1440.webp"
     }
   ],
-  "/images/locations/warung-bunda-long/gallery-2.jpg": [
+  "/images/locations/warung-bunda-long/gallery-2.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-2-480.webp"
@@ -2889,7 +2839,7 @@
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-2-1440.webp"
     }
   ],
-  "/images/locations/warung-bunda-long/gallery-3.jpg": [
+  "/images/locations/warung-bunda-long/gallery-3.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-3-480.webp"
@@ -2899,7 +2849,7 @@
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-3-1440.webp"
     }
   ],
-  "/images/locations/warung-bunda-long/gallery-4.jpg": [
+  "/images/locations/warung-bunda-long/gallery-4.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-4-480.webp"
@@ -2909,7 +2859,7 @@
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-4-1440.webp"
     }
   ],
-  "/images/locations/warung-bunda-long/gallery-5.jpg": [
+  "/images/locations/warung-bunda-long/gallery-5.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-5-480.webp"
@@ -2919,7 +2869,7 @@
       "url": "/images/_responsive/locations/warung-bunda-long/gallery-5-1440.webp"
     }
   ],
-  "/images/locations/warung-bunda-long/thumbnail.jpg": [
+  "/images/locations/warung-bunda-long/thumbnail.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/warung-bunda-long/thumbnail-480.webp"
@@ -2929,7 +2879,7 @@
       "url": "/images/_responsive/locations/warung-bunda-long/thumbnail-1440.webp"
     }
   ],
-  "/images/locations/warung-makan-guru-patimpus/gallery-1.png": [
+  "/images/locations/warung-makan-guru-patimpus/gallery-1.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/locations/warung-makan-guru-patimpus/gallery-1-480.webp"
@@ -2939,14 +2889,14 @@
       "url": "/images/_responsive/locations/warung-makan-guru-patimpus/gallery-1-1291.webp"
     }
   ],
-  "/images/locations/warung-makan-guru-patimpus/gallery-2.png": [
+  "/images/medan-simpang-smpn7-7-agustus-2026.webp": [
     {
       "width": 480,
-      "url": "/images/_responsive/locations/warung-makan-guru-patimpus/gallery-2-480.webp"
+      "url": "/images/_responsive/medan-simpang-smpn7-7-agustus-2026-480.webp"
     },
     {
-      "width": 907,
-      "url": "/images/_responsive/locations/warung-makan-guru-patimpus/gallery-2-907.webp"
+      "width": 1200,
+      "url": "/images/_responsive/medan-simpang-smpn7-7-agustus-2026-1200.webp"
     }
   ],
   "/images/new-images/foto-dosen/Dr-Urlike-herbig.webp": [
@@ -2969,7 +2919,7 @@
       "url": "/images/_responsive/new-images/foto-dosen/Ryandika-1440.webp"
     }
   ],
-  "/images/new-images/foto-mahasiswa/Gilby.PNG": [
+  "/images/new-images/foto-mahasiswa/Gilby.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/new-images/foto-mahasiswa/Gilby-480.webp"
@@ -2989,7 +2939,7 @@
       "url": "/images/_responsive/new-images/foto-mahasiswa/Nurhidayah-1440.webp"
     }
   ],
-  "/images/placeholder-location.jpg": [
+  "/images/placeholder-location.webp": [
     {
       "width": 480,
       "url": "/images/_responsive/placeholder-location-480.webp"
@@ -2997,6 +2947,16 @@
     {
       "width": 1200,
       "url": "/images/_responsive/placeholder-location-1200.webp"
+    }
+  ],
+  "/images/projects/raja-bilah.webp": [
+    {
+      "width": 480,
+      "url": "/images/_responsive/projects/raja-bilah-480.webp"
+    },
+    {
+      "width": 1440,
+      "url": "/images/_responsive/projects/raja-bilah-1440.webp"
     }
   ],
   "/images/silalas.webp": [

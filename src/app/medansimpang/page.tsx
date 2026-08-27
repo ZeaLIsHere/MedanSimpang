@@ -62,12 +62,12 @@ export default function Home() {
       <Header />
 
       {/* Main scrollable grid container */}
-      <main className="grow pb-24 pt-26 sm:pt-28 lg:pb-16">
-        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10">
-          <div className="grid min-w-0 grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:gap-10">
+      <main className="grow pb-24 pt-32 lg:pb-16">
+        <div className="w-full px-4 sm:px-6 lg:px-12">
+          <div className="grid min-w-0 grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-12">
 
             {/* Left Column: Hero & Kawasan List */}
-            <div className={`min-w-0 space-y-7 ${mobileView === 'map' ? 'hidden lg:block' : 'block'}`}>
+            <div className={`min-w-0 space-y-8 lg:col-span-5 ${mobileView === 'map' ? 'hidden lg:block' : 'block'}`}>
               {/* Hero Section */}
               <div className="space-y-4 pt-2">
                 <h1 className="text-balance font-serif text-3xl font-black leading-tight tracking-[-0.025em] text-accent sm:text-4xl lg:text-5xl">
@@ -110,15 +110,15 @@ export default function Home() {
             </div>
 
             {/* Right Column: Sticky Window Map */}
-            <div className={`min-w-0 w-full overflow-hidden rounded-xl bg-bone/35 lg:sticky lg:top-[104px] ${
-              mobileView === 'map' ? 'block h-[calc(100dvh-154px)]' : 'hidden lg:block lg:h-[calc(100vh-124px)]'
+            <div className={`min-w-0 w-full overflow-hidden rounded-xl bg-bone/35 shadow-md lg:col-span-7 lg:sticky lg:top-[120px] ${
+              mobileView === 'map' ? 'block h-[calc(100dvh-154px)]' : 'hidden lg:block lg:h-[calc(100vh-140px)]'
             }`}>
               {shouldRenderMap ? (
                 <MedanMap
                   pins={mapPins}
                   centerLat={3.5932}
                   centerLng={98.6712}
-                  zoom={16}
+                  zoom={15.5}
                   activePinId={activeKawasanSlug}
                   onPinClick={(slug) => setActiveKawasanSlug(slug)}
                   language={language}

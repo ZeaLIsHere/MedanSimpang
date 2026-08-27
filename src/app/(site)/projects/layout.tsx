@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Project dan Riset Kota',
-  description: 'Project dan inisiatif UrbanMorphSoc tentang morfologi kota dan masyarakat, termasuk Medan Simpang.',
+  title: 'Project, Riset, dan Pengabdian',
+  description: 'Project UrbanMorphSoc tentang morfologi kota, warisan budaya, dan masyarakat: Medan Simpang, Raja Bilah, dan Medan Multi-Ethnic.',
   alternates: { canonical: 'https://urbanmorphsoc.com/projects/' },
 };
 
